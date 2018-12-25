@@ -1,0 +1,849 @@
+City,State,Value,Count,Type,Region
+Abilene,Texas,Gunshot,2,Cause,City
+Akron,Ohio,Gunshot,8,Cause,City
+Akron,Ohio,Tasered,2,Cause,City
+Akron,Ohio,Vehicle,1,Cause,City
+Alameda,California,Gunshot,1,Cause,City
+Albany,Georgia,Gunshot,2,Cause,City
+Albany,New York,Gunshot,1,Cause,City
+Albany,New York,Tasered,1,Cause,City
+Albuquerque,New Mexico,Gunshot,29,Cause,City
+Albuquerque,New Mexico,Tasered,1,Cause,City
+Albuquerque,New Mexico,Vehicle,8,Cause,City
+Alexandria,Virginia,Asphyxiated/Restrained,1,Cause,City
+Alexandria,Virginia,Gunshot,1,Cause,City
+Alexandria,Virginia,Vehicle,1,Cause,City
+Alhambra,California,Gunshot,1,Cause,City
+Allen,Texas,Gunshot,2,Cause,City
+Amarillo,Texas,Gunshot,10,Cause,City
+Anaheim,California,Asphyxiated/Restrained,2,Cause,City
+Anaheim,California,Gunshot,8,Cause,City
+Anaheim,California,Tasered,1,Cause,City
+Anaheim,California,Vehicle,3,Cause,City
+Anchorage,Alaska,Gunshot,12,Cause,City
+Antioch,California,Asphyxiated/Restrained,1,Cause,City
+Antioch,California,Gunshot,4,Cause,City
+Antioch,California,Vehicle,4,Cause,City
+Apple Valley,California,Gunshot,2,Cause,City
+Appleton,Wisconsin,Gunshot,3,Cause,City
+Arlington,Texas,Gunshot,10,Cause,City
+Arlington,Virginia,Gunshot,3,Cause,City
+Arvada,Colorado,Gunshot,2,Cause,City
+Asheville,North Carolina,Gunshot,1,Cause,City
+Atlanta,Georgia,Gunshot,16,Cause,City
+Atlanta,Georgia,Tasered,1,Cause,City
+Atlanta,Georgia,Vehicle,12,Cause,City
+Auburn,Washington,Gunshot,5,Cause,City
+Aurora,Colorado,Gunshot,12,Cause,City
+Aurora,Illinois,Gunshot,2,Cause,City
+Austin,Texas,Gunshot,25,Cause,City
+Austin,Texas,Tasered,1,Cause,City
+Avondale,Arizona,Gunshot,3,Cause,City
+Bakersfield,California,Gunshot,23,Cause,City
+Bakersfield,California,Vehicle,2,Cause,City
+Baltimore,Maryland,Gunshot,16,Cause,City
+Baltimore,Maryland,Medical emergency,1,Cause,City
+Baltimore,Maryland,Vehicle,5,Cause,City
+Baton Rouge,Louisiana,Gunshot,12,Cause,City
+Baton Rouge,Louisiana,Tasered,1,Cause,City
+Baton Rouge,Louisiana,Vehicle,5,Cause,City
+Beaumont,Texas,Gunshot,3,Cause,City
+Beaumont,Texas,Medical emergency,1,Cause,City
+Beaumont,Texas,Vehicle,1,Cause,City
+Beaverton,Oregon,Gunshot,3,Cause,City
+Bellflower,California,Gunshot,2,Cause,City
+Bellingham,Washington,Gunshot,1,Cause,City
+Bend,Oregon,Gunshot,4,Cause,City
+Bend,Oregon,Vehicle,1,Cause,City
+Berkeley,California,Gunshot,1,Cause,City
+Bethlehem,Pennsylvania,Gunshot,2,Cause,City
+Bethlehem,Pennsylvania,Vehicle,1,Cause,City
+Billings,Montana,Gunshot,8,Cause,City
+Birmingham,Alabama,Gunshot,10,Cause,City
+Birmingham,Alabama,Tasered,1,Cause,City
+Birmingham,Alabama,Vehicle,5,Cause,City
+Bismarck,North Dakota,Gunshot,2,Cause,City
+Bloomington,Illinois,Gunshot,1,Cause,City
+Bloomington,Indiana,Gunshot,1,Cause,City
+Bloomington,Minnesota,Gunshot,1,Cause,City
+Bloomington,Minnesota,Vehicle,3,Cause,City
+Boca Raton,Florida,Vehicle,1,Cause,City
+Bossier City,Louisiana,Gunshot,1,Cause,City
+Boston,Massachusetts,Gunshot,5,Cause,City
+Boulder,Colorado,Gunshot,3,Cause,City
+Brandon,Florida,Gunshot,1,Cause,City
+Bridgeport,Connecticut,Gunshot,1,Cause,City
+Bridgeport,Connecticut,Vehicle,2,Cause,City
+Brockton,Massachusetts,Gunshot,2,Cause,City
+Broomfield,Colorado,Gunshot,1,Cause,City
+Brownsville,Texas,Gunshot,4,Cause,City
+Buena Park,California,Vehicle,1,Cause,City
+Buffalo,New York,Asphyxiated/Restrained,1,Cause,City
+Buffalo,New York,Gunshot,3,Cause,City
+Buffalo,New York,Vehicle,1,Cause,City
+Burbank,California,Gunshot,3,Cause,City
+Burbank,California,Tasered,1,Cause,City
+Camarillo,California,Gunshot,1,Cause,City
+Camden,New Jersey,Gunshot,3,Cause,City
+Canton,Ohio,Gunshot,1,Cause,City
+Cape Coral,Florida,Gunshot,4,Cause,City
+Carmichael,California,Gunshot,3,Cause,City
+Carrollton,Texas,Gunshot,1,Cause,City
+Carson,California,Gunshot,1,Cause,City
+Cary,North Carolina,Gunshot,1,Cause,City
+Cedar Rapids,Iowa,Gunshot,2,Cause,City
+Cedar Rapids,Iowa,Vehicle,1,Cause,City
+Centennial,Colorado,Gunshot,2,Cause,City
+Champaign,Illinois,Gunshot,1,Cause,City
+Chandler,Arizona,Gunshot,4,Cause,City
+Charleston,South Carolina,Gunshot,4,Cause,City
+Charlotte,North Carolina,Gunshot,17,Cause,City
+Charlotte,North Carolina,Vehicle,4,Cause,City
+Chattanooga,Tennessee,Gunshot,7,Cause,City
+Chesapeake,Virginia,Gunshot,3,Cause,City
+Chesapeake,Virginia,Vehicle,1,Cause,City
+Chicago,Illinois,Asphyxiated/Restrained,1,Cause,City
+Chicago,Illinois,Gunshot,39,Cause,City
+Chicago,Illinois,Vehicle,19,Cause,City
+Chico,California,Gunshot,3,Cause,City
+Chico,California,Vehicle,1,Cause,City
+Chino,California,Gunshot,2,Cause,City
+Chula Vista,California,Gunshot,3,Cause,City
+Chula Vista,California,Vehicle,1,Cause,City
+Cincinnati,Ohio,Gunshot,13,Cause,City
+Cincinnati,Ohio,Tasered,1,Cause,City
+Cincinnati,Ohio,Vehicle,4,Cause,City
+Citrus Heights,California,Gunshot,4,Cause,City
+Clarksville,Tennessee,Gunshot,2,Cause,City
+Clearwater,Florida,Gunshot,1,Cause,City
+Cleveland,Ohio,Gunshot,11,Cause,City
+Cleveland,Ohio,Vehicle,5,Cause,City
+Clovis,California,Gunshot,1,Cause,City
+Colorado Springs,Colorado,Gunshot,14,Cause,City
+Colorado Springs,Colorado,Tasered,1,Cause,City
+Colorado Springs,Colorado,Vehicle,1,Cause,City
+Columbia,Maryland,Gunshot,1,Cause,City
+Columbia,Missouri,Gunshot,4,Cause,City
+Columbia,South Carolina,Gunshot,4,Cause,City
+Columbia,South Carolina,Vehicle,4,Cause,City
+Columbus,Georgia,Asphyxiated/Restrained,1,Cause,City
+Columbus,Georgia,Gunshot,4,Cause,City
+Columbus,Georgia,Vehicle,2,Cause,City
+Columbus,Ohio,Gunshot,30,Cause,City
+Columbus,Ohio,Vehicle,1,Cause,City
+Compton,California,Gunshot,4,Cause,City
+Concord,California,Gunshot,1,Cause,City
+Concord,California,Vehicle,1,Cause,City
+Conroe,Texas,Gunshot,5,Cause,City
+Conroe,Texas,Vehicle,2,Cause,City
+Coral Springs,Florida,Gunshot,1,Cause,City
+Corona,California,Gunshot,2,Cause,City
+Corpus Christi,Texas,Gunshot,5,Cause,City
+Corpus Christi,Texas,Tasered,1,Cause,City
+Costa Mesa,California,Gunshot,1,Cause,City
+Dallas,Texas,Asphyxiated/Restrained,1,Cause,City
+Dallas,Texas,Gunshot,22,Cause,City
+Dallas,Texas,Medical emergency,3,Cause,City
+Dallas,Texas,Tasered,1,Cause,City
+Daly City,California,Tasered,1,Cause,City
+Daly City,California,Vehicle,1,Cause,City
+Danbury,Connecticut,Vehicle,5,Cause,City
+Davenport,Iowa,Gunshot,2,Cause,City
+Davie,Florida,Gunshot,3,Cause,City
+Davis,California,Gunshot,1,Cause,City
+Dayton,Ohio,Gunshot,6,Cause,City
+Dayton,Ohio,Vehicle,2,Cause,City
+Dearborn,Michigan,Gunshot,2,Cause,City
+Decatur,Illinois,Vehicle,1,Cause,City
+Delray Beach,Florida,Gunshot,2,Cause,City
+Deltona,Florida,Gunshot,6,Cause,City
+Denton,Texas,Gunshot,2,Cause,City
+Denver,Colorado,Gunshot,26,Cause,City
+Denver,Colorado,Vehicle,1,Cause,City
+Des Moines,Iowa,Gunshot,3,Cause,City
+Des Moines,Iowa,Vehicle,3,Cause,City
+Detroit,Michigan,Gunshot,14,Cause,City
+Detroit,Michigan,Vehicle,20,Cause,City
+Dothan,Alabama,Vehicle,1,Cause,City
+Downey,California,Gunshot,1,Cause,City
+Durham,North Carolina,Gunshot,5,Cause,City
+Durham,North Carolina,Vehicle,2,Cause,City
+Eagan,Minnesota,Gunshot,1,Cause,City
+East Los Angeles,California,Gunshot,2,Cause,City
+East Orange,New Jersey,Gunshot,1,Cause,City
+Eau Claire,Wisconsin,Gunshot,4,Cause,City
+Edinburg,Texas,Asphyxiated/Restrained,1,Cause,City
+Edinburg,Texas,Gunshot,1,Cause,City
+Edmond,Oklahoma,Gunshot,2,Cause,City
+El Cajon,California,Gunshot,3,Cause,City
+El Cajon,California,Vehicle,1,Cause,City
+El Monte,California,Gunshot,2,Cause,City
+El Paso,Texas,Gunshot,11,Cause,City
+El Paso,Texas,Vehicle,1,Cause,City
+Elgin,Illinois,Gunshot,1,Cause,City
+Elizabeth,New Jersey,Vehicle,2,Cause,City
+Elk Grove,California,Gunshot,2,Cause,City
+Elk Grove,California,Tasered,1,Cause,City
+Enterprise,Nevada,Gunshot,1,Cause,City
+Erie,Pennsylvania,Gunshot,2,Cause,City
+Escondido,California,Gunshot,1,Cause,City
+Escondido,California,Vehicle,2,Cause,City
+Eugene,Oregon,Gunshot,3,Cause,City
+Eugene,Oregon,Vehicle,1,Cause,City
+Evansville,Indiana,Gunshot,4,Cause,City
+Evansville,Indiana,Vehicle,4,Cause,City
+Everett,Washington,Gunshot,2,Cause,City
+Everett,Washington,Tasered,1,Cause,City
+Fairfield,California,Gunshot,1,Cause,City
+Fairfield,California,Medical emergency,1,Cause,City
+Fall River,Massachusetts,Gunshot,1,Cause,City
+Fall River,Massachusetts,Tasered,1,Cause,City
+Fargo,North Dakota,Gunshot,2,Cause,City
+Fayetteville,Arkansas,Gunshot,2,Cause,City
+Fayetteville,Arkansas,Medical emergency,1,Cause,City
+Fayetteville,North Carolina,Gunshot,4,Cause,City
+Fayetteville,North Carolina,Vehicle,3,Cause,City
+Federal Way,Washington,Gunshot,4,Cause,City
+Flagstaff,Arizona,Gunshot,5,Cause,City
+Flint,Michigan,Gunshot,1,Cause,City
+Flint,Michigan,Tasered,1,Cause,City
+Folsom,California,Vehicle,1,Cause,City
+Fontana,California,Gunshot,5,Cause,City
+Fort Collins,Colorado,Gunshot,7,Cause,City
+Fort Lauderdale,Florida,Gunshot,3,Cause,City
+Fort Lauderdale,Florida,Medical emergency,1,Cause,City
+Fort Myers,Florida,Gunshot,2,Cause,City
+Fort Smith,Arkansas,Gunshot,1,Cause,City
+Fort Wayne,Indiana,Gunshot,6,Cause,City
+Fort Wayne,Indiana,Medical emergency,1,Cause,City
+Fort Wayne,Indiana,Vehicle,1,Cause,City
+Fort Worth,Texas,Gunshot,14,Cause,City
+Fort Worth,Texas,Vehicle,2,Cause,City
+Franklin,Tennessee,Gunshot,1,Cause,City
+Frederick,Maryland,Gunshot,1,Cause,City
+Fremont,California,Gunshot,6,Cause,City
+Fresno,California,Gunshot,13,Cause,City
+Fresno,California,Vehicle,3,Cause,City
+Fullerton,California,Gunshot,2,Cause,City
+Gainesville,Florida,Gunshot,2,Cause,City
+Garden Grove,California,Gunshot,1,Cause,City
+Garden Grove,California,Vehicle,1,Cause,City
+Garland,Texas,Gunshot,3,Cause,City
+Garland,Texas,Vehicle,1,Cause,City
+Gary,Indiana,Gunshot,5,Cause,City
+Gary,Indiana,Vehicle,1,Cause,City
+Gastonia,North Carolina,Gunshot,4,Cause,City
+Gastonia,North Carolina,Vehicle,2,Cause,City
+Gilbert,Arizona,Gunshot,3,Cause,City
+Glen Burnie,Maryland,Gunshot,1,Cause,City
+Glendale,Arizona,Gunshot,9,Cause,City
+Glendale,Arizona,Vehicle,2,Cause,City
+Glendale,California,Gunshot,1,Cause,City
+Goodyear,Arizona,Gunshot,1,Cause,City
+Grand Prairie,Texas,Gunshot,2,Cause,City
+Grand Rapids,Michigan,Gunshot,2,Cause,City
+Greeley,Colorado,Gunshot,5,Cause,City
+Greeley,Colorado,Vehicle,1,Cause,City
+Green Bay,Wisconsin,Gunshot,3,Cause,City
+Green Bay,Wisconsin,Vehicle,1,Cause,City
+Greensboro,North Carolina,Gunshot,2,Cause,City
+Greensboro,North Carolina,Vehicle,5,Cause,City
+Greenville,North Carolina,Gunshot,4,Cause,City
+Gresham,Oregon,Gunshot,2,Cause,City
+Gulfport,Mississippi,Gunshot,5,Cause,City
+Gulfport,Mississippi,Tasered,1,Cause,City
+Gulfport,Mississippi,Vehicle,1,Cause,City
+Hammond,Indiana,Gunshot,1,Cause,City
+Hampton,Virginia,Gunshot,1,Cause,City
+Harlingen,Texas,Gunshot,2,Cause,City
+Hartford,Connecticut,Tasered,1,Cause,City
+Hawthorne,California,Gunshot,1,Cause,City
+Hayward,California,Asphyxiated/Restrained,1,Cause,City
+Hayward,California,Gunshot,2,Cause,City
+Hemet,California,Gunshot,7,Cause,City
+Henderson,Nevada,Gunshot,4,Cause,City
+Hesperia,California,Gunshot,2,Cause,City
+Hesperia,California,Vehicle,1,Cause,City
+Hialeah,Florida,Gunshot,1,Cause,City
+Hialeah,Florida,Vehicle,1,Cause,City
+Hillsboro,Oregon,Gunshot,2,Cause,City
+Hollywood,Florida,Gunshot,2,Cause,City
+Homestead,Florida,Gunshot,5,Cause,City
+Homestead,Florida,Vehicle,1,Cause,City
+Hoover,Alabama,Gunshot,1,Cause,City
+Houston,Texas,Gunshot,62,Cause,City
+Houston,Texas,Medical emergency,5,Cause,City
+Houston,Texas,Tasered,1,Cause,City
+Houston,Texas,Vehicle,16,Cause,City
+Huntington Beach,California,Gunshot,3,Cause,City
+Huntsville,Alabama,Gunshot,8,Cause,City
+Huntsville,Alabama,Vehicle,6,Cause,City
+Independence,Missouri,Gunshot,2,Cause,City
+Indio,California,Gunshot,3,Cause,City
+Inglewood,California,Gunshot,3,Cause,City
+Irvine,California,Gunshot,1,Cause,City
+Irving,Texas,Gunshot,6,Cause,City
+Jackson,Mississippi,Gunshot,5,Cause,City
+Jackson,Mississippi,Vehicle,5,Cause,City
+Jackson,Tennessee,Gunshot,2,Cause,City
+Jacksonville,Florida,Asphyxiated/Restrained,1,Cause,City
+Jacksonville,Florida,Gunshot,23,Cause,City
+Jacksonville,Florida,Vehicle,2,Cause,City
+Jersey City,New Jersey,Vehicle,1,Cause,City
+Johns Creek,Georgia,Gunshot,1,Cause,City
+Johnson City,Tennessee,Gunshot,3,Cause,City
+Joliet,Illinois,Gunshot,1,Cause,City
+Jonesboro,Arkansas,Gunshot,1,Cause,City
+Jurupa Valley,California,Gunshot,2,Cause,City
+Kalamazoo,Michigan,Gunshot,1,Cause,City
+Kalamazoo,Michigan,Medical emergency,1,Cause,City
+Kalamazoo,Michigan,Vehicle,7,Cause,City
+Kansas City,Kansas,Gunshot,5,Cause,City
+Kansas City,Kansas,Tasered,1,Cause,City
+Kansas City,Kansas,Vehicle,6,Cause,City
+Kansas City,Missouri,Gunshot,23,Cause,City
+Kansas City,Missouri,Vehicle,12,Cause,City
+Kenner,Louisiana,Gunshot,2,Cause,City
+Kennewick,Washington,Gunshot,2,Cause,City
+Kennewick,Washington,Tasered,1,Cause,City
+Kenosha,Wisconsin,Gunshot,1,Cause,City
+Kent,Washington,Gunshot,4,Cause,City
+Kent,Washington,Vehicle,1,Cause,City
+Killeen,Texas,Gunshot,4,Cause,City
+Killeen,Texas,Vehicle,1,Cause,City
+Kirkland,Washington,Gunshot,3,Cause,City
+Kissimmee,Florida,Gunshot,2,Cause,City
+Knoxville,Tennessee,Asphyxiated/Restrained,1,Cause,City
+Knoxville,Tennessee,Gunshot,5,Cause,City
+Lafayette,Louisiana,Gunshot,1,Cause,City
+Lake Charles,Louisiana,Gunshot,1,Cause,City
+Lake Charles,Louisiana,Tasered,1,Cause,City
+Lake Forest,California,Vehicle,1,Cause,City
+Lakeland,Florida,Gunshot,7,Cause,City
+Lakewood,California,Gunshot,1,Cause,City
+Lakewood,Colorado,Gunshot,2,Cause,City
+Lancaster,California,Gunshot,3,Cause,City
+Lansing,Michigan,Gunshot,2,Cause,City
+Laredo,Texas,Gunshot,12,Cause,City
+Laredo,Texas,Tasered,1,Cause,City
+Largo,Florida,Gunshot,2,Cause,City
+Largo,Florida,Vehicle,1,Cause,City
+Las Cruces,New Mexico,Gunshot,13,Cause,City
+Las Vegas,Nevada,Asphyxiated/Restrained,1,Cause,City
+Las Vegas,Nevada,Gunshot,44,Cause,City
+Las Vegas,Nevada,Vehicle,3,Cause,City
+Lauderhill,Florida,Gunshot,1,Cause,City
+Lawrence,Massachusetts,Gunshot,1,Cause,City
+Lawton,Oklahoma,Gunshot,2,Cause,City
+Layton,Utah,Gunshot,1,Cause,City
+League City,Texas,Gunshot,3,Cause,City
+Lee's Summit,Missouri,Gunshot,1,Cause,City
+Lehigh Acres,Florida,Vehicle,1,Cause,City
+Lincoln,Nebraska,Gunshot,6,Cause,City
+Little Rock,Arkansas,Gunshot,7,Cause,City
+Little Rock,Arkansas,Vehicle,2,Cause,City
+Livermore,California,Gunshot,2,Cause,City
+Livonia,Michigan,Gunshot,1,Cause,City
+Long Beach,California,Gunshot,16,Cause,City
+Long Beach,California,Tasered,2,Cause,City
+Long Beach,California,Vehicle,1,Cause,City
+Longmont,Colorado,Gunshot,2,Cause,City
+Longview,Texas,Gunshot,2,Cause,City
+Lorain,Ohio,Vehicle,1,Cause,City
+Los Angeles,California,Gunshot,65,Cause,City
+Los Angeles,California,Tasered,3,Cause,City
+Los Angeles,California,Vehicle,6,Cause,City
+Loveland,Colorado,Gunshot,2,Cause,City
+Lowell,Massachusetts,Gunshot,1,Cause,City
+Lubbock,Texas,Tasered,1,Cause,City
+Lubbock,Texas,Vehicle,2,Cause,City
+Lynchburg,Virginia,Gunshot,1,Cause,City
+Lynn,Massachusetts,Gunshot,4,Cause,City
+Lynwood,California,Gunshot,1,Cause,City
+Madison,Wisconsin,Gunshot,3,Cause,City
+Manteca,California,Vehicle,1,Cause,City
+Marysville,Washington,Gunshot,1,Cause,City
+McKinney,Texas,Gunshot,1,Cause,City
+Medford,Oregon,Gunshot,3,Cause,City
+Melbourne,Florida,Gunshot,2,Cause,City
+Memphis,Tennessee,Gunshot,14,Cause,City
+Merced,California,Gunshot,1,Cause,City
+Meridian,Idaho,Gunshot,2,Cause,City
+Mesa,Arizona,Gunshot,19,Cause,City
+Mesquite,Texas,Gunshot,1,Cause,City
+Metairie,Louisiana,Gunshot,2,Cause,City
+Metairie,Louisiana,Tasered,1,Cause,City
+Metairie,Louisiana,Vehicle,1,Cause,City
+Miami,Florida,Asphyxiated/Restrained,1,Cause,City
+Miami,Florida,Gunshot,22,Cause,City
+Miami,Florida,Tasered,3,Cause,City
+Miami,Florida,Vehicle,3,Cause,City
+Miami Beach,Florida,Gunshot,4,Cause,City
+Miami Gardens,Florida,Gunshot,3,Cause,City
+Midland,Texas,Gunshot,5,Cause,City
+Milwaukee,Wisconsin,Gunshot,13,Cause,City
+Milwaukee,Wisconsin,Vehicle,7,Cause,City
+Minneapolis,Minnesota,Gunshot,4,Cause,City
+Minneapolis,Minnesota,Vehicle,5,Cause,City
+Mission,Texas,Gunshot,3,Cause,City
+Missoula,Montana,Gunshot,1,Cause,City
+Missouri City,Texas,Gunshot,3,Cause,City
+Mobile,Alabama,Gunshot,6,Cause,City
+Modesto,California,Asphyxiated/Restrained,1,Cause,City
+Modesto,California,Gunshot,7,Cause,City
+Modesto,California,Tasered,1,Cause,City
+Modesto,California,Vehicle,1,Cause,City
+Montgomery,Alabama,Gunshot,3,Cause,City
+Moreno Valley,California,Gunshot,2,Cause,City
+Moreno Valley,California,Vehicle,1,Cause,City
+Muncie,Indiana,Gunshot,3,Cause,City
+Murfreesboro,Tennessee,Gunshot,2,Cause,City
+Nampa,Idaho,Gunshot,2,Cause,City
+Nampa,Idaho,Vehicle,1,Cause,City
+Napa,California,Gunshot,4,Cause,City
+Naperville,Illinois,Vehicle,1,Cause,City
+Nashua,New Hampshire,Gunshot,1,Cause,City
+New Bedford,Massachusetts,Gunshot,1,Cause,City
+New Britain,Connecticut,Gunshot,1,Cause,City
+New Haven,Connecticut,Vehicle,3,Cause,City
+New Orleans,Louisiana,Gunshot,10,Cause,City
+New Orleans,Louisiana,Vehicle,3,Cause,City
+New York,New York,Asphyxiated/Restrained,1,Cause,City
+New York,New York,Gunshot,5,Cause,City
+New York,New York,Tasered,1,Cause,City
+Newark,New Jersey,Gunshot,9,Cause,City
+Newark,New Jersey,Vehicle,5,Cause,City
+Newport Beach,California,Gunshot,1,Cause,City
+Newport News,Virginia,Gunshot,3,Cause,City
+Norfolk,Virginia,Gunshot,7,Cause,City
+Norfolk,Virginia,Vehicle,1,Cause,City
+Norman,Oklahoma,Gunshot,3,Cause,City
+North Charleston,South Carolina,Gunshot,4,Cause,City
+North Charleston,South Carolina,Vehicle,3,Cause,City
+North Las Vegas,Nevada,Gunshot,4,Cause,City
+North Little Rock,Arkansas,Gunshot,2,Cause,City
+North Little Rock,Arkansas,Vehicle,1,Cause,City
+Norwalk,California,Gunshot,2,Cause,City
+Norwalk,Connecticut,Gunshot,1,Cause,City
+Norwalk,Connecticut,Vehicle,1,Cause,City
+O'Fallon,Missouri,Gunshot,1,Cause,City
+O'Fallon,Missouri,Vehicle,1,Cause,City
+Oakland,California,Asphyxiated/Restrained,1,Cause,City
+Oakland,California,Gunshot,10,Cause,City
+Oakland,California,Tasered,1,Cause,City
+Oceanside,California,Gunshot,3,Cause,City
+Odessa,Texas,Gunshot,5,Cause,City
+Ogden,Utah,Gunshot,3,Cause,City
+Ogden,Utah,Tasered,1,Cause,City
+Oklahoma City,Oklahoma,Asphyxiated/Restrained,1,Cause,City
+Oklahoma City,Oklahoma,Gunshot,24,Cause,City
+Oklahoma City,Oklahoma,Tasered,2,Cause,City
+Oklahoma City,Oklahoma,Vehicle,7,Cause,City
+Olathe,Kansas,Gunshot,2,Cause,City
+Olathe,Kansas,Medical emergency,1,Cause,City
+Omaha,Nebraska,Gunshot,16,Cause,City
+Omaha,Nebraska,Medical emergency,2,Cause,City
+Omaha,Nebraska,Tasered,1,Cause,City
+Ontario,California,Gunshot,5,Cause,City
+Ontario,California,Vehicle,1,Cause,City
+Orange,California,Gunshot,1,Cause,City
+Orange,California,Vehicle,3,Cause,City
+Orem,Utah,Gunshot,1,Cause,City
+Orem,Utah,Vehicle,1,Cause,City
+Orlando,Florida,Gunshot,20,Cause,City
+Orlando,Florida,Vehicle,2,Cause,City
+Oshkosh,Wisconsin,Gunshot,1,Cause,City
+Overland Park,Kansas,Gunshot,3,Cause,City
+Overland Park,Kansas,Vehicle,1,Cause,City
+Oxnard,California,Gunshot,1,Cause,City
+Palm Bay,Florida,Asphyxiated/Restrained,1,Cause,City
+Palm Bay,Florida,Gunshot,4,Cause,City
+Palmdale,California,Gunshot,3,Cause,City
+Palmdale,California,Vehicle,1,Cause,City
+Palo Alto,California,Gunshot,1,Cause,City
+Parma,Ohio,Vehicle,2,Cause,City
+Pasadena,California,Tasered,1,Cause,City
+Pasadena,Texas,Gunshot,2,Cause,City
+Pasco,Washington,Gunshot,1,Cause,City
+Paterson,New Jersey,Gunshot,3,Cause,City
+Pawtucket,Rhode Island,Gunshot,2,Cause,City
+Pearland,Texas,Gunshot,3,Cause,City
+Pembroke Pines,Florida,Vehicle,1,Cause,City
+Peoria,Arizona,Gunshot,2,Cause,City
+Peoria,Illinois,Gunshot,3,Cause,City
+Perris,California,Gunshot,1,Cause,City
+Perris,California,Vehicle,1,Cause,City
+Pharr,Texas,Gunshot,1,Cause,City
+Philadelphia,Pennsylvania,Gunshot,21,Cause,City
+Philadelphia,Pennsylvania,Tasered,2,Cause,City
+Philadelphia,Pennsylvania,Vehicle,3,Cause,City
+Phoenix,Arizona,Asphyxiated/Restrained,1,Cause,City
+Phoenix,Arizona,Gunshot,59,Cause,City
+Phoenix,Arizona,Tasered,1,Cause,City
+Phoenix,Arizona,Vehicle,6,Cause,City
+Pittsburg,California,Gunshot,2,Cause,City
+Pittsburg,California,Vehicle,1,Cause,City
+Pittsburgh,Pennsylvania,Gunshot,5,Cause,City
+Pittsburgh,Pennsylvania,Vehicle,1,Cause,City
+Plano,Texas,Gunshot,3,Cause,City
+Plantation,Florida,Gunshot,1,Cause,City
+Pleasanton,California,Gunshot,2,Cause,City
+Pleasanton,California,Tasered,1,Cause,City
+Plymouth,Minnesota,Gunshot,1,Cause,City
+Pomona,California,Gunshot,4,Cause,City
+Pomona,California,Vehicle,1,Cause,City
+Pompano Beach,Florida,Gunshot,3,Cause,City
+Pompano Beach,Florida,Vehicle,2,Cause,City
+Port St. Lucie,Florida,Gunshot,3,Cause,City
+Port St. Lucie,Florida,Vehicle,1,Cause,City
+Portland,Maine,Gunshot,1,Cause,City
+Portland,Oregon,Gunshot,11,Cause,City
+Portland,Oregon,Vehicle,1,Cause,City
+Portsmouth,Virginia,Gunshot,4,Cause,City
+Providence,Rhode Island,Gunshot,1,Cause,City
+Providence,Rhode Island,Medical emergency,1,Cause,City
+Providence,Rhode Island,Vehicle,1,Cause,City
+Provo,Utah,Gunshot,1,Cause,City
+Pueblo,Colorado,Gunshot,9,Cause,City
+Pueblo,Colorado,Tasered,1,Cause,City
+Racine,Wisconsin,Gunshot,1,Cause,City
+Raleigh,North Carolina,Gunshot,2,Cause,City
+Raleigh,North Carolina,Vehicle,5,Cause,City
+Rancho Cordova,California,Gunshot,1,Cause,City
+Rapid City,South Dakota,Gunshot,5,Cause,City
+Rapid City,South Dakota,Vehicle,1,Cause,City
+Reading,Pennsylvania,Gunshot,2,Cause,City
+Reading,Pennsylvania,Tasered,1,Cause,City
+Redding,California,Gunshot,6,Cause,City
+Redlands,California,Gunshot,5,Cause,City
+Redondo Beach,California,Gunshot,1,Cause,City
+Redwood City,California,Gunshot,2,Cause,City
+Redwood City,California,Tasered,1,Cause,City
+Reno,Nevada,Gunshot,11,Cause,City
+Rialto,California,Gunshot,2,Cause,City
+Rialto,California,Vehicle,1,Cause,City
+Richmond,California,Gunshot,2,Cause,City
+Richmond,California,Vehicle,2,Cause,City
+Richmond,Virginia,Gunshot,13,Cause,City
+Richmond,Virginia,Vehicle,3,Cause,City
+Rio Rancho,New Mexico,Gunshot,1,Cause,City
+Riverside,California,Gunshot,6,Cause,City
+Riverview,Florida,Gunshot,3,Cause,City
+Roanoke,Virginia,Asphyxiated/Restrained,1,Cause,City
+Roanoke,Virginia,Gunshot,2,Cause,City
+Rochester,New York,Gunshot,4,Cause,City
+Rochester,New York,Tasered,1,Cause,City
+Rock Hill,South Carolina,Gunshot,1,Cause,City
+Rock Hill,South Carolina,Vehicle,1,Cause,City
+Rockford,Illinois,Gunshot,2,Cause,City
+Rockford,Illinois,Vehicle,1,Cause,City
+Roseville,California,Gunshot,1,Cause,City
+Roseville,California,Vehicle,2,Cause,City
+Roswell,Georgia,Vehicle,1,Cause,City
+Round Rock,Texas,Gunshot,1,Cause,City
+Sacramento,California,Gunshot,9,Cause,City
+Sacramento,California,Medical emergency,1,Cause,City
+Sacramento,California,Vehicle,2,Cause,City
+Salem,Oregon,Gunshot,3,Cause,City
+Salem,Oregon,Vehicle,1,Cause,City
+Salinas,California,Gunshot,1,Cause,City
+Salt Lake City,Utah,Gunshot,10,Cause,City
+Salt Lake City,Utah,Vehicle,2,Cause,City
+San Angelo,Texas,Gunshot,1,Cause,City
+San Angelo,Texas,Vehicle,1,Cause,City
+San Antonio,Texas,Gunshot,39,Cause,City
+San Antonio,Texas,Medical emergency,2,Cause,City
+San Antonio,Texas,Tasered,3,Cause,City
+San Antonio,Texas,Vehicle,10,Cause,City
+San Bernardino,California,Gunshot,7,Cause,City
+San Bernardino,California,Vehicle,3,Cause,City
+San Diego,California,Gunshot,18,Cause,City
+San Francisco,California,Asphyxiated/Restrained,1,Cause,City
+San Francisco,California,Gunshot,17,Cause,City
+San Francisco,California,Medical emergency,1,Cause,City
+San Francisco,California,Vehicle,5,Cause,City
+San Jose,California,Gunshot,15,Cause,City
+San Jose,California,Vehicle,1,Cause,City
+San Marcos,California,Gunshot,1,Cause,City
+San Marcos,California,Tasered,1,Cause,City
+San Mateo,California,Gunshot,1,Cause,City
+San Ramon,California,Vehicle,1,Cause,City
+San Tan Valley,Arizona,Gunshot,1,Cause,City
+Sandy,Utah,Gunshot,1,Cause,City
+Santa Ana,California,Gunshot,11,Cause,City
+Santa Ana,California,Medical emergency,1,Cause,City
+Santa Ana,California,Vehicle,2,Cause,City
+Santa Barbara,California,Asphyxiated/Restrained,1,Cause,City
+Santa Clara,California,Gunshot,2,Cause,City
+Santa Clarita,California,Gunshot,1,Cause,City
+Santa Fe,New Mexico,Gunshot,5,Cause,City
+Santa Maria,California,Gunshot,4,Cause,City
+Santa Monica,California,Gunshot,1,Cause,City
+Santa Rosa,California,Gunshot,1,Cause,City
+Santa Rosa,California,Vehicle,2,Cause,City
+Savannah,Georgia,Gunshot,5,Cause,City
+Savannah,Georgia,Vehicle,4,Cause,City
+Schenectady,New York,Gunshot,2,Cause,City
+Schenectady,New York,Medical emergency,1,Cause,City
+Scottsdale,Arizona,Gunshot,8,Cause,City
+Scottsdale,Arizona,Tasered,1,Cause,City
+Scranton,Pennsylvania,Gunshot,2,Cause,City
+Seattle,Washington,Gunshot,8,Cause,City
+Seattle,Washington,Vehicle,3,Cause,City
+Shreveport,Louisiana,Gunshot,9,Cause,City
+Shreveport,Louisiana,Vehicle,1,Cause,City
+Silver Spring,Maryland,Gunshot,2,Cause,City
+Silver Spring,Maryland,Tasered,1,Cause,City
+Silver Spring,Maryland,Vehicle,1,Cause,City
+Sioux City,Iowa,Gunshot,1,Cause,City
+Sioux City,Iowa,Vehicle,1,Cause,City
+Sioux Falls,South Dakota,Gunshot,1,Cause,City
+Sioux Falls,South Dakota,Tasered,1,Cause,City
+South Bend,Indiana,Gunshot,1,Cause,City
+South Bend,Indiana,Vehicle,4,Cause,City
+South Gate,California,Gunshot,6,Cause,City
+South Gate,California,Vehicle,1,Cause,City
+Southfield,Michigan,Gunshot,1,Cause,City
+Southfield,Michigan,Vehicle,1,Cause,City
+Sparks,Nevada,Gunshot,5,Cause,City
+Spokane,Washington,Gunshot,9,Cause,City
+Spokane,Washington,Medical emergency,1,Cause,City
+Spokane Valley,Washington,Gunshot,2,Cause,City
+Spring Hill,Florida,Gunshot,3,Cause,City
+Springdale,Arkansas,Gunshot,2,Cause,City
+Springfield,Illinois,Gunshot,1,Cause,City
+Springfield,Missouri,Gunshot,12,Cause,City
+Springfield,Missouri,Vehicle,2,Cause,City
+St. Cloud,Minnesota,Tasered,1,Cause,City
+St. Joseph,Missouri,Gunshot,3,Cause,City
+St. Joseph,Missouri,Tasered,1,Cause,City
+St. Louis,Missouri,Gunshot,34,Cause,City
+St. Louis,Missouri,Tasered,2,Cause,City
+St. Louis,Missouri,Vehicle,6,Cause,City
+St. Paul,Minnesota,Gunshot,9,Cause,City
+St. Paul,Minnesota,Vehicle,2,Cause,City
+St. Petersburg,Florida,Gunshot,5,Cause,City
+St. Petersburg,Florida,Tasered,1,Cause,City
+Stamford,Connecticut,Gunshot,1,Cause,City
+Stockton,California,Gunshot,9,Cause,City
+Stockton,California,Tasered,2,Cause,City
+Stockton,California,Vehicle,5,Cause,City
+Suffolk,Virginia,Gunshot,1,Cause,City
+Suffolk,Virginia,Vehicle,1,Cause,City
+Sugar Land,Texas,Gunshot,1,Cause,City
+Sunnyvale,California,Gunshot,4,Cause,City
+Sunnyvale,California,Vehicle,3,Cause,City
+Sunrise,Florida,Gunshot,2,Cause,City
+Surprise,Arizona,Gunshot,3,Cause,City
+Syracuse,New York,Gunshot,3,Cause,City
+Syracuse,New York,Vehicle,4,Cause,City
+Tacoma,Washington,Gunshot,9,Cause,City
+Tacoma,Washington,Vehicle,2,Cause,City
+Tallahassee,Florida,Gunshot,5,Cause,City
+Tallahassee,Florida,Tasered,1,Cause,City
+Tallahassee,Florida,Vehicle,1,Cause,City
+Tampa,Florida,Gunshot,9,Cause,City
+Tampa,Florida,Tasered,1,Cause,City
+Tampa,Florida,Vehicle,2,Cause,City
+Temecula,California,Gunshot,3,Cause,City
+Tempe,Arizona,Gunshot,9,Cause,City
+Temple,Texas,Gunshot,3,Cause,City
+Thornton,Colorado,Gunshot,1,Cause,City
+Thornton,Colorado,Tasered,1,Cause,City
+Thousand Oaks,California,Gunshot,1,Cause,City
+Toledo,Ohio,Gunshot,6,Cause,City
+Toledo,Ohio,Vehicle,1,Cause,City
+Toms River,New Jersey,Gunshot,2,Cause,City
+Topeka,Kansas,Gunshot,8,Cause,City
+Topeka,Kansas,Vehicle,3,Cause,City
+Torrance,California,Gunshot,3,Cause,City
+Torrance,California,Vehicle,1,Cause,City
+Trenton,New Jersey,Gunshot,3,Cause,City
+Troy,Michigan,Gunshot,1,Cause,City
+Tucson,Arizona,Gunshot,30,Cause,City
+Tucson,Arizona,Vehicle,2,Cause,City
+Tulsa,Oklahoma,Gunshot,20,Cause,City
+Tulsa,Oklahoma,Tasered,3,Cause,City
+Tulsa,Oklahoma,Vehicle,6,Cause,City
+Turlock,California,Gunshot,1,Cause,City
+Tuscaloosa,Alabama,Gunshot,1,Cause,City
+Tuscaloosa,Alabama,Medical emergency,1,Cause,City
+Tuscaloosa,Alabama,Tasered,1,Cause,City
+Tustin,California,Gunshot,1,Cause,City
+Tyler,Texas,Gunshot,1,Cause,City
+Tyler,Texas,Vehicle,1,Cause,City
+Union City,California,Gunshot,1,Cause,City
+Union City,New Jersey,Gunshot,1,Cause,City
+Vacaville,California,Gunshot,1,Cause,City
+Vallejo,California,Gunshot,3,Cause,City
+Vancouver,Washington,Gunshot,4,Cause,City
+Victoria,Texas,Gunshot,3,Cause,City
+Victorville,California,Gunshot,1,Cause,City
+Victorville,California,Medical emergency,1,Cause,City
+Virginia Beach,Virginia,Gunshot,3,Cause,City
+Virginia Beach,Virginia,Vehicle,1,Cause,City
+Visalia,California,Gunshot,5,Cause,City
+Vista,California,Gunshot,2,Cause,City
+Waco,Texas,Gunshot,14,Cause,City
+Waldorf,Maryland,Gunshot,1,Cause,City
+Waldorf,Maryland,Vehicle,1,Cause,City
+Warner Robins,Georgia,Vehicle,1,Cause,City
+Warren,Michigan,Gunshot,1,Cause,City
+Waterbury,Connecticut,Gunshot,1,Cause,City
+Waterbury,Connecticut,Vehicle,1,Cause,City
+Waukesha,Wisconsin,Gunshot,1,Cause,City
+West Jordan,Utah,Gunshot,3,Cause,City
+West Palm Beach,Florida,Gunshot,2,Cause,City
+West Valley City,Utah,Gunshot,1,Cause,City
+Westminster,California,Gunshot,1,Cause,City
+Westminster,Colorado,Gunshot,9,Cause,City
+Westminster,Colorado,Vehicle,3,Cause,City
+Whittier,California,Asphyxiated/Restrained,1,Cause,City
+Whittier,California,Gunshot,3,Cause,City
+Wichita,Kansas,Gunshot,8,Cause,City
+Wichita,Kansas,Vehicle,4,Cause,City
+Wichita Falls,Texas,Gunshot,1,Cause,City
+Wichita Falls,Texas,Medical emergency,1,Cause,City
+Wilmington,Delaware,Gunshot,5,Cause,City
+Wilmington,Delaware,Vehicle,1,Cause,City
+Wilmington,North Carolina,Vehicle,1,Cause,City
+Winston-Salem,North Carolina,Gunshot,1,Cause,City
+Winston-Salem,North Carolina,Vehicle,2,Cause,City
+Worcester,Massachusetts,Tasered,1,Cause,City
+Wyoming,Michigan,Gunshot,4,Cause,City
+Yakima,Washington,Gunshot,3,Cause,City
+Yonkers,New York,Gunshot,2,Cause,City
+Yorba Linda,California,Gunshot,1,Cause,City
+Yuba City,California,Gunshot,1,Cause,City
+Yuma,Arizona,Gunshot,3,Cause,City
+,Alabama,Gunshot,29,Cause,State
+,Alabama,Medical emergency,1,Cause,State
+,Alabama,Tasered,2,Cause,State
+,Alabama,Vehicle,12,Cause,State
+,Alaska,Gunshot,12,Cause,State
+,Arizona,Asphyxiated/Restrained,1,Cause,State
+,Arizona,Gunshot,159,Cause,State
+,Arizona,Tasered,2,Cause,State
+,Arizona,Vehicle,10,Cause,State
+,Arkansas,Gunshot,15,Cause,State
+,Arkansas,Medical emergency,1,Cause,State
+,Arkansas,Vehicle,3,Cause,State
+,California,Asphyxiated/Restrained,9,Cause,State
+,California,Gunshot,436,Cause,State
+,California,Medical emergency,5,Cause,State
+,California,Tasered,17,Cause,State
+,California,Vehicle,73,Cause,State
+,Colorado,Gunshot,97,Cause,State
+,Colorado,Tasered,3,Cause,State
+,Colorado,Vehicle,6,Cause,State
+,Connecticut,Gunshot,5,Cause,State
+,Connecticut,Tasered,1,Cause,State
+,Connecticut,Vehicle,12,Cause,State
+,Delaware,Gunshot,5,Cause,State
+,Delaware,Vehicle,1,Cause,State
+,Florida,Asphyxiated/Restrained,3,Cause,State
+,Florida,Gunshot,159,Cause,State
+,Florida,Medical emergency,1,Cause,State
+,Florida,Tasered,6,Cause,State
+,Florida,Vehicle,19,Cause,State
+,Georgia,Asphyxiated/Restrained,1,Cause,State
+,Georgia,Gunshot,28,Cause,State
+,Georgia,Tasered,1,Cause,State
+,Georgia,Vehicle,20,Cause,State
+,Idaho,Gunshot,4,Cause,State
+,Idaho,Vehicle,1,Cause,State
+,Illinois,Asphyxiated/Restrained,1,Cause,State
+,Illinois,Gunshot,51,Cause,State
+,Illinois,Vehicle,22,Cause,State
+,Indiana,Gunshot,21,Cause,State
+,Indiana,Medical emergency,1,Cause,State
+,Indiana,Vehicle,10,Cause,State
+,Iowa,Gunshot,8,Cause,State
+,Iowa,Vehicle,5,Cause,State
+,Kansas,Gunshot,26,Cause,State
+,Kansas,Medical emergency,1,Cause,State
+,Kansas,Tasered,1,Cause,State
+,Kansas,Vehicle,14,Cause,State
+,Louisiana,Gunshot,38,Cause,State
+,Louisiana,Tasered,3,Cause,State
+,Louisiana,Vehicle,10,Cause,State
+,Maine,Gunshot,1,Cause,State
+,Maryland,Gunshot,22,Cause,State
+,Maryland,Medical emergency,1,Cause,State
+,Maryland,Tasered,1,Cause,State
+,Maryland,Vehicle,7,Cause,State
+,Massachusetts,Gunshot,15,Cause,State
+,Massachusetts,Tasered,2,Cause,State
+,Michigan,Gunshot,30,Cause,State
+,Michigan,Medical emergency,1,Cause,State
+,Michigan,Tasered,1,Cause,State
+,Michigan,Vehicle,28,Cause,State
+,Minnesota,Gunshot,16,Cause,State
+,Minnesota,Tasered,1,Cause,State
+,Minnesota,Vehicle,10,Cause,State
+,Mississippi,Gunshot,10,Cause,State
+,Mississippi,Tasered,1,Cause,State
+,Mississippi,Vehicle,6,Cause,State
+,Missouri,Gunshot,80,Cause,State
+,Missouri,Tasered,3,Cause,State
+,Missouri,Vehicle,21,Cause,State
+,Montana,Gunshot,9,Cause,State
+,Nebraska,Gunshot,22,Cause,State
+,Nebraska,Medical emergency,2,Cause,State
+,Nebraska,Tasered,1,Cause,State
+,Nevada,Asphyxiated/Restrained,1,Cause,State
+,Nevada,Gunshot,69,Cause,State
+,Nevada,Vehicle,3,Cause,State
+,New Hampshire,Gunshot,1,Cause,State
+,New Jersey,Gunshot,22,Cause,State
+,New Jersey,Vehicle,8,Cause,State
+,New Mexico,Gunshot,48,Cause,State
+,New Mexico,Tasered,1,Cause,State
+,New Mexico,Vehicle,8,Cause,State
+,New York,Asphyxiated/Restrained,2,Cause,State
+,New York,Gunshot,20,Cause,State
+,New York,Medical emergency,1,Cause,State
+,New York,Tasered,3,Cause,State
+,New York,Vehicle,5,Cause,State
+,North Carolina,Gunshot,41,Cause,State
+,North Carolina,Vehicle,24,Cause,State
+,North Dakota,Gunshot,4,Cause,State
+,Ohio,Gunshot,75,Cause,State
+,Ohio,Tasered,3,Cause,State
+,Ohio,Vehicle,17,Cause,State
+,Oklahoma,Asphyxiated/Restrained,1,Cause,State
+,Oklahoma,Gunshot,51,Cause,State
+,Oklahoma,Tasered,5,Cause,State
+,Oklahoma,Vehicle,13,Cause,State
+,Oregon,Gunshot,31,Cause,State
+,Oregon,Vehicle,4,Cause,State
+,Pennsylvania,Gunshot,34,Cause,State
+,Pennsylvania,Tasered,3,Cause,State
+,Pennsylvania,Vehicle,5,Cause,State
+,Rhode Island,Gunshot,3,Cause,State
+,Rhode Island,Medical emergency,1,Cause,State
+,Rhode Island,Vehicle,1,Cause,State
+,South Carolina,Gunshot,13,Cause,State
+,South Carolina,Vehicle,8,Cause,State
+,South Dakota,Gunshot,6,Cause,State
+,South Dakota,Tasered,1,Cause,State
+,South Dakota,Vehicle,1,Cause,State
+,Tennessee,Asphyxiated/Restrained,1,Cause,State
+,Tennessee,Gunshot,36,Cause,State
+,Texas,Asphyxiated/Restrained,2,Cause,State
+,Texas,Gunshot,304,Cause,State
+,Texas,Medical emergency,12,Cause,State
+,Texas,Tasered,9,Cause,State
+,Texas,Vehicle,38,Cause,State
+,Utah,Gunshot,21,Cause,State
+,Utah,Tasered,1,Cause,State
+,Utah,Vehicle,3,Cause,State
+,Virginia,Asphyxiated/Restrained,2,Cause,State
+,Virginia,Gunshot,42,Cause,State
+,Virginia,Vehicle,8,Cause,State
+,Washington,Gunshot,58,Cause,State
+,Washington,Medical emergency,1,Cause,State
+,Washington,Tasered,2,Cause,State
+,Washington,Vehicle,6,Cause,State
+,Wisconsin,Gunshot,30,Cause,State
+,Wisconsin,Vehicle,8,Cause,State

@@ -1,0 +1,649 @@
+State,Name,CrimeType,NumCrimes
+ohio,akron,Race,69
+ohio,akron,Religion,5
+ohio,akron,Orientation,14
+ohio,akron,Disability,1
+new mexico,albuquerque,Race,67
+new mexico,albuquerque,Religion,20
+new mexico,albuquerque,Orientation,37
+new mexico,albuquerque,Disability,0
+alaska,anchorage,Race,48
+alaska,anchorage,Religion,5
+alaska,anchorage,Orientation,9
+alaska,anchorage,Disability,2
+michigan,ann arbor,Race,32
+michigan,ann arbor,Religion,15
+michigan,ann arbor,Orientation,24
+michigan,ann arbor,Disability,1
+california,antioch,Race,21
+california,antioch,Religion,2
+california,antioch,Orientation,4
+california,antioch,Disability,1
+wisconsin,appleton,Race,18
+wisconsin,appleton,Religion,2
+wisconsin,appleton,Orientation,7
+wisconsin,appleton,Disability,0
+north carolina,asheville,Race,31
+north carolina,asheville,Religion,9
+north carolina,asheville,Orientation,14
+north carolina,asheville,Disability,0
+georgia,atlanta,Race,21
+georgia,atlanta,Religion,3
+georgia,atlanta,Orientation,41
+georgia,atlanta,Disability,2
+colorado,aurora,Race,43
+colorado,aurora,Religion,7
+colorado,aurora,Orientation,11
+colorado,aurora,Disability,0
+texas,austin,Race,47
+texas,austin,Religion,9
+texas,austin,Orientation,27
+texas,austin,Disability,0
+california,bakersfield,Race,31
+california,bakersfield,Religion,3
+california,bakersfield,Orientation,14
+california,bakersfield,Disability,0
+maryland,baltimore,Race,21
+maryland,baltimore,Religion,8
+maryland,baltimore,Orientation,17
+maryland,baltimore,Disability,0
+washington,bellingham,Race,40
+washington,bellingham,Religion,4
+washington,bellingham,Orientation,10
+washington,bellingham,Disability,0
+california,berkeley,Race,30
+california,berkeley,Religion,14
+california,berkeley,Orientation,15
+california,berkeley,Disability,0
+montana,billings,Race,33
+montana,billings,Religion,9
+montana,billings,Orientation,6
+montana,billings,Disability,0
+illinois,bloomington,Race,11
+illinois,bloomington,Religion,2
+illinois,bloomington,Orientation,3
+illinois,bloomington,Disability,0
+idaho,boise,Race,59
+idaho,boise,Religion,15
+idaho,boise,Orientation,17
+idaho,boise,Disability,0
+connecticut,bridgeport,Race,42
+connecticut,bridgeport,Religion,3
+connecticut,bridgeport,Orientation,15
+connecticut,bridgeport,Disability,0
+minnesota,brooklyn park,Race,49
+minnesota,brooklyn park,Religion,3
+minnesota,brooklyn park,Orientation,7
+minnesota,brooklyn park,Disability,0
+california,burbank,Race,23
+california,burbank,Religion,14
+california,burbank,Orientation,7
+california,burbank,Disability,2
+massachusetts,cambridge,Race,53
+massachusetts,cambridge,Religion,23
+massachusetts,cambridge,Orientation,17
+massachusetts,cambridge,Disability,2
+california,carson,Race,18
+california,carson,Religion,2
+california,carson,Orientation,0
+california,carson,Disability,0
+colorado,centennial,Race,29
+colorado,centennial,Religion,18
+colorado,centennial,Orientation,2
+colorado,centennial,Disability,1
+tennessee,chattanooga,Race,44
+tennessee,chattanooga,Religion,21
+tennessee,chattanooga,Orientation,4
+tennessee,chattanooga,Disability,6
+virginia,chesapeake,Race,58
+virginia,chesapeake,Religion,6
+virginia,chesapeake,Orientation,7
+virginia,chesapeake,Disability,2
+illinois,chicago,Race,158
+illinois,chicago,Religion,52
+illinois,chicago,Orientation,109
+illinois,chicago,Disability,1
+california,chico,Race,22
+california,chico,Religion,7
+california,chico,Orientation,8
+california,chico,Disability,0
+california,chino,Race,21
+california,chino,Religion,5
+california,chino,Orientation,9
+california,chino,Disability,0
+california,chula vista,Race,23
+california,chula vista,Religion,10
+california,chula vista,Orientation,12
+california,chula vista,Disability,0
+ohio,cincinnati,Race,154
+ohio,cincinnati,Religion,10
+ohio,cincinnati,Orientation,27
+ohio,cincinnati,Disability,1
+tennessee,clarksville,Race,37
+tennessee,clarksville,Religion,16
+tennessee,clarksville,Orientation,18
+tennessee,clarksville,Disability,2
+ohio,cleveland,Race,75
+ohio,cleveland,Religion,2
+ohio,cleveland,Orientation,14
+ohio,cleveland,Disability,1
+california,clovis,Race,16
+california,clovis,Religion,7
+california,clovis,Orientation,5
+california,clovis,Disability,0
+colorado,colorado springs,Race,61
+colorado,colorado springs,Religion,30
+colorado,colorado springs,Orientation,20
+colorado,colorado springs,Disability,0
+missouri,columbia,Race,15
+missouri,columbia,Religion,3
+missouri,columbia,Orientation,6
+missouri,columbia,Disability,0
+california,compton,Race,20
+california,compton,Religion,0
+california,compton,Orientation,3
+california,compton,Disability,0
+texas,dallas,Race,67
+texas,dallas,Religion,21
+texas,dallas,Orientation,64
+texas,dallas,Disability,0
+ohio,dayton,Race,40
+ohio,dayton,Religion,3
+ohio,dayton,Orientation,9
+ohio,dayton,Disability,0
+michigan,dearborn,Race,78
+michigan,dearborn,Religion,37
+michigan,dearborn,Orientation,10
+michigan,dearborn,Disability,0
+texas,denton,Race,12
+texas,denton,Religion,0
+texas,denton,Orientation,4
+texas,denton,Disability,1
+colorado,denver,Race,128
+colorado,denver,Religion,44
+colorado,denver,Orientation,95
+colorado,denver,Disability,2
+michigan,detroit,Race,127
+michigan,detroit,Religion,24
+michigan,detroit,Orientation,56
+michigan,detroit,Disability,2
+north carolina,durham,Race,27
+north carolina,durham,Religion,4
+north carolina,durham,Orientation,10
+north carolina,durham,Disability,0
+california,el monte,Race,46
+california,el monte,Religion,4
+california,el monte,Orientation,5
+california,el monte,Disability,0
+texas,el paso,Race,8
+texas,el paso,Religion,3
+texas,el paso,Orientation,13
+texas,el paso,Disability,0
+california,escondido,Race,46
+california,escondido,Religion,2
+california,escondido,Orientation,3
+california,escondido,Disability,0
+washington,everett,Race,21
+washington,everett,Religion,4
+washington,everett,Orientation,7
+washington,everett,Disability,1
+washington,federal way,Race,21
+washington,federal way,Religion,11
+washington,federal way,Orientation,9
+washington,federal way,Disability,0
+colorado,fort collins,Race,28
+colorado,fort collins,Religion,3
+colorado,fort collins,Orientation,11
+colorado,fort collins,Disability,0
+texas,fort worth,Race,99
+texas,fort worth,Religion,14
+texas,fort worth,Orientation,26
+texas,fort worth,Disability,1
+california,fresno,Race,50
+california,fresno,Religion,6
+california,fresno,Orientation,23
+california,fresno,Disability,0
+california,fullerton,Race,9
+california,fullerton,Religion,1
+california,fullerton,Orientation,5
+california,fullerton,Disability,0
+florida,gainesville,Race,30
+florida,gainesville,Religion,15
+florida,gainesville,Orientation,14
+florida,gainesville,Disability,1
+california,garden grove,Race,26
+california,garden grove,Religion,4
+california,garden grove,Orientation,7
+california,garden grove,Disability,0
+arizona,gilbert,Race,19
+arizona,gilbert,Religion,6
+arizona,gilbert,Orientation,2
+arizona,gilbert,Disability,0
+arizona,glendale,Race,54
+arizona,glendale,Religion,16
+arizona,glendale,Orientation,10
+arizona,glendale,Disability,0
+michigan,grand rapids,Race,85
+michigan,grand rapids,Religion,5
+michigan,grand rapids,Orientation,11
+michigan,grand rapids,Disability,1
+virginia,hampton,Race,26
+virginia,hampton,Religion,2
+virginia,hampton,Orientation,3
+virginia,hampton,Disability,0
+north carolina,high point,Race,21
+north carolina,high point,Religion,0
+north carolina,high point,Orientation,2
+north carolina,high point,Disability,0
+alabama,hoover,Race,19
+alabama,hoover,Religion,6
+alabama,hoover,Orientation,3
+alabama,hoover,Disability,0
+texas,houston,Race,81
+texas,houston,Religion,22
+texas,houston,Orientation,60
+texas,houston,Disability,0
+california,huntington beach,Race,41
+california,huntington beach,Religion,20
+california,huntington beach,Orientation,10
+california,huntington beach,Disability,0
+missouri,independence,Race,35
+missouri,independence,Religion,5
+missouri,independence,Orientation,8
+missouri,independence,Disability,0
+california,irvine,Race,22
+california,irvine,Religion,10
+california,irvine,Orientation,3
+california,irvine,Disability,0
+florida,jacksonville,Race,13
+florida,jacksonville,Religion,2
+florida,jacksonville,Orientation,1
+florida,jacksonville,Disability,0
+new jersey,jersey city,Race,42
+new jersey,jersey city,Religion,13
+new jersey,jersey city,Orientation,22
+new jersey,jersey city,Disability,2
+tennessee,knoxville,Race,52
+tennessee,knoxville,Religion,8
+tennessee,knoxville,Orientation,8
+tennessee,knoxville,Disability,2
+california,lakewood,Race,24
+california,lakewood,Religion,2
+california,lakewood,Orientation,2
+california,lakewood,Disability,0
+california,lancaster,Race,59
+california,lancaster,Religion,8
+california,lancaster,Orientation,14
+california,lancaster,Disability,1
+michigan,lansing,Race,29
+michigan,lansing,Religion,10
+michigan,lansing,Orientation,12
+michigan,lansing,Disability,1
+kansas,lawrence,Race,37
+kansas,lawrence,Religion,5
+kansas,lawrence,Orientation,9
+kansas,lawrence,Disability,2
+missouri,lee's summit,Race,26
+missouri,lee's summit,Religion,6
+missouri,lee's summit,Orientation,1
+missouri,lee's summit,Disability,0
+california,livermore,Race,17
+california,livermore,Religion,8
+california,livermore,Orientation,9
+california,livermore,Disability,0
+michigan,livonia,Race,31
+michigan,livonia,Religion,7
+michigan,livonia,Orientation,4
+michigan,livonia,Disability,0
+california,long beach,Race,55
+california,long beach,Religion,18
+california,long beach,Orientation,38
+california,long beach,Disability,0
+texas,longview,Race,35
+texas,longview,Religion,1
+texas,longview,Orientation,5
+texas,longview,Disability,1
+california,los angeles,Race,877
+california,los angeles,Religion,382
+california,los angeles,Orientation,383
+california,los angeles,Disability,4
+wisconsin,madison,Race,64
+wisconsin,madison,Religion,18
+wisconsin,madison,Orientation,20
+wisconsin,madison,Disability,3
+tennessee,memphis,Race,172
+tennessee,memphis,Religion,28
+tennessee,memphis,Orientation,115
+tennessee,memphis,Disability,12
+arizona,mesa,Race,41
+arizona,mesa,Religion,13
+arizona,mesa,Orientation,9
+arizona,mesa,Disability,0
+wisconsin,milwaukee,Race,126
+wisconsin,milwaukee,Religion,21
+wisconsin,milwaukee,Orientation,45
+wisconsin,milwaukee,Disability,0
+minnesota,minneapolis,Race,166
+minnesota,minneapolis,Religion,54
+minnesota,minneapolis,Orientation,101
+minnesota,minneapolis,Disability,3
+california,modesto,Race,39
+california,modesto,Religion,12
+california,modesto,Orientation,11
+california,modesto,Disability,1
+california,moreno valley,Race,21
+california,moreno valley,Religion,3
+california,moreno valley,Orientation,2
+california,moreno valley,Disability,0
+idaho,nampa,Race,27
+idaho,nampa,Religion,1
+idaho,nampa,Orientation,5
+idaho,nampa,Disability,0
+connecticut,new haven,Race,48
+connecticut,new haven,Religion,9
+connecticut,new haven,Orientation,19
+connecticut,new haven,Disability,0
+new york,new rochelle,Race,14
+new york,new rochelle,Religion,15
+new york,new rochelle,Orientation,3
+new york,new rochelle,Disability,0
+new york,new york,Race,673
+new york,new york,Religion,1668
+new york,new york,Orientation,686
+new york,new york,Disability,5
+california,newport beach,Race,16
+california,newport beach,Religion,15
+california,newport beach,Orientation,5
+california,newport beach,Disability,0
+virginia,newport news,Race,46
+virginia,newport news,Religion,12
+virginia,newport news,Orientation,14
+virginia,newport news,Disability,0
+virginia,norfolk,Race,69
+virginia,norfolk,Religion,11
+virginia,norfolk,Orientation,27
+virginia,norfolk,Disability,2
+oklahoma,norman,Race,28
+oklahoma,norman,Religion,3
+oklahoma,norman,Orientation,3
+oklahoma,norman,Disability,0
+nevada,north las vegas,Race,26
+nevada,north las vegas,Religion,5
+nevada,north las vegas,Orientation,7
+nevada,north las vegas,Disability,0
+california,norwalk,Race,36
+california,norwalk,Religion,2
+california,norwalk,Orientation,5
+california,norwalk,Disability,0
+california,oakland,Race,65
+california,oakland,Religion,15
+california,oakland,Orientation,51
+california,oakland,Disability,0
+california,oceanside,Race,63
+california,oceanside,Religion,14
+california,oceanside,Orientation,11
+california,oceanside,Disability,0
+california,orange,Race,15
+california,orange,Religion,6
+california,orange,Orientation,4
+california,orange,Disability,0
+california,oxnard,Race,31
+california,oxnard,Religion,2
+california,oxnard,Orientation,8
+california,oxnard,Disability,0
+florida,palm bay,Race,14
+florida,palm bay,Religion,2
+florida,palm bay,Orientation,1
+florida,palm bay,Disability,1
+california,palmdale,Race,51
+california,palmdale,Religion,8
+california,palmdale,Orientation,10
+california,palmdale,Disability,0
+ohio,parma,Race,12
+ohio,parma,Religion,2
+ohio,parma,Orientation,0
+ohio,parma,Disability,0
+california,pasadena,Race,43
+california,pasadena,Religion,9
+california,pasadena,Orientation,9
+california,pasadena,Disability,0
+new jersey,passaic,Race,11
+new jersey,passaic,Religion,14
+new jersey,passaic,Orientation,2
+new jersey,passaic,Disability,1
+rhode island,pawtucket,Race,9
+rhode island,pawtucket,Religion,5
+rhode island,pawtucket,Orientation,7
+rhode island,pawtucket,Disability,0
+pennsylvania,philadelphia,Race,104
+pennsylvania,philadelphia,Religion,44
+pennsylvania,philadelphia,Orientation,23
+pennsylvania,philadelphia,Disability,0
+arizona,phoenix,Race,770
+arizona,phoenix,Religion,197
+arizona,phoenix,Orientation,283
+arizona,phoenix,Disability,14
+pennsylvania,pittsburgh,Race,81
+pennsylvania,pittsburgh,Religion,11
+pennsylvania,pittsburgh,Orientation,13
+pennsylvania,pittsburgh,Disability,0
+texas,plano,Race,20
+texas,plano,Religion,7
+texas,plano,Orientation,1
+texas,plano,Disability,0
+minnesota,plymouth,Race,22
+minnesota,plymouth,Religion,10
+minnesota,plymouth,Orientation,6
+minnesota,plymouth,Disability,0
+virginia,portsmouth,Race,34
+virginia,portsmouth,Religion,3
+virginia,portsmouth,Orientation,2
+virginia,portsmouth,Disability,0
+rhode island,providence,Race,46
+rhode island,providence,Religion,20
+rhode island,providence,Orientation,19
+rhode island,providence,Disability,1
+pennsylvania,reading,Race,9
+pennsylvania,reading,Religion,1
+pennsylvania,reading,Orientation,5
+pennsylvania,reading,Disability,0
+california,redding,Race,69
+california,redding,Religion,7
+california,redding,Orientation,16
+california,redding,Disability,1
+california,redondo beach,Race,26
+california,redondo beach,Religion,3
+california,redondo beach,Orientation,10
+california,redondo beach,Disability,0
+california,richmond,Race,21
+california,richmond,Religion,0
+california,richmond,Orientation,6
+california,richmond,Disability,0
+california,riverside,Race,111
+california,riverside,Religion,24
+california,riverside,Orientation,25
+california,riverside,Disability,1
+michigan,rochester,Race,8
+michigan,rochester,Religion,0
+michigan,rochester,Orientation,1
+michigan,rochester,Disability,1
+illinois,rockford,Race,40
+illinois,rockford,Religion,6
+illinois,rockford,Orientation,12
+illinois,rockford,Disability,1
+california,sacramento,Race,63
+california,sacramento,Religion,25
+california,sacramento,Orientation,69
+california,sacramento,Disability,1
+oregon,salem,Race,43
+oregon,salem,Religion,10
+oregon,salem,Orientation,18
+oregon,salem,Disability,0
+utah,salt lake city,Race,9
+utah,salt lake city,Religion,6
+utah,salt lake city,Orientation,4
+utah,salt lake city,Disability,0
+texas,san antonio,Race,53
+texas,san antonio,Religion,14
+texas,san antonio,Orientation,39
+texas,san antonio,Disability,0
+california,san bernardino,Race,19
+california,san bernardino,Religion,1
+california,san bernardino,Orientation,8
+california,san bernardino,Disability,0
+california,san diego,Race,193
+california,san diego,Religion,79
+california,san diego,Orientation,152
+california,san diego,Disability,0
+california,san francisco,Race,172
+california,san francisco,Religion,75
+california,san francisco,Orientation,182
+california,san francisco,Disability,1
+california,san jose,Race,113
+california,san jose,Religion,49
+california,san jose,Orientation,60
+california,san jose,Disability,1
+california,san leandro,Race,37
+california,san leandro,Religion,8
+california,san leandro,Orientation,9
+california,san leandro,Disability,1
+california,san mateo,Race,14
+california,san mateo,Religion,11
+california,san mateo,Orientation,8
+california,san mateo,Disability,0
+california,santa clarita,Race,38
+california,santa clarita,Religion,6
+california,santa clarita,Orientation,8
+california,santa clarita,Disability,1
+california,santa rosa,Race,8
+california,santa rosa,Religion,4
+california,santa rosa,Orientation,8
+california,santa rosa,Disability,0
+washington,seattle,Race,330
+washington,seattle,Religion,63
+washington,seattle,Orientation,147
+washington,seattle,Disability,6
+south dakota,sioux falls,Race,94
+south dakota,sioux falls,Religion,25
+south dakota,sioux falls,Orientation,19
+south dakota,sioux falls,Disability,0
+california,south gate,Race,6
+california,south gate,Religion,4
+california,south gate,Orientation,4
+california,south gate,Disability,0
+michigan,southfield,Race,34
+michigan,southfield,Religion,14
+michigan,southfield,Orientation,3
+michigan,southfield,Disability,0
+washington,spokane valley,Race,29
+washington,spokane valley,Religion,6
+washington,spokane valley,Orientation,8
+washington,spokane valley,Disability,0
+illinois,springfield,Race,58
+illinois,springfield,Religion,0
+illinois,springfield,Orientation,5
+illinois,springfield,Disability,0
+minnesota,st. cloud,Race,47
+minnesota,st. cloud,Religion,8
+minnesota,st. cloud,Orientation,4
+minnesota,st. cloud,Disability,0
+utah,st. george,Race,13
+utah,st. george,Religion,1
+utah,st. george,Orientation,2
+utah,st. george,Disability,0
+missouri,st. louis,Race,64
+missouri,st. louis,Religion,7
+missouri,st. louis,Orientation,23
+missouri,st. louis,Disability,0
+minnesota,st. paul,Race,109
+minnesota,st. paul,Religion,19
+minnesota,st. paul,Orientation,18
+minnesota,st. paul,Disability,0
+california,stockton,Race,29
+california,stockton,Religion,5
+california,stockton,Orientation,4
+california,stockton,Disability,1
+washington,tacoma,Race,87
+washington,tacoma,Religion,11
+washington,tacoma,Orientation,35
+washington,tacoma,Disability,0
+arizona,tempe,Race,15
+arizona,tempe,Religion,9
+arizona,tempe,Orientation,11
+arizona,tempe,Disability,0
+california,torrance,Race,13
+california,torrance,Religion,5
+california,torrance,Orientation,3
+california,torrance,Disability,0
+michigan,troy,Race,28
+michigan,troy,Religion,9
+michigan,troy,Orientation,6
+michigan,troy,Disability,0
+california,turlock,Race,12
+california,turlock,Religion,2
+california,turlock,Orientation,6
+california,turlock,Disability,0
+california,union city,Race,20
+california,union city,Religion,1
+california,union city,Orientation,5
+california,union city,Disability,0
+washington,vancouver,Race,82
+washington,vancouver,Religion,4
+washington,vancouver,Orientation,8
+washington,vancouver,Disability,1
+california,ventura,Race,18
+california,ventura,Religion,3
+california,ventura,Orientation,10
+california,ventura,Disability,0
+virginia,virginia beach,Race,88
+virginia,virginia beach,Religion,30
+virginia,virginia beach,Orientation,21
+virginia,virginia beach,Disability,1
+california,visalia,Race,15
+california,visalia,Religion,3
+california,visalia,Orientation,7
+california,visalia,Disability,0
+california,vista,Race,18
+california,vista,Religion,7
+california,vista,Orientation,3
+california,vista,Disability,0
+michigan,warren,Race,87
+michigan,warren,Religion,13
+michigan,warren,Orientation,6
+michigan,warren,Disability,4
+district of columbia,washington,Race,160
+district of columbia,washington,Religion,52
+district of columbia,washington,Orientation,313
+district of columbia,washington,Disability,3
+california,west covina,Race,26
+california,west covina,Religion,5
+california,west covina,Orientation,3
+california,west covina,Disability,0
+utah,west valley,Race,36
+utah,west valley,Religion,11
+utah,west valley,Orientation,4
+utah,west valley,Disability,0
+michigan,westland,Race,27
+michigan,westland,Religion,4
+michigan,westland,Orientation,1
+michigan,westland,Disability,0
+kansas,wichita,Race,133
+kansas,wichita,Religion,14
+kansas,wichita,Orientation,36
+kansas,wichita,Disability,0
+delaware,wilmington,Race,13
+delaware,wilmington,Religion,4
+delaware,wilmington,Orientation,4
+delaware,wilmington,Disability,0
+washington,yakima,Race,27
+washington,yakima,Religion,8
+washington,yakima,Orientation,6
+washington,yakima,Disability,0
+new york,yonkers,Race,13
+new york,yonkers,Religion,24
+new york,yonkers,Orientation,12
+new york,yonkers,Disability,1
+arizona,yuma,Race,28
+arizona,yuma,Religion,11
+arizona,yuma,Orientation,5
+arizona,yuma,Disability,0

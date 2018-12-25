@@ -1,0 +1,588 @@
+Key,MedIncome,State
+"Birmingham, Alabama",34057,Alabama
+"Dothan, Alabama",43608,Alabama
+"Hoover, Alabama",80141,Alabama
+"Huntsville, Alabama",49789,Alabama
+"Mobile, Alabama",39486,Alabama
+"Montgomery, Alabama",41960,Alabama
+"Tuscaloosa, Alabama",43555,Alabama
+"Anchorage, Alaska",81154,Alaska
+"Avondale, Arizona",56186,Arizona
+"Casas Adobes, Arizona",61067,Arizona
+"Chandler, Arizona",75930,Arizona
+"Flagstaff, Arizona",55778,Arizona
+"Gilbert, Arizona",87440,Arizona
+"Glendale, Arizona",50196,Arizona
+"Goodyear, Arizona",78202,Arizona
+"Mesa, Arizona",52195,Arizona
+"Peoria, Arizona",69111,Arizona
+"Phoenix, Arizona",52403,Arizona
+"San Tan Valley, Arizona",60549,Arizona
+"Scottsdale, Arizona",81711,Arizona
+"Surprise, Arizona",64036,Arizona
+"Tempe, Arizona",53346,Arizona
+"Tucson, Arizona",39930,Arizona
+"Yuma, Arizona",45530,Arizona
+"Fayetteville, Arkansas",40038,Arkansas
+"Fort Smith, Arkansas",36626,Arkansas
+"Jonesboro, Arkansas",43030,Arkansas
+"Little Rock, Arkansas",49130,Arkansas
+"North Little Rock, Arkansas",40257,Arkansas
+"Springdale, Arkansas",49209,Arkansas
+"Alameda, California",91527,California
+"Alhambra, California",55395,California
+"Anaheim, California",65988,California
+"Antioch, California",73566,California
+"Apple Valley, California",49044,California
+"Arden-Arcade, California",45773,California
+"Bakersfield, California",59126,California
+"Baldwin Park, California",59508,California
+"Bellflower, California",53558,California
+"Berkeley, California",79360,California
+"Buena Park, California",68006,California
+"Burbank, California",71664,California
+"Camarillo, California",88734,California
+"Carlsbad, California",103736,California
+"Carmichael, California",59962,California
+"Carson, California",74854,California
+"Chico, California",45210,California
+"Chino, California",71072,California
+"Chino Hills, California",100659,California
+"Chula Vista, California",70947,California
+"Citrus Heights, California",56016,California
+"Clovis, California",68995,California
+"Compton, California",48479,California
+"Concord, California",79189,California
+"Corona, California",75407,California
+"Costa Mesa, California",77350,California
+"Daly City, California",87362,California
+"Davis, California",65143,California
+"Downey, California",69205,California
+"East Los Angeles, California",42268,California
+"El Cajon, California",48372,California
+"Elk Grove, California",88586,California
+"El Monte, California",47265,California
+"Escondido, California",58941,California
+"Fairfield, California",73747,California
+"Florence-Graham, California",39862,California
+"Folsom, California",108110,California
+"Fontana, California",65812,California
+"Fremont, California",120639,California
+"Fresno, California",45666,California
+"Fullerton, California",72947,California
+"Garden Grove, California",62844,California
+"Glendale, California",60516,California
+"Hawthorne, California",46783,California
+"Hayward, California",80000,California
+"Hemet, California",37816,California
+"Hesperia, California",50947,California
+"Huntington Beach, California",86337,California
+"Indio, California",46023,California
+"Inglewood, California",48399,California
+"Irvine, California",98487,California
+"Jurupa Valley, California",64946,California
+"Laguna Niguel, California",98716,California
+"Lake Forest, California",95851,California
+"Lakewood, California",83860,California
+"Lancaster, California",49839,California
+"Livermore, California",113414,California
+"Long Beach, California",58534,California
+"Los Angeles, California",55551,California
+"Lynwood, California",46751,California
+"Manteca, California",64715,California
+"Menifee, California",61031,California
+"Merced, California",38735,California
+"Milpitas, California",115413,California
+"Mission Viejo, California",106798,California
+"Modesto, California",54469,California
+"Moreno Valley, California",60744,California
+"Mountain View, California",125583,California
+"Murrieta, California",79437,California
+"Napa, California",74958,California
+"Newport Beach, California",121252,California
+"Norwalk, California",65610,California
+"Oakland, California",65815,California
+"Oceanside, California",64272,California
+"Ontario, California",57810,California
+"Orange, California",86221,California
+"Oxnard, California",64368,California
+"Palmdale, California",54985,California
+"Palo Alto, California",144737,California
+"Pasadena, California",76849,California
+"Perris, California",55463,California
+"Pittsburg, California",64922,California
+"Pleasanton, California",143112,California
+"Pomona, California",54692,California
+"Rancho Cordova, California",60177,California
+"Rancho Cucamonga, California",84013,California
+"Redding, California",47520,California
+"Redlands, California",67765,California
+"Redondo Beach, California",101159,California
+"Redwood City, California",105222,California
+"Rialto, California",54242,California
+"Richmond, California",61763,California
+"Riverside, California",63918,California
+"Roseville, California",79671,California
+"Sacramento, California",54760,California
+"Salinas, California",56931,California
+"San Bernardino, California",40638,California
+"San Buenaventura, California",72469,California
+"San Clemente, California",94104,California
+"San Diego, California",72005,California
+"San Francisco, California",102237,California
+"San Jose, California",99355,California
+"San Leandro, California",63319,California
+"San Marcos, California",74766,California
+"San Mateo, California",107580,California
+"San Ramon, California",146343,California
+"Santa Ana, California",60647,California
+"Santa Barbara, California",70582,California
+"Santa Clara, California",111457,California
+"Santa Clarita, California",90509,California
+"Santa Maria, California",56088,California
+"Santa Monica, California",88413,California
+"Santa Rosa, California",69846,California
+"Simi Valley, California",92667,California
+"South Gate, California",47450,California
+"South San Francisco, California",93942,California
+"Stockton, California",49134,California
+"Sunnyvale, California",122666,California
+"Temecula, California",86616,California
+"Thousand Oaks, California",103079,California
+"Torrance, California",84830,California
+"Tracy, California",83893,California
+"Turlock, California",55123,California
+"Tustin, California",75562,California
+"Union City, California",104090,California
+"Upland, California",66703,California
+"Vacaville, California",80779,California
+"Vallejo, California",62552,California
+"Victorville, California",48918,California
+"Visalia, California",57454,California
+"Vista, California",65661,California
+"Walnut Creek, California",93935,California
+"West Covina, California",77795,California
+"Westminster, California",57916,California
+"Whittier, California",70216,California
+"Yorba Linda, California",126801,California
+"Yuba City, California",50190,California
+"Arvada, Colorado",75488,Colorado
+"Aurora, Colorado",60322,Colorado
+"Boulder, Colorado",65076,Colorado
+"Broomfield, Colorado",86736,Colorado
+"Centennial, Colorado",101628,Colorado
+"Colorado Springs, Colorado",58634,Colorado
+"Denver, Colorado",61444,Colorado
+"Fort Collins, Colorado",60534,Colorado
+"Greeley, Colorado",52964,Colorado
+"Highlands Ranch, Colorado",113725,Colorado
+"Lakewood, Colorado",62461,Colorado
+"Longmont, Colorado",64609,Colorado
+"Loveland, Colorado",63374,Colorado
+"Pueblo, Colorado",36924,Colorado
+"Thornton, Colorado",75026,Colorado
+"Westminster, Colorado",68580,Colorado
+"Bridgeport, Connecticut",43194,Connecticut
+"Danbury, Connecticut",67100,Connecticut
+"Hartford, Connecticut",34851,Connecticut
+"New Britain, Connecticut",41729,Connecticut
+"New Haven, Connecticut",40514,Connecticut
+"Norwalk, Connecticut",81166,Connecticut
+"Stamford, Connecticut",84948,Connecticut
+"Waterbury, Connecticut",39866,Connecticut
+"Wilmington, Delaware",37811,Delaware
+"Washington, District of Columbia",77835,District of Columbia
+"Alafaya, Florida",71675,Florida
+"Boca Raton, Florida",73766,Florida
+"Boynton Beach, Florida",50766,Florida
+"Brandon, Florida",57776,Florida
+"Cape Coral, Florida",54276,Florida
+"Clearwater, Florida",44083,Florida
+"Coral Springs, Florida",71003,Florida
+"Davie, Florida",63063,Florida
+"Deerfield Beach, Florida",45459,Florida
+"Delray Beach, Florida",56176,Florida
+"Deltona, Florida",48331,Florida
+"Fort Lauderdale, Florida",53456,Florida
+"Fort Myers, Florida",41194,Florida
+"Gainesville, Florida",33836,Florida
+"Hialeah, Florida",31367,Florida
+"Hollywood, Florida",49849,Florida
+"Homestead, Florida",40229,Florida
+"Jacksonville, Florida",50345,Florida
+"Kendall, Florida",69209,Florida
+"Kissimmee, Florida",39180,Florida
+"Lakeland, Florida",44928,Florida
+"Largo, Florida",40893,Florida
+"Lauderhill, Florida",39241,Florida
+"Lehigh Acres, Florida",45481,Florida
+"Melbourne, Florida",43619,Florida
+"Miami, Florida",35072,Florida
+"Miami Beach, Florida",51591,Florida
+"Miami Gardens, Florida",41384,Florida
+"Miramar, Florida",67427,Florida
+"Orlando, Florida",46386,Florida
+"Palm Bay, Florida",45972,Florida
+"Palm Coast, Florida",49526,Florida
+"Pembroke Pines, Florida",65757,Florida
+"Pine Hills, Florida",37100,Florida
+"Plantation, Florida",67460,Florida
+"Pompano Beach, Florida",45318,Florida
+"Port St. Lucie, Florida",53905,Florida
+"Riverview, Florida",70097,Florida
+"St. Petersburg, Florida",51822,Florida
+"Spring Hill, Florida",47168,Florida
+"Sunrise, Florida",55104,Florida
+"Tallahassee, Florida",42939,Florida
+"Tampa, Florida",48442,Florida
+"The Villages, Florida",59487,Florida
+"Town 'n' Country, Florida",50250,Florida
+"Weston, Florida",99231,Florida
+"West Palm Beach, Florida",51008,Florida
+"Albany, Georgia",33299,Georgia
+"Athens-Clarke, Georgia",35149,Georgia
+"Atlanta, Georgia",53883,Georgia
+"Augusta-Richmond, Georgia",39845,Georgia
+"Columbus, Georgia",41342,Georgia
+"Johns Creek, Georgia",114156,Georgia
+"Macon-Bibb County, Georgia",37628,Georgia
+"Roswell, Georgia",85747,Georgia
+"Sandy Springs, Georgia",73174,Georgia
+"Savannah, Georgia",39192,Georgia
+"Warner Robins, Georgia",51825,Georgia
+"Honolulu, Hawaii",66335,Hawaii
+"Boise City, Idaho",55484,Idaho
+"Meridian, Idaho",62547,Idaho
+"Nampa, Idaho",42422,Idaho
+Arlington Heights Illinois,88346,
+"Aurora, Illinois",66754,Illinois
+"Bloomington, Illinois",64213,Illinois
+"Bolingbrook village, Illinois",82598,Illinois
+"Champaign, Illinois",45862,Illinois
+"Chicago, Illinois",53001,Illinois
+"Cicero, Illinois",45778,Illinois
+"Decatur, Illinois",40823,Illinois
+"Elgin, Illinois",61938,Illinois
+"Evanston, Illinois",71652,Illinois
+"Joliet, Illinois",62651,Illinois
+"Naperville, Illinois",116182,Illinois
+"Palatine village, Illinois",76104,Illinois
+"Peoria, Illinois",48212,Illinois
+"Rockford, Illinois",41674,Illinois
+"Schaumburg village, Illinois",76629,Illinois
+"Skokie village, Illinois",67187,Illinois
+"Springfield, Illinois",50531,Illinois
+"Waukegan, Illinois",46926,Illinois
+"Bloomington, Indiana",34049,Indiana
+"Carmel, Indiana",110571,Indiana
+"Evansville, Indiana",36949,Indiana
+"Fort Wayne, Indiana",45603,Indiana
+"Gary, Indiana",28886,Indiana
+"Hammond, Indiana",44539,Indiana
+"Indianapolis, Indiana",44373,Indiana
+"Lafayette, Indiana",43792,Indiana
+"Muncie, Indiana",31796,Indiana
+"South Bend, Indiana",38330,Indiana
+"Ames, Iowa",46014,Iowa
+"Cedar Rapids, Iowa",54747,Iowa
+"Davenport, Iowa",48597,Iowa
+"Des Moines, Iowa",49877,Iowa
+"Iowa City, Iowa",47610,Iowa
+"Sioux City, Iowa",49811,Iowa
+"Waterloo, Iowa",43355,Iowa
+"Kansas City, Kansas",42838,Kansas
+"Lawrence, Kansas",49878,Kansas
+"Olathe, Kansas",83179,Kansas
+"Overland Park, Kansas",79605,Kansas
+"Shawnee, Kansas",85953,Kansas
+"Topeka, Kansas",45920,Kansas
+"Wichita, Kansas",48867,Kansas
+"Lexington, Kentucky",53754,Kentucky
+"Louisville, Kentucky",49685,Kentucky
+"Baton Rouge, Louisiana",40163,Louisiana
+"Bossier City, Louisiana",46500,Louisiana
+"Kenner, Louisiana",51312,Louisiana
+"Lafayette, Louisiana",45978,Louisiana
+"Lake Charles, Louisiana",40265,Louisiana
+"Metairie, Louisiana",56140,Louisiana
+"New Orleans, Louisiana",38252,Louisiana
+"Shreveport, Louisiana",35376,Louisiana
+"Portland, Maine",53439,Maine
+"Baltimore, Maryland",46215,Maryland
+"Columbia, Maryland",103420,Maryland
+"Ellicott City, Maryland",123532,Maryland
+"Frederick, Maryland",67770,Maryland
+"Gaithersburg, Maryland",84081,Maryland
+"Germantown, Maryland",89325,Maryland
+"Glen Burnie, Maryland",62885,Maryland
+"Rockville, Maryland",99860,Maryland
+"Silver Spring, Maryland",76352,Maryland
+"Waldorf, Maryland",92046,Maryland
+"Boston, Massachusetts",62881,Massachusetts
+"Brockton, Massachusetts",50532,Massachusetts
+"Cambridge, Massachusetts",91273,Massachusetts
+"Fall River, Massachusetts",40815,Massachusetts
+"Framingham, Massachusetts",76358,Massachusetts
+"Lawrence, Massachusetts",38974,Massachusetts
+"Lowell, Massachusetts",51167,Massachusetts
+"Lynn, Massachusetts",50981,Massachusetts
+"New Bedford, Massachusetts",41944,Massachusetts
+"Newton, Massachusetts",135566,Massachusetts
+"Quincy, Massachusetts",72109,Massachusetts
+"Somerville, Massachusetts",89611,Massachusetts
+"Springfield, Massachusetts",37843,Massachusetts
+"Worcester, Massachusetts",43051,Massachusetts
+"Ann Arbor, Michigan",62304,Michigan
+"Dearborn, Michigan",49114,Michigan
+"Detroit, Michigan",28141,Michigan
+"Farmington Hills, Michigan",74695,Michigan
+"Flint, Michigan",26046,Michigan
+"Grand Rapids, Michigan",45391,Michigan
+"Kalamazoo, Michigan",39749,Michigan
+"Lansing, Michigan",39181,Michigan
+"Livonia, Michigan",75388,Michigan
+"Rochester Hills, Michigan",85297,Michigan
+"Southfield, Michigan",53011,Michigan
+"Sterling Heights, Michigan",62768,Michigan
+"Troy, Michigan",93082,Michigan
+"Warren, Michigan",45325,Michigan
+"Westland, Michigan",46373,Michigan
+"Wyoming, Michigan",50902,Michigan
+"Bloomington, Minnesota",68532,Minnesota
+"Brooklyn Park, Minnesota",65037,Minnesota
+"Duluth, Minnesota",48345,Minnesota
+"Eagan, Minnesota",82193,Minnesota
+"Maple Grove, Minnesota",104581,Minnesota
+"Minneapolis, Minnesota",57205,Minnesota
+"Plymouth, Minnesota",96304,Minnesota
+"Rochester, Minnesota",69839,Minnesota
+"St. Cloud, Minnesota",44482,Minnesota
+"St. Paul, Minnesota",52881,Minnesota
+"Woodbury, Minnesota",102252,Minnesota
+"Gulfport, Mississippi",37449,Mississippi
+"Jackson, Mississippi",37070,Mississippi
+"Columbia, Missouri",47082,Missouri
+"Independence, Missouri",46018,Missouri
+"Kansas City, Missouri",50941,Missouri
+"Lee's Summit, Missouri",82284,Missouri
+"O'Fallon, Missouri",82035,Missouri
+"St. Charles, Missouri",61862,Missouri
+"St. Joseph, Missouri",44837,Missouri
+"St. Louis, Missouri",40061,Missouri
+"Springfield, Missouri",35271,Missouri
+"Billings, Montana",56708,Montana
+"Missoula, Montana",41737,Montana
+"Lincoln, Nebraska",54485,Nebraska
+"Omaha, Nebraska",53495,Nebraska
+"Enterprise, Nevada",74021,Nevada
+"Henderson, Nevada",67298,Nevada
+"Las Vegas, Nevada",52497,Nevada
+"North Las Vegas, Nevada",55328,Nevada
+"Paradise, Nevada",43339,Nevada
+"Reno, Nevada",52963,Nevada
+"Sparks, Nevada",56286,Nevada
+"Spring Valley, Nevada",53018,Nevada
+"Sunrise Manor, Nevada",40527,Nevada
+"Manchester, New Hampshire",55360,New Hampshire
+"Nashua, New Hampshire",69157,New Hampshire
+"Bayonne, New Jersey",57963,New Jersey
+"Camden, New Jersey",25655,New Jersey
+"Clifton, New Jersey",71003,New Jersey
+"East Orange, New Jersey",44483,New Jersey
+"Elizabeth, New Jersey",44487,New Jersey
+"Jersey City, New Jersey",62992,New Jersey
+"Newark, New Jersey",32411,New Jersey
+"Passaic, New Jersey",33891,New Jersey
+"Paterson, New Jersey",36355,New Jersey
+"Toms River, New Jersey",75326,New Jersey
+"Trenton, New Jersey",32838,New Jersey
+"Union City, New Jersey",44104,New Jersey
+"Albuquerque, New Mexico",49358,New Mexico
+"Las Cruces, New Mexico",38853,New Mexico
+"Rio Rancho, New Mexico",60934,New Mexico
+"Santa Fe, New Mexico",54001,New Mexico
+"Albany, New York",43292,New York
+"Brentwood, New York",76791,New York
+"Buffalo, New York",33402,New York
+"Cheektowaga, New York",51200,New York
+"Mount Vernon, New York",55448,New York
+"New Rochelle, New York",78923,New York
+"New York, New York",58496,New York
+"Rochester, New York",32409,New York
+"Schenectady, New York",42607,New York
+"Syracuse, New York",35240,New York
+"Yonkers, New York",59625,New York
+"Asheville, North Carolina",46353,North Carolina
+"Cary, North Carolina",98250,North Carolina
+"Charlotte, North Carolina",58762,North Carolina
+"Concord, North Carolina",60262,North Carolina
+"Durham, North Carolina",53563,North Carolina
+"Fayetteville, North Carolina",41985,North Carolina
+"Gastonia, North Carolina",45896,North Carolina
+"Greensboro, North Carolina",45680,North Carolina
+"Greenville, North Carolina",36845,North Carolina
+"High Point, North Carolina",43791,North Carolina
+"Jacksonville, North Carolina",41606,North Carolina
+"Raleigh, North Carolina",62009,North Carolina
+"Wilmington, North Carolina",42370,North Carolina
+"Winston-Salem, North Carolina",42679,North Carolina
+"Bismarck, North Dakota",59624,North Dakota
+"Fargo, North Dakota",52699,North Dakota
+"Akron, Ohio",35546,Ohio
+"Canton, Ohio",30787,Ohio
+"Cincinnati, Ohio",37493,Ohio
+"Cleveland, Ohio",28452,Ohio
+"Columbus, Ohio",49570,Ohio
+"Dayton, Ohio",29891,Ohio
+"Lorain, Ohio",34741,Ohio
+"Parma, Ohio",53042,Ohio
+"Toledo, Ohio",35976,Ohio
+"Youngstown, Ohio",26539,Ohio
+"Broken Arrow, Oklahoma",69758,Oklahoma
+"Edmond, Oklahoma",74275,Oklahoma
+"Lawton, Oklahoma",45754,Oklahoma
+"Norman, Oklahoma",53422,Oklahoma
+"Oklahoma City, Oklahoma",51905,Oklahoma
+"Tulsa, Oklahoma",44117,Oklahoma
+"Beaverton, Oregon",64393,Oregon
+"Bend, Oregon",60048,Oregon
+"Eugene, Oregon",47569,Oregon
+"Gresham, Oregon",51876,Oregon
+"Hillsboro, Oregon",77233,Oregon
+"Medford, Oregon",44776,Oregon
+"Portland, Oregon",63069,Oregon
+"Salem, Oregon",52389,Oregon
+"Allentown, Pennsylvania",37549,Pennsylvania
+"Bethlehem, Pennsylvania",51127,Pennsylvania
+"Erie, Pennsylvania",36445,Pennsylvania
+"Philadelphia, Pennsylvania",40814,Pennsylvania
+"Pittsburgh, Pennsylvania",43950,Pennsylvania
+"Reading, Pennsylvania",27852,Pennsylvania
+"Scranton, Pennsylvania",37114,Pennsylvania
+"Cranston, Rhode Island",66834,Rhode Island
+"Pawtucket, Rhode Island",45353,Rhode Island
+"Providence, Rhode Island",41289,Rhode Island
+"Warwick, Rhode Island",69303,Rhode Island
+"Charleston, South Carolina",62275,South Carolina
+"Columbia, South Carolina",44219,South Carolina
+"Mount Pleasant, South Carolina",91464,South Carolina
+"North Charleston, South Carolina",38410,South Carolina
+"Rock Hill, South Carolina",46456,South Carolina
+"Rapid City, South Dakota",49039,South Dakota
+"Sioux Falls, South Dakota",57528,South Dakota
+"Chattanooga, Tennessee",41030,Tennessee
+"Clarksville, Tennessee",50943,Tennessee
+"Franklin, Tennessee",93214,Tennessee
+"Jackson, Tennessee",41604,Tennessee
+"Johnson City, Tennessee",39174,Tennessee
+"Knoxville, Tennessee",37243,Tennessee
+"Memphis, Tennessee",38356,Tennessee
+"Murfreesboro, Tennessee",57291,Tennessee
+"Nashville, Tennessee",54480,Tennessee
+"Abilene, Texas",46418,Texas
+"Allen, Texas",102902,Texas
+"Amarillo, Texas",50974,Texas
+"Arlington, Texas",54947,Texas
+"Atascocita, Texas",93885,Texas
+"Austin, Texas",65567,Texas
+"Baytown, Texas",54908,Texas
+"Beaumont, Texas",45897,Texas
+"Brownsville, Texas",35603,Texas
+"Bryan, Texas",42103,Texas
+"Carrollton, Texas",72012,Texas
+"Cedar Park, Texas",97096,Texas
+"College Station, Texas",40223,Texas
+"Conroe, Texas",54693,Texas
+"Corpus Christi, Texas",53068,Texas
+"Dallas, Texas",47929,Texas
+"Denton, Texas",52518,Texas
+"Edinburg, Texas",45905,Texas
+"El Paso, Texas",44341,Texas
+"Flower Mound, Texas",128358,Texas
+"Fort Worth, Texas",57507,Texas
+"Frisco, Texas",123395,Texas
+"Garland, Texas",56757,Texas
+"Grand Prairie, Texas",63443,Texas
+"Harlingen, Texas",37182,Texas
+"Houston, Texas",48918,Texas
+"Irving, Texas",60348,Texas
+"Killeen, Texas",45892,Texas
+"Laredo, Texas",40450,Texas
+"League City, Texas",105049,Texas
+"Lewisville, Texas",60064,Texas
+"Longview, Texas",44820,Texas
+"Lubbock, Texas",46473,Texas
+"McAllen, Texas",44119,Texas
+"McKinney, Texas",88073,Texas
+"Mesquite, Texas",52570,Texas
+"Midland, Texas",73734,Texas
+"Mission, Texas",44478,Texas
+"Missouri City, Texas",82038,Texas
+"New Braunfels, Texas",63027,Texas
+"North Richland Hills, Texas",62849,Texas
+"Odessa, Texas",60590,Texas
+"Pasadena, Texas",50163,Texas
+"Pearland, Texas",98008,Texas
+"Pharr, Texas",37242,Texas
+"Plano, Texas",88824,Texas
+"Richardson, Texas",78425,Texas
+"Round Rock, Texas",75806,Texas
+"San Angelo, Texas",46357,Texas
+"San Antonio, Texas",49394,Texas
+"Sugar Land, Texas",111640,Texas
+"Temple, Texas",49358,Texas
+"The Woodlands, Texas",108596,Texas
+"Tyler, Texas",47663,Texas
+"Victoria, Texas",51385,Texas
+"Waco, Texas",37859,Texas
+"Wichita Falls, Texas",43289,Texas
+"Layton, Utah",72835,Utah
+"Ogden, Utah",43935,Utah
+"Orem, Utah",59029,Utah
+"Provo, Utah",45466,Utah
+"St. George, Utah",54000,Utah
+"Salt Lake City, Utah",54814,Utah
+"Sandy, Utah",88029,Utah
+"South Jordan, Utah",99660,Utah
+"West Jordan, Utah",71615,Utah
+"West Valley City, Utah",62045,Utah
+"Alexandria, Virginia",92835,Virginia
+"Arlington, Virginia",111464,Virginia
+"Centreville, Virginia",104728,Virginia
+"Chesapeake, Virginia",72349,Virginia
+"Dale City, Virginia",88004,Virginia
+"Hampton, Virginia",52121,Virginia
+"Lynchburg, Virginia",41959,Virginia
+"Newport News, Virginia",49623,Virginia
+"Norfolk, Virginia",47303,Virginia
+"Portsmouth, Virginia",49333,Virginia
+"Richmond, Virginia",42847,Virginia
+"Roanoke, Virginia",40226,Virginia
+"Suffolk, Virginia",66050,Virginia
+"Virginia Beach, Virginia",70328,Virginia
+"Auburn, Washington",66758,Washington
+"Bellevue, Washington",111283,Washington
+"Bellingham, Washington",50089,Washington
+"Everett, Washington",55210,Washington
+"Federal Way, Washington",63255,Washington
+"Kennewick, Washington",53249,Washington
+"Kent, Washington",66570,Washington
+"Kirkland, Washington",107826,Washington
+"Marysville, Washington",76411,Washington
+"Pasco, Washington",58782,Washington
+"Renton, Washington",73103,Washington
+"Seattle, Washington",83549,Washington
+"Spokane, Washington",45523,Washington
+"Spokane Valley, Washington",47717,Washington
+"Tacoma, Washington",55199,Washington
+"Vancouver, Washington",56561,Washington
+"Yakima, Washington",42208,Washington
+"Appleton, Wisconsin",53279,Wisconsin
+"Eau Claire, Wisconsin",48333,Wisconsin
+"Green Bay, Wisconsin",45208,Wisconsin
+"Kenosha, Wisconsin",50908,Wisconsin
+"Madison, Wisconsin",61349,Wisconsin
+"Milwaukee, Wisconsin",38230,Wisconsin
+"Oshkosh, Wisconsin",47126,Wisconsin
+"Racine, Wisconsin",40419,Wisconsin
+"Waukesha, Wisconsin",59488,Wisconsin

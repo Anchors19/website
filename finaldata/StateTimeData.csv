@@ -1,0 +1,1667 @@
+State,Name,Year,Crimes,Gini,HSPercent
+alabama,hoover,2016,0.3505,0.473,0.7
+alabama,hoover,2015,0.4697,0.422,0.709
+alabama,hoover,2014,0.2357,0.455,0.745
+alabama,hoover,2013,0.1189,0.425,0.709
+alabama,hoover,2012,0.7288,0.435,0.681
+alabama,hoover,2011,0.2439,0.43,0.683
+alabama,hoover,2010,0.2678,0.402,0.727
+alabama,hoover,2009,0.8483,0.46,0.72
+alabama,hoover,2008,0.2877,0.436,0.807
+alaska,anchorage,2016,0.1337,0.402,0.699
+alaska,anchorage,2015,0.166,0.453,0.693
+alaska,anchorage,2014,0.1991,0.417,0.694
+alaska,anchorage,2013,0.2672,0.404,0.687
+alaska,anchorage,2012,0.2006,0.42,0.686
+alaska,anchorage,2011,0.2694,0.414,0.676
+alaska,anchorage,2010,0.2411,0.427,0.683
+alaska,anchorage,2009,0.2142,0.399,0.692
+alaska,anchorage,2008,0.2815,0.412,0.671
+alaska,anchorage,2007,0.2161,0.429,0.671
+arizona,gilbert,2016,0.0391,0.381,0.606
+arizona,gilbert,2015,0.1617,0.365,0.658
+arizona,gilbert,2014,0.085,0.368,0.643
+arizona,gilbert,2013,0.0444,0.381,0.651
+arizona,gilbert,2012,0.0933,0.372,0.67
+arizona,gilbert,2011,0.0946,0.385,0.621
+arizona,gilbert,2009,0.2269,0.334,0.651
+arizona,gilbert,2008,0.3387,0.356,0.535
+arizona,gilbert,2007,0.1661,0.361,0.661
+arizona,glendale,2016,0.0412,0.454,0.647
+arizona,glendale,2015,0.3328,0.46,0.609
+arizona,glendale,2014,0.3801,0.467,0.62
+arizona,glendale,2013,0.2991,0.466,0.602
+arizona,glendale,2012,0.3434,0.438,0.611
+arizona,glendale,2011,0.3914,0.433,0.63
+arizona,glendale,2010,0.5298,0.427,0.54
+arizona,glendale,2009,0.3117,0.414,0.596
+arizona,glendale,2008,0.4791,0.428,0.542
+arizona,glendale,2007,0.2011,0.455,0.548
+arizona,mesa,2016,0.1045,0.457,0.673
+arizona,mesa,2015,0.0849,0.452,0.662
+arizona,mesa,2014,0.2164,0.443,0.652
+arizona,mesa,2013,0.0438,0.438,0.652
+arizona,mesa,2012,0.0443,0.438,0.657
+arizona,mesa,2011,0.1797,0.433,0.648
+arizona,mesa,2010,0.1546,0.425,0.621
+arizona,mesa,2009,0.2846,0.419,0.653
+arizona,mesa,2008,0.198,0.421,0.655
+arizona,mesa,2007,0.0653,0.415,0.641
+arizona,phoenix,2016,1.103,0.48,0.601
+arizona,phoenix,2015,1.481,0.489,0.591
+arizona,phoenix,2014,1.1962,0.481,0.595
+arizona,phoenix,2013,0.5392,0.479,0.595
+arizona,phoenix,2012,0.8145,0.469,0.585
+arizona,phoenix,2011,0.839,0.472,0.579
+arizona,phoenix,2010,0.8741,0.485,0.545
+arizona,phoenix,2009,0.5612,0.464,0.551
+arizona,phoenix,2008,0.5189,0.461,0.538
+arizona,phoenix,2007,0.3031,0.461,0.536
+arizona,tempe,2016,0.056,0.475,0.828
+arizona,tempe,2014,0.1178,0.474,0.812
+arizona,tempe,2013,0.178,0.48,0.757
+arizona,tempe,2012,0.3011,0.481,0.783
+arizona,tempe,2011,0.1829,0.459,0.751
+arizona,tempe,2010,0.2312,0.459,0.681
+arizona,tempe,2009,0.3402,0.477,0.741
+arizona,tempe,2008,0.2919,0.449,0.699
+arizona,tempe,2007,0.3586,0.467,0.717
+arizona,yuma,2016,0.4224,0.443,0.585
+arizona,yuma,2015,0.4259,0.448,0.589
+arizona,yuma,2014,1.5205,0.482,0.592
+arizona,yuma,2013,1.0415,0.455,0.549
+arizona,yuma,2012,0.2093,0.424,0.568
+arizona,yuma,2011,0.3179,0.438,0.556
+arizona,yuma,2010,0.2265,0.385,0.606
+arizona,yuma,2009,0.3324,0.418,0.54
+arizona,yuma,2008,0.1125,0.414,0.628
+arizona,yuma,2007,0.1137,0.422,0.623
+california,antioch,2016,0.1784,0.41,0.644
+california,antioch,2015,0.7237,0.395,0.627
+california,antioch,2014,0.2772,0.422,0.651
+california,antioch,2013,0.1879,0.434,0.625
+california,antioch,2012,0.3809,0.431,0.628
+california,antioch,2010,0.4896,0.404,0.631
+california,antioch,2009,0.0993,0.419,0.618
+california,antioch,2008,0.1961,0.402,0.563
+california,antioch,2007,0.0985,0.38,0.607
+california,bakersfield,2016,0.2112,0.45,0.568
+california,bakersfield,2015,0.107,0.457,0.57
+california,bakersfield,2014,0.1633,0.444,0.571
+california,bakersfield,2013,0.0829,0.448,0.565
+california,bakersfield,2012,0.1125,0.448,0.55
+california,bakersfield,2011,0.1422,0.461,0.55
+california,bakersfield,2010,0.12,0.442,0.573
+california,bakersfield,2009,0.0613,0.445,0.528
+california,bakersfield,2008,0.1255,0.434,0.548
+california,bakersfield,2007,0.2683,0.445,0.574
+california,berkeley,2016,1.0599,0.531,0.83
+california,berkeley,2015,0.3323,0.522,0.842
+california,berkeley,2014,0.2548,0.536,0.853
+california,berkeley,2013,1.1186,0.556,0.837
+california,berkeley,2012,0.6959,0.544,0.849
+california,berkeley,2011,0.3512,0.534,0.842
+california,berkeley,2010,0.0974,0.532,0.91
+california,berkeley,2008,0.296,0.532,0.9
+california,berkeley,2007,0.9838,0.512,0.847
+california,burbank,2016,0.0946,0.463,0.719
+california,burbank,2015,0.0945,0.471,0.703
+california,burbank,2014,0.0952,0.425,0.713
+california,burbank,2013,0.4774,0.449,0.702
+california,burbank,2012,0.8567,0.437,0.7
+california,burbank,2011,0.4782,0.419,0.7
+california,burbank,2010,0.484,0.439,0.708
+california,burbank,2009,0.8684,0.433,0.723
+california,burbank,2008,0.7628,0.412,0.692
+california,burbank,2007,0.1904,0.43,0.646
+california,carson,2015,0.3202,0.383,0.644
+california,carson,2014,0.2154,0.39,0.621
+california,carson,2013,0.107,0.395,0.639
+california,carson,2012,0.3218,0.359,0.639
+california,carson,2011,0.5388,0.369,0.604
+california,carson,2010,0.1082,0.397,0.611
+california,carson,2009,0.1073,0.381,0.611
+california,carson,2008,0.106,0.409,0.617
+california,carson,2007,0.3165,0.403,0.655
+california,chico,2016,0.3292,0.528,0.745
+california,chico,2014,0.3387,0.5,0.777
+california,chico,2013,0.4534,0.481,0.758
+california,chico,2012,0.5741,0.444,0.742
+california,chico,2011,0.5734,0.459,0.729
+california,chico,2010,0.8175,0.466,0.758
+california,chico,2009,0.3568,0.476,0.77
+california,chico,2008,0.6731,0.463,0.882
+california,chico,2007,0.2775,0.451,0.866
+california,chino,2016,0.3445,0.401,0.636
+california,chino,2014,0.3676,0.34,0.627
+california,chino,2013,1.1152,0.404,0.57
+california,chino,2012,0.376,0.411,0.647
+california,chino,2011,0.1267,0.444,0.628
+california,chino,2010,0.1188,0.377,0.532
+california,chino,2009,0.4728,0.358,0.571
+california,chino,2008,0.4957,0.336,0.612
+california,chino,2007,0.8943,0.367,0.591
+california,chula vista,2016,0.1851,0.426,0.608
+california,chula vista,2015,0.1131,0.417,0.623
+california,chula vista,2014,0.1154,0.427,0.605
+california,chula vista,2013,0.1568,0.446,0.577
+california,chula vista,2012,0.1601,0.411,0.61
+california,chula vista,2011,0.2431,0.411,0.611
+california,chula vista,2010,0.131,0.392,0.645
+california,chula vista,2009,0.5819,0.401,0.564
+california,chula vista,2008,0.0914,0.398,0.588
+california,chula vista,2007,0.0942,0.397,0.618
+california,clovis,2016,0.0945,0.456,0.644
+california,clovis,2015,0.1927,0.416,0.702
+california,clovis,2013,0.4021,0.452,0.654
+california,clovis,2012,0.2044,0.459,0.633
+california,clovis,2011,0.3101,0.406,0.623
+california,clovis,2010,0.6256,0.424,0.647
+california,clovis,2009,0.1066,0.427,0.63
+california,clovis,2008,0.756,0.42,0.59
+california,clovis,2007,0.2291,0.407,0.684
+california,compton,2016,0,0.425,0.424
+california,compton,2015,0.2018,0.391,0.439
+california,compton,2014,0.3054,0.403,0.452
+california,compton,2013,0.2043,0.433,0.425
+california,compton,2012,0.102,0.437,0.443
+california,compton,2010,0.3194,0.393,0.433
+california,compton,2009,0.3174,0.403,0.394
+california,compton,2008,0.8334,0.38,0.417
+california,compton,2007,0.1036,0.418,0.386
+california,el monte,2015,0.2556,0.445,0.468
+california,el monte,2014,0.4302,0.421,0.446
+california,el monte,2013,0.4326,0.45,0.477
+california,el monte,2012,0.4334,0.413,0.465
+california,el monte,2011,0.5226,0.463,0.432
+california,el monte,2010,0.3282,0.406,0.401
+california,el monte,2009,0.894,0.412,0.392
+california,el monte,2008,0.8858,0.397,0.394
+california,el monte,2007,0.4045,0.433,0.365
+california,escondido,2016,0.0654,0.438,0.574
+california,escondido,2015,0.3954,0.442,0.587
+california,escondido,2014,0.267,0.456,0.556
+california,escondido,2013,0.5382,0.472,0.528
+california,escondido,2012,0.6785,0.468,0.537
+california,escondido,2011,0.3434,0.479,0.529
+california,escondido,2010,0.5687,0.457,0.555
+california,escondido,2009,0.3663,0.447,0.535
+california,escondido,2008,0.1499,0.444,0.578
+california,escondido,2007,0.1478,0.424,0.528
+california,fresno,2016,0.2477,0.506,0.553
+california,fresno,2015,0.1536,0.478,0.545
+california,fresno,2014,0.2338,0.484,0.542
+california,fresno,2013,0.1769,0.483,0.539
+california,fresno,2012,0.1581,0.486,0.535
+california,fresno,2011,0.04,0.474,0.529
+california,fresno,2010,0.1238,0.466,0.531
+california,fresno,2009,0.1261,0.492,0.521
+california,fresno,2008,0.1906,0.451,0.535
+california,fresno,2007,0.129,0.471,0.537
+california,fullerton,2016,0.1409,0.461,0.69
+california,fullerton,2015,0.071,0.463,0.669
+california,fullerton,2014,0.0715,0.469,0.65
+california,fullerton,2013,0.1432,0.453,0.674
+california,fullerton,2012,0.0722,0.475,0.697
+california,fullerton,2011,0.0731,0.465,0.663
+california,fullerton,2009,0.0753,0.45,0.65
+california,fullerton,2008,0.1494,0.452,0.631
+california,fullerton,2007,0.2985,0.439,0.647
+california,garden grove,2016,0.1135,0.426,0.592
+california,garden grove,2015,0.1136,0.435,0.576
+california,garden grove,2014,0.1136,0.431,0.592
+california,garden grove,2013,0.228,0.427,0.556
+california,garden grove,2012,0.1142,0.447,0.574
+california,garden grove,2011,0.2314,0.429,0.569
+california,garden grove,2010,0.1804,0.398,0.598
+california,garden grove,2009,0.2415,0.394,0.532
+california,garden grove,2008,0.5408,0.41,0.608
+california,garden grove,2007,0.2984,0.423,0.47
+california,glendale,2016,0.0986,0.502,0.71
+california,glendale,2015,0.0494,0.494,0.723
+california,glendale,2014,0.1015,0.494,0.73
+california,glendale,2013,0.0512,0.515,0.694
+california,glendale,2012,0.0513,0.468,0.666
+california,glendale,2011,0.2578,0.486,0.676
+california,glendale,2010,0.2032,0.473,0.653
+california,glendale,2009,0.0507,0.485,0.703
+california,glendale,2008,0.3999,0.496,0.683
+california,glendale,2007,0.2477,0.476,0.699
+california,huntington beach,2016,0.294,0.444,0.734
+california,huntington beach,2015,0.1476,0.453,0.735
+california,huntington beach,2014,0.1506,0.449,0.756
+california,huntington beach,2013,0,0.461,0.733
+california,huntington beach,2012,0.5137,0.45,0.735
+california,huntington beach,2011,0.6243,0.451,0.767
+california,huntington beach,2010,0.5167,0.429,0.718
+california,huntington beach,2009,0.4657,0.421,0.732
+california,huntington beach,2008,0.4614,0.414,0.738
+california,huntington beach,2007,0.4587,0.427,0.707
+california,irvine,2016,0.075,0.501,0.746
+california,irvine,2015,0.1162,0.468,0.758
+california,irvine,2014,0.1646,0.466,0.744
+california,irvine,2013,0.0424,0.434,0.757
+california,irvine,2012,0.1379,0.438,0.788
+california,irvine,2011,0.3258,0.441,0.747
+california,irvine,2009,0.43,0.426,0.765
+california,irvine,2008,0.0991,0.414,0.747
+california,irvine,2007,0.2122,0.445,0.819
+california,lakewood,2016,0.4883,0.388,0.675
+california,lakewood,2015,0.2438,0.356,0.693
+california,lakewood,2013,0.2467,0.368,0.639
+california,lakewood,2012,0.3686,0.37,0.675
+california,lakewood,2011,0.1235,0.369,0.666
+california,lakewood,2010,0.5135,0.369,0.659
+california,lakewood,2009,0.6338,0.356,0.682
+california,lakewood,2008,0.4991,0.359,0.72
+california,lakewood,2007,0.3695,0.345,0.723
+california,lancaster,2016,0.4322,0.472,0.588
+california,lancaster,2015,0.4318,0.472,0.602
+california,lancaster,2014,0.3121,0.472,0.581
+california,lancaster,2013,0.3129,0.445,0.565
+california,lancaster,2012,0.4398,0.456,0.556
+california,lancaster,2011,0.5048,0.461,0.579
+california,lancaster,2010,0.471,0.463,0.574
+california,lancaster,2009,0.9523,0.44,0.546
+california,lancaster,2008,0.9708,0.447,0.598
+california,lancaster,2007,0.5915,0.447,0.623
+california,livermore,2015,0.5661,0.395,0.689
+california,livermore,2014,0.3482,0.405,0.69
+california,livermore,2013,0.1186,0.405,0.651
+california,livermore,2012,0.3623,0.402,0.708
+california,livermore,2011,0.2441,0.386,0.694
+california,livermore,2010,1.8344,0.395,0.69
+california,livermore,2009,0.1246,0.409,0.659
+california,livermore,2008,0.2492,0.388,0.664
+california,livermore,2007,0.2528,0.388,0.669
+california,long beach,2016,0.1469,0.468,0.606
+california,long beach,2015,0.2519,0.474,0.608
+california,long beach,2014,0.2123,0.477,0.608
+california,long beach,2013,0.1065,0.467,0.611
+california,long beach,2012,0.0851,0.479,0.596
+california,long beach,2011,0.1283,0.482,0.592
+california,long beach,2010,0.2163,0.464,0.599
+california,long beach,2009,0.4924,0.484,0.576
+california,long beach,2008,0.2743,0.474,0.56
+california,long beach,2007,0.4391,0.46,0.552
+california,los angeles,2016,0.5314,0.41,0.013
+california,los angeles,2015,0.4719,0.433,0.012
+california,los angeles,2014,0.3635,0.428,0.012
+california,los angeles,2013,0.2888,0.419,0.013
+california,los angeles,2012,0.3217,0.41,0.011
+california,los angeles,2010,0.3592,0.396,0.012
+california,los angeles,2009,0.7271,0.422,0.011
+california,los angeles,2008,0.7208,0.446,0.011
+california,los angeles,2007,0.4408,0.401,0.009
+california,modesto,2016,0.5167,0.431,0.598
+california,modesto,2015,0.1898,0.44,0.603
+california,modesto,2014,0.1943,0.456,0.642
+california,modesto,2013,0.1469,0.465,0.635
+california,modesto,2012,0.2443,0.458,0.608
+california,modesto,2011,0.1965,0.452,0.589
+california,modesto,2010,0.2943,0.474,0.575
+california,modesto,2009,0.3888,0.44,0.555
+california,modesto,2008,0.4806,0.453,0.55
+california,modesto,2007,0.383,0.441,0.535
+california,moreno valley,2015,0.0487,0.393,0.539
+california,moreno valley,2014,0.1971,0.405,0.539
+california,moreno valley,2013,0.0497,0.392,0.535
+california,moreno valley,2012,0.0501,0.386,0.53
+california,moreno valley,2011,0.1022,0.417,0.517
+california,moreno valley,2010,0.2027,0.41,0.484
+california,moreno valley,2009,0.3067,0.376,0.504
+california,moreno valley,2008,0.2628,0.378,0.534
+california,moreno valley,2007,0.1111,0.393,0.509
+california,newport beach,2015,0.2279,0.53,0.788
+california,newport beach,2014,0.2279,0.531,0.791
+california,newport beach,2013,0.3423,0.567,0.786
+california,newport beach,2012,0.802,0.558,0.798
+california,newport beach,2011,0.5801,0.525,0.793
+california,newport beach,2010,0.1221,0.524,0.836
+california,newport beach,2009,0.877,0.541,0.825
+california,newport beach,2008,0.8709,0.55,0.859
+california,newport beach,2007,0.2483,0.54,0.865
+california,norwalk,2016,0.0931,0.413,0.569
+california,norwalk,2015,0.2791,0.373,0.596
+california,norwalk,2014,1.0296,0.381,0.59
+california,norwalk,2013,0.4694,0.359,0.542
+california,norwalk,2012,0.1864,0.396,0.585
+california,norwalk,2011,0.3746,0.358,0.549
+california,norwalk,2010,0.2935,0.41,0.551
+california,norwalk,2009,0.2895,0.374,0.51
+california,norwalk,2008,0.5696,0.356,0.545
+california,norwalk,2007,0.4682,0.358,0.55
+california,oakland,2016,0.2118,0.509,0.647
+california,oakland,2015,0.4053,0.507,0.639
+california,oakland,2014,0.3415,0.519,0.635
+california,oakland,2013,0.2724,0.507,0.65
+california,oakland,2012,0.2754,0.524,0.638
+california,oakland,2011,0.2277,0.521,0.634
+california,oakland,2010,0.3661,0.509,0.597
+california,oakland,2009,0.7221,0.51,0.618
+california,oakland,2008,0.3783,0.515,0.557
+california,oakland,2007,0.0251,0.5,0.549
+california,oceanside,2016,0.3947,0.414,0.669
+california,oceanside,2015,0.1134,0.433,0.685
+california,oceanside,2014,0.2298,0.457,0.683
+california,oceanside,2013,0.4637,0.493,0.662
+california,oceanside,2012,0.5259,0.431,0.658
+california,oceanside,2011,0.2958,0.399,0.66
+california,oceanside,2010,0.345,0.422,0.59
+california,oceanside,2009,1.2389,0.41,0.672
+california,oceanside,2008,1.2017,0.397,0.625
+california,oceanside,2007,0.358,0.402,0.632
+california,orange,2016,0.0705,0.446,0.661
+california,orange,2015,0.2134,0.43,0.685
+california,orange,2014,0.2131,0.438,0.654
+california,orange,2013,0.2138,0.419,0.639
+california,orange,2012,0.0716,0.423,0.676
+california,orange,2011,0.1449,0.449,0.655
+california,orange,2009,0.2225,0.423,0.635
+california,orange,2008,0.2945,0.435,0.614
+california,orange,2007,0.3672,0.433,0.636
+california,oxnard,2016,0.287,0.404,0.488
+california,oxnard,2015,0.3378,0.396,0.487
+california,oxnard,2014,0.1959,0.392,0.503
+california,oxnard,2013,0.0494,0.426,0.493
+california,oxnard,2012,0.1982,0.41,0.475
+california,oxnard,2011,0.1998,0.402,0.464
+california,oxnard,2010,0.4761,0.406,0.469
+california,oxnard,2009,0.1609,0.418,0.473
+california,oxnard,2008,0.161,0.406,0.404
+california,palmdale,2016,0.5018,0.434,0.513
+california,palmdale,2015,0.1253,0.436,0.54
+california,palmdale,2014,0.1896,0.461,0.514
+california,palmdale,2013,0.5111,0.447,0.524
+california,palmdale,2011,0.7765,0.407,0.493
+california,palmdale,2010,0.4087,0.412,0.512
+california,palmdale,2009,0.9715,0.392,0.469
+california,palmdale,2008,0.774,0.422,0.517
+california,palmdale,2007,0.3682,0.4,0.487
+california,pasadena,2016,0.1396,0.512,0.715
+california,pasadena,2015,0.141,0.511,0.705
+california,pasadena,2014,0.285,0.506,0.709
+california,pasadena,2013,0.2158,0.516,0.714
+california,pasadena,2012,0.1435,0.505,0.714
+california,pasadena,2010,0.2076,0.468,0.62
+california,pasadena,2009,1.3837,0.526,0.687
+california,pasadena,2008,1.168,0.483,0.607
+california,pasadena,2007,0.5516,0.508,0.635
+california,redding,2016,1.0879,0.476,0.713
+california,redding,2015,1.1954,0.46,0.724
+california,redding,2014,0.4375,0.458,0.704
+california,redding,2013,0.8788,0.452,0.701
+california,redding,2012,1.5389,0.452,0.701
+california,redding,2011,0.22,0.454,0.689
+california,redding,2010,0.547,0.441,0.663
+california,redding,2009,1.4304,0.452,0.693
+california,redding,2008,1.8614,0.464,0.713
+california,redding,2007,0.995,0.467,0.682
+california,redondo beach,2015,0.146,0.399,0.782
+california,redondo beach,2014,0.5876,0.408,0.749
+california,redondo beach,2013,0.7354,0.44,0.766
+california,redondo beach,2012,0.8842,0.425,0.746
+california,redondo beach,2011,0.7404,0.426,0.748
+california,redondo beach,2010,1.045,0.434,0.748
+california,redondo beach,2009,0.7411,0.435,0.788
+california,redondo beach,2008,0.7363,0.405,0.732
+california,redondo beach,2007,0.1483,0.408,0.779
+california,richmond,2016,0.3608,0.423,0.596
+california,richmond,2015,0.0911,0.463,0.63
+california,richmond,2013,0.2795,0.44,0.583
+california,richmond,2012,0.4701,0.48,0.601
+california,richmond,2011,0.1906,0.433,0.569
+california,richmond,2010,0.4834,0.456,0.59
+california,richmond,2009,0.0983,0.438,0.601
+california,richmond,2008,0.4879,0.455,0.64
+california,richmond,2007,0.097,0.409,0.548
+california,riverside,2016,0.2455,0.426,0.618
+california,riverside,2015,0.2167,0.433,0.621
+california,riverside,2014,0.4069,0.428,0.61
+california,riverside,2013,0.474,0.437,0.592
+california,riverside,2012,0.3827,0.448,0.582
+california,riverside,2011,0.8132,0.454,0.589
+california,riverside,2010,0.6957,0.433,0.583
+california,riverside,2009,0.7014,0.41,0.568
+california,riverside,2008,0.6682,0.427,0.588
+california,riverside,2007,0.6491,0.419,0.607
+california,sacramento,2016,0.1211,0.462,0.65
+california,sacramento,2015,0.1429,0.469,0.633
+california,sacramento,2014,0.145,0.497,0.633
+california,sacramento,2013,0.3346,0.466,0.644
+california,sacramento,2012,0.3357,0.475,0.639
+california,sacramento,2011,0.3602,0.459,0.608
+california,sacramento,2010,0.5291,0.462,0.605
+california,sacramento,2009,0.2783,0.426,0.605
+california,sacramento,2008,0.4343,0.433,0.617
+california,sacramento,2007,0.6731,0.435,0.597
+california,san bernardino,2015,0.1848,0.443,0.496
+california,san bernardino,2014,0.0466,0.453,0.476
+california,san bernardino,2013,0.14,0.441,0.495
+california,san bernardino,2012,0.0465,0.443,0.485
+california,san bernardino,2011,0.0942,0.467,0.479
+california,san bernardino,2010,0.1004,0.465,0.467
+california,san bernardino,2009,0.4486,0.437,0.469
+california,san bernardino,2008,0.1992,0.396,0.466
+california,san bernardino,2007,0.0998,0.413,0.48
+california,san diego,2016,0.2476,0.472,0.7
+california,san diego,2015,0.2356,0.471,0.697
+california,san diego,2014,0.2484,0.474,0.71
+california,san diego,2013,0.3187,0.477,0.689
+california,san diego,2012,0.254,0.466,0.697
+california,san diego,2011,0.3189,0.465,0.683
+california,san diego,2010,0.3731,0.478,0.684
+california,san diego,2009,0.4561,0.469,0.694
+california,san diego,2008,0.4123,0.461,0.671
+california,san diego,2007,0.3473,0.456,0.677
+california,san francisco,2015,0.2894,0.521,0.765
+california,san francisco,2014,0.2352,0.506,0.769
+california,san francisco,2013,0.2878,0.528,0.761
+california,san francisco,2012,0.4266,0.523,0.759
+california,san francisco,2011,0.5646,0.515,0.748
+california,san francisco,2010,0.7696,0.507,0.736
+california,san francisco,2009,0.852,0.514,0.754
+california,san francisco,2008,0.8994,0.519,0.799
+california,san francisco,2007,1.1125,0.497,0.749
+california,san jose,2016,0.1824,0.451,0.636
+california,san jose,2015,0.0582,0.454,0.645
+california,san jose,2014,0.1089,0.44,0.649
+california,san jose,2013,0.1512,0.457,0.634
+california,san jose,2012,0.1536,0.445,0.628
+california,san jose,2011,0.3344,0.454,0.643
+california,san jose,2010,0.2474,0.434,0.608
+california,san jose,2009,0.4549,0.425,0.621
+california,san jose,2008,0.3638,0.436,0.599
+california,san jose,2007,0.2607,0.433,0.61
+california,san leandro,2016,2.3947,0.425,0.664
+california,san leandro,2015,0.3317,0.456,0.666
+california,san leandro,2014,0.1128,0.412,0.678
+california,san leandro,2013,0.5715,0.428,0.683
+california,san leandro,2012,0.3453,0.391,0.681
+california,san leandro,2011,0.1163,0.393,0.611
+california,san leandro,2010,1.4022,0.405,0.715
+california,san leandro,2009,0.2582,0.393,0.643
+california,san leandro,2008,0.7714,0.411,0.681
+california,san leandro,2007,0.1268,0.413,0.791
+california,san mateo,2016,0.1908,0.458,0.719
+california,san mateo,2015,0.1917,0.447,0.695
+california,san mateo,2014,0.1959,0.448,0.714
+california,san mateo,2013,0.0996,0.443,0.723
+california,san mateo,2012,0.1007,0.451,0.694
+california,san mateo,2011,0.2034,0.455,0.716
+california,san mateo,2010,0.1078,0.425,0.755
+california,san mateo,2009,0.8729,0.423,0.704
+california,san mateo,2008,0.4374,0.453,0.726
+california,san mateo,2007,1.0881,0.442,0.714
+california,santa clarita,2016,0.4554,0.411,0.58
+california,santa clarita,2015,0.1895,0.37,0.602
+california,santa clarita,2014,0.3866,0.394,0.579
+california,santa clarita,2013,0.244,0.423,0.587
+california,santa clarita,2011,0.4484,0.399,0.625
+california,santa clarita,2010,0.352,0.389,0.688
+california,santa clarita,2009,0.1746,0.396,0.611
+california,santa clarita,2008,0.0587,0.383,0.645
+california,santa clarita,2007,0.4712,0.391,0.663
+california,santa rosa,2016,0.0567,0.43,0.678
+california,santa rosa,2015,0.1138,0.444,0.661
+california,santa rosa,2013,0.1749,0.423,0.668
+california,santa rosa,2012,0.0585,0.445,0.651
+california,santa rosa,2011,0.0589,0.436,0.657
+california,santa rosa,2010,0.1264,0.438,0.678
+california,santa rosa,2009,0.0646,0.445,0.643
+california,santa rosa,2008,0.3227,0.44,0.681
+california,santa rosa,2007,0.2588,0.438,0.624
+california,south gate,2016,0.2066,0.395,0.432
+california,south gate,2015,0.2067,0.394,0.426
+california,south gate,2014,0.1042,0.385,0.409
+california,south gate,2013,0.2092,0.401,0.406
+california,south gate,2012,0.1042,0.407,0.415
+california,south gate,2011,0.2094,0.392,0.379
+california,south gate,2010,0.104,0.386,0.388
+california,south gate,2009,0.1029,0.415,0.403
+california,south gate,2008,0.2026,0.388,0.344
+california,stockton,2016,0.0973,0.471,0.551
+california,stockton,2015,0.0984,0.471,0.551
+california,stockton,2014,0.1002,0.5,0.555
+california,stockton,2013,0.0667,0.475,0.533
+california,stockton,2012,0.0669,0.466,0.522
+california,stockton,2011,0.1016,0.451,0.526
+california,stockton,2010,0.0685,0.438,0.54
+california,stockton,2009,0.2388,0.432,0.488
+california,stockton,2008,0.3365,0.449,0.46
+california,stockton,2007,0.1382,0.429,0.523
+california,torrance,2016,0.0671,0.448,0.729
+california,torrance,2015,0.067,0.445,0.746
+california,torrance,2014,0.0676,0.427,0.736
+california,torrance,2013,0.1356,0.421,0.735
+california,torrance,2012,0.1353,0.425,0.739
+california,torrance,2011,0.068,0.412,0.721
+california,torrance,2010,0.2137,0.424,0.738
+california,torrance,2009,0.4936,0.431,0.728
+california,torrance,2008,0.2098,0.425,0.733
+california,turlock,2016,0.4108,0.485,0.583
+california,turlock,2015,0.8346,0.463,0.607
+california,turlock,2014,0.1413,0.437,0.619
+california,turlock,2013,0.1427,0.443,0.604
+california,turlock,2012,0.1434,0.455,0.628
+california,turlock,2011,0.1442,0.433,0.586
+california,turlock,2010,0.2859,0.421,0.599
+california,turlock,2009,0.2868,0.439,0.582
+california,turlock,2008,0.2841,0.415,0.581
+california,turlock,2007,0.1465,0.417,0.62
+california,union city,2016,0.1324,0.377,0.753
+california,union city,2014,0.4095,0.389,0.71
+california,union city,2013,0.6898,0.432,0.681
+california,union city,2012,0.1407,0.426,0.631
+california,union city,2011,0.4265,0.395,0.67
+california,union city,2010,0.2726,0.375,0.605
+california,union city,2008,1.0033,0.399,0.57
+california,union city,2007,0.5731,0.39,0.654
+california,ventura,2016,0.2722,0.426,0.72
+california,ventura,2015,0.3634,0.434,0.66
+california,ventura,2014,0.0915,0.443,0.721
+california,ventura,2013,0.0924,0.437,0.734
+california,ventura,2012,0.2765,0.403,0.698
+california,ventura,2011,0.1857,0.426,0.707
+california,ventura,2010,0.5733,0.432,0.682
+california,ventura,2009,0.2899,0.402,0.675
+california,ventura,2008,0.287,0.418,0.71
+california,ventura,2007,0.4764,0.429,0.644
+california,visalia,2015,0.2301,0.43,0.576
+california,visalia,2014,0.1557,0.464,0.583
+california,visalia,2013,0.1565,0.47,0.576
+california,visalia,2012,0.1567,0.437,0.589
+california,visalia,2011,0.0794,0.411,0.577
+california,visalia,2010,0.3999,0.44,0.551
+california,visalia,2009,0.2462,0.411,0.556
+california,visalia,2008,0.1713,0.45,0.585
+california,visalia,2007,0.456,0.451,0.591
+california,vista,2015,0.3027,0.389,0.584
+california,vista,2014,0.3072,0.439,0.613
+california,vista,2013,0.2068,0.49,0.645
+california,vista,2012,0.4163,0.431,0.573
+california,vista,2011,0.632,0.455,0.566
+california,vista,2010,0.3234,0.394,0.558
+california,vista,2009,0.33,0.395,0.593
+california,vista,2008,0.3339,0.401,0.582
+california,vista,2007,0.1096,0.383,0.595
+california,west covina,2016,0.0918,0.386,0.644
+california,west covina,2015,0.1834,0.379,0.679
+california,west covina,2014,0.185,0.408,0.648
+california,west covina,2013,0.5562,0.396,0.655
+california,west covina,2012,0.5563,0.409,0.636
+california,west covina,2011,0.3726,0.392,0.619
+california,west covina,2010,0.1898,0.402,0.61
+california,west covina,2009,0.1878,0.386,0.616
+california,west covina,2008,0.4625,0.402,0.566
+california,west covina,2007,0.3664,0.356,0.578
+california,westminster,2016,0.432,0.464,0.625
+california,westminster,2015,0.2159,0.48,0.642
+california,westminster,2013,0.5442,0.467,0.592
+california,westminster,2011,0.7713,0.454,0.593
+california,westminster,2010,0.7812,0.43,0.565
+california,westminster,2009,0.2254,0.396,0.565
+california,westminster,2007,0.3321,0.395,0.583
+colorado,aurora,2016,0.4912,0.392,0.643
+colorado,aurora,2015,0.1666,0.423,0.644
+colorado,aurora,2014,0.114,0.406,0.639
+colorado,aurora,2013,0.1747,0.415,0.634
+colorado,aurora,2012,0.089,0.413,0.625
+colorado,aurora,2011,0.1209,0.415,0.617
+colorado,aurora,2010,0.1546,0.417,0.609
+colorado,aurora,2009,0.1265,0.444,0.602
+colorado,aurora,2008,0.1625,0.414,0.611
+colorado,aurora,2007,0.1981,0.408,0.609
+colorado,centennial,2016,0.1794,0.393,0.746
+colorado,centennial,2015,0.0919,0.407,0.753
+colorado,centennial,2014,0.2791,0.387,0.743
+colorado,centennial,2013,0.5727,0.39,0.737
+colorado,centennial,2012,0.2884,0.384,0.718
+colorado,centennial,2011,0.6854,0.42,0.74
+colorado,centennial,2010,0.3033,0.416,0.728
+colorado,centennial,2009,0.4051,0.397,0.746
+colorado,centennial,2008,0.4092,0.36,0.778
+colorado,centennial,2007,1.6983,0.379,0.73
+colorado,colorado springs,2016,0.1293,0.448,0.71
+colorado,colorado springs,2015,0.1768,0.442,0.72
+colorado,colorado springs,2014,0.1573,0.451,0.704
+colorado,colorado springs,2013,0.1605,0.449,0.699
+colorado,colorado springs,2012,0.4164,0.445,0.703
+colorado,colorado springs,2011,0.236,0.458,0.696
+colorado,colorado springs,2010,0.377,0.447,0.723
+colorado,colorado springs,2009,0.37,0.435,0.734
+colorado,colorado springs,2008,0.1871,0.428,0.719
+colorado,colorado springs,2007,0.5042,0.425,0.701
+colorado,denver,2016,0.2717,0.501,0.688
+colorado,denver,2015,0.2931,0.493,0.679
+colorado,denver,2014,0.2405,0.506,0.677
+colorado,denver,2013,0.4623,0.509,0.681
+colorado,denver,2012,0.7159,0.505,0.676
+colorado,denver,2011,0.4094,0.504,0.681
+colorado,denver,2010,0.7083,0.515,0.654
+colorado,denver,2009,0.6241,0.524,0.662
+colorado,denver,2008,0.4186,0.514,0.641
+colorado,denver,2007,0.1759,0.502,0.643
+colorado,fort collins,2016,0.1215,0.446,0.768
+colorado,fort collins,2015,0.2506,0.464,0.797
+colorado,fort collins,2014,0.1948,0.475,0.789
+colorado,fort collins,2012,0.1344,0.484,0.772
+colorado,fort collins,2011,0.4096,0.452,0.766
+colorado,fort collins,2010,0.5047,0.458,0.794
+colorado,fort collins,2009,0.3682,0.495,0.785
+colorado,fort collins,2008,0.611,0.467,0.832
+colorado,fort collins,2007,0.3833,0.473,0.795
+colorado,lakewood,2014,0.0675,0.447,0.735
+colorado,lakewood,2013,0.2734,0.446,0.73
+colorado,lakewood,2012,0.1366,0.436,0.708
+colorado,lakewood,2011,0.2062,0.419,0.712
+colorado,lakewood,2010,0.0716,0.441,0.73
+colorado,lakewood,2009,0.3576,0.439,0.733
+colorado,lakewood,2008,0.2869,0.41,0.728
+colorado,lakewood,2007,0.2791,0.421,0.688
+connecticut,bridgeport,2016,0.4049,0.494,0.589
+connecticut,bridgeport,2015,0.4045,0.48,0.6
+connecticut,bridgeport,2014,0.3382,0.474,0.582
+connecticut,bridgeport,2013,0.7479,0.477,0.559
+connecticut,bridgeport,2012,0.4109,0.481,0.586
+connecticut,bridgeport,2011,0.4152,0.465,0.538
+connecticut,bridgeport,2010,0.3602,0.471,0.56
+connecticut,bridgeport,2009,0.2934,0.46,0.569
+connecticut,bridgeport,2008,0.1453,0.442,0.518
+connecticut,bridgeport,2007,0.6485,0.452,0.508
+connecticut,new haven,2016,0.6901,0.496,0.663
+connecticut,new haven,2015,0.6135,0.509,0.65
+connecticut,new haven,2014,0.6112,0.538,0.642
+connecticut,new haven,2013,0.7629,0.517,0.658
+connecticut,new haven,2012,0.9235,0.514,0.639
+connecticut,new haven,2011,0.5384,0.5,0.609
+connecticut,new haven,2010,0.3204,0.527,0.671
+connecticut,new haven,2009,1.2908,0.488,0.641
+connecticut,new haven,2008,0.1612,0.462,0.632
+connecticut,norwalk,2016,0.7866,0.504,0.689
+connecticut,norwalk,2015,0.1127,0.493,0.716
+connecticut,norwalk,2014,0.2267,0.476,0.711
+connecticut,norwalk,2013,0.3425,0.469,0.685
+connecticut,norwalk,2012,0.2307,0.515,0.72
+connecticut,norwalk,2011,0.3498,0.479,0.753
+connecticut,norwalk,2010,1.4127,0.473,0.761
+connecticut,norwalk,2009,0.3593,0.475,0.701
+connecticut,norwalk,2008,0.3557,0.482,0.627
+connecticut,norwalk,2007,0.2372,0.496,0.638
+delaware,wilmington,2015,0.2775,0.547,0.665
+delaware,wilmington,2014,0.2789,0.547,0.648
+delaware,wilmington,2012,0.4162,0.528,0.626
+delaware,wilmington,2011,0.4191,0.497,0.606
+delaware,wilmington,2010,0.1365,0.556,0.583
+delaware,wilmington,2009,0.8232,0.5,0.601
+delaware,wilmington,2008,0.1373,0.541,0.561
+delaware,wilmington,2007,0.4074,0.525,0.593
+district of columbia,washington,2016,1.2479,0.542,0.746
+district of columbia,washington,2015,0.8033,0.535,0.745
+district of columbia,washington,2013,0.8972,0.532,0.744
+district of columbia,washington,2012,1.1228,0.534,0.733
+district of columbia,washington,2011,1.2783,0.534,0.726
+district of columbia,washington,2010,0.9473,0.532,0.732
+district of columbia,washington,2009,0.6083,0.54,0.712
+district of columbia,washington,2008,0.6289,0.542,0.702
+district of columbia,washington,2007,0.877,0.537,0.7
+florida,gainesville,2016,0.3048,0.554,0.815
+florida,gainesville,2015,0.2318,0.502,0.808
+florida,gainesville,2014,0.078,0.535,0.829
+florida,gainesville,2013,0.237,0.508,0.83
+florida,gainesville,2012,0.3936,0.554,0.801
+florida,gainesville,2011,1.0313,0.544,0.828
+florida,gainesville,2010,0.9411,0.533,0.857
+florida,gainesville,2009,0.7062,0.5,0.824
+florida,gainesville,2008,0.5541,0.535,0.865
+florida,gainesville,2007,0.5454,0.542,0.789
+florida,jacksonville,2013,0.0591,0.469,0.673
+florida,jacksonville,2012,0.0476,0.468,0.66
+florida,jacksonville,2009,0.0372,0.437,0.653
+florida,jacksonville,2008,0.0125,0.438,0.645
+florida,jacksonville,2007,0.0377,0.452,0.649
+florida,palm bay,2016,0.3676,0.417,0.725
+florida,palm bay,2015,0.3757,0.397,0.681
+florida,palm bay,2014,0.095,0.406,0.698
+florida,palm bay,2013,0.1916,0.408,0.689
+florida,palm bay,2012,0.0956,0.427,0.658
+florida,palm bay,2011,0.0956,0.4,0.606
+florida,palm bay,2010,0.1935,0.404,0.664
+florida,palm bay,2009,0.0983,0.397,0.649
+florida,palm bay,2008,0.0993,0.399,0.665
+florida,palm bay,2007,0.1059,0.384,0.719
+georgia,atlanta,2016,0.1058,0.574,0.732
+georgia,atlanta,2015,0.0861,0.571,0.737
+georgia,atlanta,2014,0.2861,0.576,0.73
+georgia,atlanta,2013,0.4656,0.587,0.718
+georgia,atlanta,2011,0.047,0.582,0.731
+georgia,atlanta,2010,0.0746,0.57,0.553
+georgia,atlanta,2009,0.075,0.564,0.697
+georgia,atlanta,2008,0.1408,0.574,0.616
+georgia,atlanta,2007,0.1441,0.575,0.614
+idaho,boise,2016,0.1359,0.506,0.733
+idaho,boise,2015,0.2285,0.462,0.714
+idaho,boise,2014,0.5549,0.488,0.711
+idaho,boise,2013,0.6065,0.484,0.722
+idaho,boise,2012,0.8508,0.455,0.735
+idaho,boise,2011,0.4328,0.451,0.735
+idaho,boise,2010,0.2914,0.465,0.729
+idaho,boise,2009,0.5398,0.436,0.734
+idaho,boise,2008,0.5023,0.458,0.743
+idaho,boise,2007,0.2018,0.421,0.721
+idaho,nampa,2016,0.2185,0.371,0.573
+idaho,nampa,2015,0.1113,0.387,0.597
+idaho,nampa,2014,0.4559,0.368,0.593
+idaho,nampa,2013,0.4726,0.377,0.558
+idaho,nampa,2012,0.3601,0.373,0.571
+idaho,nampa,2011,0.3638,0.417,0.564
+idaho,nampa,2010,0.4752,0.431,0.539
+idaho,nampa,2009,0.8433,0.351,0.544
+idaho,nampa,2008,0.4975,0.368,0.568
+idaho,nampa,2007,0.1359,0.352,0.649
+illinois,aurora,2016,0.1491,0.454,0.555
+illinois,aurora,2015,0.0497,0.446,0.544
+illinois,aurora,2014,0.1996,0.429,0.554
+illinois,aurora,2013,0.0499,0.432,0.516
+illinois,aurora,2012,0.0501,0.419,0.529
+illinois,aurora,2011,0.1008,0.468,0.538
+illinois,aurora,2010,0.0574,0.413,0.572
+illinois,aurora,2009,0.5158,0.424,0.565
+illinois,aurora,2008,0.6868,0.414,0.556
+illinois,aurora,2007,0.828,0.394,0.612
+illinois,bloomington,2015,0.1262,0.502,0.734
+illinois,bloomington,2014,0.3776,0.455,0.714
+illinois,bloomington,2012,0.1297,0.428,0.725
+illinois,bloomington,2009,0.4092,0.422,0.72
+illinois,bloomington,2008,0.836,0.448,0.72
+illinois,bloomington,2007,0.2852,0.43,0.725
+illinois,chicago,2016,0.1798,0.525,0.663
+illinois,chicago,2015,0.1356,0.531,0.662
+illinois,chicago,2014,0.1835,0.519,0.648
+illinois,chicago,2013,0.1654,0.528,0.643
+illinois,chicago,2012,0.0517,0.529,0.633
+illinois,chicago,2011,0.037,0.519,0.625
+illinois,chicago,2010,0.06,0.51,0.587
+illinois,chicago,2009,0.1096,0.512,0.618
+illinois,chicago,2008,0.131,0.514,0.58
+illinois,chicago,2007,0.105,0.51,0.568
+illinois,peoria,2016,0.0869,0.514,0.684
+illinois,peoria,2014,0.1711,0.488,0.676
+illinois,peoria,2013,0.4312,0.494,0.655
+illinois,peoria,2012,0.0867,0.503,0.672
+illinois,peoria,2010,0.0873,0.499,0.668
+illinois,peoria,2009,0.176,0.529,0.746
+illinois,peoria,2008,0.5303,0.502,0.647
+illinois,peoria,2007,0.6179,0.487,0.643
+illinois,rockford,2016,0.3393,0.498,0.615
+illinois,rockford,2015,0.135,0.465,0.621
+illinois,rockford,2014,0.0669,0.477,0.631
+illinois,rockford,2013,0.2663,0.464,0.622
+illinois,rockford,2012,0.394,0.484,0.611
+illinois,rockford,2011,0.3913,0.514,0.588
+illinois,rockford,2010,0.064,0.472,0.558
+illinois,rockford,2009,0.3179,0.491,0.607
+illinois,rockford,2008,1.0918,0.489,0.575
+illinois,rockford,2007,0.7805,0.465,0.573
+illinois,springfield,2016,0.1716,0.484,0.716
+illinois,springfield,2015,0.1711,0.5,0.698
+illinois,springfield,2014,0.1707,0.49,0.694
+illinois,springfield,2013,0.4261,0.475,0.703
+illinois,springfield,2012,0.683,0.458,0.686
+illinois,springfield,2011,0.5146,0.466,0.705
+illinois,springfield,2010,0.426,0.473,0.703
+illinois,springfield,2009,0.2548,0.462,0.674
+illinois,springfield,2008,1.4507,0.489,0.665
+illinois,springfield,2007,1.1179,0.461,0.671
+indiana,bloomington,2016,1.0617,0.579,0.85
+indiana,bloomington,2014,1.2037,0.571,0.841
+indiana,bloomington,2013,1.2134,0.575,0.84
+indiana,bloomington,2012,1.5924,0.558,0.814
+indiana,bloomington,2011,0.6187,0.592,0.837
+indiana,bloomington,2010,2.4901,0.587,0.956
+indiana,bloomington,2009,4.009,0.549,0.864
+indiana,bloomington,2007,1.7273,0.588,0.916
+kansas,lawrence,2014,1.4204,0.463,0.812
+kansas,lawrence,2013,1.1107,0.48,0.82
+kansas,lawrence,2012,1.682,0.489,0.787
+kansas,lawrence,2011,0.3401,0.454,0.817
+kansas,lawrence,2010,0.2129,0.465,0.755
+kansas,lawrence,2009,0.2196,0.486,0.823
+kansas,lawrence,2008,0.3332,0.531,0.78
+kansas,lawrence,2007,0.6068,0.453,0.864
+kansas,wichita,2016,0.1788,0.464,0.643
+kansas,wichita,2015,0.3848,0.475,0.65
+kansas,wichita,2014,0.3613,0.468,0.64
+kansas,wichita,2013,0.3622,0.467,0.637
+kansas,wichita,2012,0.647,0.461,0.651
+kansas,wichita,2011,0.4678,0.438,0.636
+kansas,wichita,2010,0.5307,0.459,0.634
+kansas,wichita,2009,0.6619,0.461,0.66
+kansas,wichita,2008,0.6978,0.463,0.637
+kansas,wichita,2007,0.5876,0.445,0.638
+maryland,baltimore,2016,0.0485,0.521,0.667
+maryland,baltimore,2015,0.0644,0.519,0.669
+maryland,baltimore,2014,0.0321,0.502,0.664
+maryland,baltimore,2013,0.0321,0.527,0.649
+maryland,baltimore,2012,0.016,0.501,0.63
+maryland,baltimore,2011,0.0798,0.496,0.622
+maryland,baltimore,2010,0.1719,0.497,0.59
+maryland,baltimore,2009,0.0473,0.501,0.623
+maryland,baltimore,2008,0.1282,0.496,0.602
+maryland,baltimore,2007,0.1098,0.476,0.573
+massachusetts,cambridge,2015,1.7124,0.508,0.862
+massachusetts,cambridge,2014,1.2015,0.528,0.836
+massachusetts,cambridge,2013,1.2118,0.539,0.829
+massachusetts,cambridge,2012,0.9347,0.54,0.853
+massachusetts,cambridge,2011,1.6068,0.474,0.831
+massachusetts,cambridge,2010,0.646,0.514,0.805
+massachusetts,cambridge,2009,0.3946,0.546,0.88
+massachusetts,cambridge,2008,0.9885,0.519,0.794
+massachusetts,cambridge,2007,0.1985,0.515,0.777
+massachusetts,springfield,2016,0.6489,0.456,0.604
+massachusetts,springfield,2015,0.4543,0.487,0.577
+massachusetts,springfield,2014,0.065,0.5,0.55
+massachusetts,springfield,2013,0.2604,0.487,0.562
+massachusetts,springfield,2012,0.0647,0.488,0.56
+massachusetts,springfield,2011,0.0649,0.49,0.546
+massachusetts,springfield,2010,0.7128,0.456,0.546
+massachusetts,springfield,2009,0.1322,0.453,0.566
+massachusetts,springfield,2008,0.1324,0.47,0.579
+massachusetts,springfield,2007,0.1965,0.455,0.547
+michigan,ann arbor,2016,0.085,0.508,0.882
+michigan,ann arbor,2015,0.6738,0.494,0.838
+michigan,ann arbor,2014,0.5944,0.494,0.817
+michigan,ann arbor,2013,0.2569,0.506,0.832
+michigan,ann arbor,2012,0.8695,0.5,0.843
+michigan,ann arbor,2011,0.3513,0.521,0.862
+michigan,ann arbor,2010,0.358,0.48,0.841
+michigan,ann arbor,2009,0.9553,0.513,0.818
+michigan,ann arbor,2008,1.4158,0.495,0.856
+michigan,ann arbor,2007,0.708,0.505,0.851
+michigan,dearborn,2016,1.4792,0.468,0.556
+michigan,dearborn,2015,0.6318,0.468,0.593
+michigan,dearborn,2014,0.5241,0.458,0.579
+michigan,dearborn,2013,1.4582,0.463,0.556
+michigan,dearborn,2012,1.6458,0.448,0.565
+michigan,dearborn,2011,1.0196,0.491,0.584
+michigan,dearborn,2010,0.9684,0.456,0.701
+michigan,dearborn,2009,0.3429,0.443,0.565
+michigan,dearborn,2008,2.0709,0.438,0.677
+michigan,dearborn,2007,3.1964,0.453,0.606
+michigan,detroit,2016,0.4778,0.504,0.597
+michigan,detroit,2015,0.1188,0.517,0.601
+michigan,detroit,2014,0.2337,0.495,0.588
+michigan,detroit,2013,0.0429,0.513,0.578
+michigan,detroit,2012,0.3111,0.511,0.568
+michigan,detroit,2011,0.0981,0.496,0.561
+michigan,detroit,2010,0.0445,0.488,0.445
+michigan,detroit,2009,0.3754,0.478,0.559
+michigan,detroit,2008,0.5575,0.488,0.493
+michigan,detroit,2007,0.3957,0.462,0.487
+michigan,grand rapids,2016,0.1018,0.455,0.656
+michigan,grand rapids,2015,0.1536,0.444,0.662
+michigan,grand rapids,2014,0.2068,0.459,0.66
+michigan,grand rapids,2013,0.1569,0.461,0.65
+michigan,grand rapids,2012,0.3159,0.454,0.635
+michigan,grand rapids,2011,0.3193,0.453,0.657
+michigan,grand rapids,2010,0.3654,0.421,0.595
+michigan,grand rapids,2009,1.4501,0.464,0.62
+michigan,grand rapids,2008,0.6238,0.467,0.62
+michigan,grand rapids,2007,1.6037,0.435,0.595
+michigan,lansing,2016,0.1736,0.433,0.681
+michigan,lansing,2015,0.4359,0.45,0.668
+michigan,lansing,2014,0.5268,0.428,0.675
+michigan,lansing,2013,0.439,0.453,0.669
+michigan,lansing,2012,0.436,0.443,0.657
+michigan,lansing,2010,0.3563,0.42,0.655
+michigan,lansing,2009,0.437,0.416,0.651
+michigan,lansing,2008,0.792,0.437,0.615
+michigan,lansing,2007,0.9546,0.44,0.647
+michigan,livonia,2016,0.4245,0.415,0.752
+michigan,livonia,2014,0.2109,0.382,0.762
+michigan,livonia,2013,0.105,0.363,0.746
+michigan,livonia,2012,1.2496,0.386,0.732
+michigan,livonia,2011,0.9291,0.376,0.742
+michigan,livonia,2010,0.5719,0.386,0.784
+michigan,livonia,2009,0.4332,0.36,0.681
+michigan,livonia,2008,0.4155,0.373,0.748
+michigan,livonia,2007,0.1023,0.346,0.742
+michigan,rochester,2015,2.2959,0.457,4.149
+michigan,rochester,2012,0.7811,0.409,4.196
+michigan,rochester,2011,0.7873,0.482,4.019
+michigan,rochester,2010,0.9106,0.409,4.8
+michigan,rochester,2008,1.7606,0.421,4.697
+michigan,rochester,2007,1.7887,0.453,4.814
+michigan,southfield,2016,0.4085,0.431,0.743
+michigan,southfield,2015,0.9547,0.438,0.735
+michigan,southfield,2014,0.9547,0.438,0.772
+michigan,southfield,2013,0.4123,0.442,0.706
+michigan,southfield,2012,1.9376,0.443,0.741
+michigan,southfield,2011,0.558,0.449,0.731
+michigan,southfield,2010,0.4022,0.438,0.725
+michigan,southfield,2009,1.1996,0.403,0.709
+michigan,southfield,2007,0.1305,0.415,0.686
+michigan,troy,2016,0.8359,0.419,0.756
+michigan,troy,2015,0.4782,0.411,0.73
+michigan,troy,2014,0.2402,0.403,0.728
+michigan,troy,2013,0.3632,0.439,0.715
+michigan,troy,2012,0.613,0.435,0.726
+michigan,troy,2011,0.6179,0.438,0.717
+michigan,troy,2010,0.1253,0.455,0.723
+michigan,troy,2009,0.7454,0.417,0.72
+michigan,troy,2008,0.3698,0.402,0.717
+michigan,troy,2007,0.8646,0.374,0.736
+michigan,warren,2016,0.7374,0.428,0.644
+michigan,warren,2014,1.0364,0.408,0.651
+michigan,warren,2013,0.5963,0.457,0.651
+michigan,warren,2012,1.4143,0.403,0.648
+michigan,warren,2011,0.4479,0.427,0.669
+michigan,warren,2010,0.5292,0.401,0.636
+michigan,warren,2009,1.2713,0.408,0.652
+michigan,warren,2008,1.1187,0.376,0.647
+michigan,warren,2007,1.0372,0.383,0.614
+michigan,westland,2015,0.1221,0.466,0.712
+michigan,westland,2014,0.1216,0.426,0.71
+michigan,westland,2013,0.2423,0.416,0.721
+michigan,westland,2012,0.6002,0.408,0.678
+michigan,westland,2011,0.119,0.438,0.676
+michigan,westland,2010,0.2641,0.429,0.772
+michigan,westland,2009,1.1258,0.373,0.654
+michigan,westland,2008,0.7118,0.38,0.708
+michigan,westland,2007,0.5854,0.371,0.681
+minnesota,brooklyn park,2016,1.2531,0.434,0.626
+minnesota,brooklyn park,2015,1.0071,0.419,0.637
+minnesota,brooklyn park,2014,0.1266,0.395,0.633
+minnesota,brooklyn park,2013,0.3829,0.394,0.646
+minnesota,brooklyn park,2012,0.3879,0.394,0.66
+minnesota,brooklyn park,2011,0.5238,0.437,0.658
+minnesota,brooklyn park,2010,0.5503,0.402,0.604
+minnesota,brooklyn park,2009,0.8346,0.392,0.606
+minnesota,brooklyn park,2008,1.5689,0.374,0.652
+minnesota,brooklyn park,2007,1.3042,0.386,0.653
+minnesota,minneapolis,2016,0.9118,0.501,0.717
+minnesota,minneapolis,2015,0.7256,0.506,0.701
+minnesota,minneapolis,2014,0.7912,0.511,0.724
+minnesota,minneapolis,2013,0.9843,0.526,0.729
+minnesota,minneapolis,2012,0.5638,0.494,0.703
+minnesota,minneapolis,2011,1.1153,0.512,0.714
+minnesota,minneapolis,2010,1.2186,0.499,0.722
+minnesota,minneapolis,2009,0.7432,0.503,0.705
+minnesota,minneapolis,2008,1.2122,0.503,0.683
+minnesota,plymouth,2016,0.7793,0.434,0.744
+minnesota,plymouth,2015,0.2625,0.442,0.742
+minnesota,plymouth,2014,0.8018,0.455,0.717
+minnesota,plymouth,2013,0.95,0.464,0.736
+minnesota,plymouth,2011,1.1248,0.447,0.736
+minnesota,plymouth,2010,0.2718,0.441,0.676
+minnesota,plymouth,2009,0.2789,0.476,0.769
+minnesota,plymouth,2008,0.1414,0.435,0.742
+minnesota,plymouth,2007,0.5701,0.451,0.734
+minnesota,rochester,2015,0.1777,0.477,0.692
+minnesota,rochester,2013,0.3647,0.46,0.711
+minnesota,rochester,2012,0.3684,0.414,0.708
+minnesota,rochester,2011,1.0224,0.431,0.699
+minnesota,rochester,2010,0.4761,0.433,0.706
+minnesota,rochester,2009,0.6959,0.433,0.736
+minnesota,rochester,2008,0.3052,0.433,0.726
+minnesota,rochester,2007,0.2092,0.416,0.703
+minnesota,st. cloud,2016,0.7425,0.45,0.762
+minnesota,st. cloud,2015,0.4511,0.452,0.733
+minnesota,st. cloud,2014,0.7534,0.434,0.752
+minnesota,st. cloud,2013,1.2125,0.454,0.744
+minnesota,st. cloud,2012,0.3003,0.462,0.727
+minnesota,st. cloud,2011,0.1507,0.47,0.744
+minnesota,st. cloud,2009,1.3352,0.45,0.704
+minnesota,st. cloud,2008,1.0403,0.455,0.708
+minnesota,st. cloud,2007,2.8687,0.464,0.726
+minnesota,st. paul,2016,0.2961,0.479,0.64
+minnesota,st. paul,2015,0.5653,0.47,0.654
+minnesota,st. paul,2014,0.5369,0.489,0.64
+minnesota,st. paul,2013,1.018,0.485,0.645
+minnesota,st. paul,2012,0.2752,0.458,0.648
+minnesota,st. paul,2011,0.4172,0.497,0.646
+minnesota,st. paul,2010,0.2845,0.477,0.657
+minnesota,st. paul,2009,1.0504,0.489,0.646
+minnesota,st. paul,2008,0.589,0.455,0.641
+minnesota,st. paul,2007,0.0361,0.458,0.63
+missouri,columbia,2016,0.5778,0.496,0.781
+missouri,columbia,2015,0.3364,0.526,0.777
+missouri,columbia,2014,0.0856,0.484,0.775
+missouri,columbia,2012,0.0904,0.531,0.797
+missouri,columbia,2011,0.551,0.486,0.777
+missouri,columbia,2010,0.2901,0.533,0.81
+missouri,columbia,2007,0.2163,0.484,0.781
+missouri,independence,2016,0.1705,0.459,0.695
+missouri,independence,2015,0.255,0.457,0.661
+missouri,independence,2014,0.2557,0.423,0.698
+missouri,independence,2013,0.1704,0.422,0.692
+missouri,independence,2012,0.5109,0.41,0.68
+missouri,independence,2011,0.6823,0.41,0.668
+missouri,independence,2010,0.3302,0.428,0.6
+missouri,independence,2009,0.8154,0.398,0.705
+missouri,independence,2008,1.0103,0.409,0.653
+missouri,kansas city,2016,0.8989,0.47,0.693
+missouri,kansas city,2015,0.8661,0.475,0.684
+missouri,kansas city,2014,0.6405,0.482,0.68
+missouri,kansas city,2013,1.2245,0.465,0.684
+missouri,kansas city,2012,1.0559,0.497,0.671
+missouri,kansas city,2011,1.0185,0.476,0.664
+missouri,kansas city,2010,1.5729,0.478,0.619
+missouri,kansas city,2009,0.2658,0.464,0.7
+missouri,kansas city,2008,0.0893,0.471,0.643
+missouri,lee's summit,2016,0.1044,0.425,0.692
+missouri,lee's summit,2015,0.2118,0.402,0.701
+missouri,lee's summit,2014,0.2137,0.376,0.709
+missouri,lee's summit,2012,0.5444,0.405,0.704
+missouri,lee's summit,2011,0.5453,0.423,0.653
+missouri,lee's summit,2010,0.342,0.395,0.731
+missouri,lee's summit,2009,0.1185,0.367,0.715
+missouri,lee's summit,2008,0.8377,0.368,0.766
+missouri,lee's summit,2007,0.865,0.399,0.757
+missouri,springfield,2015,0.1798,0.466,0.76
+missouri,springfield,2014,0.242,0.474,0.745
+missouri,springfield,2013,0.184,0.496,0.726
+missouri,springfield,2012,0.0621,0.447,0.729
+missouri,springfield,2011,0.0625,0.462,0.742
+missouri,springfield,2010,0.8911,0.463,0.741
+missouri,springfield,2009,1.6118,0.464,0.74
+missouri,springfield,2008,0.9303,0.484,0.712
+missouri,springfield,2007,1.1229,0.442,0.726
+missouri,st. louis,2016,0.2862,0.531,0.689
+missouri,st. louis,2015,0.2523,0.51,0.681
+missouri,st. louis,2014,0.1883,0.502,0.675
+missouri,st. louis,2013,0.3767,0.503,0.666
+missouri,st. louis,2012,0.1883,0.52,0.643
+missouri,st. louis,2011,0.2184,0.499,0.653
+missouri,st. louis,2010,0.1126,0.487,0.579
+missouri,st. louis,2009,0.365,0.48,0.643
+missouri,st. louis,2008,0.6031,0.469,0.613
+missouri,st. louis,2007,0.2306,0.491,0.601
+montana,billings,2016,0.3589,0.429,0.712
+montana,billings,2015,0.2727,0.435,0.719
+montana,billings,2014,0.4535,0.472,0.683
+montana,billings,2013,0.6493,0.462,0.714
+montana,billings,2012,0.7521,0.433,0.718
+montana,billings,2011,1.1418,0.477,0.721
+montana,billings,2010,0.0926,0.421,0.677
+montana,billings,2009,0.5814,0.473,0.703
+montana,billings,2008,0.0987,0.441,0.707
+montana,billings,2007,0.1003,0.435,0.677
+nevada,north las vegas,2016,0.1677,0.392,0.58
+nevada,north las vegas,2015,0.256,0.394,0.58
+nevada,north las vegas,2014,0.0436,0.409,0.579
+nevada,north las vegas,2013,0.0886,0.399,0.546
+nevada,north las vegas,2012,0.4507,0.404,0.52
+nevada,north las vegas,2010,0.2521,0.423,0.467
+nevada,north las vegas,2009,0.2189,0.34,0.505
+nevada,north las vegas,2008,0.0946,0.364,0.511
+nevada,north las vegas,2007,0.1096,0.361,0.571
+new jersey,jersey city,2016,0.1503,0.519,0.688
+new jersey,jersey city,2015,0.1131,0.52,0.68
+new jersey,jersey city,2014,0.1538,0.495,0.685
+new jersey,jersey city,2013,0.1946,0.502,0.68
+new jersey,jersey city,2011,0.4428,0.469,0.699
+new jersey,jersey city,2010,0.2047,0.477,0.668
+new jersey,jersey city,2009,0.8279,0.487,0.677
+new jersey,jersey city,2008,0.6231,0.504,0.62
+new jersey,jersey city,2007,0.5004,0.5,0.601
+new jersey,passaic,2016,0.1409,0.502,0.44
+new jersey,passaic,2015,0.557,0.52,0.462
+new jersey,passaic,2014,0.4212,0.519,0.447
+new jersey,passaic,2013,0.7098,0.474,0.48
+new jersey,passaic,2011,0.5713,0.461,0.454
+new jersey,passaic,2010,0.1485,0.461,0.468
+new jersey,passaic,2009,0.1499,0.484,0.387
+new jersey,passaic,2008,0.7388,0.514,0.399
+new jersey,passaic,2007,0.5849,0.454,0.517
+new jersey,union city,2015,0.1448,0.41,0.551
+new jersey,union city,2014,0.7269,0.464,0.556
+new jersey,union city,2013,0.293,0.453,0.538
+new jersey,union city,2011,0.5999,0.44,0.484
+new jersey,union city,2010,0.1617,0.428,0.59
+new jersey,union city,2008,0.4713,0.427,0.537
+new jersey,union city,2007,0.4603,0.413,0.506
+new mexico,albuquerque,2016,0.4452,0.47,0.687
+new mexico,albuquerque,2015,0.2144,0.478,0.669
+new mexico,albuquerque,2014,0.1789,0.479,0.679
+new mexico,albuquerque,2013,0.1792,0.462,0.674
+new mexico,albuquerque,2011,0.4348,0.481,0.674
+new mexico,albuquerque,2010,0.385,0.453,0.667
+new mexico,albuquerque,2009,0.1138,0.457,0.658
+new mexico,albuquerque,2008,0.2144,0.445,0.652
+new mexico,albuquerque,2007,0.0998,0.441,0.663
+new york,new rochelle,2016,0.622,0.534,0.667
+new york,new rochelle,2015,0.1246,0.508,0.633
+new york,new rochelle,2014,0.7497,0.529,0.657
+new york,new rochelle,2013,0.3807,0.548,0.672
+new york,new rochelle,2012,0.2563,0.481,0.676
+new york,new rochelle,2011,0.7751,0.54,0.67
+new york,new rochelle,2010,0.6789,0.525,0.706
+new york,new rochelle,2009,0.4089,0.549,0.659
+new york,new rochelle,2008,0.1359,0.531,0.643
+new york,new york,2016,0.3934,0.547,0.646
+new york,new york,2015,0.359,0.551,0.643
+new york,new york,2014,0.3599,0.548,0.64
+new york,new york,2013,0.3728,0.547,0.638
+new york,new york,2012,0.4488,0.538,0.634
+new york,new york,2011,0.2923,0.543,0.63
+new york,new york,2010,0.4175,0.535,0.615
+new york,new york,2009,0.3092,0.542,0.618
+new york,new york,2008,0.3589,0.538,0.616
+new york,new york,2007,0.3148,0.532,0.617
+new york,rochester,2016,0.0954,0.511,0.624
+new york,rochester,2015,0,0.466,0.602
+new york,rochester,2014,0.1426,0.508,0.615
+new york,rochester,2013,0.19,0.478,0.611
+new york,rochester,2012,0.0472,0.482,0.622
+new york,rochester,2011,0.1418,0.502,0.592
+new york,rochester,2010,0.5397,0.481,0.606
+new york,rochester,2009,0.5844,0.478,0.614
+new york,rochester,2008,0.7257,0.463,0.543
+new york,rochester,2007,0.6615,0.478,0.558
+new york,yonkers,2016,0.2474,0.483,0.662
+new york,yonkers,2015,0.2478,0.505,0.652
+new york,yonkers,2014,0.2991,0.476,0.65
+new york,yonkers,2013,0.2511,0.462,0.652
+new york,yonkers,2012,0.1512,0.481,0.647
+new york,yonkers,2011,0.9652,0.472,0.642
+new york,yonkers,2010,0.1505,0.439,0.624
+new york,yonkers,2009,0.0501,0.471,0.616
+new york,yonkers,2007,0.1523,0.445,0.62
+north carolina,asheville,2016,0.335,0.457,0.739
+north carolina,asheville,2015,0.7865,0.456,0.752
+north carolina,asheville,2014,0.4536,0.471,0.793
+north carolina,asheville,2013,1.1568,0.493,0.751
+north carolina,asheville,2012,0.9379,0.469,0.738
+north carolina,asheville,2011,0.8289,0.483,0.715
+north carolina,asheville,2010,1.0381,0.431,0.801
+north carolina,asheville,2009,0.539,0.53,0.793
+north carolina,asheville,2007,0.4072,0.49,0.753
+north carolina,durham,2016,0.1138,0.47,0.678
+north carolina,durham,2015,0.1939,0.472,0.668
+north carolina,durham,2013,0.2882,0.497,0.676
+north carolina,durham,2012,0.2123,0.48,0.677
+north carolina,durham,2011,0.1297,0.488,0.671
+north carolina,durham,2010,0.0428,0.47,0.653
+north carolina,durham,2009,0.1353,0.453,0.672
+north carolina,durham,2008,0.236,0.478,0.674
+north carolina,durham,2007,0.4308,0.473,0.663
+north carolina,high point,2016,0.4487,0.488,0.631
+north carolina,high point,2015,0.0912,0.502,0.631
+north carolina,high point,2014,0.1843,0.482,0.639
+north carolina,high point,2012,0.3745,0.434,0.664
+north carolina,high point,2011,0.2838,0.467,0.615
+north carolina,high point,2010,0.19,0.431,0.592
+north carolina,high point,2009,0.1955,0.439,0.643
+north carolina,high point,2008,0.2014,0.478,0.605
+north carolina,high point,2007,0.2062,0.465,0.62
+north carolina,wilmington,2016,0.4243,0.555,0.736
+north carolina,wilmington,2015,0.6064,0.51,0.759
+north carolina,wilmington,2014,0.529,0.514,0.763
+north carolina,wilmington,2013,0.3604,0.524,0.765
+north carolina,wilmington,2012,0.5486,0.494,0.742
+ohio,akron,2016,0.2028,0.471,0.683
+ohio,akron,2015,0.2024,0.488,0.685
+ohio,akron,2014,0.2021,0.464,0.684
+ohio,akron,2013,0.4032,0.469,0.669
+ohio,akron,2012,0.3528,0.475,0.666
+ohio,akron,2011,0.803,0.486,0.665
+ohio,akron,2010,0.6318,0.454,0.615
+ohio,akron,2009,0.7252,0.495,0.661
+ohio,akron,2008,0.5271,0.457,0.622
+ohio,akron,2007,0.3317,0.443,0.604
+ohio,cincinnati,2016,1.4052,0.535,0.681
+ohio,cincinnati,2015,1.1056,0.541,0.698
+ohio,cincinnati,2014,1.8141,0.559,0.692
+ohio,cincinnati,2013,0.5396,0.552,0.667
+ohio,cincinnati,2012,0.3714,0.55,0.662
+ohio,cincinnati,2011,0.3029,0.552,0.653
+ohio,cincinnati,2010,0.3009,0.55,0.587
+ohio,cincinnati,2009,0.2105,0.517,0.66
+ohio,cincinnati,2008,0.2106,0.532,0.567
+ohio,cincinnati,2007,0.0971,0.537,0.62
+ohio,cleveland,2016,0.2071,0.527,0.629
+ohio,cleveland,2015,0.2062,0.489,0.612
+ohio,cleveland,2014,0.1286,0.521,0.583
+ohio,cleveland,2013,0.1799,0.525,0.6
+ohio,cleveland,2012,0.2286,0.517,0.575
+ohio,cleveland,2011,0.1007,0.496,0.59
+ohio,cleveland,2010,0.3286,0.474,0.542
+ohio,cleveland,2009,0.2076,0.493,0.575
+ohio,cleveland,2008,0.4092,0.464,0.52
+ohio,cleveland,2007,0.2209,0.459,0.483
+ohio,columbus,2015,1.6161,0.442,0.694
+ohio,columbus,2013,1.6659,0.455,0.68
+ohio,columbus,2012,0.5518,0.449,0.694
+ohio,columbus,2011,0.5079,0.454,0.678
+ohio,columbus,2010,0.5951,0.456,0.686
+ohio,columbus,2009,0.6517,0.436,0.692
+ohio,columbus,2008,1.2772,0.435,0.661
+ohio,columbus,2007,0.8749,0.441,0.654
+ohio,dayton,2016,0.3565,0.516,0.669
+ohio,dayton,2015,0.3554,0.474,0.643
+ohio,dayton,2014,0.6982,0.478,0.63
+ohio,dayton,2013,0.5667,0.484,0.665
+ohio,dayton,2012,0.0704,0.484,0.636
+ohio,dayton,2011,0.4236,0.501,0.635
+ohio,dayton,2010,0.3283,0.453,0.574
+ohio,dayton,2009,0.3242,0.47,0.628
+ohio,dayton,2008,0.1929,0.47,0.595
+ohio,dayton,2007,0.2515,0.455,0.563
+ohio,parma,2016,0.377,0.367,0.73
+ohio,parma,2015,0.1255,0.378,0.749
+ohio,parma,2014,0.3742,0.371,0.718
+ohio,parma,2013,0.1245,0.385,0.712
+ohio,parma,2011,0.2449,0.386,0.684
+ohio,parma,2010,0.1311,0.389,0.742
+ohio,parma,2009,0.1282,0.36,0.687
+ohio,parma,2008,0.2524,0.372,0.721
+ohio,parma,2007,0,0.377,0.712
+oklahoma,norman,2016,0.1637,0.48,0.767
+oklahoma,norman,2015,0.0835,0.469,0.75
+oklahoma,norman,2014,0.0834,0.477,0.758
+oklahoma,norman,2013,0.342,0.473,0.73
+oklahoma,norman,2011,0.3568,0.505,0.768
+oklahoma,norman,2010,0.6276,0.495,0.753
+oklahoma,norman,2009,0.7406,0.496,0.757
+oklahoma,norman,2008,0.1928,0.454,0.747
+oklahoma,norman,2007,0.4872,0.481,0.796
+oregon,salem,2016,0.4805,0.433,0.676
+oregon,salem,2015,0.3674,0.454,0.662
+oregon,salem,2014,0.2469,0.421,0.664
+oregon,salem,2013,0.8848,0.434,0.67
+oregon,salem,2012,0.2542,0.442,0.643
+oregon,salem,2011,0.3839,0.454,0.639
+oregon,salem,2010,0.3851,0.453,0.646
+oregon,salem,2009,0.5201,0.428,0.67
+oregon,salem,2008,0.5179,0.417,0.624
+oregon,salem,2007,0.463,0.409,0.647
+pennsylvania,philadelphia,2016,0.1146,0.515,0.652
+pennsylvania,philadelphia,2015,0.0893,0.505,0.651
+pennsylvania,philadelphia,2014,0.0706,0.514,0.649
+pennsylvania,philadelphia,2013,0.103,0.516,0.643
+pennsylvania,philadelphia,2012,0.0715,0.512,0.638
+pennsylvania,philadelphia,2011,0.0849,0.507,0.633
+pennsylvania,philadelphia,2010,0.0513,0.505,0.615
+pennsylvania,philadelphia,2009,0.1249,0.485,0.671
+pennsylvania,philadelphia,2008,0.195,0.493,0.6
+pennsylvania,philadelphia,2007,0.2321,0.489,0.595
+pennsylvania,pittsburgh,2016,0.4629,0.505,0.79
+pennsylvania,pittsburgh,2015,0.4562,0.539,0.779
+pennsylvania,pittsburgh,2014,0.2926,0.518,0.769
+pennsylvania,pittsburgh,2013,0.4876,0.526,0.77
+pennsylvania,pittsburgh,2012,0.0961,0.527,0.762
+pennsylvania,pittsburgh,2011,0.4212,0.521,0.747
+pennsylvania,pittsburgh,2010,0.2878,0.519,0.733
+pennsylvania,pittsburgh,2009,0.3551,0.539,0.761
+pennsylvania,pittsburgh,2008,0.2883,0.516,0.698
+pennsylvania,pittsburgh,2007,0.2465,0.495,0.647
+pennsylvania,reading,2016,0.1139,0.462,0.485
+pennsylvania,reading,2015,0.114,0.444,0.501
+pennsylvania,reading,2014,0.2277,0.451,0.49
+pennsylvania,reading,2013,0.3405,0.476,0.441
+pennsylvania,reading,2012,0.3388,0.433,0.448
+pennsylvania,reading,2011,0.1132,0.454,0.454
+pennsylvania,reading,2010,0.1229,0.454,0.485
+pennsylvania,reading,2009,0.1237,0.42,0.455
+pennsylvania,reading,2007,0.2471,0.396,0.429
+rhode island,pawtucket,2016,0.2792,0.47,0.656
+rhode island,pawtucket,2015,0.1396,0.43,0.663
+rhode island,pawtucket,2014,0.14,0.436,0.578
+rhode island,pawtucket,2012,0.422,0.455,0.633
+rhode island,pawtucket,2011,0.7036,0.443,0.559
+rhode island,pawtucket,2010,0.4179,0.451,0.605
+rhode island,pawtucket,2009,0.4183,0.447,0.591
+rhode island,pawtucket,2008,0.1383,0.432,0.554
+rhode island,pawtucket,2007,0.2734,0.415,0.575
+rhode island,providence,2016,0.0558,0.552,0.636
+rhode island,providence,2015,0.6127,0.549,0.614
+rhode island,providence,2014,0.056,0.565,0.615
+rhode island,providence,2013,0.0559,0.542,0.586
+rhode island,providence,2012,0.2249,0.545,0.608
+rhode island,providence,2011,0.5623,0.551,0.601
+rhode island,providence,2010,0.0583,0.531,0.588
+rhode island,providence,2009,0.9359,0.526,0.571
+rhode island,providence,2008,2.3601,0.545,0.567
+south carolina,columbia,2015,0.0755,0.517,0.763
+south carolina,columbia,2014,0.1491,0.532,0.725
+south carolina,columbia,2013,0.1512,0.533,0.739
+south carolina,columbia,2012,0.3793,0.501,0.72
+south carolina,columbia,2011,0.1529,0.541,0.747
+south carolina,columbia,2010,0.613,0.534,0.73
+south carolina,columbia,2009,0.9563,0.546,0.74
+south dakota,sioux falls,2016,0.2284,0.452,0.672
+south dakota,sioux falls,2014,0.1195,0.451,0.693
+south dakota,sioux falls,2013,0.2473,0.426,0.706
+south dakota,sioux falls,2012,0.9472,0.428,0.686
+south dakota,sioux falls,2011,0.8346,0.429,0.691
+south dakota,sioux falls,2010,1.6804,0.443,0.643
+south dakota,sioux falls,2009,1.6118,0.458,0.734
+south dakota,sioux falls,2008,1.4484,0.43,0.73
+south dakota,sioux falls,2007,1.9204,0.429,0.686
+tennessee,chattanooga,2016,0.1687,0.506,0.692
+tennessee,chattanooga,2015,0.9144,0.493,0.671
+tennessee,chattanooga,2014,0.6306,0.493,0.69
+tennessee,chattanooga,2013,0.1741,0.492,0.667
+tennessee,chattanooga,2012,1.1659,0.506,0.682
+tennessee,chattanooga,2011,0.1182,0.534,0.661
+tennessee,chattanooga,2010,0.2899,0.466,0.62
+tennessee,chattanooga,2009,0.4662,0.492,0.655
+tennessee,chattanooga,2008,0.3225,0.493,0.68
+tennessee,chattanooga,2007,0.1276,0.5,0.66
+tennessee,clarksville,2016,0.0656,0.393,0.664
+tennessee,clarksville,2015,1.0644,0.394,0.688
+tennessee,clarksville,2014,0.8988,0.411,0.677
+tennessee,clarksville,2013,0.7555,0.419,0.652
+tennessee,clarksville,2012,0.4368,0.395,0.699
+tennessee,clarksville,2011,0.3728,0.411,0.66
+tennessee,clarksville,2010,0.079,0.412,0.68
+tennessee,clarksville,2009,0.5767,0.395,0.679
+tennessee,clarksville,2008,0.3491,0.417,0.667
+tennessee,clarksville,2007,0.7873,0.419,0.676
+tennessee,knoxville,2016,0.0536,0.483,0.736
+tennessee,knoxville,2015,0.1616,0.483,0.733
+tennessee,knoxville,2014,0.4882,0.54,0.686
+tennessee,knoxville,2013,0.1091,0.491,0.736
+tennessee,knoxville,2012,1.3717,0.488,0.748
+tennessee,knoxville,2011,0.1108,0.488,0.727
+tennessee,knoxville,2009,0.4876,0.498,0.718
+tennessee,knoxville,2008,0.5455,0.469,0.676
+tennessee,knoxville,2007,0.4934,0.507,0.68
+tennessee,memphis,2016,0.1371,0.517,0.638
+tennessee,memphis,2015,0.2432,0.51,0.634
+tennessee,memphis,2014,0.1985,0.511,0.633
+tennessee,memphis,2013,0.3497,0.524,0.614
+tennessee,memphis,2012,0.9278,0.508,0.62
+tennessee,memphis,2011,0.337,0.502,0.622
+tennessee,memphis,2010,0.2227,0.489,0.589
+tennessee,memphis,2009,0.7738,0.518,0.591
+tennessee,memphis,2008,1.285,0.522,0.569
+tennessee,memphis,2007,0.4406,0.488,0.553
+texas,austin,2016,0.1881,0.482,0.697
+texas,austin,2015,0.1172,0.487,0.694
+texas,austin,2014,0.0443,0.483,0.702
+texas,austin,2013,0.0466,0.482,0.705
+texas,austin,2011,0.062,0.492,0.686
+texas,austin,2010,0.0628,0.488,0.663
+texas,austin,2009,0.2521,0.481,0.685
+texas,austin,2008,0.0837,0.484,0.697
+texas,austin,2007,0.155,0.485,0.674
+texas,dallas,2016,0.0833,0.53,0.582
+texas,dallas,2015,0.0691,0.549,0.56
+texas,dallas,2014,0.1179,0.55,0.558
+texas,dallas,2013,0.1434,0.553,0.561
+texas,dallas,2011,0.1308,0.541,0.534
+texas,dallas,2010,0.0918,0.519,0.496
+texas,dallas,2009,0.1332,0.542,0.544
+texas,dallas,2008,0.1856,0.536,0.501
+texas,dallas,2007,0.2484,0.532,0.503
+texas,denton,2016,0.2238,0.465,0.73
+texas,denton,2015,0.2287,0.442,0.727
+texas,denton,2013,0.0811,0.475,0.717
+texas,denton,2012,0.1681,0.465,0.725
+texas,denton,2011,0.1728,0.498,0.727
+texas,denton,2010,0.1572,0.465,0.666
+texas,denton,2009,0.1663,0.434,0.709
+texas,denton,2008,0.0878,0.496,0.705
+texas,denton,2007,0.0934,0.467,0.701
+texas,el paso,2016,0.0146,0.467,0.58
+texas,el paso,2015,0.0437,0.442,0.584
+texas,el paso,2014,0.0147,0.465,0.578
+texas,el paso,2013,0.0441,0.473,0.56
+texas,el paso,2011,0.0302,0.469,0.559
+texas,el paso,2010,0.0801,0.474,0.572
+texas,el paso,2009,0.0327,0.474,0.537
+texas,el paso,2008,0.0649,0.485,0.519
+texas,el paso,2007,0.0487,0.479,0.512
+texas,fort worth,2016,0.2348,0.466,0.591
+texas,fort worth,2015,0.241,0.463,0.59
+texas,fort worth,2014,0.0373,0.464,0.59
+texas,fort worth,2013,0.2028,0.469,0.581
+texas,fort worth,2012,0.1818,0.446,0.573
+texas,fort worth,2011,0.2114,0.467,0.562
+texas,fort worth,2010,0.1876,0.453,0.566
+texas,fort worth,2009,0.1711,0.444,0.57
+texas,fort worth,2008,0.2833,0.442,0.534
+texas,fort worth,2007,0.0935,0.464,0.569
+texas,houston,2016,0.0257,0.528,0.582
+texas,houston,2015,0.1099,0.529,0.589
+texas,houston,2014,0.0721,0.531,0.584
+texas,houston,2013,0.0596,0.529,0.586
+texas,houston,2011,0.0606,0.529,0.562
+texas,houston,2010,0.057,0.511,0.512
+texas,houston,2009,0.1251,0.519,0.547
+texas,houston,2008,0.1659,0.53,0.501
+texas,houston,2007,0.0627,0.512,0.533
+texas,longview,2016,0.3631,0.476,0.615
+texas,longview,2015,0.4887,0.455,0.611
+texas,longview,2014,0.7348,0.465,0.645
+texas,longview,2013,0.123,0.512,0.616
+texas,longview,2012,0.2423,0.441,0.603
+texas,longview,2011,0.3652,0.459,0.631
+texas,longview,2010,0.1277,0.5,0.606
+texas,longview,2009,0.2588,0.456,0.608
+texas,longview,2008,1.4285,0.43,0.601
+texas,longview,2007,1.1575,0.438,0.647
+texas,plano,2016,0.0347,0.435,0.708
+texas,plano,2015,0.1414,0.448,0.71
+texas,plano,2013,0.0725,0.459,0.701
+texas,plano,2012,0.1461,0.457,0.668
+texas,plano,2011,0.1131,0.42,0.703
+texas,plano,2010,0.1438,0.437,0.648
+texas,plano,2009,0.0376,0.44,0.702
+texas,plano,2008,0.1925,0.441,0.678
+texas,plano,2007,0.1555,0.442,0.69
+texas,san antonio,2016,0.0601,0.46,0.608
+texas,san antonio,2015,0.082,0.463,0.612
+texas,san antonio,2014,0.098,0.469,0.61
+texas,san antonio,2013,0.0786,0.462,0.617
+texas,san antonio,2011,0.0148,0.457,0.594
+texas,san antonio,2010,0.0359,0.46,0.564
+texas,san antonio,2009,0.0518,0.48,0.584
+texas,san antonio,2008,0.1671,0.461,0.562
+texas,san antonio,2007,0.1857,0.457,0.574
+utah,salt lake city,2016,0.0516,0.475,0.693
+utah,salt lake city,2015,0.2083,0.514,0.729
+utah,salt lake city,2014,0.052,0.528,0.687
+utah,salt lake city,2013,0.2628,0.528,0.689
+utah,salt lake city,2012,0.1039,0.526,0.663
+utah,salt lake city,2011,0.1052,0.511,0.666
+utah,salt lake city,2010,0.1124,0.484,0.668
+utah,salt lake city,2008,0.056,0.474,0.67
+utah,salt lake city,2007,0.0544,0.492,0.658
+utah,st. george,2016,0.2446,0.454,0.692
+utah,st. george,2015,0.2501,0.462,0.696
+utah,st. george,2013,0.3925,0.433,0.653
+utah,st. george,2012,0.132,0.454,0.671
+utah,st. george,2011,0.2692,0.44,0.593
+utah,st. george,2010,0.1368,0.447,0.646
+utah,st. george,2009,0.4035,0.373,0.617
+utah,st. george,2008,0.1417,0.377,0.7
+utah,st. george,2007,0.1508,0.368,0.721
+utah,west valley,2016,0.2908,0.394,0.524
+utah,west valley,2015,0.442,0.353,0.557
+utah,west valley,2014,0.4458,0.36,0.519
+utah,west valley,2013,0.2999,0.385,0.547
+utah,west valley,2012,0.2991,0.366,0.513
+utah,west valley,2011,0.4546,0.4,0.533
+utah,west valley,2010,0.1625,0.379,0.55
+utah,west valley,2009,0.3222,0.361,0.529
+utah,west valley,2008,1.0704,0.355,0.562
+utah,west valley,2007,0.171,0.362,0.566
+virginia,chesapeake,2016,0.1691,0.412,0.694
+virginia,chesapeake,2015,0.6376,0.399,0.691
+virginia,chesapeake,2014,0.2581,0.4,0.694
+virginia,chesapeake,2013,0.2602,0.398,0.688
+virginia,chesapeake,2012,0.4395,0.409,0.676
+virginia,chesapeake,2011,0.2224,0.391,0.665
+virginia,chesapeake,2010,0.3546,0.392,0.66
+virginia,chesapeake,2009,0.317,0.407,0.667
+virginia,chesapeake,2008,0.2241,0.395,0.648
+virginia,chesapeake,2007,0.3165,0.385,0.647
+virginia,hampton,2016,0.0738,0.441,0.722
+virginia,hampton,2015,0.2933,0.434,0.711
+virginia,hampton,2014,0.1464,0.421,0.707
+virginia,hampton,2013,0.146,0.42,0.701
+virginia,hampton,2011,0.0719,0.41,0.683
+virginia,hampton,2010,0.4151,0.384,0.656
+virginia,hampton,2009,0.3427,0.399,0.679
+virginia,hampton,2008,0.4153,0.397,0.695
+virginia,hampton,2007,0.2721,0.382,0.672
+virginia,newport news,2016,0.2202,0.436,0.698
+virginia,newport news,2015,0.164,0.452,0.696
+virginia,newport news,2014,0.2193,0.422,0.684
+virginia,newport news,2013,0.2209,0.425,0.672
+virginia,newport news,2012,0.1101,0.432,0.685
+virginia,newport news,2011,0.4375,0.449,0.663
+virginia,newport news,2010,0.5635,0.422,0.636
+virginia,newport news,2009,0.673,0.424,0.734
+virginia,newport news,2008,0.5069,0.401,0.654
+virginia,newport news,2007,0.8256,0.417,0.619
+virginia,norfolk,2016,0.0407,0.486,0.712
+virginia,norfolk,2015,0.6112,0.499,0.713
+virginia,norfolk,2014,0.4857,0.477,0.702
+virginia,norfolk,2013,0.2831,0.473,0.697
+virginia,norfolk,2012,0.0815,0.493,0.702
+virginia,norfolk,2011,0.0814,0.445,0.681
+virginia,norfolk,2010,0.1282,0.453,0.711
+virginia,norfolk,2009,0.4254,0.503,0.654
+virginia,norfolk,2008,1.7113,0.461,0.644
+virginia,norfolk,2007,0.7684,0.448,0.64
+virginia,portsmouth,2016,0.3131,0.424,0.663
+virginia,portsmouth,2014,0.4148,0.428,0.645
+virginia,portsmouth,2013,0.3092,0.425,0.647
+virginia,portsmouth,2012,0.1034,0.435,0.619
+virginia,portsmouth,2011,0.2069,0.437,0.614
+virginia,portsmouth,2010,0.8034,0.402,0.598
+virginia,portsmouth,2009,0.4912,0.397,0.614
+virginia,portsmouth,2008,0.7899,0.411,0.625
+virginia,portsmouth,2007,0.4942,0.399,0.602
+virginia,richmond,2016,0.045,0.555,0.718
+virginia,richmond,2015,0.1359,0.559,0.706
+virginia,richmond,2014,0.1384,0.526,0.694
+virginia,richmond,2013,0.047,0.535,0.686
+virginia,richmond,2012,0.2406,0.535,0.683
+virginia,richmond,2011,0.1452,0.527,0.667
+virginia,richmond,2010,0.2914,0.533,0.659
+virginia,richmond,2009,0.4507,0.548,0.668
+virginia,richmond,2008,0.6257,0.527,0.667
+virginia,richmond,2007,0.6132,0.513,0.642
+virginia,virginia beach,2016,0.1104,0.418,0.724
+virginia,virginia beach,2015,0.1767,0.404,0.721
+virginia,virginia beach,2014,0.1773,0.409,0.713
+virginia,virginia beach,2013,0.1109,0.426,0.719
+virginia,virginia beach,2012,0.0447,0.42,0.714
+virginia,virginia beach,2011,0.361,0.408,0.713
+virginia,virginia beach,2010,0.4359,0.405,0.704
+virginia,virginia beach,2009,0.6449,0.399,0.694
+virginia,virginia beach,2008,0.5505,0.393,0.685
+virginia,virginia beach,2007,0.5646,0.394,0.672
+washington,bellingham,2016,0.9302,0.453,0.796
+washington,bellingham,2015,0.4763,0.489,0.813
+washington,bellingham,2014,0.4816,0.49,0.788
+washington,bellingham,2013,1.21,0.472,0.788
+washington,bellingham,2012,1.0887,0.456,0.77
+washington,bellingham,2011,0.6086,0.465,0.787
+washington,bellingham,2010,1.1092,0.443,0.788
+washington,bellingham,2009,0.5076,0.504,0.799
+washington,bellingham,2007,0.1319,0.459,0.804
+washington,everett,2016,0.4588,0.46,0.682
+washington,everett,2015,0.1858,0.464,0.698
+washington,everett,2014,0.2833,0.432,0.673
+washington,everett,2013,0.5707,0.457,0.7
+washington,everett,2012,0.1899,0.419,0.652
+washington,everett,2011,0.2867,0.449,0.692
+washington,everett,2010,0.2012,0.416,0.664
+washington,everett,2009,0.3044,0.408,0.687
+washington,everett,2008,0.3035,0.433,0.676
+washington,everett,2007,0.4071,0.403,0.715
+washington,federal way,2016,0.2076,0.414,0.643
+washington,federal way,2015,0.5295,0.424,0.697
+washington,federal way,2014,0.4276,0.427,0.687
+washington,federal way,2013,1.1861,0.417,0.657
+washington,federal way,2012,0.5436,0.468,0.659
+washington,federal way,2011,0.2205,0.423,0.68
+washington,federal way,2010,0.1168,0.418,0.71
+washington,federal way,2009,0.7078,0.4,0.667
+washington,federal way,2008,0.119,0.403,0.681
+washington,federal way,2007,0.4733,0.403,0.647
+washington,seattle,2016,1.5564,0.504,0.806
+washington,seattle,2015,1.097,0.476,0.81
+washington,seattle,2014,1.5677,0.48,0.796
+washington,seattle,2013,1.3534,0.485,0.804
+washington,seattle,2012,1.356,0.486,0.803
+washington,seattle,2011,0.1941,0.491,0.783
+washington,seattle,2010,0.2419,0.488,0.77
+washington,seattle,2009,0.3511,0.497,0.814
+washington,seattle,2008,0.4785,0.49,0.785
+washington,seattle,2007,0.1713,0.487,0.759
+washington,spokane valley,2016,1.0425,0.407,0.715
+washington,spokane valley,2015,0.5426,0.404,0.705
+washington,spokane valley,2014,0.4377,0.397,0.706
+washington,spokane valley,2013,0.2202,0.422,0.719
+washington,spokane valley,2012,0.4388,0.42,0.698
+washington,spokane valley,2011,0.7679,0.394,0.68
+washington,spokane valley,2009,0.2338,0.412,0.709
+washington,spokane valley,2008,0.1191,0.409,0.72
+washington,spokane valley,2007,0.9664,0.378,0.698
+washington,tacoma,2016,0.4287,0.447,0.685
+washington,tacoma,2015,0.435,0.442,0.706
+washington,tacoma,2014,0.2442,0.459,0.666
+washington,tacoma,2013,0.246,0.453,0.678
+washington,tacoma,2012,0.6415,0.429,0.667
+washington,tacoma,2011,1.191,0.446,0.678
+washington,tacoma,2010,1.7536,0.426,0.673
+washington,tacoma,2009,0.508,0.435,0.687
+washington,tacoma,2008,0.8633,0.462,0.655
+washington,tacoma,2007,0.3011,0.439,0.623
+washington,vancouver,2016,0.2287,0.45,0.693
+washington,vancouver,2015,0.2923,0.423,0.679
+washington,vancouver,2014,0.3557,0.421,0.698
+washington,vancouver,2013,0.4804,0.435,0.674
+washington,vancouver,2012,0.6612,0.432,0.679
+washington,vancouver,2011,1.1562,0.42,0.683
+washington,vancouver,2010,0.7174,0.449,0.65
+washington,vancouver,2009,1.1616,0.385,0.696
+washington,vancouver,2008,0.4966,0.439,0.685
+washington,vancouver,2007,0.1873,0.428,0.663
+washington,yakima,2016,0.5313,0.447,0.531
+washington,yakima,2015,0.6397,0.477,0.551
+washington,yakima,2014,0.3203,0.451,0.532
+washington,yakima,2013,0.2137,0.436,0.533
+washington,yakima,2012,0.107,0.472,0.53
+washington,yakima,2011,0.7568,0.433,0.537
+washington,yakima,2010,0.1165,0.475,0.565
+washington,yakima,2009,0.4818,0.406,0.512
+washington,yakima,2008,0.7233,0.5,0.547
+washington,yakima,2007,0.7263,0.487,0.521
+wisconsin,appleton,2016,0.1343,0.466,0.682
+wisconsin,appleton,2015,0.2691,0.422,0.717
+wisconsin,appleton,2014,0.4063,0.436,0.671
+wisconsin,appleton,2013,0.2734,0.432,0.7
+wisconsin,appleton,2012,1.0895,0.434,0.692
+wisconsin,appleton,2011,0.4113,0.444,0.679
+wisconsin,appleton,2010,0.1409,0.423,0.679
+wisconsin,appleton,2009,0.5716,0.427,0.672
+wisconsin,appleton,2008,0.285,0.439,0.666
+wisconsin,appleton,2007,0.1419,0.422,0.704
+wisconsin,madison,2016,0.5949,0.459,0.815
+wisconsin,madison,2015,0.3215,0.459,0.786
+wisconsin,madison,2014,0.4069,0.462,0.776
+wisconsin,madison,2013,0.4948,0.481,0.789
+wisconsin,madison,2012,0.5052,0.473,0.788
+wisconsin,madison,2011,0.6831,0.456,0.783
+wisconsin,madison,2010,0.7556,0.466,0.764
+wisconsin,madison,2009,0.3892,0.464,0.8
+wisconsin,madison,2008,0.0444,0.44,0.779
+wisconsin,madison,2007,0.1799,0.438,0.764
+wisconsin,milwaukee,2016,0.0167,0.484,0.613
+wisconsin,milwaukee,2015,0.0833,0.472,0.612
+wisconsin,milwaukee,2014,0.1832,0.483,0.618
+wisconsin,milwaukee,2013,0.1498,0.465,0.603
+wisconsin,milwaukee,2012,0.2336,0.466,0.596
+wisconsin,milwaukee,2011,0.4017,0.461,0.597
+wisconsin,milwaukee,2010,0.5776,0.452,0.582
+wisconsin,milwaukee,2009,0.4982,0.442,0.596
+wisconsin,milwaukee,2008,0.4538,0.431,0.59
+wisconsin,milwaukee,2007,0.6368,0.445,0.575

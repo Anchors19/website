@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Localized Police Killings</title>
+  <meta charset="utf-8">
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/topojson.v2.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+    
+  <script src='csv2geojson.js'></script>
+  <script src="https://rawgit.com/twitter/d3kit/v3/dist/d3kit.min.js"></script>
+
+
+</head>
+<style>
+  .tooltip {
+    position: absolute;
+    width: auto;
+    height: auto;
+    pointer-events: none;
+    font: 11px sans-serif;
+    padding: 1px; 
+    background-color:white;
+  }
+
+  h1 {
+      text-align: center;
+      font-size: 40px;
+  }
+
+  p {
+      font-size: 18px;
+      line-height: 100%;
+      margin-left: 25%;
+      margin-right: 25%;
+  }
+
+  h1{
+    color: white;
+  }
+
+  h3{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+
+  h4{
+    color: black;
+  }
+
+  h6{
+    color: white;
+    font-size: 20px;
+    margin-left: 28px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+
+  h5{
+    color: black;
+    line-height: 0px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  ul li { 
+    padding: 1px 0px; 
+    font-size: 11px;
+    line-height: 1;
+    text-align: left;
+  }
+  p{
+    color: white;
+    display: block;
+    font-size: 15px;
+    margin-left: 28px;
+    margin-right: 28px;
+  }
+
+  svg{
+    display: block;
+    width: 100%;
+  }
+  
+
+  #basemap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #sidebar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 500px;
+    padding: 0px;
+    background: rgba(0, 0, 0, 0.8);
+    font-family: "calibri";
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  #threerecsheading{
+    font-family: "calibri";
+    color: white;
+    font-weight: bold;
+    margin-left: 28px;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+
+  #addresstitle{
+    font-family: "calibri";
+    color: white;
+    font-weight: bold;
+    margin-left: 28px;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+
+  #causetitle{
+    text-align: center;
+    font-family: "calibri";
+    color: white;
+    font-weight: bold;
+    margin-left: 28px;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+
+  #racetitle{
+    text-align: center;
+    font-family: "calibri";
+    color: white;
+    font-weight: bold;
+    margin-left: 28px;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+
+  #threerecs{
+    margin-left: 28px;
+    margin-right: 28px;
+    height: 100px;
+  }
+
+  #overtimeline{
+    height: 340px;
+    width: 500px;
+    margin-left: 12px;
+    display: block;
+  }
+
+  h4.capitalize {
+    text-transform: capitalize;
+  }
+
+  .xaxis path,
+  .xaxis line {
+    fill: none;
+    stroke: none;
+    shape-rendering: crispEdges;
+  }
+
+  .yaxis path,
+  .yaxis line {
+    fill: none;
+    stroke: none;
+    shape-rendering: crispEdges;
+  }
+
+  .bar{
+    fill: #3F6ABF;
+  }
+
+  #causebargraph{
+    height: 400px;
+    width: 500px;
+    margin-left: 12px;
+    display: block;
+  }
+
+  #addressmap{
+    height: 350px;
+    width: 430px;
+    margin-left: 28px;
+    display: block;
+  }
+
+  #crimetips{
+    height: 480px;
+    width: 500px;
+    margin-left: 12px;
+    display: block;
+  }
+
+  #articlesegment1{
+    height: 1180;
+    width: 500px;
+    margin-left: 12px;
+    display: block;
+  }
+
+  #articlesegment2{
+    height: 300px;
+    width: 500px;
+    margin-left: 12px;
+    display: block;
+  }
+
+  #racebargraph{
+    height: 380px;
+    width: 500px;
+    margin-left: 12px;
+    display: block;
+  }
+
+  .hate{
+    fill: #3F6ABF;
+  }
+
+  #tipbutton{
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    border: 4px solid #adc2eb;
+    color: #fff;
+    background: #adc2eb;
+    font-size: 18px;
+  }
+
+  #tipbutton:hover{
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    background: transparent;
+    color: #c2d1f0;
+  }
+
+  .marker {
+    background-image: url('finaldata/mapbox-icon.png');
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .mapboxgl-popup {
+    max-width: 250px;
+    max-height: 200px;
+  }
+
+  .mapboxgl-popup-content {
+    max-width: 250px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+
+</style>
+<body>
+  <h1></h1>
+  <div id='basemap'></div>
+  <div id="sidebar">
+    <h1>Where Police Have Killed Americans In 2015-2018</h1>
+    <center><h3>The Relationship between City Median Income and Police Killings</h3></center>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Police brutality has been a topic of significant public debate over the past few years, especially as social media and cell phone cameras have made it easier than ever to record and share information about the issue. As calls for reform grow, the need to understand the relationship between race, class and deaths at the hands of police is increasingly in demand. Exploring this issue at multiple levels — national, state, local — allows journalists and readers alike to engage with the issue in all its nuances.</p>
+      <p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adapted from “Where Police Have Killed Americans In 2015,” by Ben Casselman for FiveThirtyEight</i></p>
+    <br>
+    <div id="threerecsheading"></div>
+    <div id="threerecs"></div>
+    <div id="basearticle"></div>
+    <div id="addresstitle"></div>
+<!--     <h6>Killings Map</h6> -->
+    <div id="addressmap"></div>
+    <div id="tip1"></div>
+    <div id="articlesegment1"></div>
+    <div id="tip2"></div>
+    <div id="causetitle"></div>
+<!--       <center><h3>Causes of Death</h3></center> -->
+    <div id="causebargraph"></div>
+    <div id="articlesegment2"></div>
+    <div id="racetitle"></div>
+<!--       <center><h3>Police Killings by Race</h3></center> -->
+    <div id="racebargraph"></div>
+    <center><button id = 'tipbutton' onclick="tipFunction()">TIP SHEET</button></center>
+    <div id="crimetips"></div>
+    
+  </div>
+
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYW5jaG9yczE5IiwiYSI6ImNqbjUzaTRmdDB3MTEza3FvaHM5MGVtZ3MifQ.D5yNXpY1F-P_na1_9c14nw';
+
+    //Chorpleth colors
+    var crimecolors = ['#ffe5e5','#ffb2b2', '#ff6666', '#ff0000', '#b20000', '#990000', '#660000'],
+            BREAKS = [0,1,2,3,4,5,6],
+            FILTERUSE;
+
+    // Create Map
+    var basemap = new mapboxgl.Map({
+        container: 'basemap', // container id
+        style: 'mapbox://styles/mapbox/light-v9', // stylesheet location
+        center: [-98, 39.0902], // starting position [lng, lat]
+        zoom: 4 // starting zoom
+    });
+
+    // zoom and rotation
+    basemap.addControl(new mapboxgl.NavigationControl());
+
+    // RECTANGLES
+    var recsvg = d3.select("#threerecs")
+                  .append("svg");
+
+    // LINE GRAPH
+    var linemargin = {top: 10, right: 10, bottom: 40, left: 40},
+        width = 430 - linemargin.left - linemargin.right;
+        height = 300 - linemargin.top - linemargin.bottom;
+
+    var linesvg = d3.select("#overtimeline")
+                  .append("svg")
+                  .attr('width',width + linemargin.left + linemargin.right)
+                  .attr('height',height + linemargin.top + linemargin.bottom)
+                  .append('g')
+                  .attr("transform", "translate(" + linemargin.left + "," + linemargin.top + ")");
+
+    // CAUSE BAR GRAPH
+    var barmargin = {top: 10, right: 10, bottom: 40, left: 80},
+        barwidth = 430 - barmargin.left - barmargin.right;
+        barheight = 390 - barmargin.top - barmargin.bottom;
+
+    var barsvg = d3.select("#causebargraph")
+                  .append("svg")
+                  .attr('width',barwidth + barmargin.left + barmargin.right)
+                  .attr('height',barheight + barmargin.top + barmargin.bottom)
+                  .append('g')
+                  .attr("transform", "translate(" + barmargin.left + "," + barmargin.top + ")");
+
+    // EXACT ADDRESS
+    var addressmargin = {top: 10, right: 20, bottom: 40, left: 20},
+        addresswidth = 430 - addressmargin.left - addressmargin.right;
+        addressheight = 350 - addressmargin.top - addressmargin.bottom;
+
+    var addresssvg = d3.select("#exactaddress")
+                  .append("svg")
+                  .attr('width',addresswidth + addressmargin.left + addressmargin.right)
+                  .attr('height',addressheight + addressmargin.top + addressmargin.bottom)
+                  .append('g')
+                  .attr("transform", "translate(" + addressmargin.left + "," + addressmargin.top + ")");
+
+
+    //TIP SHEET
+    var tipmargin = {top: 10, right: 10, bottom: 40, left: 10},
+        tipwidth = 430 - tipmargin.left - tipmargin.right;
+        tipheight = 480 - tipmargin.top - tipmargin.bottom;
+
+    var tipsvg = d3.select("#crimetips")
+                  .append("svg")
+                  .attr('width',tipwidth + tipmargin.left + tipmargin.right)
+                  .attr('height',tipheight + tipmargin.top + tipmargin.bottom)
+                  .append('g')
+                  .attr("transform", "translate(" + tipmargin.left + "," + tipmargin.top + ")");
+    function tipFunction() {
+      var x = document.getElementById("crimetips");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      }
+      else {
+        x.style.display = "none";
+      }
+    }
+    
+
+
+    // ARTICLE SEGMENT 1
+    var seg1margin = {top: 10, right: 10, bottom: 40, left: 10},
+        seg1width = 430 - seg1margin.left - seg1margin.right;
+        seg1height = 1180 - seg1margin.top - seg1margin.bottom;
+
+    var seg1svg = d3.select("#articlesegment1")
+                  .append("svg")
+                  .attr('width',seg1width + seg1margin.left + seg1margin.right)
+                  .attr('height',seg1height + seg1margin.top + seg1margin.bottom)
+                  .append('g')
+                  .attr("transform", "translate(" + seg1margin.left + "," + seg1margin.top + ")");
+
+    // ARTICLE SEGMENT 2
+    var seg2margin = {top: 5, right: 10, bottom: 40, left: 10},
+        seg2width = 430 - seg2margin.left - seg2margin.right;
+        seg2height = 300 - seg2margin.top - seg2margin.bottom;
+
+    var seg2svg = d3.select("#articlesegment2")
+                  .append("svg")
+                  .attr('width',seg2width + seg2margin.left + seg2margin.right)
+                  .attr('height',seg2height + seg2margin.top + seg2margin.bottom)
+                  .append('g')
+                  .attr("transform", "translate(" + seg2margin.left + "," + seg2margin.top + ")");
+
+    // RACE BAR GRAPH
+    var racemargin = {top: 10, right: 10, bottom: 40, left: 80},
+        racewidth = 430 - racemargin.left - racemargin.right;
+        raceheight = 380 - racemargin.top - racemargin.bottom;
+
+    var racesvg = d3.select("#racebargraph")
+                  .append("svg")
+                  .attr('width',racewidth + racemargin.left + racemargin.right)
+                  .attr('height',raceheight + racemargin.top + racemargin.bottom)
+                  .append('g')
+                  .attr("transform", "translate(" + racemargin.left + "," + racemargin.top + ")");
+                                
+    // Make choropleth
+    basemap.on('load', makechoro);
+    basemap.on('load', makepointmap);
+
+    /////////////////////////////////////////////////
+    var thousandformat2 = d3.format(",d");
+    var uspopulation = 327703458;
+    var uspop = thousandformat2(Math.round(uspopulation));
+
+    var uskilled = 2847;
+    var uskilled = thousandformat2(Math.round(uskilled*100)/100);
+
+    var formatDecimalComma = d3.format(",")
+    var formatMoney = function(d) { return "$" + formatDecimalComma(d); }
+    var usincome = 57909;
+    var usincome = formatMoney(usincome);
+
+    var uskillingspc = 0.907;
+
+    usnamelabel = "United States"
+    var usname = document.getElementById('threerecsheading');
+    usname.innerHTML = usnamelabel;
+
+    usbasetext = "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 2015, the Guardian launched “The Counted,” an interactive database of the Americans killed by police every year. Alongside information about the age, race and gender of the victims, the data set includes the addresses where killings took place. Data from a similar database maintained by The Washington Post shed further light on this issue.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By mapping information about police brutality onto census data about the median incomes of U.S. states and cities, the relationship between wealth and violence is put in stark relief.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One thing that is clear from the data is that police killings tend to take place in neighborhoods that are poorer than the U.S. as a whole. About 30 percent of killings in “The Counted” circa 2015, for instance — 139 out of 467 — took place in census tracts that were in the bottom 20 percent nationally in terms of household income<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analysis of the Guardian’s data also suggests a relationship between race, poverty and killings. Black Americans were especially likely to be killed in poorer neighborhoods; of the 136 African-Americans killed by police who in the Guardian’s 2015 database, 56 — more than 40 percent — died in tracts in the poorest 20 percent nationally. But that may say more about overall racial inequality than about policing per se: African-Americans were killed in low-income areas at roughly the same rate that they live in them.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These numbers fit a narrative that emerged after the deaths of Michael Brown in Ferguson, Missouri, and of Freddie Gray in Baltimore. Both occurred in poor, predominantly black neighborhoods with few jobs and limited educational opportunities. Protesters who took to the streets after those deaths often cited economic conditions — along with police tactics they saw as discriminatory — as an underlying cause of their anger.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But not all police killings fit this pattern. Take one example: In February, Vincent Cordaro, a 57-year-old white man, was fatally shot in his home in Rockland County, New York – a New York City suburb where the median household income is more than $140,000.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like most of the people in the Guardian’s database, Cordaro was armed when he died: According to news reports, he threatened his family with a shotgun and was killed after a seven-hour standoff with police.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But incidents that look more like ones that have been in the news — unarmed black men shot by police — can happen anywhere. Frank Shephard III, for example, was shot in a census tract in Houston with a median household income of more than $80,000; police said he had fled a traffic stop.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As police brutality continues to be a topic of national debate — and demand for concrete solutions grows — it will be increasingly important to understand the impact of both economics and race on the issue.</p>"
+
+    var usbase = document.getElementById('basearticle');
+    usbase.innerHTML = usbasetext;
+
+    d3.selectAll("rect").remove();
+    d3.selectAll("text").remove();
+
+    var usstatscolors = [
+      {
+      "color": "#2B4071",
+      "width": 100,
+      "height": 70,
+      "x": 0,
+      "y": 10,
+      "label": "Population",
+      "text": uspop
+      },
+      {
+      "color": "#3F6ABF",
+      "width": 100,
+      "height": 70,
+      "x": 100,
+      "y": 10,
+      "label": "Total Killed",
+      "text": uskilled
+      },
+      {
+      "color": "#75C3F8",
+      "width": 100,
+      "height": 70,
+      "x": 200,
+      "y": 10,
+      "label": "Median Income",
+      "text": usincome
+      },
+      {
+      "color": "#B4E7FD",
+      "width": 100,
+      "height": 70,
+      "x": 300,
+      "y": 10,
+      "label": "Killings/100k",
+      "text": uskillingspc
+      }
+    ];
+
+    var usborder = 5;
+    var uswidth = 100;
+    var usheight = 70;
+    var usrectangles = recsvg.selectAll('rect')
+                          .data(usstatscolors)
+                          .enter()
+                          .append('rect')
+                          .attr("x", function (d) { return d.x; })
+                          .attr("y", function (d) { return d.y; })
+                          .attr("height", function (d) { return d.height; })
+                          .attr("width", function (d) { return d.width; })
+                          .style("fill", function(d) { return d.color; })
+                          .style("opacity", 0.85);
+    
+    var ustext = recsvg.selectAll('text')
+      .data(usstatscolors)
+      .enter()
+      .append('text')
+      .attr('font-size',18)
+      .attr('fill','white')
+      .attr('font-weight', 'bold')
+      .attr("x", function (d) { 
+        return (d.x + uswidth/2); 
+      })
+      .attr("text-anchor", "middle")
+      .attr("y", function (d) { return (d.y + uswidth/2-15); })
+      .text(function(d){
+        return d.text;
+      });
+
+    ustext.append('tspan')
+            .attr("x", function (d) { 
+        return (d.x + uswidth/2); 
+      })
+        .attr("text-anchor", "middle")
+        .text(function(d){
+          return d.label;
+        })
+        .attr('font-weight', 'normal')
+        .attr('dy', '1.5em')
+        .attr('font-size',14);
+
+        /////////////////////////////////////////////////
+
+    function makechoro(){
+      basemap.addSource('statekillings', {
+                type: 'geojson',
+                data: 'finaldata/StateKilling.geojson'
+            });
+
+      basemap.addLayer({
+        "id": "skillings",
+        "type": "fill",
+        "source": "statekillings",
+        "paint": {
+        "fill-color": {
+          property: 'policekillings',
+          stops: [
+            [BREAKS[0], crimecolors[0]],
+            [BREAKS[1], crimecolors[1]],
+            [BREAKS[2], crimecolors[2]],
+            [BREAKS[3], crimecolors[3]],
+            [BREAKS[4], crimecolors[4]],
+            [BREAKS[5], crimecolors[5]],
+            [BREAKS[6], crimecolors[6]]]
+        },
+        "fill-opacity": 0.7,
+        "fill-outline-color": "#ffffff"
+        }
+      });  
+    }  
+
+    function makepointmap(){
+
+      $(document).ready(function() {
+        $.ajax({
+          type: "GET",
+          url: 'finaldata/citieskillings.csv',
+          dataType: "text",
+          success: function(csvData) {makeGeoJSON(csvData);}
+        });
+      });
+    }
+
+  function makeGeoJSON(csvData) {
+    csv2geojson.csv2geojson(csvData, {
+        latfield: 'Latitude',
+        lonfield: 'Longitude',
+        delimiter: ','
+    }, function(err, data) {
+        var jsonlength = data.features.length;
+        for (i = 0; i < jsonlength; i++) { 
+          data.features[i].properties.Killings = parseFloat(data.features[i].properties.Killings);
+          data.features[i].properties.Population = parseFloat(data.features[i].properties.Population);
+          data.features[i].properties.policekillingspc = parseFloat(data.features[i].properties.policekillingspc);
+          data.features[i].properties.MedIncome = parseFloat(data.features[i].properties.MedIncome);
+          data.features[i].properties.hasBlack = parseFloat(data.features[i].properties.hasBlack);
+        }
+        basemap.addLayer({
+          'id': 'ckillings',
+          'type': 'circle',
+          'source': {
+            'type': 'geojson',
+            'data': data
+          },
+          'paint': {
+            'circle-color': '#660000',
+            'circle-radius': {
+              'property': 'policekillingspc',
+              'type': 'exponential',
+              'stops': [
+               [{zoom: 1, value: 0.08124}, 1],
+               [{zoom: 1, value: 13.5359}, 4],
+               [{zoom: 2, value: 0.08124}, 1.5],
+               [{zoom: 2, value: 13.5359}, 6],
+               [{zoom: 3, value: 0.08124}, 2],
+               [{zoom: 3, value: 13.5359}, 8],
+               [{zoom: 4, value: 0.08124}, 3],
+               [{zoom: 4, value: 13.5359}, 13],
+               [{zoom: 5, value: 0.08124}, 3],
+               [{zoom: 5, value: 13.5359}, 13],
+               [{zoom: 6, value: 0.08124}, 4],
+               [{zoom: 6, value: 13.5359}, 14],
+               [{zoom: 7, value: 0.08124}, 5],
+               [{zoom: 7, value: 13.5359}, 15],
+               [{zoom: 8, value: 0.08124}, 6],
+               [{zoom: 8, value: 13.5359}, 16],
+               [{zoom: 9, value: 0.08124}, 7],
+               [{zoom: 9, value: 13.5359}, 17],
+               [{zoom: 10, value: 0.08124}, 8],
+               [{zoom: 10, value: 13.5359}, 18],
+               [{zoom: 11, value: 0.08124}, 9],
+               [{zoom: 11, value: 13.5359}, 19],
+               [{zoom: 12, value: 0.08124}, 10],
+               [{zoom: 12, value: 13.5359}, 20],
+               [{zoom: 13, value: 0.08124}, 11],
+               [{zoom: 13, value: 13.5359}, 21],
+               [{zoom: 14, value: 0.08124}, 12],
+               [{zoom: 14, value: 13.5359}, 22],
+               [{zoom: 15, value: 0.08124}, 13],
+               [{zoom: 15, value: 13.5359}, 23]
+              ]
+            },
+            'circle-opacity': 0.8
+          }
+        }); 
+
+        // Create a popup, but don't add it to the map yet.
+        var popup = new mapboxgl.Popup({
+            closeButton: false,
+            closeOnClick: false
+        });
+
+        basemap.on('mouseenter','ckillings',function(e){
+          var features = basemap.queryRenderedFeatures(e.point, { layers: ['ckillings'] });
+          // if the features have no info, return nothing
+          if (!features.length) {
+            return;
+          }
+
+          var feature = features[0];
+
+          var state = feature.properties.State;
+          var city = feature.properties.City;
+
+          var locname = city + ", " + state;
+          basemap.getCanvas().style.cursor = 'pointer';
+
+          var coordinates = e.features[0].geometry.coordinates.slice();
+          var description = e.features[0].properties.description;
+
+          while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+          }
+
+          // Populate the popup and set its coordinates
+          // based on the feature found.
+          popup.setLngLat(coordinates)
+              .setHTML('<center><h4 class="capitalize", style="color:black;">' + locname + '</h4></center>')
+              .addTo(basemap);
+        });
+
+        basemap.on('mouseleave', 'ckillings',function() {
+          basemap.getCanvas().style.cursor = '';
+          popup.remove();
+        });
+
+        basemap.on('click',function(e){
+          var cityfeature = basemap.queryRenderedFeatures(e.point, { layers: ['ckillings'] });
+          if (cityfeature.length > 0){
+            var feature = cityfeature[0];
+
+            var population = feature.properties.Population;
+            var killings = feature.properties.Killings;
+            var state = feature.properties.State;
+            var city = feature.properties.City;
+            var killingspc = feature.properties.policekillingspc;
+            var income = feature.properties.MedIncome;
+            var hasBlack = feature.properties.hasBlack;
+            var locname = city + ", " + state;
+
+            makesidebarrec(city,state,population, killings, income, killingspc);
+            if(document.getElementById('basearticle') != null){
+              document.getElementById('basearticle').remove();
+            }
+            makeaddressmap("City",city,state);
+            makesegment1("City", city, state);
+            makecausebargraph("City",city,state);
+            makesegment2("City",city, state);
+            makeracegraph("City",city,state);
+            maketips('City',city, state);
+            return;
+          }
+
+          var statefeature = basemap.queryRenderedFeatures(e.point, { layers: ['skillings'] });
+
+          if (!statefeature.length) {
+            return;
+          }
+
+          var State = statefeature[0].properties.name;
+
+          d3.csv('finaldata/statekillings.csv',function(error,data){
+            if (error) throw error;
+
+            var filtereddata = data.filter(function(d){
+                      return (d['State'] == State);
+             });
+            
+
+
+            var city = "";
+            var population = filtereddata[0].population;
+            var killings = filtereddata[0].Count;
+            var state = filtereddata[0].State;
+            var killingspc = filtereddata[0].policekillings;
+            var income = filtereddata[0].MedIncome;
+            var hasBlack = filtereddata[0].hasBlack;
+
+            makesidebarrec(city,state,population, killings, income, killingspc);
+            if(document.getElementById('basearticle') != null){
+              document.getElementById('basearticle').remove();
+            }
+            makeaddressmap("State",city,state);
+            makesegment1("State", city, state);
+            makecausebargraph("State",city,state);
+            makesegment2("State",city, state);
+            makeracegraph("State",city,state);
+            maketips('State',city, state);
+            });
+          });      
+        });
+  }
+
+  function makeaddressmap(type,city,state){
+
+    killingmaplabel = "Map of Police Killings"
+    var killingname = document.getElementById('addresstitle');
+    killingname.innerHTML = killingmaplabel;
+
+    d3.csv('finaldata/ExactAddress.csv',function(error,data){
+      if (error) throw error;
+      
+      data.forEach(function(d){
+        d.Latitude = +d.Latitude;
+        d.Longitude = +d.Longitude;
+        d.CityLat = +d.CityLat;
+        d.CityLong = +d.CityLong;
+      });
+      if(type == "City"){
+        var filtereddata = data.filter(function(d){
+          return (d['City'] == city && d['State'] == state);
+        });
+        var CityLat = filtereddata[0].CityLat;
+        var CityLong = filtereddata[0].CityLong;
+        var addressmap = new mapboxgl.Map({
+          container: 'addressmap', // container id
+          style: 'mapbox://styles/anchors19/cjp83957f369u2snuunps2rq6',
+          center: [CityLong, CityLat], // starting position [lng, lat]
+          zoom: 10 // starting zoom
+        });
+
+        var filtereddata = data.filter(function(d){
+                        return (d['City'] == city && d['State'] == state);
+               });
+
+        var filteredgeoJSON = {};
+        filteredgeoJSON['type'] = "FeatureCollection";
+        filteredgeoJSON['features'] = [];
+
+        var jsonlength = filtereddata.length;
+        for (i = 0; i < jsonlength; i++){
+          var newFeature = {type: 'Feature',
+                              geometry: {
+                                type: 'Point',
+                                coordinates: [filtereddata[i].Longitude, filtereddata[i].Latitude]
+                              },
+                              properties: {
+                                name: filtereddata[i].Name,
+                                age: filtereddata[i].Age,
+                                gender: filtereddata[i].Gender,
+                                race: filtereddata[i].Race,
+                                date: filtereddata[i].Date,
+                                cause: filtereddata[i].CauseofDeath,
+                                link: filtereddata[i].Link,
+                                address: filtereddata[i].Address,
+                              }
+                            }
+          filteredgeoJSON['features'].push(newFeature);
+        } 
+
+        addressmap.addControl(new mapboxgl.NavigationControl());
+        
+        // ADD KILLING POINTS
+        filteredgeoJSON.features.forEach(function(marker) {
+          // create a HTML element for each feature
+          var el = document.createElement('div');
+          el.className = 'marker';
+
+          //make a marker for each feature and add to the map
+          new mapboxgl.Marker(el)
+            .setLngLat(marker.geometry.coordinates)
+            .setPopup(new mapboxgl.Popup({ offset: 10 }) // add popups
+              .setHTML("<h5>" + marker.properties.name + ": " + marker.properties.gender + ", " + marker.properties.age + "</h5><font color='black'><ul style='list-style-type:circle'><li>Date: " + marker.properties.date + "</li><li>Race: " + marker.properties.race + "</li><li>Cause: " + marker.properties.cause + "</li><li>Address: " + marker.properties.address + "</li><li><a href=" + marker.properties.link + ">Article Link</a></li></ul></font>"))
+            .addTo(addressmap);
+
+        });
+      }
+      else if(type == "State"){
+        var filtereddata = data.filter(function(d){
+          return (d['State'] == state);
+        });
+        var CityLat = filtereddata[0].CityLat;
+        var CityLong = filtereddata[0].CityLong;
+        var addressmap = new mapboxgl.Map({
+          container: 'addressmap', // container id
+          style: 'mapbox://styles/anchors19/cjp83957f369u2snuunps2rq6',
+          center: [CityLong, CityLat], // starting position [lng, lat]
+          zoom: 6 // starting zoom
+        });
+
+        var filtereddata = data.filter(function(d){
+                        return (d['State'] == state);
+               });
+
+        var filteredgeoJSON = {};
+        filteredgeoJSON['type'] = "FeatureCollection";
+        filteredgeoJSON['features'] = [];
+
+        var jsonlength = filtereddata.length;
+        for (i = 0; i < jsonlength; i++){
+          var newFeature = {type: 'Feature',
+                              geometry: {
+                                type: 'Point',
+                                coordinates: [filtereddata[i].Longitude, filtereddata[i].Latitude]
+                              },
+                              properties: {
+                                name: filtereddata[i].Name,
+                                age: filtereddata[i].Age,
+                                gender: filtereddata[i].Gender,
+                                race: filtereddata[i].Race,
+                                date: filtereddata[i].Date,
+                                cause: filtereddata[i].CauseofDeath,
+                                link: filtereddata[i].Link,
+                                address: filtereddata[i].Address,
+                              }
+                            }
+          filteredgeoJSON['features'].push(newFeature);
+        } 
+
+        addressmap.addControl(new mapboxgl.NavigationControl());
+        
+        // ADD KILLING POINTS
+        filteredgeoJSON.features.forEach(function(marker) {
+          // create a HTML element for each feature
+          var el = document.createElement('div');
+          el.className = 'marker';
+
+          //make a marker for each feature and add to the map
+          new mapboxgl.Marker(el)
+            .setLngLat(marker.geometry.coordinates)
+            .setPopup(new mapboxgl.Popup({ offset: 10 }) // add popups
+              .setHTML("<h5>" + marker.properties.name + ": " + marker.properties.gender + ", " + marker.properties.age + "</h5><font color='black'><ul style='list-style-type:circle'><li>Date: " + marker.properties.date + "</li><li>Race: " + marker.properties.race + "</li><li>Cause: " + marker.properties.cause + "</li><li>Address: " + marker.properties.address + "</li><li><a href=" + marker.properties.link + ">Article Link</a></li></ul></font>"))
+            .addTo(addressmap);
+
+        });
+      }
+    });
+  }
+
+
+
+
+  function makesidebarrec(city, state,population, killings, income, killingspc){
+    var thousandformat = d3.format(",d");
+    var totalpop = thousandformat(Math.round(population));
+    var killingspc = Math.round(killingspc*100)/100;
+    var formatDecimalComma = d3.format(",")
+    var formatMoney = function(d) { return "$" + formatDecimalComma(d); }
+    var medincome = formatMoney(income);
+    var killings = thousandformat(Math.round(killings*100)/100);
+
+    if(city != ""){
+      citynamelabel = city + ", " + state;
+    }else{
+      citynamelabel = state;
+    }
+    
+    var cityname = document.getElementById('threerecsheading');
+    cityname.innerHTML = citynamelabel;
+
+    d3.selectAll("rect").remove();
+    d3.selectAll("text").remove();
+
+
+    var citystatscolors = [
+      {
+      "color": "#2B4071",
+      "width": 100,
+      "height": 70,
+      "x": 0,
+      "y": 10,
+      "label": "Population",
+      "text": totalpop
+      },
+      {
+      "color": "#3F6ABF",
+      "width": 100,
+      "height": 70,
+      "x": 100,
+      "y": 10,
+      "label": "Total Killed",
+      "text": killings
+      },
+      {
+      "color": "#75C3F8",
+      "width": 100,
+      "height": 70,
+      "x": 200,
+      "y": 10,
+      "label": "Median Income",
+      "text": medincome
+      },
+      {
+      "color": "#B4E7FD",
+      "width": 100,
+      "height": 70,
+      "x": 300,
+      "y": 10,
+      "label": "Killings/100k",
+      "text": killingspc
+      }
+    ];
+
+    var border = 5;
+    var width = 100;
+    var height = 70;
+    var cityrectangles = recsvg.selectAll('rect')
+                          .data(citystatscolors)
+                          .enter()
+                          .append('rect')
+                          .attr("x", function (d) { return d.x; })
+                          .attr("y", function (d) { return d.y; })
+                          .attr("height", function (d) { return d.height; })
+                          .attr("width", function (d) { return d.width; })
+                          .style("fill", function(d) { return d.color; })
+                          .style("opacity", 0.85);
+    
+    var citytext = recsvg.selectAll('text')
+      .data(citystatscolors)
+      .enter()
+      .append('text')
+      .attr('font-size',18)
+      .attr('fill','white')
+      .attr('font-weight', 'bold')
+      .attr("x", function (d) { 
+        return (d.x + width/2); 
+      })
+      .attr("text-anchor", "middle")
+      .attr("y", function (d) { return (d.y + width/2-15); })
+      .text(function(d){
+        return d.text;
+      });
+
+    citytext.append('tspan')
+            .attr("x", function (d) { 
+        return (d.x + width/2); 
+      })
+        .attr("text-anchor", "middle")
+        .text(function(d){
+          return d.label;
+        })
+        .attr('font-weight', 'normal')
+        .attr('dy', '1.5em')
+        .attr('font-size',14);
+  }  
+
+  function makecausebargraph(type,city, state){
+
+    causegraphlabel = "Cause of Death"
+    var causename = document.getElementById('causetitle');
+    causename.innerHTML = causegraphlabel;
+
+    d3.csv('finaldata/causecounts.csv',function(error,data){
+      if (error) throw error;
+      
+      data.forEach(function(d){
+        d.Count = +d.Count;
+      });
+
+      var filtereddata = data.filter(function(d){
+          return (d['City'] == city && d['State'] == state && d['Region'] == type);
+        });
+
+      var x = d3.scaleBand()
+                .range([0,barwidth])
+                .padding(0.1);
+
+      x.domain(data.map(function(d){
+                  return d.Value;
+                }));
+
+      var causexaxis = barsvg.append('g')
+            .attr('class','xaxis')
+            .style('stroke','white')
+            .call(d3.axisBottom(x));
+
+      causexaxis.selectAll("text")
+            .style("text-anchor", "end")
+            .attr("dx", "-.8em")
+            .attr("dy", ".15em")
+            .attr("transform", function(d) {
+                return "rotate(-65)" 
+                });
+
+      var maxWidth = 0;
+      causexaxis.selectAll("text").each(function () {
+        var boxWidth = this.getBBox().width;
+        if (boxWidth > maxWidth){
+          maxWidth = boxWidth;
+        } 
+      });
+      tempheight = barheight - maxWidth;
+
+      causexaxis.attr("transform", "translate(0," + tempheight + ")");
+
+      var y = d3.scaleLinear()
+                .range([tempheight,0]);
+
+      y.domain([0, d3.max(filtereddata,function(d){
+                return Math.max(d.Count);
+              })]);
+
+      barsvg.append('g')
+            .attr('class','yaxis')
+            .style('stroke','white')
+            .call(d3.axisLeft(y));
+
+      barsvg.selectAll('.bar')
+            .data(filtereddata).enter()
+            .append('rect')
+            .attr('class','bar')
+            .attr('x',function(d){
+              return x(d.Value);
+            })
+            .attr('width',x.bandwidth())
+            .attr('y',function(d){
+              return y(d.Count);})
+            .attr('height',function(d){
+              return tempheight - y(d.Count);
+            });
+
+
+      // X axis Label
+      barsvg.append("text")             
+              .attr("transform",
+            "translate(" + (barwidth/2) + " ," + 
+                           (barheight + barmargin.top + 15) + ")")
+              .style("text-anchor", "middle")
+              .style('fill','white')
+              .text("Cause of Death");
+      
+      // Y axis label
+      barsvg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 0 - barmargin.left+20)
+        .attr("x",0 - (tempheight / 2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .style('fill','white')
+        .text("# Deaths"); 
+
+    });
+  }
+
+  function maketips(type,city, state){
+    var x = document.getElementById("crimetips");
+    var formatDecimalComma = d3.format(",")
+    var formatMoney = function(d) { return "$" + formatDecimalComma(d); }
+
+    x.style.display = "none";
+
+    if(type == 'City'){
+      d3.csv('finaldata/citieskillings.csv',function(error,data){
+      if (error) throw error;
+      
+      var filtereddata = data.filter(function(d){
+          return (d['City'] == city && d['State'] == state);
+      });
+      //console.log(filtereddata[0].articleplugin);
+
+      if(filtereddata[0].articleplugin == 'BothMore'){
+        var tiphtml = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Both the number of police killings per 100,000 people and the median income in <b><font color='steelblue'>" + city + ", " + state + "</b></font> were higher than the national police killing rates of 0.907 per 100,000 residents and national median income of $57,909. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It would be helpful to look closer into why this is the case and to look for other factors that may be affecting police killings: <br><br>" + "<ul style='list-style-type:circle'><li>" + "Median Income: <b><font color='steelblue'>" + formatMoney(filtereddata[0].MedIncome) + "</b></font></li><li>" + "Number of police killings in 2015-2018: <b><font color='steelblue'>" + filtereddata[0].Killings + "</b></font></li><li>" + "Number of police killings per 100,000 residents: <b><font color='steelblue'>" + filtereddata[0].policekillingspc + "</b></font></li><li>" + "Most common race killed: <b><font color='steelblue'>" + filtereddata[0].commonRace + "</b></font></li><li>Most common gender killed: <b><font color='steelblue'>" + filtereddata[0].commonGender + "</b></font></li><li>" + "Most common cause of death: <b><font color='steelblue'>" + filtereddata[0].commonCause + "</b></font></li><li>" + "Sample description of incident: <b><font color='steelblue'>" + filtereddata[0].description + "</b></font></li></ul>";
+      }
+      else if(filtereddata[0].articleplugin == 'KillingMore'){
+        var tiphtml = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of police killings per 100,000 people in <b><font color='steelblue'>" + city + ", " + state + "</b></font> is higher than the national police killing rates of 0.907 per 100,000 residents. But the median income there is less than the national median income of $57,909. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It would be helpful to look closer into why this is the case and to look for other factors that may be affecting police killings: <br><br>" + "<ul style='list-style-type:circle'><li>" + "Median Income: <b><font color='steelblue'>" + formatMoney(filtereddata[0].MedIncome) + "</b></font></li><li>" + "Number of police killings in 2015-2018: <b><font color='steelblue'>" + filtereddata[0].Killings + "</b></font></li><li>" + "Number of police killings per 100,000 residents: <b><font color='steelblue'>" + filtereddata[0].policekillingspc + "</b></font></li><li>" + "Most common race killed: <b><font color='steelblue'>" + filtereddata[0].commonRace + "</b></font></li><li>Most common gender killed: <b><font color='steelblue'>" + filtereddata[0].commonGender + "</b></font></li><li>" + "Most common cause of death: <b><font color='steelblue'>" + filtereddata[0].commonCause + "</b></font></li><li>" + "Sample description of incident: <b><font color='steelblue'>" + filtereddata[0].description + "</b></font></li></ul>";
+      }
+      else if(filtereddata[0].articleplugin == 'IncomeMore'){
+        var tiphtml = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The median income in <b><font color='steelblue'>" + city + ", " + state + "</b></font> is higher than the national median income of $57,909. But the average number of police killings per 100,000 residents there is less than the national average of 0.907. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It would be helpful to look closer into why this is the case and to look for other factors that may be affecting police killings: <br><br>" + "<ul style='list-style-type:circle'><li>" + "Median Income: <b><font color='steelblue'>" + formatMoney(filtereddata[0].MedIncome) + "</b></font></li><li>" + "Number of police killings in 2015-2018: <b><font color='steelblue'>" + filtereddata[0].Killings + "</b></font></li><li>" + "Number of police killings per 100,000 residents: <b><font color='steelblue'>" + filtereddata[0].policekillingspc + "</b></font></li><li>" + "Most common race killed: <b><font color='steelblue'>" + filtereddata[0].commonRace + "</b></font></li><li>Most common gender killed: <b><font color='steelblue'>" + filtereddata[0].commonGender + "</b></font></li><li>" + "Most common cause of death: <b><font color='steelblue'>" + filtereddata[0].commonCause + "</b></font></li><li>" + "Sample description of incident: <b><font color='steelblue'>" + filtereddata[0].description + "</b></font></li></ul>";
+      }
+      else if(filtereddata[0].articleplugin == 'BothLess'){
+        var tiphtml = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Both the number of police killings per 100,000 people and the median income in <b><font color='steelblue'>" + city + ", " + state + "</b></font> were less than the national police killing rates of 0.907 per 100,000 residents and national median income of $57,909. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It would be helpful to look closer into why this is the case and to look for other factors that may be affecting police killings: <br><br>" + "<ul style='list-style-type:circle'><li>" + "Median Income: <b><font color='steelblue'>" + formatMoney(filtereddata[0].MedIncome) + "</b></font></li><li>" + "Number of police killings in 2015-2018: <b><font color='steelblue'>" + filtereddata[0].Killings + "</b></font></li><li>" + "Number of police killings per 100,000 residents: <b><font color='steelblue'>" + filtereddata[0].policekillingspc + "</b></font></li><li>" + "Most common race killed: <b><font color='steelblue'>" + filtereddata[0].commonRace + "</b></font></li><li>Most common gender killed: <b><font color='steelblue'>" + filtereddata[0].commonGender + "</b></font></li><li>" + "Most common cause of death: <b><font color='steelblue'>" + filtereddata[0].commonCause + "</b></font></li><li>" + "Sample description of incident: <b><font color='steelblue'>" + filtereddata[0].description + "</b></font></li></ul>";
+      }
+      tipsvg.selectAll("foreignObject").remove();
+      tipsvg.append("foreignObject")
+        .attr('class','temp1')
+        .attr("width", 460)
+        .attr("height", 100)
+        .append("xhtml:body")
+        .style("font", "14px 'Helvetica Neue'")
+        .style('color','white')
+        .html(tiphtml);
+      });
+    }
+    else if(type == 'State'){
+      d3.csv('finaldata/statekillings.csv',function(error,data){
+      if (error) throw error;
+      
+      var filtereddata = data.filter(function(d){
+          return (d['State'] == state);
+        });
+      //console.log(filtereddata);
+
+      if(filtereddata[0].articleplugin == 'BothMore'){
+        var tiphtml = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Both the number of police killings per 100,000 people and the median income in <b><font color='steelblue'>" + state + "</b></font> were higher than the national police killing rates of 0.907 per 100,000 residents and national median income of $57,909. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It would be helpful to look closer into why this is the case and to look for other factors that may be affecting police killings: <br><br>" + "<ul style='list-style-type:circle'><li>" + "Median Income: <b><font color='steelblue'>" + formatMoney(filtereddata[0].MedIncome) + "</b></font></li><li>" + "Number of police killings in 2015-2018: <b><font color='steelblue'>" + filtereddata[0].Count + "</b></font></li><li>" + "Number of police killings per 100,000 residents: <b><font color='steelblue'>" + filtereddata[0].policekillings + "</b></font></li><li>" + "Most common race killed: <b><font color='steelblue'>" + filtereddata[0].commonRace + "</b></font></li><li>Most common gender killed: <b><font color='steelblue'>" + filtereddata[0].commonGender + "</b></font></li><li>" + "Most common cause of death: <b><font color='steelblue'>" + filtereddata[0].commonCause + "</b></font></li><li>" + "Sample description of incident: <b><font color='steelblue'>" + filtereddata[0].description + "</b></font></li></ul>";
+      }
+      else if(filtereddata[0].articleplugin == 'KillingMore'){
+        var tiphtml = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of police killings per 100,000 people in <b><font color='steelblue'>" + state + "</b></font> is higher than the national police killing rates of 0.907 per 100,000 residents. But the median income there is less than the national median income of $57,909. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It would be helpful to look closer into why this is the case and to look for other factors that may be affecting police killings: <br><br>" + "<ul style='list-style-type:circle'><li>" + "Median Income: <b><font color='steelblue'>" + formatMoney(filtereddata[0].MedIncome) + "</b></font></li><li>" + "Number of police killings in 2015-2018: <b><font color='steelblue'>" + filtereddata[0].Count + "</b></font></li><li>" + "Number of police killings per 100,000 residents: <b><font color='steelblue'>" + filtereddata[0].policekillings + "</b></font></li><li>" + "Most common race killed: <b><font color='steelblue'>" + filtereddata[0].commonRace + "</b></font></li><li>Most common gender killed: <b><font color='steelblue'>" + filtereddata[0].commonGender + "</b></font></li><li>" + "Most common cause of death: <b><font color='steelblue'>" + filtereddata[0].commonCause + "</b></font></li><li>" + "Sample description of incident: <b><font color='steelblue'>" + filtereddata[0].description + "</b></font></li></ul>";
+      }
+      else if(filtereddata[0].articleplugin == 'IncomeMore'){
+        var tiphtml = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The median income in <b><font color='steelblue'>" + state + "</b></font> is higher than the national median income of $57,909. But the average number of police killings per 100,000 residents there is less than the national average of 0.907. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It would be helpful to look closer into why this is the case and to look for other factors that may be affecting police killings: <br><br>" + "<ul style='list-style-type:circle'><li>" + "Median Income: <b><font color='steelblue'>" + formatMoney(filtereddata[0].MedIncome) + "</b></font></li><li>" + "Number of police killings in 2015-2018: <b><font color='steelblue'>" + filtereddata[0].Count + "</b></font></li><li>" + "Number of police killings per 100,000 residents: <b><font color='steelblue'>" + filtereddata[0].policekillings + "</b></font></li><li>" + "Most common race killed: <b><font color='steelblue'>" + filtereddata[0].commonRace + "</b></font></li><li>Most common gender killed: <b><font color='steelblue'>" + filtereddata[0].commonGender + "</b></font></li><li>" + "Most common cause of death: <b><font color='steelblue'>" + filtereddata[0].commonCause + "</b></font></li><li>" + "Sample description of incident: <b><font color='steelblue'>" + filtereddata[0].description + "</b></font></li></ul>";
+      }
+      else if(filtereddata[0].articleplugin == 'BothLess'){
+        var tiphtml = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Both the number of police killings per 100,000 people and the median income in <b><font color='steelblue'>" + state + "</b></font> were less than the national police killing rates of 0.907 per 100,000 residents and national median income of $57,909. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It would be helpful to look closer into why this is the case and to look for other factors that may be affecting police killings: <br><br>" + "<ul style='list-style-type:circle'><li>" + "Median Income: <b><font color='steelblue'>" + formatMoney(filtereddata[0].MedIncome) + "</b></font></li><li>" + "Number of police killings in 2015-2018: <b><font color='steelblue'>" + filtereddata[0].Count + "</b></font></li><li>" + "Number of police killings per 100,000 residents: <b><font color='steelblue'>" + filtereddata[0].policekillings + "</b></font></li><li>" + "Most common race killed: <b><font color='steelblue'>" + filtereddata[0].commonRace + "</b></font></li><li>Most common gender killed: <b><font color='steelblue'>" + filtereddata[0].commonGender + "</b></font></li><li>" + "Most common cause of death: <b><font color='steelblue'>" + filtereddata[0].commonCause + "</b></font></li><li>" + "Sample description of incident: <b><font color='steelblue'>" + filtereddata[0].description + "</b></font></li></ul>";
+      }
+      //console.log(tiphtml);
+      tipsvg.selectAll("foreignObject").remove();
+      tipsvg.append("foreignObject")
+        .attr('class','temp1')
+        .attr("width", 460)
+        .attr("height", 100)
+        .append("xhtml:body")
+        .style("font", "14px 'Helvetica Neue'")
+        .style('color','white')
+        .html(tiphtml);
+      });
+    }
+
+  }
+
+  function makesegment1(type, city, state){
+    if(type == 'City'){
+      d3.csv('finaldata/citieskillings.csv',function(error,data){
+        if (error) throw error;
+
+        var filtereddata = data.filter(function(d){
+            return (d['City'] == city && d['State'] == state);
+        });
+
+        var Killings = filtereddata[0].Killings;
+        var Population = filtereddata[0].Population;
+        var KillingsPC = filtereddata[0].policekillingspc;
+        var MedIncome = filtereddata[0].MedIncome;
+        var articleplugin = filtereddata[0].articleplugin;
+        var description = filtereddata[0].description;
+        var hasBlack = filtereddata[0].hasBlack;
+
+        var formatDecimalComma = d3.format(",")
+        var formatMoney = function(d) { return "$" + formatDecimalComma(d); }
+        var MedIncome = formatMoney(MedIncome);
+
+
+        if(articleplugin == 'BothMore'){
+          var seg1html = "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT POLICE KILLING IN " + city + " &gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But how common are police killings, and what relationship do they have to the economic condition of a given region? <br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; With a median income of " + MedIncome + ", <b><font color='steelblue'>" + city + ", " + state + "</b></font> is above the national median. This contrasts with data suggesting a national relationship between deaths at the hands of police and poverty, as the number of killings in <b><font color='steelblue'>" + city + ", " + state + "</b></font> is also above the national average.<br><br>" + "<font color='#bb99ff'><center><b>&lt; STATEMENT ABOUT POLICE KILLINGS BY  " + city + " ELECTED OFFICIAL&gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 2015, the Guardian launched <q>The Counted,</q> an interactive database of the Americans killed by police every year. Alongside information about the age, race and gender of the victims, the data set includes the addresses where killings took place. Data from a similar database maintained by The Washington Post shed further light on this issue.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By mapping information about police brutality onto census data about the median incomes of U.S. states and cities, the relationship between wealth and violence is put in stark relief.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One thing that is clear from the data is that police killings tend to take place in neighborhoods that are poorer than the U.S. as a whole. About 30 percent of killings in “The Counted” circa 2015, for instance — 139 out of 467 — took place in census tracts that were in the bottom 20 percent nationally in terms of household income.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But <b><font color='steelblue'>" + city + ", " + state + "</b></font> seems to buck this trend, as it is both greater than the American median income of $57,909 and above the national average of 0.907 police killings per 100,000 people.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analysis of the Guardian’s data also suggests a relationship between race, poverty and killings. Black Americans were especially likely to be killed in poorer neighborhoods; of the 136 African-Americans killed by police who in the Guardian’s 2015 database, 56 — more than 40 percent — died in tracts in the poorest 20 percent nationally. But that may say more about overall racial inequality than about policing per se: African-Americans were killed in low-income areas at roughly the same rate that they live in them.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These numbers fit a narrative that emerged after the deaths of Michael Brown in Ferguson, Missouri, and of Freddie Gray in Baltimore. Both occurred in poor, predominantly black neighborhoods with few jobs and limited educational opportunities. Protesters who took to the streets after those deaths often cited economic conditions — along with police tactics they saw as discriminatory — as an underlying cause of their anger.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But not all police killings fit this pattern. Take one example: In February, Vincent Cordaro, a 57-year-old white man, was fatally shot in his home in Rockland County, New York – a New York City suburb where the median household income is more than $140,000.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like most of the people in the Guardian’s database, Cordaro was armed when he died: According to news reports, he threatened his family with a shotgun and was killed after a seven-hour standoff with police.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A more local incidient of police killing an individual occurred with  " + filtereddata[0].Name + ", a " + filtereddata[0].Gender + " killed by police on " + filtereddata[0].Date + " in " + filtereddata[0].Location + ". The cause of death was deemed to be " + filtereddata[0].Cause + ".<br><br>" + "<font color='#bb99ff'><center><b>&lt; EXPAND ON STORY WITH DETAILS FROM: <a href=" + filtereddata[0].URL + ">LINK</a>&gt;. </center></b></font><br>"
+        }
+        else if(articleplugin == 'KillingMore'){
+          var seg1html  = "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT POLICE KILLING IN " + city + " &gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But how common are police killings, and what relationship do they have to the economic condition of a given region? <br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; With a median income of " + MedIncome + ", <b><font color='steelblue'>" + city + ", " + state + "</b></font>  is below the national median. This is consistent with data suggesting a national relationship between deaths at the hands of police and poverty, as the number of killings in <b><font color='steelblue'>" + city + ", " + state + "</b></font> is above the national average.<br><br>" + "<font color='#bb99ff'><center><b>&lt; STATEMENT ABOUT POLICE KILLINGS BY  " + city + " ELECTED OFFICIAL&gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 2015, the Guardian launched “The Counted,” an interactive database of the Americans killed by police every year. Alongside information about the age, race and gender of the victims, the data set includes the addresses where killings took place. Data from a similar database maintained by The Washington Post shed further light on this issue.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By mapping information about police brutality onto census data about the median incomes of U.S. states and cities, the relationship between wealth and violence is put in stark relief.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One thing that is clear from the data is that police killings tend to take place in neighborhoods that are poorer than the U.S. as a whole. About 30 percent of killings in “The Counted” circa 2015, for instance — 139 out of 467 — took place in census tracts that were in the bottom 20 percent nationally in terms of household income.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color='steelblue'>" + city + ", " + state + "</b></font> exemplifies this disproportionate distribution of state violence, as it is below the American median income of $57,909 and above the national average of 0.907 police killings per 100,000 people.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analysis of the Guardian’s data also suggests a relationship between race, poverty and killings. Black Americans were especially likely to be killed in poorer neighborhoods; of the 136 African-Americans killed by police who in the Guardian’s 2015 database, 56 — more than 40 percent — died in tracts in the poorest 20 percent nationally. But that may say more about overall racial inequality than about policing per se: African-Americans were killed in low-income areas at roughly the same rate that they live in them.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These numbers fit a narrative that emerged after the deaths of Michael Brown in Ferguson, Missouri, and of Freddie Gray in Baltimore. Both occurred in poor, predominantly black neighborhoods with few jobs and limited educational opportunities. Protesters who took to the streets after those deaths often cited economic conditions — along with police tactics they saw as discriminatory — as an underlying cause of their anger.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But not all police killings fit this pattern. Take one example: In February, Vincent Cordaro, a 57-year-old white man, was fatally shot in his home in Rockland County, New York – a New York City suburb where the median household income is more than $140,000.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like most of the people in the Guardian’s database, Cordaro was armed when he died: According to news reports, he threatened his family with a shotgun and was killed after a seven-hour standoff with police.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A more local incidient of police killing an individual occurred with  " + filtereddata[0].Name + ", a " + filtereddata[0].Gender + " killed by police on " + filtereddata[0].Date + " in " + filtereddata[0].Location + ". The cause of death was deemed to be " + filtereddata[0].Cause + ".<br><br>" + "<font color='#bb99ff'><center><b>&lt; EXPAND ON STORY WITH DETAILS FROM: <a href=" + filtereddata[0].URL + ">LINK</a>&gt;. </center></b></font><br>"
+        }
+        else if(articleplugin == 'IncomeMore'){
+          var seg1html = "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT POLICE KILLING IN " + city + " &gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But how common are police killings, and what relationship do they have to the economic condition of a given region? <br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; With a median income of " + MedIncome + ", <b><font color='steelblue'>" + city + ", " + state + "</b></font> is above the national median income. This is consistent with data suggesting a national relationship between deaths at the hands of police and poverty, as the number of killings in <b><font color='steelblue'>" + city + ", " + state + "</b></font> is below the national average.<br><br>" + "<font color='#bb99ff'><center><b>&lt; STATEMENT ABOUT POLICE KILLINGS BY  " + city + " ELECTED OFFICIAL&gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 2015, the Guardian launched “The Counted,” an interactive database of the Americans killed by police every year. Alongside information about the age, race and gender of the victims, the data set includes the addresses where killings took place. Data from a similar database maintained by The Washington Post shed further light on this issue.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By mapping information about police brutality onto census data about the median incomes of U.S. states and cities, the relationship between wealth and violence is put in stark relief.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One thing that is clear from the data is that police killings tend to take place in neighborhoods that are poorer than the U.S. as a whole. About 30 percent of killings in “The Counted” circa 2015, for instance — 139 out of 467 — took place in census tracts that were in the bottom 20 percent nationally in terms of household income.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color='steelblue'>" + city + ", " + state + "</b></font> comports with apparent trends in the disproportionate distribution of state violence, as it is above the American median income of $57,909 and below the national average of 0.907 police killings per 100,000 people.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analysis of the Guardian’s data also suggests a relationship between race, poverty and killings. Black Americans were especially likely to be killed in poorer neighborhoods; of the 136 African-Americans killed by police who in the Guardian’s 2015 database, 56 — more than 40 percent — died in tracts in the poorest 20 percent nationally. But that may say more about overall racial inequality than about policing per se: African-Americans were killed in low-income areas at roughly the same rate that they live in them.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These numbers fit a narrative that emerged after the deaths of Michael Brown in Ferguson, Missouri, and of Freddie Gray in Baltimore. Both occurred in poor, predominantly black neighborhoods with few jobs and limited educational opportunities. Protesters who took to the streets after those deaths often cited economic conditions — along with police tactics they saw as discriminatory — as an underlying cause of their anger.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But not all police killings fit this pattern. Take one example: In February, Vincent Cordaro, a 57-year-old white man, was fatally shot in his home in Rockland County, New York – a New York City suburb where the median household income is more than $140,000.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like most of the people in the Guardian’s database, Cordaro was armed when he died: According to news reports, he threatened his family with a shotgun and was killed after a seven-hour standoff with police.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A more local incidient of police killing an individual occurred with  " + filtereddata[0].Name + ", a " + filtereddata[0].Gender + " killed by police on " + filtereddata[0].Date + " in " + filtereddata[0].Location + ". The cause of death was deemed to be " + filtereddata[0].Cause + ".<br><br>" + "<font color='#bb99ff'><center><b>&lt; EXPAND ON STORY WITH DETAILS FROM: <a href=" + filtereddata[0].URL + ">LINK</a>&gt;. </center></b></font><br>"
+        }
+        else if(articleplugin == 'BothLess'){
+          var seg1html  = "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT POLICE KILLING IN " + city + " &gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But how common are police killings, and what relationship do they have to the economic condition of a given region? <br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; With a median income of " + MedIncome + ", <b><font color='steelblue'>" + city + ", " + state + "</b></font> is below the national median. This contrasts with data suggesting a national relationship between deaths at the hands of police and poverty, as the number of killings in <b><font color='steelblue'>" + city + ", " + state + "</b></font> is also below the national average. <br><br>" + "<font color='#bb99ff'><center><b>&lt; STATEMENT ABOUT POLICE KILLINGS BY  " + city + " ELECTED OFFICIAL&gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 2015, the Guardian launched “The Counted,” an interactive database of the Americans killed by police every year. Alongside information about the age, race and gender of the victims, the data set includes the addresses where killings took place. Data from a similar database maintained by The Washington Post shed further light on this issue.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By mapping information about police brutality onto census data about the median incomes of U.S. states and cities, the relationship between wealth and violence is put in stark relief.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One thing that is clear from the data is that police killings tend to take place in neighborhoods that are poorer than the U.S. as a whole. About 30 percent of killings in “The Counted” circa 2015, for instance — 139 out of 467 — took place in census tracts that were in the bottom 20 percent nationally in terms of household income.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But <b><font color='steelblue'>" + city + ", " + state + "</b></font>seems to buck this trend, as it is both below the American median income of $57,909 and below the national average of 0.907 police killings per 100,000 people.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analysis of the Guardian’s data also suggests a relationship between race, poverty and killings. Black Americans were especially likely to be killed in poorer neighborhoods; of the 136 African-Americans killed by police who in the Guardian’s 2015 database, 56 — more than 40 percent — died in tracts in the poorest 20 percent nationally. But that may say more about overall racial inequality than about policing per se: African-Americans were killed in low-income areas at roughly the same rate that they live in them.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These numbers fit a narrative that emerged after the deaths of Michael Brown in Ferguson, Missouri, and of Freddie Gray in Baltimore. Both occurred in poor, predominantly black neighborhoods with few jobs and limited educational opportunities. Protesters who took to the streets after those deaths often cited economic conditions — along with police tactics they saw as discriminatory — as an underlying cause of their anger.<br><br>" + "<font color='#bb99ff'><center><b>&lt; STATEMENT BY " + city + " OFFICIAL ABOUT POLICIES THAT REDUCED NUMBER OF KILLINGS&gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But not all police killings fit this pattern. Take one example: In February, Vincent Cordaro, a 57-year-old white man, was fatally shot in his home in Rockland County, New York – a New York City suburb where the median household income is more than $140,000.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like most of the people in the Guardian’s database, Cordaro was armed when he died: According to news reports, he threatened his family with a shotgun and was killed after a seven-hour standoff with police.<br><br>"
+        }
+        seg1svg.selectAll("foreignObject").remove();
+        seg1svg.append("foreignObject")
+          .attr("width", 460)
+          .append("xhtml:body")
+          .style("font", "14px 'Helvetica Neue'")
+          .style('color','white')
+          .html(seg1html);
+      });
+    }
+    else if(type == 'State'){
+      //console.log('STATE');
+      d3.csv('finaldata/statekillings.csv',function(error,data){
+        if (error) throw error;
+
+        //console.log(data);
+
+        var filtereddata = data.filter(function(d){
+            return (d['State'] == state);
+        });
+
+        var Killings = filtereddata[0].Killings;
+        var Population = filtereddata[0].Population;
+        var KillingsPC = filtereddata[0].policekillingspc;
+        var MedIncome = filtereddata[0].MedIncome;
+        var articleplugin = filtereddata[0].articleplugin;
+        var description = filtereddata[0].description;
+        var hasBlack = filtereddata[0].hasBlack;
+
+        var formatDecimalComma = d3.format(",")
+        var formatMoney = function(d) { return "$" + formatDecimalComma(d); }
+        var MedIncome = formatMoney(MedIncome);
+
+        if(articleplugin == 'BothMore'){
+          var seg1html = "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT POLICE KILLING IN " + state + " &gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But how common are police killings, and what relationship do they have to the economic condition of a given region? <br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; With a median income of " + MedIncome + ", <b><font color='steelblue'>" + state + "</b></font> is above the national median. This contrasts with data suggesting a national relationship between deaths at the hands of police and poverty, as the number of killings in <b><font color='steelblue'>" + state + "</b></font> is also above the national average.<br><br>" + "<font color='#bb99ff'><center><b>&lt; STATEMENT ABOUT POLICE KILLINGS BY  " + state + " ELECTED OFFICIAL&gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 2015, the Guardian launched <q>The Counted,</q> an interactive database of the Americans killed by police every year. Alongside information about the age, race and gender of the victims, the data set includes the addresses where killings took place. Data from a similar database maintained by The Washington Post shed further light on this issue.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By mapping information about police brutality onto census data about the median incomes of U.S. states and cities, the relationship between wealth and violence is put in stark relief.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One thing that is clear from the data is that police killings tend to take place in neighborhoods that are poorer than the U.S. as a whole. About 30 percent of killings in “The Counted” circa 2015, for instance — 139 out of 467 — took place in census tracts that were in the bottom 20 percent nationally in terms of household income.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But <b><font color='steelblue'>" + state + "</b></font> seems to buck this trend, as it is both greater than the American median income of $57,909 and above the national average of 0.907 police killings per 100,000 people.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analysis of the Guardian’s data also suggests a relationship between race, poverty and killings. Black Americans were especially likely to be killed in poorer neighborhoods; of the 136 African-Americans killed by police who in the Guardian’s 2015 database, 56 — more than 40 percent — died in tracts in the poorest 20 percent nationally. But that may say more about overall racial inequality than about policing per se: African-Americans were killed in low-income areas at roughly the same rate that they live in them.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These numbers fit a narrative that emerged after the deaths of Michael Brown in Ferguson, Missouri, and of Freddie Gray in Baltimore. Both occurred in poor, predominantly black neighborhoods with few jobs and limited educational opportunities. Protesters who took to the streets after those deaths often cited economic conditions — along with police tactics they saw as discriminatory — as an underlying cause of their anger.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But not all police killings fit this pattern. Take one example: In February, Vincent Cordaro, a 57-year-old white man, was fatally shot in his home in Rockland County, New York – a New York City suburb where the median household income is more than $140,000.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like most of the people in the Guardian’s database, Cordaro was armed when he died: According to news reports, he threatened his family with a shotgun and was killed after a seven-hour standoff with police.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A more local incidient of police killing an individual occurred with  " + filtereddata[0].Name + ", a " + filtereddata[0].Gender + " killed by police on " + filtereddata[0].Date + " in " + filtereddata[0].Location + ". The cause of death was deemed to be " + filtereddata[0].Cause + ".<br><br>" + "<font color='#bb99ff'><center><b>&lt; EXPAND ON STORY WITH DETAILS FROM: <a href=" + filtereddata[0].URL + ">LINK</a>&gt;. </center></b></font><br>"
+        }
+        else if(articleplugin == 'KillingMore'){
+          var seg1html  = "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT POLICE KILLING IN " + state + " &gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But how common are police killings, and what relationship do they have to the economic condition of a given region? <br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; With a median income of " + MedIncome + ", <b><font color='steelblue'>" + state + "</b></font>  is below the national median. This is consistent with data suggesting a national relationship between deaths at the hands of police and poverty, as the number of killings in <b><font color='steelblue'>" + state + "</b></font> is above the national average.<br><br>" + "<font color='#bb99ff'><center><b>&lt; STATEMENT ABOUT POLICE KILLINGS BY  " + state + " ELECTED OFFICIAL&gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 2015, the Guardian launched “The Counted,” an interactive database of the Americans killed by police every year. Alongside information about the age, race and gender of the victims, the data set includes the addresses where killings took place. Data from a similar database maintained by The Washington Post shed further light on this issue.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By mapping information about police brutality onto census data about the median incomes of U.S. states and cities, the relationship between wealth and violence is put in stark relief.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One thing that is clear from the data is that police killings tend to take place in neighborhoods that are poorer than the U.S. as a whole. About 30 percent of killings in “The Counted” circa 2015, for instance — 139 out of 467 — took place in census tracts that were in the bottom 20 percent nationally in terms of household income.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color='steelblue'>" +state + "</b></font> exemplifies this disproportionate distribution of state violence, as it is below the American median income of $57,909 and above the national average of 0.907 police killings per 100,000 people.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analysis of the Guardian’s data also suggests a relationship between race, poverty and killings. Black Americans were especially likely to be killed in poorer neighborhoods; of the 136 African-Americans killed by police who in the Guardian’s 2015 database, 56 — more than 40 percent — died in tracts in the poorest 20 percent nationally. But that may say more about overall racial inequality than about policing per se: African-Americans were killed in low-income areas at roughly the same rate that they live in them.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These numbers fit a narrative that emerged after the deaths of Michael Brown in Ferguson, Missouri, and of Freddie Gray in Baltimore. Both occurred in poor, predominantly black neighborhoods with few jobs and limited educational opportunities. Protesters who took to the streets after those deaths often cited economic conditions — along with police tactics they saw as discriminatory — as an underlying cause of their anger.<br><br>"+ "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But not all police killings fit this pattern. Take one example: In February, Vincent Cordaro, a 57-year-old white man, was fatally shot in his home in Rockland County, New York – a New York City suburb where the median household income is more than $140,000.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like most of the people in the Guardian’s database, Cordaro was armed when he died: According to news reports, he threatened his family with a shotgun and was killed after a seven-hour standoff with police.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A more local incidient of police killing an individual occurred with  " + filtereddata[0].Name + ", a " + filtereddata[0].Gender + " killed by police on " + filtereddata[0].Date + " in " + filtereddata[0].Location + ". The cause of death was deemed to be " + filtereddata[0].Cause + ".<br><br>" + "<font color='#bb99ff'><center><b>&lt; EXPAND ON STORY WITH DETAILS FROM: <a href=" + filtereddata[0].URL + ">LINK</a>&gt;. </center></b></font><br>"
+        }
+        else if(articleplugin == 'IncomeMore'){
+          var seg1html = "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT POLICE KILLING IN " + state + " &gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But how common are police killings, and what relationship do they have to the economic condition of a given region? <br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; With a median income of " + MedIncome + ", <b><font color='steelblue'>" + state + "</b></font> is above the national median income. This is consistent with data suggesting a national relationship between deaths at the hands of police and poverty, as the number of killings in <b><font color='steelblue'>" + state + "</b></font> is below the national average.<br><br>" + "<font color='#bb99ff'><center><b>&lt; STATEMENT ABOUT POLICE KILLINGS BY  " + state + " ELECTED OFFICIAL&gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 2015, the Guardian launched “The Counted,” an interactive database of the Americans killed by police every year. Alongside information about the age, race and gender of the victims, the data set includes the addresses where killings took place. Data from a similar database maintained by The Washington Post shed further light on this issue.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By mapping information about police brutality onto census data about the median incomes of U.S. states and cities, the relationship between wealth and violence is put in stark relief.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One thing that is clear from the data is that police killings tend to take place in neighborhoods that are poorer than the U.S. as a whole. About 30 percent of killings in “The Counted” circa 2015, for instance — 139 out of 467 — took place in census tracts that were in the bottom 20 percent nationally in terms of household income.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color='steelblue'>" + state + "</b></font> comports with apparent trends in the disproportionate distribution of state violence, as it is above the American median income of $57,909 and below the national average of 0.907 police killings per 100,000 people.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analysis of the Guardian’s data also suggests a relationship between race, poverty and killings. Black Americans were especially likely to be killed in poorer neighborhoods; of the 136 African-Americans killed by police who in the Guardian’s 2015 database, 56 — more than 40 percent — died in tracts in the poorest 20 percent nationally. But that may say more about overall racial inequality than about policing per se: African-Americans were killed in low-income areas at roughly the same rate that they live in them.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These numbers fit a narrative that emerged after the deaths of Michael Brown in Ferguson, Missouri, and of Freddie Gray in Baltimore. Both occurred in poor, predominantly black neighborhoods with few jobs and limited educational opportunities. Protesters who took to the streets after those deaths often cited economic conditions — along with police tactics they saw as discriminatory — as an underlying cause of their anger.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But not all police killings fit this pattern. Take one example: In February, Vincent Cordaro, a 57-year-old white man, was fatally shot in his home in Rockland County, New York – a New York City suburb where the median household income is more than $140,000.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like most of the people in the Guardian’s database, Cordaro was armed when he died: According to news reports, he threatened his family with a shotgun and was killed after a seven-hour standoff with police.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A more local incidient of police killing an individual occurred with  " + filtereddata[0].Name + ", a " + filtereddata[0].Gender + " killed by police on " + filtereddata[0].Date + " in " + filtereddata[0].Location + ". The cause of death was deemed to be " + filtereddata[0].Cause + ".<br><br>" + "<font color='#bb99ff'><center><b>&lt; EXPAND ON STORY WITH DETAILS FROM: <a href=" + filtereddata[0].URL + ">LINK</a>&gt;. </center></b></font><br>"
+        }
+        else if(articleplugin == 'BothLess'){
+          var seg1html  = "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT POLICE KILLING IN " + state + " &gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But how common are police killings, and what relationship do they have to the economic condition of a given region? <br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; With a median income of " + MedIncome + ", <b><font color='steelblue'>" + state + "</b></font> is below the national median. This contrasts with data suggesting a national relationship between deaths at the hands of police and poverty, as the number of killings in <b><font color='steelblue'>" + state + "</b></font> is also below the national average. <br><br>" + "<font color='#bb99ff'><center><b>&lt; STATEMENT ABOUT POLICE KILLINGS BY  " + state + " ELECTED OFFICIAL&gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 2015, the Guardian launched “The Counted,” an interactive database of the Americans killed by police every year. Alongside information about the age, race and gender of the victims, the data set includes the addresses where killings took place. Data from a similar database maintained by The Washington Post shed further light on this issue.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By mapping information about police brutality onto census data about the median incomes of U.S. states and cities, the relationship between wealth and violence is put in stark relief.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One thing that is clear from the data is that police killings tend to take place in neighborhoods that are poorer than the U.S. as a whole. About 30 percent of killings in “The Counted” circa 2015, for instance — 139 out of 467 — took place in census tracts that were in the bottom 20 percent nationally in terms of household income.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But <b><font color='steelblue'>" + state + "</b></font>seems to buck this trend, as it is both below the American median income of $57,909 and below the national average of 0.907 police killings per 100,000 people.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analysis of the Guardian’s data also suggests a relationship between race, poverty and killings. Black Americans were especially likely to be killed in poorer neighborhoods; of the 136 African-Americans killed by police who in the Guardian’s 2015 database, 56 — more than 40 percent — died in tracts in the poorest 20 percent nationally. But that may say more about overall racial inequality than about policing per se: African-Americans were killed in low-income areas at roughly the same rate that they live in them.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These numbers fit a narrative that emerged after the deaths of Michael Brown in Ferguson, Missouri, and of Freddie Gray in Baltimore. Both occurred in poor, predominantly black neighborhoods with few jobs and limited educational opportunities. Protesters who took to the streets after those deaths often cited economic conditions — along with police tactics they saw as discriminatory — as an underlying cause of their anger.<br><br>" + "<font color='#bb99ff'><center><b>&lt; STATEMENT BY " + state + " OFFICIAL ABOUT POLICIES THAT REDUCED NUMBER OF KILLINGS&gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But not all police killings fit this pattern. Take one example: In February, Vincent Cordaro, a 57-year-old white man, was fatally shot in his home in Rockland County, New York – a New York City suburb where the median household income is more than $140,000.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like most of the people in the Guardian’s database, Cordaro was armed when he died: According to news reports, he threatened his family with a shotgun and was killed after a seven-hour standoff with police.<br><br>"
+        }
+        seg1svg.selectAll("foreignObject").remove();
+        seg1svg.append("foreignObject")
+          .attr("width", 460)
+          .append("xhtml:body")
+          .style("font", "14px 'Helvetica Neue'")
+          .style('color','white')
+          .html(seg1html);
+      });
+    }
+  }
+
+  function makesegment2(type, city, state){
+    if(type == 'City'){
+      d3.csv('finaldata/citieskillings.csv',function(error,data){
+        if (error) throw error;
+
+        var filtereddata = data.filter(function(d){
+            return (d['City'] == city && d['State'] == state);
+        });
+
+        var Killings = filtereddata[0].Killings;
+        var Population = filtereddata[0].Population;
+        var KillingsPC = filtereddata[0].policekillingspc;
+        var MedIncome = filtereddata[0].MedIncome;
+        var articleplugin = filtereddata[0].articleplugin;
+        var description = filtereddata[0].description;
+        var hasBlack = filtereddata[0].hasBlack;
+
+        var formatDecimalComma = d3.format(",")
+        var formatMoney = function(d) { return "$" + formatDecimalComma(d); }
+        var MedIncome = formatMoney(MedIncome);
+
+        if(hasBlack = 1){
+          if(articleplugin != 'BothLess'){
+            var seg2html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But incidents that look more like ones that have been in the news — unarmed black men shot by police — can happen anywhere. Frank Shephard III, for example, was shot in a census tract in Houston with a median household income of more than $80,000; police said he had fled a traffic stop.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is more in line with what happened to " + filtereddata[0].BlackName + ", a " + filtereddata[0].BlackGender + " killed by police on " + filtereddata[0].BlackDate + " in " + filtereddata[0].BlackLocation + ". The cause of death was deemed to be " + filtereddata[0].BlackCause + ".<br><br>" + "<font color='#bb99ff'><center><b>&lt; EXPAND ON STORY WITH DETAILS FROM: <a href=" + filtereddata[0].BlackURL + ">LINK</a>&gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As police brutality continues to be a topic of national debate — and demand for concrete solutions grows — it will be increasingly important to understand the impact of both economics and race on the issue."
+          }
+          else if(articleplugin == 'Bothless'){
+            var seg2html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But incidents that look more like ones that have been in the news — unarmed black men shot by police — can happen anywhere. Frank Shephard III, for example, was shot in a census tract in Houston with a median household income of more than $80,000; police said he had fled a traffic stop.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As police brutality continues to be a topic of national debate — and demand for concrete solutions grows — it will be increasingly important to understand the impact of both economics and race on the issue."
+          }
+        }else{
+          if(articleplugin != 'BothLess'){
+            var seg2html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But incidents that look more like ones that have been in the news — unarmed black men shot by police — can happen anywhere. Frank Shephard III, for example, was shot in a census tract in Houston with a median household income of more than $80,000; police said he had fled a traffic stop.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As police brutality continues to be a topic of national debate — and demand for concrete solutions grows — it will be increasingly important to understand the impact of both economics and race on the issue."
+          }
+          else if(articleplugin == 'Bothless'){
+            var seg2html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But incidents that look more like ones that have been in the news — unarmed black men shot by police — can happen anywhere. Frank Shephard III, for example, was shot in a census tract in Houston with a median household income of more than $80,000; police said he had fled a traffic stop.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As police brutality continues to be a topic of national debate — and demand for concrete solutions grows — it will be increasingly important to understand the impact of both economics and race on the issue."
+          }
+        }
+
+        seg2svg.selectAll("foreignObject").remove();
+        seg2svg.append("foreignObject")
+          .attr("width", 460)
+          .append("xhtml:body")
+          .style("font", "14px 'Helvetica Neue'")
+          .style('color','white')
+          .html(seg2html);
+      });
+    }
+    else if(type == 'State'){
+      //console.log('STATE');
+      d3.csv('finaldata/statekillings.csv',function(error,data){
+        if (error) throw error;
+
+        //console.log(data);
+
+        var filtereddata = data.filter(function(d){
+            return (d['State'] == state);
+        });
+
+        var Killings = filtereddata[0].Killings;
+        var Population = filtereddata[0].Population;
+        var KillingsPC = filtereddata[0].policekillingspc;
+        var MedIncome = filtereddata[0].MedIncome;
+        var articleplugin = filtereddata[0].articleplugin;
+        var description = filtereddata[0].description;
+        var hasBlack = filtereddata[0].hasBlack;
+
+        var formatDecimalComma = d3.format(",")
+        var formatMoney = function(d) { return "$" + formatDecimalComma(d); }
+        var MedIncome = formatMoney(MedIncome);
+
+        if(hasBlack = 1){
+          if(articleplugin != 'BothLess'){
+            var seg2html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But incidents that look more like ones that have been in the news — unarmed black men shot by police — can happen anywhere. Frank Shephard III, for example, was shot in a census tract in Houston with a median household income of more than $80,000; police said he had fled a traffic stop.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is more in line with what happened to " + filtereddata[0].BlackName + ", a " + filtereddata[0].BlackGender + " killed by police on " + filtereddata[0].BlackDate + " in " + filtereddata[0].BlackLocation + ". The cause of death was deemed to be " + filtereddata[0].BlackCause + ".<br><br>" + "<font color='#bb99ff'><center><b>&lt; EXPAND ON STORY WITH DETAILS FROM: <a href=" + filtereddata[0].BlackURL + ">LINK</a>&gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As police brutality continues to be a topic of national debate — and demand for concrete solutions grows — it will be increasingly important to understand the impact of both economics and race on the issue."
+          }
+          else if(articleplugin == 'BothLess'){
+            var seg2html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But incidents that look more like ones that have been in the news — unarmed black men shot by police — can happen anywhere. Frank Shephard III, for example, was shot in a census tract in Houston with a median household income of more than $80,000; police said he had fled a traffic stop.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As police brutality continues to be a topic of national debate — and demand for concrete solutions grows — it will be increasingly important to understand the impact of both economics and race on the issue."
+          }
+        }else{
+          if(articleplugin != 'BothLess'){
+            var seg2html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But incidents that look more like ones that have been in the news — unarmed black men shot by police — can happen anywhere. Frank Shephard III, for example, was shot in a census tract in Houston with a median household income of more than $80,000; police said he had fled a traffic stop.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As police brutality continues to be a topic of national debate — and demand for concrete solutions grows — it will be increasingly important to understand the impact of both economics and race on the issue."
+          }
+          else if(articleplugin == 'BothLess'){
+            var seg2html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But incidents that look more like ones that have been in the news — unarmed black men shot by police — can happen anywhere. Frank Shephard III, for example, was shot in a census tract in Houston with a median household income of more than $80,000; police said he had fled a traffic stop.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As police brutality continues to be a topic of national debate — and demand for concrete solutions grows — it will be increasingly important to understand the impact of both economics and race on the issue."
+          }
+        }
+
+        seg2svg.selectAll("foreignObject").remove();
+        seg2svg.append("foreignObject")
+          .attr("width", 460)
+          .append("xhtml:body")
+          .style("font", "14px 'Helvetica Neue'")
+          .style('color','white')
+          .html(seg2html);
+      });
+    }
+  }
+
+  function makeracegraph(type,city, state){
+    racegraphlabel = "Police Killings by Race"
+    var racename = document.getElementById('racetitle');
+    racename.innerHTML = racegraphlabel;
+
+    d3.csv('finaldata/racecounts.csv',function(error,data){
+      if (error) throw error;
+
+      data.forEach(function(d){
+        d.Count = +d.Count;
+      });
+
+      var filtereddata = data.filter(function(d){
+          return (d['City'] == city && d['State'] == state && d['Region'] == type);
+        });
+
+      var x = d3.scaleBand()
+                .range([0,racewidth])
+                .padding(0.1);
+
+      x.domain(data.map(function(d){
+                  return d.Value;
+                }));
+
+      var racexaxis = racesvg.append('g')
+            .attr('class','xaxis')
+            .style('stroke','white')
+            .call(d3.axisBottom(x));
+
+      racexaxis.selectAll("text")
+            .style("text-anchor", "end")
+            .attr("dx", "-.8em")
+            .attr("dy", ".15em")
+            .attr("transform", function(d) {
+                return "rotate(-65)" 
+                });
+
+      var maxWidth = 0;
+      racexaxis.selectAll("text").each(function () {
+        var boxWidth = this.getBBox().width;
+        if (boxWidth > maxWidth){
+          maxWidth = boxWidth;
+        } 
+      });
+      tempheight = raceheight - maxWidth;
+
+      racexaxis.attr("transform", "translate(0," + tempheight + ")");
+
+      var y = d3.scaleLinear()
+                .range([tempheight,0]);
+
+      y.domain([0, d3.max(filtereddata,function(d){
+                return Math.max(d.Count);
+              })]);
+
+      racesvg.append('g')
+            .attr('class','yaxis')
+            .style('stroke','white')
+            .call(d3.axisLeft(y));
+
+      racesvg.selectAll('.bar')
+            .data(filtereddata).enter()
+            .append('rect')
+            .attr('class','bar')
+            .attr('x',function(d){
+              return x(d.Value);
+            })
+            .attr('width',x.bandwidth())
+            .attr('y',function(d){
+              return y(d.Count);})
+            .attr('height',function(d){
+              return tempheight - y(d.Count);
+            });
+
+
+      // X axis Label
+      racesvg.append("text")             
+              .attr("transform",
+            "translate(" + (racewidth/2) + " ," + 
+                           (raceheight + racemargin.top + 15) + ")")
+              .style("text-anchor", "middle")
+              .style('fill','white')
+              .text("Race");
+      
+      // Y axis label
+      racesvg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 0 - racemargin.left+20)
+        .attr("x",0 - (tempheight / 2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .style('fill','white')
+        .text("# Deaths"); 
+
+
+    });
+  }
+
+  </script>
+</body>
+</html>
+
+
+
+

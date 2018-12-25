@@ -1,0 +1,2285 @@
+State,City,Type,CrimeType,NumCrimes
+Alabama,Birmingham,City,Race,5.0
+Alabama,Hoover,City,Race,2.5
+Alabama,Mobile,City,Race,0.0
+Alabama,Montgomery,City,Race,1.0
+Alabama,Tuscaloosa,City,Race,1.3
+Alabama,,State,Race,12.3
+Alaska,Anchorage,City,Race,4.6
+Alaska,,State,Race,5.5
+Alaska, ,State,Race,8.0
+Arizona,Avondale,City,Race,2.1
+Arizona,Chandler,City,Race,2.0
+Arizona,Flagstaff,City,Race,0.3
+Arizona,Gilbert,City,Race,2.1
+Arizona,Glendale,City,Race,5.3
+Arizona,Goodyear,City,Race,0.5
+Arizona,Mesa,City,Race,4.2
+Arizona,Peoria,City,Race,1.8
+Arizona,Phoenix,City,Race,75.6
+Arizona,Scottsdale,City,Race,3.3
+Arizona,Surprise,City,Race,0.5
+Arizona,Tempe,City,Race,2.1
+Arizona,Tucson,City,Race,3.6
+Arizona,Yuma,City,Race,2.6
+Arizona,,State,Race,125.0
+Arizona, ,State,Race,110.0
+Arkansas,Fayetteville,City,Race,0.7
+Arkansas,Fort Smith,City,Race,1.5
+Arkansas,Jonesboro,City,Race,1.3
+Arkansas,Little Rock,City,Race,0.5
+Arkansas,North Little Rock,City,Race,1.0
+Arkansas,Springdale,City,Race,2.0
+Arkansas,,State,Race,29.3
+California,Alameda,City,Race,1.7
+California,Alhambra,City,Race,1.6
+California,Anaheim,City,Race,1.2
+California,Antioch,City,Race,2.1
+California,Apple Valley,City,Race,1.5
+California,Bakersfield,City,Race,3.1
+California,Baldwin Park,City,Race,0.8
+California,Bellflower,City,Race,1.0
+California,Berkeley,City,Race,4.0
+California,Buena Park,City,Race,1.1
+California,Burbank,City,Race,2.2
+California,Camarillo,City,Race,1.1
+California,Carlsbad,City,Race,1.5
+California,Carson,City,Race,1.8
+California,Chico,City,Race,2.2
+California,Chino,City,Race,2.6
+California,Chino Hills,City,Race,0.8
+California,Chula Vista,City,Race,2.4
+California,Citrus Heights,City,Race,0.9
+California,Clovis,City,Race,1.8
+California,Compton,City,Race,2.2
+California,Concord,City,Race,1.8
+California,Corona,City,Race,2.0
+California,Costa Mesa,City,Race,1.1
+California,Daly City,City,Race,0.8
+California,Davis,City,Race,3.4
+California,Downey,City,Race,1.7
+California,El Cajon,City,Race,1.3
+California,El Monte,City,Race,4.7
+California,Elk Grove,City,Race,2.1
+California,Escondido,City,Race,4.5
+California,Fairfield,City,Race,1.2
+California,Folsom,City,Race,1.8
+California,Fontana,City,Race,0.9
+California,Fremont,City,Race,1.1
+California,Fresno,City,Race,4.9
+California,Fullerton,City,Race,1.6
+California,Garden Grove,City,Race,3.2
+California,Glendale,City,Race,1.9
+California,Hawthorne,City,Race,1.4
+California,Hayward,City,Race,1.6
+California,Hemet,City,Race,3.5
+California,Hesperia,City,Race,1.4
+California,Huntington Beach,City,Race,3.9
+California,Indio,City,Race,0.8
+California,Inglewood,City,Race,1.0
+California,Irvine,City,Race,2.6
+California,Jurupa Valley,City,Race,0.7
+California,Laguna Niguel,City,Race,0.0
+California,Lake Elsinore,City,Race,0.0
+California,Lake Forest,City,Race,1.4
+California,Lakewood,City,Race,3.0
+California,Lancaster,City,Race,6.0
+California,Livermore,City,Race,1.7
+California,Lodi,City,Race,1.0
+California,Long Beach,City,Race,5.3
+California,Los Angeles,City,Race,100.0
+California,Lynwood,City,Race,1.2
+California,Manteca,City,Race,1.4
+California,Menifee,City,Race,1.0
+California,Merced,City,Race,0.5
+California,Milpitas,City,Race,0.7
+California,Mission Viejo,City,Race,2.0
+California,Modesto,City,Race,3.8
+California,Moreno Valley,City,Race,2.5
+California,Mountain View,City,Race,1.0
+California,Murrieta,City,Race,0.9
+California,Napa,City,Race,1.0
+California,Newport Beach,City,Race,1.9
+California,Norwalk,City,Race,3.2
+California,Oakland,City,Race,6.8
+California,Oceanside,City,Race,6.0
+California,Ontario,City,Race,1.7
+California,Orange,City,Race,1.7
+California,Oxnard,City,Race,3.1
+California,Palmdale,City,Race,5.5
+California,Palo Alto,City,Race,2.1
+California,Pasadena,City,Race,4.3
+California,Perris,City,Race,0.7
+California,Pittsburg,City,Race,0.7
+California,Pleasanton,City,Race,1.0
+California,Pomona,City,Race,2.9
+California,Rancho Cordova,City,Race,1.3
+California,Rancho Cucamonga,City,Race,3.0
+California,Redding,City,Race,7.7
+California,Redlands,City,Race,1.4
+California,Redondo Beach,City,Race,3.1
+California,Redwood City,City,Race,1.3
+California,Rialto,City,Race,1.1
+California,Richmond,City,Race,2.5
+California,Riverside,City,Race,9.9
+California,Roseville,City,Race,2.7
+California,Sacramento,City,Race,5.7
+California,Salinas,City,Race,0.7
+California,San Bernardino,City,Race,2.5
+California,San Clemente,City,Race,1.0
+California,San Diego,City,Race,19.2
+California,San Francisco,City,Race,18.0
+California,San Jose,City,Race,13.6
+California,San Leandro,City,Race,3.6
+California,San Marcos,City,Race,1.4
+California,San Mateo,City,Race,1.6
+California,San Ramon,City,Race,2.0
+California,Santa Ana,City,Race,1.8
+California,Santa Barbara,City,Race,1.6
+California,Santa Clara,City,Race,0.2
+California,Santa Clarita,City,Race,4.6
+California,Santa Cruz,City,Race,5.0
+California,Santa Maria,City,Race,1.0
+California,Santa Monica,City,Race,1.8
+California,Santa Rosa,City,Race,0.9
+California,Simi Valley,City,Race,1.7
+California,South Gate,City,Race,0.8
+California,South San Francisco,City,Race,0.5
+California,Stockton,City,Race,2.8
+California,Sunnyvale,City,Race,0.9
+California,Temecula,City,Race,1.5
+California,Thousand Oaks,City,Race,1.1
+California,Torrance,City,Race,2.0
+California,Tracy,City,Race,1.9
+California,Turlock,City,Race,1.6
+California,Tustin,City,Race,1.2
+California,Union City,City,Race,2.4
+California,Upland,City,Race,1.5
+California,Vacaville,City,Race,2.3
+California,Vallejo,City,Race,2.4
+California,Victorville,City,Race,2.0
+California,Visalia,City,Race,1.6
+California,Vista,City,Race,2.2
+California,Walnut Creek,City,Race,1.7
+California,West Covina,City,Race,2.3
+California,Westminster,City,Race,2.6
+California,Whittier,City,Race,1.4
+California,Yorba Linda,City,Race,0.3
+California,Yuba City,City,Race,1.0
+California,,State,Race,598.1
+California, ,State,Race,530.0
+Colorado,Arvada,City,Race,1.3
+Colorado,Aurora,City,Race,5.1
+Colorado,Boulder,City,Race,2.4
+Colorado,Broomfield,City,Race,1.0
+Colorado,Centennial,City,Race,2.8
+Colorado,Colorado Springs,City,Race,6.7
+Colorado,Denver,City,Race,15.2
+Colorado,Fort Collins,City,Race,3.6
+Colorado,Greeley,City,Race,3.2
+Colorado,Lakewood,City,Race,1.9
+Colorado,Longmont,City,Race,3.0
+Colorado,Loveland,City,Race,1.6
+Colorado,Pueblo,City,Race,2.9
+Colorado,Thornton,City,Race,1.0
+Colorado,Westminster,City,Race,0.8
+Colorado,,State,Race,89.0
+Connecticut,Bridgeport,City,Race,4.2
+Connecticut,Danbury,City,Race,2.1
+Connecticut,Hartford,City,Race,2.8
+Connecticut,New Britain,City,Race,0.7
+Connecticut,New Haven,City,Race,5.6
+Connecticut,Norwalk,City,Race,3.0
+Connecticut,Stamford,City,Race,3.0
+Connecticut,Waterbury,City,Race,3.5
+Connecticut,,State,Race,81.8
+Delaware,Wilmington,City,Race,1.5
+Delaware,,State,Race,17.4
+District Of Columbia,Washington,City,Race,22.8
+District Of Columbia,,State,Race,25.8
+Florida,Boca Raton,City,Race,0.9
+Florida,Boynton Beach,City,Race,0.0
+Florida,Cape Coral,City,Race,1.0
+Florida,Clearwater,City,Race,2.0
+Florida,Coral Springs,City,Race,0.4
+Florida,Davie,City,Race,1.6
+Florida,Deerfield Beach,City,Race,1.5
+Florida,Delray Beach,City,Race,0.5
+Florida,Fort Lauderdale,City,Race,1.8
+Florida,Fort Myers,City,Race,1.0
+Florida,Gainesville,City,Race,3.1
+Florida,Hialeah,City,Race,1.0
+Florida,Hollywood,City,Race,0.0
+Florida,Homestead,City,Race,1.0
+Florida,Jacksonville,City,Race,2.6
+Florida,Kissimmee,City,Race,1.0
+Florida,Lakeland,City,Race,0.7
+Florida,Largo,City,Race,0.9
+Florida,Melbourne,City,Race,2.3
+Florida,Miami Beach,City,Race,1.1
+Florida,Miami Gardens,City,Race,1.6
+Florida,Miramar,City,Race,1.0
+Florida,Orlando,City,Race,2.6
+Florida,Palm Bay,City,Race,1.4
+Florida,Pembroke Pines,City,Race,0.7
+Florida,Plantation,City,Race,1.0
+Florida,Pompano Beach,City,Race,1.7
+Florida,Port St. Lucie,City,Race,0.8
+Florida,St. Petersburg,City,Race,1.8
+Florida,Sunrise,City,Race,0.8
+Florida,Tallahassee,City,Race,0.5
+Florida,Tamarac,City,Race,0.0
+Florida,Tampa,City,Race,4.5
+Florida,West Palm Beach,City,Race,1.5
+Florida,Weston,City,Race,0.6
+Florida,,State,Race,72.8
+Georgia,Atlanta,City,Race,2.0
+Georgia,Columbus,City,Race,2.0
+Georgia,Warner Robins,City,Race,1.0
+Georgia,,State,Race,16.5
+Idaho,Meridian,City,Race,0.5
+Idaho,Nampa,City,Race,3.2
+Idaho,,State,Race,20.8
+Illinois,Arlington Heights,City,Race,0.3
+Illinois,Aurora,City,Race,3.7
+Illinois,Bloomington,City,Race,1.6
+Illinois,Bolingbrook,City,Race,0.0
+Illinois,Champaign,City,Race,0.7
+Illinois,Chicago,City,Race,15.6
+Illinois,Decatur,City,Race,2.1
+Illinois,Elgin,City,Race,0.5
+Illinois,Evanston,City,Race,1.4
+Illinois,Joliet,City,Race,1.0
+Illinois,Naperville,City,Race,1.7
+Illinois,Palatine,City,Race,0.0
+Illinois,Peoria,City,Race,1.7
+Illinois,Rockford,City,Race,4.2
+Illinois,Schaumburg,City,Race,1.4
+Illinois,Skokie,City,Race,1.7
+Illinois,Springfield,City,Race,5.7
+Illinois,,State,Race,69.8
+Indiana,Bloomington,City,Race,9.0
+Indiana,Evansville,City,Race,1.0
+Indiana,Fishers,City,Race,1.2
+Indiana,Fort Wayne,City,Race,2.0
+Indiana,Hammond,City,Race,1.2
+Indiana,Indianapolis,City,Race,26.8
+Indiana,Lafayette,City,Race,8.0
+Indiana,Muncie,City,Race,1.7
+Indiana,South Bend,City,Race,4.4
+Indiana,,State,Race,42.7
+Iowa,Ames,City,Race,1.0
+Iowa,Cedar Rapids,City,Race,0.6
+Iowa,Davenport,City,Race,1.8
+Iowa,Des Moines,City,Race,1.4
+Iowa,Iowa City,City,Race,1.8
+Iowa,Sioux City,City,Race,0.5
+Iowa,Waterloo,City,Race,1.0
+Iowa,,State,Race,11.3
+Kansas,Kansas City,City,Race,1.0
+Kansas,Lawrence,City,Race,4.2
+Kansas,Overland Park,City,Race,2.3
+Kansas,Shawnee,City,Race,1.0
+Kansas,Topeka,City,Race,1.3
+Kansas,Wichita,City,Race,13.0
+Kansas,,State,Race,56.2
+Kentucky,Bowling Green,City,Race,12.0
+Kentucky,Lexington,City,Race,16.6
+Kentucky,,State,Race,117.3
+Louisiana,Baton Rouge,City,Race,2.0
+Louisiana,Kenner,City,Race,1.0
+Louisiana,New Orleans,City,Race,1.3
+Louisiana,Shreveport,City,Race,1.0
+Louisiana,,State,Race,15.8
+Maine,Portland,City,Race,3.0
+Maine,,State,Race,24.6
+Maryland,Baltimore,City,Race,2.2
+Maryland,Frederick,City,Race,1.5
+Maryland,,State,Race,47.5
+Massachusetts,Boston,City,Race,86.1
+Massachusetts,Brockton,City,Race,3.5
+Massachusetts,Brookline,City,Race,1.0
+Massachusetts,Cambridge,City,Race,6.5
+Massachusetts,Fall River,City,Race,1.7
+Massachusetts,Framingham,City,Race,1.7
+Massachusetts,Lawrence,City,Race,0.7
+Massachusetts,Lowell,City,Race,0.3
+Massachusetts,Lynn,City,Race,3.2
+Massachusetts,New Bedford,City,Race,1.7
+Massachusetts,Newton,City,Race,1.2
+Massachusetts,Quincy,City,Race,5.9
+Massachusetts,Somerville,City,Race,1.8
+Massachusetts,Springfield,City,Race,2.8
+Massachusetts,Worcester,City,Race,2.4
+Massachusetts,,State,Race,187.2
+Michigan,Ann Arbor,City,Race,3.5
+Michigan,Dearborn,City,Race,7.1
+Michigan,Detroit,City,Race,13.3
+Michigan,Farmington Hills,City,Race,2.1
+Michigan,Flint,City,Race,10.9
+Michigan,Grand Rapids,City,Race,7.8
+Michigan,Kalamazoo,City,Race,2.0
+Michigan,Lansing,City,Race,3.8
+Michigan,Livonia,City,Race,3.4
+Michigan,Pontiac,City,Race,2.0
+Michigan,Rochester Hills,City,Race,1.7
+Michigan,Southfield,City,Race,3.4
+Michigan,Sterling Heights,City,Race,3.3
+Michigan,Troy,City,Race,2.8
+Michigan,Warren,City,Race,8.7
+Michigan,Westland,City,Race,2.7
+Michigan,Wyoming,City,Race,2.7
+Michigan,,State,Race,318.2
+Minnesota,Bloomington,City,Race,1.5
+Minnesota,Brooklyn Park,City,Race,5.1
+Minnesota,Duluth,City,Race,2.0
+Minnesota,Eagan,City,Race,1.8
+Minnesota,Maple Grove,City,Race,1.0
+Minnesota,Minneapolis,City,Race,19.6
+Minnesota,Plymouth,City,Race,2.5
+Minnesota,Rochester,City,Race,4.6
+Minnesota,St. Cloud,City,Race,4.8
+Minnesota,St. Paul,City,Race,11.4
+Minnesota,Woodbury,City,Race,1.0
+Minnesota,,State,Race,88.1
+Mississippi,Gulfport,City,Race,4.8
+Mississippi,,State,Race,4.8
+Missouri,Columbia,City,Race,2.0
+Missouri,Independence,City,Race,4.5
+Missouri,Kansas City,City,Race,28.1
+Missouri,Lee'S Summit,City,Race,2.5
+Missouri,O'Fallon,City,Race,1.3
+Missouri,Springfield,City,Race,6.7
+Missouri,St. Charles,City,Race,0.8
+Missouri,St. Joseph,City,Race,0.8
+Missouri,St. Louis,City,Race,6.6
+Missouri,,State,Race,73.2
+Montana,Billings,City,Race,3.1
+Montana,Missoula,City,Race,1.8
+Montana,,State,Race,16.2
+Nebraska,Lincoln,City,Race,21.7
+Nebraska,Omaha,City,Race,4.2
+Nebraska,,State,Race,28.3
+Nevada,Henderson,City,Race,3.4
+Nevada,North Las Vegas,City,Race,3.1
+Nevada,Reno,City,Race,1.5
+Nevada,Sparks,City,Race,1.0
+Nevada,,State,Race,35.9
+New Hampshire,Manchester,City,Race,0.9
+New Hampshire,Nashua,City,Race,2.3
+New Hampshire,,State,Race,14.4
+New Jersey,Bayonne,City,Race,0.0
+New Jersey,Camden,City,Race,0.8
+New Jersey,Clifton,City,Race,0.8
+New Jersey,East Orange,City,Race,0.4
+New Jersey,Elizabeth,City,Race,1.0
+New Jersey,Jersey City,City,Race,4.4
+New Jersey,Newark,City,Race,1.4
+New Jersey,Passaic,City,Race,1.2
+New Jersey,Paterson,City,Race,0.3
+New Jersey,Trenton,City,Race,1.3
+New Jersey,Union City,City,Race,0.7
+New Jersey,,State,Race,270.1
+New Mexico,Albuquerque,City,Race,6.8
+New Mexico,,State,Race,8.6
+New York,Albany,City,Race,3.2
+New York,Buffalo,City,Race,14.6
+New York,Mount Vernon,City,Race,1.7
+New York,New Rochelle,City,Race,1.9
+New York,New York,City,Race,69.3
+New York,Rochester,City,Race,3.0
+New York,Schenectady,City,Race,1.5
+New York,Syracuse,City,Race,0.0
+New York,Yonkers,City,Race,1.6
+New York,,State,Race,186.3
+North Carolina,Asheville,City,Race,3.5
+North Carolina,Cary,City,Race,1.0
+North Carolina,Concord,City,Race,0.7
+North Carolina,Durham,City,Race,4.0
+North Carolina,Fayetteville,City,Race,4.0
+North Carolina,Gastonia,City,Race,2.0
+North Carolina,Greensboro,City,Race,3.4
+North Carolina,Greenville,City,Race,2.0
+North Carolina,High Point,City,Race,2.3
+North Carolina,Jacksonville,City,Race,1.0
+North Carolina,Raleigh,City,Race,8.1
+North Carolina,Wilmington,City,Race,3.5
+North Carolina,Winston-Salem,City,Race,1.0
+North Carolina,,State,Race,85.5
+North Dakota,Bismarck,City,Race,4.8
+North Dakota,Fargo,City,Race,3.4
+North Dakota,,State,Race,18.0
+Ohio,Akron,City,Race,7.4
+Ohio,Canton,City,Race,1.0
+Ohio,Cincinnati,City,Race,15.6
+Ohio,Cleveland,City,Race,7.6
+Ohio,Columbus,City,Race,49.0
+Ohio,Dayton,City,Race,3.8
+Ohio,Lorain,City,Race,3.7
+Ohio,Parma,City,Race,1.3
+Ohio,Toledo,City,Race,15.0
+Ohio,Youngstown,City,Race,2.0
+Ohio,,State,Race,228.6
+Oklahoma,Broken Arrow,City,Race,0.8
+Oklahoma,Edmond,City,Race,1.1
+Oklahoma,Lawton,City,Race,1.0
+Oklahoma,Norman,City,Race,2.7
+Oklahoma,Oklahoma City,City,Race,6.0
+Oklahoma,Tulsa,City,Race,1.2
+Oklahoma,,State,Race,26.5
+Oregon,Beaverton,City,Race,5.0
+Oregon,Bend,City,Race,1.3
+Oregon,Eugene,City,Race,17.9
+Oregon,Gresham,City,Race,2.0
+Oregon,Hillsboro,City,Race,1.0
+Oregon,Medford,City,Race,1.6
+Oregon,Portland,City,Race,12.7
+Oregon,Salem,City,Race,4.5
+Oregon,,State,Race,66.1
+Pennsylvania,Allentown,City,Race,1.0
+Pennsylvania,Bethlehem,City,Race,1.0
+Pennsylvania,Erie,City,Race,1.0
+Pennsylvania,Philadelphia,City,Race,10.4
+Pennsylvania,Pittsburgh,City,Race,8.1
+Pennsylvania,Reading,City,Race,0.9
+Pennsylvania,Scranton,City,Race,1.0
+Pennsylvania,,State,Race,42.3
+Rhode Island,Cranston,City,Race,0.3
+Rhode Island,Pawtucket,City,Race,1.1
+Rhode Island,Providence,City,Race,4.6
+Rhode Island,Warwick,City,Race,0.2
+Rhode Island,,State,Race,8.9
+South Carolina,Charleston,City,Race,1.4
+South Carolina,Columbia,City,Race,2.5
+South Carolina,Greenville,City,Race,0.0
+South Carolina,Mount Pleasant,City,Race,0.3
+South Carolina,North Charleston,City,Race,0.5
+South Carolina,Rock Hill,City,Race,1.4
+South Carolina,,State,Race,61.1
+South Dakota,Rapid City,City,Race,1.9
+South Dakota,Sioux Falls,City,Race,10.1
+South Dakota,,State,Race,22.8
+Tennessee,Chattanooga,City,Race,4.0
+Tennessee,Clarksville,City,Race,3.3
+Tennessee,Franklin,City,Race,0.7
+Tennessee,Jackson,City,Race,1.0
+Tennessee,Johnson City,City,Race,1.0
+Tennessee,Knoxville,City,Race,5.2
+Tennessee,Memphis,City,Race,15.8
+Tennessee,Murfreesboro,City,Race,1.1
+Tennessee,Nashville,City,Race,5.9
+Tennessee,,State,Race,131.0
+Texas,Abilene,City,Race,2.0
+Texas,Allen,City,Race,1.0
+Texas,Amarillo,City,Race,1.0
+Texas,Arlington,City,Race,3.3
+Texas,Austin,City,Race,5.7
+Texas,Baytown,City,Race,0.0
+Texas,Beaumont,City,Race,3.2
+Texas,Bryan,City,Race,2.0
+Texas,Carrollton,City,Race,1.5
+Texas,Cedar Park,City,Race,2.3
+Texas,College Station,City,Race,0.0
+Texas,Conroe,City,Race,1.0
+Texas,Corpus Christi,City,Race,3.0
+Texas,Dallas,City,Race,6.8
+Texas,Denton,City,Race,1.3
+Texas,Edinburg,City,Race,1.0
+Texas,El Paso,City,Race,1.1
+Texas,Flower Mound,City,Race,1.0
+Texas,Fort Worth,City,Race,9.2
+Texas,Frisco,City,Race,0.8
+Texas,Garland,City,Race,5.6
+Texas,Grand Prairie,City,Race,0.5
+Texas,Harlingen,City,Race,1.0
+Texas,Houston,City,Race,8.3
+Texas,Killeen,City,Race,2.0
+Texas,League City,City,Race,1.3
+Texas,Lewisville,City,Race,0.8
+Texas,Longview,City,Race,3.3
+Texas,Lubbock,City,Race,1.5
+Texas,Mcallen,City,Race,0.0
+Texas,Mckinney,City,Race,3.1
+Texas,Midland,City,Race,1.5
+Texas,Missouri City,City,Race,1.2
+Texas,New Braunfels,City,Race,1.0
+Texas,North Richland Hills,City,Race,2.8
+Texas,Odessa,City,Race,1.8
+Texas,Pasadena,City,Race,1.0
+Texas,Pearland,City,Race,2.1
+Texas,Plano,City,Race,2.2
+Texas,Richardson,City,Race,0.7
+Texas,Round Rock,City,Race,1.9
+Texas,San Angelo,City,Race,1.0
+Texas,San Antonio,City,Race,5.5
+Texas,Sugar Land,City,Race,1.0
+Texas,Temple,City,Race,1.0
+Texas,Tyler,City,Race,1.3
+Texas,Victoria,City,Race,0.8
+Texas,Waco,City,Race,1.0
+Texas,Wichita Falls,City,Race,1.6
+Texas,,State,Race,108.3
+Utah,Layton,City,Race,1.2
+Utah,Ogden,City,Race,0.5
+Utah,Orem,City,Race,1.0
+Utah,Provo,City,Race,0.6
+Utah,Salt Lake City,City,Race,1.0
+Utah,Sandy,City,Race,0.7
+Utah,South Jordan,City,Race,1.5
+Utah,St. George,City,Race,1.6
+Utah,West Jordan,City,Race,1.1
+Utah,,State,Race,36.0
+Vermont,,State,Race,9.3
+Virginia,Alexandria,City,Race,2.3
+Virginia,Chesapeake,City,Race,5.5
+Virginia,Hampton,City,Race,2.7
+Virginia,Lynchburg,City,Race,1.7
+Virginia,Newport News,City,Race,4.3
+Virginia,Norfolk,City,Race,6.0
+Virginia,Portsmouth,City,Race,3.8
+Virginia,Richmond,City,Race,3.0
+Virginia,Roanoke,City,Race,2.2
+Virginia,Suffolk,City,Race,2.3
+Virginia,Virginia Beach,City,Race,8.4
+Virginia,,State,Race,125.7
+Washington,Auburn,City,Race,3.8
+Washington,Bellevue,City,Race,3.1
+Washington,Bellingham,City,Race,4.5
+Washington,Everett,City,Race,2.3
+Washington,Federal Way,City,Race,2.0
+Washington,Kennewick,City,Race,1.8
+Washington,Kent,City,Race,6.9
+Washington,Kirkland,City,Race,2.0
+Washington,Marysville,City,Race,1.7
+Washington,Pasco,City,Race,0.7
+Washington,Renton,City,Race,7.2
+Washington,Seattle,City,Race,37.8
+Washington,Spokane,City,Race,9.4
+Washington,Spokane Valley,City,Race,3.5
+Washington,Tacoma,City,Race,8.7
+Washington,Vancouver,City,Race,8.3
+Washington,Yakima,City,Race,2.8
+Washington,,State,Race,175.9
+West Virginia,,State,Race,25.7
+Wisconsin,Appleton,City,Race,2.0
+Wisconsin,Eau Claire,City,Race,1.0
+Wisconsin,Green Bay,City,Race,1.0
+Wisconsin,Kenosha,City,Race,1.0
+Wisconsin,Madison,City,Race,5.5
+Wisconsin,Milwaukee,City,Race,11.8
+Wisconsin,Waukesha,City,Race,1.0
+Wisconsin,,State,Race,38.8
+Wyoming,,State,Race,3.4
+Alabama,Birmingham,City,Religion,0.5
+Alabama,Hoover,City,Religion,0.6
+Alabama,Mobile,City,Religion,1.0
+Alabama,Montgomery,City,Religion,0.0
+Alabama,Tuscaloosa,City,Religion,0.0
+Alabama,,State,Religion,1.3
+Alaska,Anchorage,City,Religion,0.4
+Alaska,,State,Religion,0.6
+Alaska, ,State,Religion,0.0
+Arizona,Avondale,City,Religion,0.3
+Arizona,Chandler,City,Religion,0.5
+Arizona,Flagstaff,City,Religion,0.7
+Arizona,Gilbert,City,Religion,0.7
+Arizona,Glendale,City,Religion,1.7
+Arizona,Goodyear,City,Religion,0.0
+Arizona,Mesa,City,Religion,1.3
+Arizona,Peoria,City,Religion,0.3
+Arizona,Phoenix,City,Religion,20.5
+Arizona,Scottsdale,City,Religion,2.0
+Arizona,Surprise,City,Religion,0.0
+Arizona,Tempe,City,Religion,1.1
+Arizona,Tucson,City,Religion,3.5
+Arizona,Yuma,City,Religion,1.0
+Arizona,,State,Religion,37.5
+Arizona, ,State,Religion,50.0
+Arkansas,Fayetteville,City,Religion,0.0
+Arkansas,Fort Smith,City,Religion,0.2
+Arkansas,Jonesboro,City,Religion,0.3
+Arkansas,Little Rock,City,Religion,0.0
+Arkansas,North Little Rock,City,Religion,0.0
+Arkansas,Springdale,City,Religion,0.3
+Arkansas,,State,Religion,2.0
+California,Alameda,City,Religion,0.6
+California,Alhambra,City,Religion,0.1
+California,Anaheim,City,Religion,0.4
+California,Antioch,City,Religion,0.2
+California,Apple Valley,City,Religion,0.3
+California,Bakersfield,City,Religion,0.3
+California,Baldwin Park,City,Religion,0.0
+California,Bellflower,City,Religion,0.4
+California,Berkeley,City,Religion,1.6
+California,Buena Park,City,Religion,0.3
+California,Burbank,City,Religion,1.7
+California,Camarillo,City,Religion,0.6
+California,Carlsbad,City,Religion,0.8
+California,Carson,City,Religion,0.3
+California,Chico,City,Religion,0.6
+California,Chino,City,Religion,0.5
+California,Chino Hills,City,Religion,0.2
+California,Chula Vista,City,Religion,1.1
+California,Citrus Heights,City,Religion,0.1
+California,Clovis,City,Religion,0.8
+California,Compton,City,Religion,0.0
+California,Concord,City,Religion,0.6
+California,Corona,City,Religion,0.3
+California,Costa Mesa,City,Religion,0.4
+California,Daly City,City,Religion,0.2
+California,Davis,City,Religion,1.9
+California,Downey,City,Religion,0.5
+California,El Cajon,City,Religion,0.0
+California,El Monte,City,Religion,0.4
+California,Elk Grove,City,Religion,0.4
+California,Escondido,City,Religion,0.3
+California,Fairfield,City,Religion,0.1
+California,Folsom,City,Religion,0.3
+California,Fontana,City,Religion,0.3
+California,Fremont,City,Religion,0.7
+California,Fresno,City,Religion,0.6
+California,Fullerton,City,Religion,0.1
+California,Garden Grove,City,Religion,0.4
+California,Glendale,City,Religion,0.7
+California,Hawthorne,City,Religion,0.4
+California,Hayward,City,Religion,0.9
+California,Hemet,City,Religion,0.0
+California,Hesperia,City,Religion,0.0
+California,Huntington Beach,City,Religion,1.7
+California,Indio,City,Religion,0.0
+California,Inglewood,City,Religion,0.0
+California,Irvine,City,Religion,0.9
+California,Jurupa Valley,City,Religion,0.3
+California,Laguna Niguel,City,Religion,1.0
+California,Lake Elsinore,City,Religion,1.0
+California,Lake Forest,City,Religion,0.0
+California,Lakewood,City,Religion,0.2
+California,Lancaster,City,Religion,0.7
+California,Livermore,City,Religion,0.7
+California,Lodi,City,Religion,0.0
+California,Long Beach,City,Religion,1.9
+California,Los Angeles,City,Religion,43.8
+California,Lynwood,City,Religion,0.2
+California,Manteca,City,Religion,1.0
+California,Menifee,City,Religion,0.0
+California,Merced,City,Religion,0.0
+California,Milpitas,City,Religion,0.0
+California,Mission Viejo,City,Religion,0.5
+California,Modesto,City,Religion,1.2
+California,Moreno Valley,City,Religion,0.3
+California,Mountain View,City,Religion,0.3
+California,Murrieta,City,Religion,0.3
+California,Napa,City,Religion,0.2
+California,Newport Beach,City,Religion,1.4
+California,Norwalk,City,Religion,0.2
+California,Oakland,City,Religion,1.9
+California,Oceanside,City,Religion,1.3
+California,Ontario,City,Religion,0.3
+California,Orange,City,Religion,0.6
+California,Oxnard,City,Religion,0.5
+California,Palmdale,City,Religion,0.8
+California,Palo Alto,City,Religion,1.3
+California,Pasadena,City,Religion,1.0
+California,Perris,City,Religion,0.3
+California,Pittsburg,City,Religion,0.3
+California,Pleasanton,City,Religion,0.0
+California,Pomona,City,Religion,0.7
+California,Rancho Cordova,City,Religion,0.0
+California,Rancho Cucamonga,City,Religion,0.0
+California,Redding,City,Religion,0.6
+California,Redlands,City,Religion,0.5
+California,Redondo Beach,City,Religion,0.3
+California,Redwood City,City,Religion,0.3
+California,Rialto,City,Religion,0.1
+California,Richmond,City,Religion,0.1
+California,Riverside,City,Religion,2.7
+California,Roseville,City,Religion,1.3
+California,Sacramento,City,Religion,2.3
+California,Salinas,City,Religion,0.2
+California,San Bernardino,City,Religion,0.1
+California,San Clemente,City,Religion,0.5
+California,San Diego,City,Religion,8.2
+California,San Francisco,City,Religion,8.5
+California,San Jose,City,Religion,5.6
+California,San Leandro,City,Religion,0.7
+California,San Marcos,City,Religion,0.3
+California,San Mateo,City,Religion,0.9
+California,San Ramon,City,Religion,0.3
+California,Santa Ana,City,Religion,1.1
+California,Santa Barbara,City,Religion,0.3
+California,Santa Clara,City,Religion,0.0
+California,Santa Clarita,City,Religion,1.1
+California,Santa Cruz,City,Religion,1.0
+California,Santa Maria,City,Religion,0.2
+California,Santa Monica,City,Religion,0.8
+California,Santa Rosa,City,Religion,0.4
+California,Simi Valley,City,Religion,1.7
+California,South Gate,City,Religion,0.4
+California,South San Francisco,City,Religion,2.0
+California,Stockton,City,Religion,0.8
+California,Sunnyvale,City,Religion,0.6
+California,Temecula,City,Religion,1.0
+California,Thousand Oaks,City,Religion,2.4
+California,Torrance,City,Religion,0.7
+California,Tracy,City,Religion,0.3
+California,Turlock,City,Religion,0.2
+California,Tustin,City,Religion,0.5
+California,Union City,City,Religion,0.1
+California,Upland,City,Religion,0.0
+California,Vacaville,City,Religion,0.8
+California,Vallejo,City,Religion,0.4
+California,Victorville,City,Religion,0.1
+California,Visalia,City,Religion,0.4
+California,Vista,City,Religion,0.7
+California,Walnut Creek,City,Religion,2.2
+California,West Covina,City,Religion,0.8
+California,Westminster,City,Religion,1.4
+California,Whittier,City,Religion,0.8
+California,Yorba Linda,City,Religion,0.7
+California,Yuba City,City,Religion,0.0
+California,,State,Religion,192.9
+California, ,State,Religion,144.0
+Colorado,Arvada,City,Religion,0.3
+Colorado,Aurora,City,Religion,1.0
+Colorado,Boulder,City,Religion,0.8
+Colorado,Broomfield,City,Religion,0.0
+Colorado,Centennial,City,Religion,1.6
+Colorado,Colorado Springs,City,Religion,2.6
+Colorado,Denver,City,Religion,4.3
+Colorado,Fort Collins,City,Religion,0.3
+Colorado,Greeley,City,Religion,0.3
+Colorado,Lakewood,City,Religion,0.3
+Colorado,Longmont,City,Religion,0.1
+Colorado,Loveland,City,Religion,0.2
+Colorado,Pueblo,City,Religion,0.3
+Colorado,Thornton,City,Religion,0.7
+Colorado,Westminster,City,Religion,0.0
+Colorado,,State,Religion,23.2
+Connecticut,Bridgeport,City,Religion,0.5
+Connecticut,Danbury,City,Religion,0.9
+Connecticut,Hartford,City,Religion,0.4
+Connecticut,New Britain,City,Religion,0.3
+Connecticut,New Haven,City,Religion,1.1
+Connecticut,Norwalk,City,Religion,0.5
+Connecticut,Stamford,City,Religion,1.2
+Connecticut,Waterbury,City,Religion,0.7
+Connecticut,,State,Religion,30.0
+Delaware,Wilmington,City,Religion,0.4
+Delaware,,State,Religion,4.9
+District Of Columbia,Washington,City,Religion,5.8
+District Of Columbia,,State,Religion,6.3
+Florida,Boca Raton,City,Religion,0.9
+Florida,Boynton Beach,City,Religion,1.0
+Florida,Cape Coral,City,Religion,0.2
+Florida,Clearwater,City,Religion,0.0
+Florida,Coral Springs,City,Religion,0.6
+Florida,Davie,City,Religion,1.2
+Florida,Deerfield Beach,City,Religion,0.3
+Florida,Delray Beach,City,Religion,0.5
+Florida,Fort Lauderdale,City,Religion,0.5
+Florida,Fort Myers,City,Religion,0.2
+Florida,Gainesville,City,Religion,1.4
+Florida,Hialeah,City,Religion,0.5
+Florida,Hollywood,City,Religion,0.7
+Florida,Homestead,City,Religion,0.5
+Florida,Jacksonville,City,Religion,0.6
+Florida,Kissimmee,City,Religion,0.0
+Florida,Lakeland,City,Religion,0.3
+Florida,Largo,City,Religion,0.2
+Florida,Melbourne,City,Religion,1.4
+Florida,Miami Beach,City,Religion,3.6
+Florida,Miami Gardens,City,Religion,0.3
+Florida,Miramar,City,Religion,0.0
+Florida,Orlando,City,Religion,0.1
+Florida,Palm Bay,City,Religion,0.2
+Florida,Pembroke Pines,City,Religion,0.7
+Florida,Plantation,City,Religion,0.0
+Florida,Pompano Beach,City,Religion,0.6
+Florida,Port St. Lucie,City,Religion,0.4
+Florida,St. Petersburg,City,Religion,1.0
+Florida,Sunrise,City,Religion,0.5
+Florida,Tallahassee,City,Religion,0.0
+Florida,Tamarac,City,Religion,0.0
+Florida,Tampa,City,Religion,1.0
+Florida,West Palm Beach,City,Religion,0.8
+Florida,Weston,City,Religion,0.8
+Florida,,State,Religion,23.8
+Georgia,Atlanta,City,Religion,0.4
+Georgia,Columbus,City,Religion,0.7
+Georgia,Warner Robins,City,Religion,0.0
+Georgia,,State,Religion,2.7
+Idaho,Meridian,City,Religion,1.0
+Idaho,Nampa,City,Religion,0.3
+Idaho,,State,Religion,6.3
+Illinois,Arlington Heights,City,Religion,0.5
+Illinois,Aurora,City,Religion,0.3
+Illinois,Bloomington,City,Religion,0.3
+Illinois,Bolingbrook,City,Religion,1.0
+Illinois,Champaign,City,Religion,0.4
+Illinois,Chicago,City,Religion,6.3
+Illinois,Decatur,City,Religion,0.1
+Illinois,Elgin,City,Religion,0.3
+Illinois,Evanston,City,Religion,2.0
+Illinois,Joliet,City,Religion,0.0
+Illinois,Naperville,City,Religion,0.0
+Illinois,Palatine,City,Religion,2.0
+Illinois,Peoria,City,Religion,0.1
+Illinois,Rockford,City,Religion,0.6
+Illinois,Schaumburg,City,Religion,0.2
+Illinois,Skokie,City,Religion,0.9
+Illinois,Springfield,City,Religion,0.1
+Illinois,,State,Religion,15.7
+Indiana,Bloomington,City,Religion,1.1
+Indiana,Evansville,City,Religion,0.0
+Indiana,Fishers,City,Religion,0.4
+Indiana,Fort Wayne,City,Religion,0.6
+Indiana,Hammond,City,Religion,0.0
+Indiana,Indianapolis,City,Religion,2.5
+Indiana,Lafayette,City,Religion,0.0
+Indiana,Muncie,City,Religion,1.0
+Indiana,South Bend,City,Religion,0.0
+Indiana,,State,Religion,7.8
+Iowa,Ames,City,Religion,0.0
+Iowa,Cedar Rapids,City,Religion,0.6
+Iowa,Davenport,City,Religion,0.3
+Iowa,Des Moines,City,Religion,0.1
+Iowa,Iowa City,City,Religion,0.0
+Iowa,Sioux City,City,Religion,0.0
+Iowa,Waterloo,City,Religion,0.0
+Iowa,,State,Religion,1.4
+Kansas,Kansas City,City,Religion,0.0
+Kansas,Lawrence,City,Religion,0.7
+Kansas,Overland Park,City,Religion,1.0
+Kansas,Shawnee,City,Religion,0.0
+Kansas,Topeka,City,Religion,0.3
+Kansas,Wichita,City,Religion,1.4
+Kansas,,State,Religion,9.7
+Kentucky,Bowling Green,City,Religion,2.0
+Kentucky,Lexington,City,Religion,3.6
+Kentucky,,State,Religion,18.9
+Louisiana,Baton Rouge,City,Religion,0.0
+Louisiana,Kenner,City,Religion,0.0
+Louisiana,New Orleans,City,Religion,0.5
+Louisiana,Shreveport,City,Religion,0.0
+Louisiana,,State,Religion,3.8
+Maine,Portland,City,Religion,2.4
+Maine,,State,Religion,8.0
+Maryland,Baltimore,City,Religion,0.8
+Maryland,Frederick,City,Religion,0.0
+Maryland,,State,Religion,19.1
+Massachusetts,Boston,City,Religion,18.4
+Massachusetts,Brockton,City,Religion,0.3
+Massachusetts,Brookline,City,Religion,3.0
+Massachusetts,Cambridge,City,Religion,2.5
+Massachusetts,Fall River,City,Religion,0.0
+Massachusetts,Framingham,City,Religion,0.7
+Massachusetts,Lawrence,City,Religion,0.0
+Massachusetts,Lowell,City,Religion,0.4
+Massachusetts,Lynn,City,Religion,0.8
+Massachusetts,New Bedford,City,Religion,0.0
+Massachusetts,Newton,City,Religion,1.9
+Massachusetts,Quincy,City,Religion,1.3
+Massachusetts,Somerville,City,Religion,0.5
+Massachusetts,Springfield,City,Religion,0.3
+Massachusetts,Worcester,City,Religion,1.6
+Massachusetts,,State,Religion,69.8
+Michigan,Ann Arbor,City,Religion,2.5
+Michigan,Dearborn,City,Religion,3.2
+Michigan,Detroit,City,Religion,2.3
+Michigan,Farmington Hills,City,Religion,1.1
+Michigan,Flint,City,Religion,0.8
+Michigan,Grand Rapids,City,Religion,0.6
+Michigan,Kalamazoo,City,Religion,0.0
+Michigan,Lansing,City,Religion,0.9
+Michigan,Livonia,City,Religion,0.7
+Michigan,Pontiac,City,Religion,0.0
+Michigan,Rochester Hills,City,Religion,0.7
+Michigan,Southfield,City,Religion,1.5
+Michigan,Sterling Heights,City,Religion,0.0
+Michigan,Troy,City,Religion,0.8
+Michigan,Warren,City,Religion,1.4
+Michigan,Westland,City,Religion,0.4
+Michigan,Wyoming,City,Religion,0.2
+Michigan,,State,Religion,50.6
+Minnesota,Bloomington,City,Religion,0.0
+Minnesota,Brooklyn Park,City,Religion,0.3
+Minnesota,Duluth,City,Religion,0.0
+Minnesota,Eagan,City,Religion,0.8
+Minnesota,Maple Grove,City,Religion,1.0
+Minnesota,Minneapolis,City,Religion,6.0
+Minnesota,Plymouth,City,Religion,1.1
+Minnesota,Rochester,City,Religion,0.8
+Minnesota,St. Cloud,City,Religion,0.9
+Minnesota,St. Paul,City,Religion,2.1
+Minnesota,Woodbury,City,Religion,0.0
+Minnesota,,State,Religion,18.3
+Mississippi,Gulfport,City,Religion,0.0
+Mississippi,,State,Religion,0.1
+Missouri,Columbia,City,Religion,0.4
+Missouri,Independence,City,Religion,0.8
+Missouri,Kansas City,City,Religion,5.0
+Missouri,Lee'S Summit,City,Religion,0.5
+Missouri,O'Fallon,City,Religion,0.0
+Missouri,Springfield,City,Religion,1.6
+Missouri,St. Charles,City,Religion,0.0
+Missouri,St. Joseph,City,Religion,0.2
+Missouri,St. Louis,City,Religion,0.7
+Missouri,,State,Religion,12.2
+Montana,Billings,City,Religion,0.9
+Montana,Missoula,City,Religion,0.8
+Montana,,State,Religion,5.1
+Nebraska,Lincoln,City,Religion,2.5
+Nebraska,Omaha,City,Religion,1.4
+Nebraska,,State,Religion,3.8
+Nevada,Henderson,City,Religion,0.6
+Nevada,North Las Vegas,City,Religion,0.5
+Nevada,Reno,City,Religion,0.4
+Nevada,Sparks,City,Religion,0.0
+Nevada,,State,Religion,9.3
+New Hampshire,Manchester,City,Religion,0.4
+New Hampshire,Nashua,City,Religion,1.0
+New Hampshire,,State,Religion,5.8
+New Jersey,Bayonne,City,Religion,1.0
+New Jersey,Camden,City,Religion,0.3
+New Jersey,Clifton,City,Religion,1.2
+New Jersey,East Orange,City,Religion,0.8
+New Jersey,Elizabeth,City,Religion,0.6
+New Jersey,Jersey City,City,Religion,1.3
+New Jersey,Newark,City,Religion,0.8
+New Jersey,Passaic,City,Religion,1.5
+New Jersey,Paterson,City,Religion,0.3
+New Jersey,Trenton,City,Religion,0.3
+New Jersey,Union City,City,Religion,0.9
+New Jersey,,State,Religion,181.9
+New Mexico,Albuquerque,City,Religion,2.0
+New Mexico,,State,Religion,2.0
+New York,Albany,City,Religion,0.7
+New York,Buffalo,City,Religion,0.4
+New York,Mount Vernon,City,Religion,0.0
+New York,New Rochelle,City,Religion,1.5
+New York,New York,City,Religion,165.0
+New York,Rochester,City,Religion,0.3
+New York,Schenectady,City,Religion,0.5
+New York,Syracuse,City,Religion,0.0
+New York,Yonkers,City,Religion,2.8
+New York,,State,Religion,285.9
+North Carolina,Asheville,City,Religion,1.1
+North Carolina,Cary,City,Religion,0.3
+North Carolina,Concord,City,Religion,0.3
+North Carolina,Durham,City,Religion,0.5
+North Carolina,Fayetteville,City,Religion,0.7
+North Carolina,Gastonia,City,Religion,0.3
+North Carolina,Greensboro,City,Religion,0.8
+North Carolina,Greenville,City,Religion,0.2
+North Carolina,High Point,City,Religion,0.0
+North Carolina,Jacksonville,City,Religion,0.0
+North Carolina,Raleigh,City,Religion,2.3
+North Carolina,Wilmington,City,Religion,1.0
+North Carolina,Winston-Salem,City,Religion,0.0
+North Carolina,,State,Religion,15.1
+North Dakota,Bismarck,City,Religion,0.4
+North Dakota,Fargo,City,Religion,0.6
+North Dakota,,State,Religion,2.1
+Ohio,Akron,City,Religion,0.4
+Ohio,Canton,City,Religion,0.0
+Ohio,Cincinnati,City,Religion,1.3
+Ohio,Cleveland,City,Religion,0.2
+Ohio,Columbus,City,Religion,5.6
+Ohio,Dayton,City,Religion,0.3
+Ohio,Lorain,City,Religion,0.3
+Ohio,Parma,City,Religion,0.3
+Ohio,Toledo,City,Religion,0.0
+Ohio,Youngstown,City,Religion,0.2
+Ohio,,State,Religion,29.0
+Oklahoma,Broken Arrow,City,Religion,0.3
+Oklahoma,Edmond,City,Religion,1.1
+Oklahoma,Lawton,City,Religion,0.3
+Oklahoma,Norman,City,Religion,0.4
+Oklahoma,Oklahoma City,City,Religion,1.0
+Oklahoma,Tulsa,City,Religion,0.6
+Oklahoma,,State,Religion,4.5
+Oregon,Beaverton,City,Religion,0.8
+Oregon,Bend,City,Religion,0.6
+Oregon,Eugene,City,Religion,6.1
+Oregon,Gresham,City,Religion,0.5
+Oregon,Hillsboro,City,Religion,3.0
+Oregon,Medford,City,Religion,0.0
+Oregon,Portland,City,Religion,4.7
+Oregon,Salem,City,Religion,1.1
+Oregon,,State,Religion,19.2
+Pennsylvania,Allentown,City,Religion,0.0
+Pennsylvania,Bethlehem,City,Religion,0.0
+Pennsylvania,Erie,City,Religion,0.0
+Pennsylvania,Philadelphia,City,Religion,5.2
+Pennsylvania,Pittsburgh,City,Religion,1.1
+Pennsylvania,Reading,City,Religion,0.2
+Pennsylvania,Scranton,City,Religion,0.7
+Pennsylvania,,State,Religion,12.3
+Rhode Island,Cranston,City,Religion,0.3
+Rhode Island,Pawtucket,City,Religion,0.7
+Rhode Island,Providence,City,Religion,2.3
+Rhode Island,Warwick,City,Religion,1.0
+Rhode Island,,State,Religion,5.7
+South Carolina,Charleston,City,Religion,0.1
+South Carolina,Columbia,City,Religion,0.8
+South Carolina,Greenville,City,Religion,1.0
+South Carolina,Mount Pleasant,City,Religion,0.0
+South Carolina,North Charleston,City,Religion,0.0
+South Carolina,Rock Hill,City,Religion,0.0
+South Carolina,,State,Religion,17.5
+South Dakota,Rapid City,City,Religion,0.1
+South Dakota,Sioux Falls,City,Religion,2.7
+South Dakota,,State,Religion,3.6
+Tennessee,Chattanooga,City,Religion,1.8
+Tennessee,Clarksville,City,Religion,1.3
+Tennessee,Franklin,City,Religion,0.3
+Tennessee,Jackson,City,Religion,0.7
+Tennessee,Johnson City,City,Religion,0.0
+Tennessee,Knoxville,City,Religion,0.8
+Tennessee,Memphis,City,Religion,2.6
+Tennessee,Murfreesboro,City,Religion,0.0
+Tennessee,Nashville,City,Religion,1.4
+Tennessee,,State,Religion,21.8
+Texas,Abilene,City,Religion,0.0
+Texas,Allen,City,Religion,0.2
+Texas,Amarillo,City,Religion,0.0
+Texas,Arlington,City,Religion,0.7
+Texas,Austin,City,Religion,1.2
+Texas,Baytown,City,Religion,0.5
+Texas,Beaumont,City,Religion,0.2
+Texas,Bryan,City,Religion,0.0
+Texas,Carrollton,City,Religion,0.3
+Texas,Cedar Park,City,Religion,0.0
+Texas,College Station,City,Religion,0.5
+Texas,Conroe,City,Religion,0.0
+Texas,Corpus Christi,City,Religion,0.7
+Texas,Dallas,City,Religion,2.1
+Texas,Denton,City,Religion,0.1
+Texas,Edinburg,City,Religion,0.0
+Texas,El Paso,City,Religion,0.4
+Texas,Flower Mound,City,Religion,0.5
+Texas,Fort Worth,City,Religion,1.5
+Texas,Frisco,City,Religion,0.3
+Texas,Garland,City,Religion,0.8
+Texas,Grand Prairie,City,Religion,0.5
+Texas,Harlingen,City,Religion,0.0
+Texas,Houston,City,Religion,2.4
+Texas,Killeen,City,Religion,0.3
+Texas,League City,City,Religion,0.3
+Texas,Lewisville,City,Religion,0.7
+Texas,Longview,City,Religion,0.1
+Texas,Lubbock,City,Religion,0.0
+Texas,Mcallen,City,Religion,0.0
+Texas,Mckinney,City,Religion,0.7
+Texas,Midland,City,Religion,0.5
+Texas,Missouri City,City,Religion,0.5
+Texas,New Braunfels,City,Religion,0.0
+Texas,North Richland Hills,City,Religion,1.0
+Texas,Odessa,City,Religion,0.4
+Texas,Pasadena,City,Religion,0.0
+Texas,Pearland,City,Religion,0.1
+Texas,Plano,City,Religion,0.7
+Texas,Richardson,City,Religion,0.7
+Texas,Round Rock,City,Religion,0.4
+Texas,San Angelo,City,Religion,0.2
+Texas,San Antonio,City,Religion,1.5
+Texas,Sugar Land,City,Religion,0.0
+Texas,Temple,City,Religion,0.0
+Texas,Tyler,City,Religion,0.4
+Texas,Victoria,City,Religion,0.5
+Texas,Waco,City,Religion,1.0
+Texas,Wichita Falls,City,Religion,0.7
+Texas,,State,Religion,19.9
+Utah,Layton,City,Religion,1.4
+Utah,Ogden,City,Religion,1.0
+Utah,Orem,City,Religion,0.0
+Utah,Provo,City,Religion,0.5
+Utah,Salt Lake City,City,Religion,0.8
+Utah,Sandy,City,Religion,0.5
+Utah,South Jordan,City,Religion,1.0
+Utah,St. George,City,Religion,0.2
+Utah,West Jordan,City,Religion,0.6
+Utah,,State,Religion,13.8
+Vermont,,State,Religion,2.8
+Virginia,Alexandria,City,Religion,0.9
+Virginia,Chesapeake,City,Religion,0.5
+Virginia,Hampton,City,Religion,0.2
+Virginia,Lynchburg,City,Religion,0.3
+Virginia,Newport News,City,Religion,1.2
+Virginia,Norfolk,City,Religion,1.2
+Virginia,Portsmouth,City,Religion,0.3
+Virginia,Richmond,City,Religion,1.1
+Virginia,Roanoke,City,Religion,0.0
+Virginia,Suffolk,City,Religion,0.1
+Virginia,Virginia Beach,City,Religion,2.8
+Virginia,,State,Religion,31.2
+Washington,Auburn,City,Religion,0.7
+Washington,Bellevue,City,Religion,2.8
+Washington,Bellingham,City,Religion,0.4
+Washington,Everett,City,Religion,0.3
+Washington,Federal Way,City,Religion,1.1
+Washington,Kennewick,City,Religion,0.0
+Washington,Kent,City,Religion,1.1
+Washington,Kirkland,City,Religion,0.7
+Washington,Marysville,City,Religion,1.0
+Washington,Pasco,City,Religion,0.0
+Washington,Renton,City,Religion,2.0
+Washington,Seattle,City,Religion,9.2
+Washington,Spokane,City,Religion,1.3
+Washington,Spokane Valley,City,Religion,0.8
+Washington,Tacoma,City,Religion,1.1
+Washington,Vancouver,City,Religion,0.4
+Washington,Yakima,City,Religion,0.8
+Washington,,State,Religion,42.3
+West Virginia,,State,Religion,2.4
+Wisconsin,Appleton,City,Religion,0.4
+Wisconsin,Eau Claire,City,Religion,0.0
+Wisconsin,Green Bay,City,Religion,0.0
+Wisconsin,Kenosha,City,Religion,0.0
+Wisconsin,Madison,City,Religion,1.6
+Wisconsin,Milwaukee,City,Religion,2.0
+Wisconsin,Waukesha,City,Religion,0.0
+Wisconsin,,State,Religion,8.9
+Wyoming,,State,Religion,0.7
+Alabama,Birmingham,City,Orientation,1.5
+Alabama,Hoover,City,Orientation,0.4
+Alabama,Mobile,City,Orientation,0.0
+Alabama,Montgomery,City,Orientation,0.0
+Alabama,Tuscaloosa,City,Orientation,0.3
+Alabama,,State,Orientation,1.5
+Alaska,Anchorage,City,Orientation,0.8
+Alaska,,State,Orientation,1.0
+Alaska, ,State,Orientation,0.0
+Arizona,Avondale,City,Orientation,0.1
+Arizona,Chandler,City,Orientation,0.1
+Arizona,Flagstaff,City,Orientation,1.3
+Arizona,Gilbert,City,Orientation,0.2
+Arizona,Glendale,City,Orientation,1.0
+Arizona,Goodyear,City,Orientation,1.0
+Arizona,Mesa,City,Orientation,0.9
+Arizona,Peoria,City,Orientation,0.0
+Arizona,Phoenix,City,Orientation,27.9
+Arizona,Scottsdale,City,Orientation,0.8
+Arizona,Surprise,City,Orientation,0.5
+Arizona,Tempe,City,Orientation,1.5
+Arizona,Tucson,City,Orientation,3.3
+Arizona,Yuma,City,Orientation,0.6
+Arizona,,State,Orientation,40.4
+Arizona, ,State,Orientation,53.0
+Arkansas,Fayetteville,City,Orientation,0.7
+Arkansas,Fort Smith,City,Orientation,0.8
+Arkansas,Jonesboro,City,Orientation,0.0
+Arkansas,Little Rock,City,Orientation,0.0
+Arkansas,North Little Rock,City,Orientation,0.0
+Arkansas,Springdale,City,Orientation,0.3
+Arkansas,,State,Orientation,7.4
+California,Alameda,City,Orientation,0.4
+California,Alhambra,City,Orientation,0.1
+California,Anaheim,City,Orientation,0.9
+California,Antioch,City,Orientation,0.5
+California,Apple Valley,City,Orientation,0.0
+California,Bakersfield,City,Orientation,1.4
+California,Baldwin Park,City,Orientation,0.6
+California,Bellflower,City,Orientation,0.3
+California,Berkeley,City,Orientation,1.9
+California,Buena Park,City,Orientation,0.3
+California,Burbank,City,Orientation,0.7
+California,Camarillo,City,Orientation,0.3
+California,Carlsbad,City,Orientation,0.8
+California,Carson,City,Orientation,0.0
+California,Chico,City,Orientation,0.7
+California,Chino,City,Orientation,1.0
+California,Chino Hills,City,Orientation,0.0
+California,Chula Vista,City,Orientation,1.1
+California,Citrus Heights,City,Orientation,0.5
+California,Clovis,City,Orientation,0.6
+California,Compton,City,Orientation,0.3
+California,Concord,City,Orientation,1.7
+California,Corona,City,Orientation,0.7
+California,Costa Mesa,City,Orientation,0.9
+California,Daly City,City,Orientation,0.8
+California,Davis,City,Orientation,1.8
+California,Downey,City,Orientation,0.2
+California,El Cajon,City,Orientation,0.6
+California,El Monte,City,Orientation,0.5
+California,Elk Grove,City,Orientation,0.3
+California,Escondido,City,Orientation,0.3
+California,Fairfield,City,Orientation,0.7
+California,Folsom,City,Orientation,0.0
+California,Fontana,City,Orientation,0.3
+California,Fremont,City,Orientation,0.2
+California,Fresno,City,Orientation,2.6
+California,Fullerton,City,Orientation,0.5
+California,Garden Grove,City,Orientation,0.6
+California,Glendale,City,Orientation,0.3
+California,Hawthorne,City,Orientation,0.4
+California,Hayward,City,Orientation,0.4
+California,Hemet,City,Orientation,0.4
+California,Hesperia,City,Orientation,0.5
+California,Huntington Beach,City,Orientation,0.8
+California,Indio,City,Orientation,1.0
+California,Inglewood,City,Orientation,0.7
+California,Irvine,City,Orientation,0.3
+California,Jurupa Valley,City,Orientation,0.0
+California,Laguna Niguel,City,Orientation,0.0
+California,Lake Elsinore,City,Orientation,0.0
+California,Lake Forest,City,Orientation,0.1
+California,Lakewood,City,Orientation,0.3
+California,Lancaster,City,Orientation,1.5
+California,Livermore,City,Orientation,0.9
+California,Lodi,City,Orientation,0.0
+California,Long Beach,City,Orientation,4.3
+California,Los Angeles,City,Orientation,45.5
+California,Lynwood,City,Orientation,0.0
+California,Manteca,City,Orientation,0.3
+California,Menifee,City,Orientation,0.0
+California,Merced,City,Orientation,0.7
+California,Milpitas,City,Orientation,0.5
+California,Mission Viejo,City,Orientation,0.0
+California,Modesto,City,Orientation,1.2
+California,Moreno Valley,City,Orientation,0.4
+California,Mountain View,City,Orientation,0.0
+California,Murrieta,City,Orientation,0.5
+California,Napa,City,Orientation,0.3
+California,Newport Beach,City,Orientation,0.5
+California,Norwalk,City,Orientation,0.6
+California,Oakland,City,Orientation,5.3
+California,Oceanside,City,Orientation,1.1
+California,Ontario,City,Orientation,0.2
+California,Orange,City,Orientation,0.4
+California,Oxnard,City,Orientation,1.0
+California,Palmdale,City,Orientation,1.0
+California,Palo Alto,City,Orientation,0.0
+California,Pasadena,City,Orientation,0.9
+California,Perris,City,Orientation,0.3
+California,Pittsburg,City,Orientation,0.0
+California,Pleasanton,City,Orientation,0.0
+California,Pomona,City,Orientation,1.1
+California,Rancho Cordova,City,Orientation,0.0
+California,Rancho Cucamonga,City,Orientation,0.0
+California,Redding,City,Orientation,1.8
+California,Redlands,City,Orientation,0.7
+California,Redondo Beach,City,Orientation,1.0
+California,Redwood City,City,Orientation,0.6
+California,Rialto,City,Orientation,0.1
+California,Richmond,City,Orientation,0.7
+California,Riverside,City,Orientation,2.3
+California,Roseville,City,Orientation,0.4
+California,Sacramento,City,Orientation,6.2
+California,Salinas,City,Orientation,0.8
+California,San Bernardino,City,Orientation,1.1
+California,San Clemente,City,Orientation,0.0
+California,San Diego,City,Orientation,14.8
+California,San Francisco,City,Orientation,18.2
+California,San Jose,City,Orientation,6.3
+California,San Leandro,City,Orientation,1.1
+California,San Marcos,City,Orientation,0.8
+California,San Mateo,City,Orientation,0.7
+California,San Ramon,City,Orientation,0.3
+California,Santa Ana,City,Orientation,1.4
+California,Santa Barbara,City,Orientation,0.8
+California,Santa Clara,City,Orientation,0.8
+California,Santa Clarita,City,Orientation,1.3
+California,Santa Cruz,City,Orientation,3.0
+California,Santa Maria,City,Orientation,0.4
+California,Santa Monica,City,Orientation,0.5
+California,Santa Rosa,City,Orientation,0.8
+California,Simi Valley,City,Orientation,0.1
+California,South Gate,City,Orientation,0.4
+California,South San Francisco,City,Orientation,0.5
+California,Stockton,City,Orientation,0.4
+California,Sunnyvale,City,Orientation,0.1
+California,Temecula,City,Orientation,0.3
+California,Thousand Oaks,City,Orientation,0.2
+California,Torrance,City,Orientation,0.4
+California,Tracy,City,Orientation,0.4
+California,Turlock,City,Orientation,0.6
+California,Tustin,City,Orientation,0.2
+California,Union City,City,Orientation,0.6
+California,Upland,City,Orientation,0.0
+California,Vacaville,City,Orientation,0.3
+California,Vallejo,City,Orientation,0.9
+California,Victorville,City,Orientation,0.7
+California,Visalia,City,Orientation,0.9
+California,Vista,City,Orientation,0.5
+California,Walnut Creek,City,Orientation,0.5
+California,West Covina,City,Orientation,0.3
+California,Westminster,City,Orientation,0.3
+California,Whittier,City,Orientation,0.6
+California,Yorba Linda,City,Orientation,0.0
+California,Yuba City,City,Orientation,0.0
+California,,State,Orientation,235.0
+California, ,State,Orientation,234.0
+Colorado,Arvada,City,Orientation,0.6
+Colorado,Aurora,City,Orientation,1.0
+Colorado,Boulder,City,Orientation,0.5
+Colorado,Broomfield,City,Orientation,0.0
+Colorado,Centennial,City,Orientation,0.2
+Colorado,Colorado Springs,City,Orientation,2.0
+Colorado,Denver,City,Orientation,9.2
+Colorado,Fort Collins,City,Orientation,1.1
+Colorado,Greeley,City,Orientation,0.8
+Colorado,Lakewood,City,Orientation,0.7
+Colorado,Longmont,City,Orientation,0.3
+Colorado,Loveland,City,Orientation,0.1
+Colorado,Pueblo,City,Orientation,0.7
+Colorado,Thornton,City,Orientation,0.3
+Colorado,Westminster,City,Orientation,0.3
+Colorado,,State,Orientation,28.4
+Connecticut,Bridgeport,City,Orientation,1.4
+Connecticut,Danbury,City,Orientation,0.4
+Connecticut,Hartford,City,Orientation,1.8
+Connecticut,New Britain,City,Orientation,0.3
+Connecticut,New Haven,City,Orientation,2.5
+Connecticut,Norwalk,City,Orientation,0.4
+Connecticut,Stamford,City,Orientation,1.3
+Connecticut,Waterbury,City,Orientation,0.3
+Connecticut,,State,Orientation,22.2
+Delaware,Wilmington,City,Orientation,0.6
+Delaware,,State,Orientation,3.6
+District Of Columbia,Washington,City,Orientation,36.3
+District Of Columbia,,State,Orientation,36.5
+Florida,Boca Raton,City,Orientation,0.0
+Florida,Boynton Beach,City,Orientation,0.5
+Florida,Cape Coral,City,Orientation,0.8
+Florida,Clearwater,City,Orientation,0.0
+Florida,Coral Springs,City,Orientation,0.0
+Florida,Davie,City,Orientation,0.2
+Florida,Deerfield Beach,City,Orientation,0.3
+Florida,Delray Beach,City,Orientation,0.0
+Florida,Fort Lauderdale,City,Orientation,2.0
+Florida,Fort Myers,City,Orientation,0.6
+Florida,Gainesville,City,Orientation,1.5
+Florida,Hialeah,City,Orientation,0.5
+Florida,Hollywood,City,Orientation,0.3
+Florida,Homestead,City,Orientation,1.5
+Florida,Jacksonville,City,Orientation,0.3
+Florida,Kissimmee,City,Orientation,1.0
+Florida,Lakeland,City,Orientation,0.0
+Florida,Largo,City,Orientation,0.3
+Florida,Melbourne,City,Orientation,0.8
+Florida,Miami Beach,City,Orientation,3.7
+Florida,Miami Gardens,City,Orientation,0.6
+Florida,Miramar,City,Orientation,0.9
+Florida,Orlando,City,Orientation,1.4
+Florida,Palm Bay,City,Orientation,0.3
+Florida,Pembroke Pines,City,Orientation,0.0
+Florida,Plantation,City,Orientation,0.0
+Florida,Pompano Beach,City,Orientation,0.3
+Florida,Port St. Lucie,City,Orientation,0.4
+Florida,St. Petersburg,City,Orientation,1.5
+Florida,Sunrise,City,Orientation,0.2
+Florida,Tallahassee,City,Orientation,0.5
+Florida,Tamarac,City,Orientation,1.0
+Florida,Tampa,City,Orientation,1.3
+Florida,West Palm Beach,City,Orientation,0.0
+Florida,Weston,City,Orientation,0.0
+Florida,,State,Orientation,27.8
+Georgia,Atlanta,City,Orientation,3.9
+Georgia,Columbus,City,Orientation,0.7
+Georgia,Warner Robins,City,Orientation,0.0
+Georgia,,State,Orientation,6.3
+Idaho,Meridian,City,Orientation,0.0
+Idaho,Nampa,City,Orientation,0.5
+Idaho,,State,Orientation,4.8
+Illinois,Arlington Heights,City,Orientation,0.3
+Illinois,Aurora,City,Orientation,0.4
+Illinois,Bloomington,City,Orientation,0.5
+Illinois,Bolingbrook,City,Orientation,0.0
+Illinois,Champaign,City,Orientation,0.7
+Illinois,Chicago,City,Orientation,10.3
+Illinois,Decatur,City,Orientation,0.4
+Illinois,Elgin,City,Orientation,0.5
+Illinois,Evanston,City,Orientation,0.0
+Illinois,Joliet,City,Orientation,0.3
+Illinois,Naperville,City,Orientation,0.0
+Illinois,Palatine,City,Orientation,0.0
+Illinois,Peoria,City,Orientation,1.0
+Illinois,Rockford,City,Orientation,1.3
+Illinois,Schaumburg,City,Orientation,0.0
+Illinois,Skokie,City,Orientation,0.2
+Illinois,Springfield,City,Orientation,0.7
+Illinois,,State,Orientation,22.1
+Indiana,Bloomington,City,Orientation,3.9
+Indiana,Evansville,City,Orientation,0.5
+Indiana,Fishers,City,Orientation,0.2
+Indiana,Fort Wayne,City,Orientation,0.9
+Indiana,Hammond,City,Orientation,0.5
+Indiana,Indianapolis,City,Orientation,5.7
+Indiana,Lafayette,City,Orientation,1.0
+Indiana,Muncie,City,Orientation,0.7
+Indiana,South Bend,City,Orientation,0.2
+Indiana,,State,Orientation,10.8
+Iowa,Ames,City,Orientation,0.0
+Iowa,Cedar Rapids,City,Orientation,0.2
+Iowa,Davenport,City,Orientation,1.0
+Iowa,Des Moines,City,Orientation,1.2
+Iowa,Iowa City,City,Orientation,0.0
+Iowa,Sioux City,City,Orientation,0.5
+Iowa,Waterloo,City,Orientation,0.0
+Iowa,,State,Orientation,3.5
+Kansas,Kansas City,City,Orientation,0.0
+Kansas,Lawrence,City,Orientation,1.0
+Kansas,Overland Park,City,Orientation,0.3
+Kansas,Shawnee,City,Orientation,0.0
+Kansas,Topeka,City,Orientation,0.0
+Kansas,Wichita,City,Orientation,3.7
+Kansas,,State,Orientation,12.8
+Kentucky,Bowling Green,City,Orientation,2.5
+Kentucky,Lexington,City,Orientation,3.9
+Kentucky,,State,Orientation,20.4
+Louisiana,Baton Rouge,City,Orientation,1.0
+Louisiana,Kenner,City,Orientation,0.3
+Louisiana,New Orleans,City,Orientation,1.8
+Louisiana,Shreveport,City,Orientation,0.0
+Louisiana,,State,Orientation,3.3
+Maine,Portland,City,Orientation,1.3
+Maine,,State,Orientation,14.8
+Maryland,Baltimore,City,Orientation,1.5
+Maryland,Frederick,City,Orientation,0.0
+Maryland,,State,Orientation,8.8
+Massachusetts,Boston,City,Orientation,44.4
+Massachusetts,Brockton,City,Orientation,0.8
+Massachusetts,Brookline,City,Orientation,0.0
+Massachusetts,Cambridge,City,Orientation,1.9
+Massachusetts,Fall River,City,Orientation,0.0
+Massachusetts,Framingham,City,Orientation,0.1
+Massachusetts,Lawrence,City,Orientation,0.3
+Massachusetts,Lowell,City,Orientation,0.9
+Massachusetts,Lynn,City,Orientation,1.1
+Massachusetts,New Bedford,City,Orientation,1.0
+Massachusetts,Newton,City,Orientation,0.6
+Massachusetts,Quincy,City,Orientation,0.6
+Massachusetts,Somerville,City,Orientation,0.3
+Massachusetts,Springfield,City,Orientation,1.5
+Massachusetts,Worcester,City,Orientation,0.9
+Massachusetts,,State,Orientation,72.6
+Michigan,Ann Arbor,City,Orientation,2.3
+Michigan,Dearborn,City,Orientation,0.8
+Michigan,Detroit,City,Orientation,6.8
+Michigan,Farmington Hills,City,Orientation,0.0
+Michigan,Flint,City,Orientation,3.3
+Michigan,Grand Rapids,City,Orientation,1.5
+Michigan,Kalamazoo,City,Orientation,0.3
+Michigan,Lansing,City,Orientation,1.3
+Michigan,Livonia,City,Orientation,0.6
+Michigan,Pontiac,City,Orientation,0.3
+Michigan,Rochester Hills,City,Orientation,0.7
+Michigan,Southfield,City,Orientation,0.3
+Michigan,Sterling Heights,City,Orientation,0.2
+Michigan,Troy,City,Orientation,0.6
+Michigan,Warren,City,Orientation,0.7
+Michigan,Westland,City,Orientation,0.1
+Michigan,Wyoming,City,Orientation,0.3
+Michigan,,State,Orientation,56.0
+Minnesota,Bloomington,City,Orientation,0.3
+Minnesota,Brooklyn Park,City,Orientation,0.8
+Minnesota,Duluth,City,Orientation,0.6
+Minnesota,Eagan,City,Orientation,0.0
+Minnesota,Maple Grove,City,Orientation,0.7
+Minnesota,Minneapolis,City,Orientation,11.5
+Minnesota,Plymouth,City,Orientation,0.5
+Minnesota,Rochester,City,Orientation,0.6
+Minnesota,St. Cloud,City,Orientation,0.4
+Minnesota,St. Paul,City,Orientation,1.8
+Minnesota,Woodbury,City,Orientation,0.0
+Minnesota,,State,Orientation,23.9
+Mississippi,Gulfport,City,Orientation,0.3
+Mississippi,,State,Orientation,0.6
+Missouri,Columbia,City,Orientation,0.8
+Missouri,Independence,City,Orientation,0.9
+Missouri,Kansas City,City,Orientation,7.5
+Missouri,Lee'S Summit,City,Orientation,0.1
+Missouri,O'Fallon,City,Orientation,0.0
+Missouri,Springfield,City,Orientation,1.0
+Missouri,St. Charles,City,Orientation,0.0
+Missouri,St. Joseph,City,Orientation,0.4
+Missouri,St. Louis,City,Orientation,2.0
+Missouri,,State,Orientation,16.6
+Montana,Billings,City,Orientation,0.5
+Montana,Missoula,City,Orientation,2.0
+Montana,,State,Orientation,4.8
+Nebraska,Lincoln,City,Orientation,4.2
+Nebraska,Omaha,City,Orientation,1.0
+Nebraska,,State,Orientation,5.9
+Nevada,Henderson,City,Orientation,0.4
+Nevada,North Las Vegas,City,Orientation,0.8
+Nevada,Reno,City,Orientation,1.0
+Nevada,Sparks,City,Orientation,0.0
+Nevada,,State,Orientation,13.3
+New Hampshire,Manchester,City,Orientation,0.3
+New Hampshire,Nashua,City,Orientation,0.0
+New Hampshire,,State,Orientation,5.8
+New Jersey,Bayonne,City,Orientation,0.0
+New Jersey,Camden,City,Orientation,0.2
+New Jersey,Clifton,City,Orientation,0.3
+New Jersey,East Orange,City,Orientation,0.0
+New Jersey,Elizabeth,City,Orientation,0.2
+New Jersey,Jersey City,City,Orientation,2.2
+New Jersey,Newark,City,Orientation,0.4
+New Jersey,Passaic,City,Orientation,0.5
+New Jersey,Paterson,City,Orientation,0.3
+New Jersey,Trenton,City,Orientation,0.1
+New Jersey,Union City,City,Orientation,0.7
+New Jersey,,State,Orientation,56.2
+New Mexico,Albuquerque,City,Orientation,3.9
+New Mexico,,State,Orientation,3.8
+New York,Albany,City,Orientation,0.6
+New York,Buffalo,City,Orientation,3.6
+New York,Mount Vernon,City,Orientation,0.4
+New York,New Rochelle,City,Orientation,0.3
+New York,New York,City,Orientation,66.1
+New York,Rochester,City,Orientation,2.9
+New York,Schenectady,City,Orientation,0.0
+New York,Syracuse,City,Orientation,1.0
+New York,Yonkers,City,Orientation,1.2
+New York,,State,Orientation,99.4
+North Carolina,Asheville,City,Orientation,1.5
+North Carolina,Cary,City,Orientation,0.0
+North Carolina,Concord,City,Orientation,0.0
+North Carolina,Durham,City,Orientation,1.2
+North Carolina,Fayetteville,City,Orientation,0.6
+North Carolina,Gastonia,City,Orientation,0.1
+North Carolina,Greensboro,City,Orientation,1.1
+North Carolina,Greenville,City,Orientation,0.8
+North Carolina,High Point,City,Orientation,0.2
+North Carolina,Jacksonville,City,Orientation,0.4
+North Carolina,Raleigh,City,Orientation,2.3
+North Carolina,Wilmington,City,Orientation,1.2
+North Carolina,Winston-Salem,City,Orientation,0.0
+North Carolina,,State,Orientation,19.5
+North Dakota,Bismarck,City,Orientation,0.4
+North Dakota,Fargo,City,Orientation,0.9
+North Dakota,,State,Orientation,3.2
+Ohio,Akron,City,Orientation,1.3
+Ohio,Canton,City,Orientation,0.0
+Ohio,Cincinnati,City,Orientation,2.8
+Ohio,Cleveland,City,Orientation,1.3
+Ohio,Columbus,City,Orientation,15.6
+Ohio,Dayton,City,Orientation,0.8
+Ohio,Lorain,City,Orientation,1.1
+Ohio,Parma,City,Orientation,0.0
+Ohio,Toledo,City,Orientation,4.0
+Ohio,Youngstown,City,Orientation,0.4
+Ohio,,State,Orientation,54.2
+Oklahoma,Broken Arrow,City,Orientation,0.3
+Oklahoma,Edmond,City,Orientation,0.3
+Oklahoma,Lawton,City,Orientation,0.3
+Oklahoma,Norman,City,Orientation,0.4
+Oklahoma,Oklahoma City,City,Orientation,3.0
+Oklahoma,Tulsa,City,Orientation,0.0
+Oklahoma,,State,Orientation,7.0
+Oregon,Beaverton,City,Orientation,0.4
+Oregon,Bend,City,Orientation,0.7
+Oregon,Eugene,City,Orientation,4.7
+Oregon,Gresham,City,Orientation,1.0
+Oregon,Hillsboro,City,Orientation,0.0
+Oregon,Medford,City,Orientation,0.5
+Oregon,Portland,City,Orientation,10.8
+Oregon,Salem,City,Orientation,1.7
+Oregon,,State,Orientation,22.9
+Pennsylvania,Allentown,City,Orientation,0.0
+Pennsylvania,Bethlehem,City,Orientation,0.0
+Pennsylvania,Erie,City,Orientation,0.0
+Pennsylvania,Philadelphia,City,Orientation,2.3
+Pennsylvania,Pittsburgh,City,Orientation,1.3
+Pennsylvania,Reading,City,Orientation,0.5
+Pennsylvania,Scranton,City,Orientation,0.0
+Pennsylvania,,State,Orientation,7.9
+Rhode Island,Cranston,City,Orientation,0.5
+Rhode Island,Pawtucket,City,Orientation,0.7
+Rhode Island,Providence,City,Orientation,2.5
+Rhode Island,Warwick,City,Orientation,0.5
+Rhode Island,,State,Orientation,5.2
+South Carolina,Charleston,City,Orientation,0.3
+South Carolina,Columbia,City,Orientation,1.9
+South Carolina,Greenville,City,Orientation,1.0
+South Carolina,Mount Pleasant,City,Orientation,0.8
+South Carolina,North Charleston,City,Orientation,0.7
+South Carolina,Rock Hill,City,Orientation,0.6
+South Carolina,,State,Orientation,16.0
+South Dakota,Rapid City,City,Orientation,0.7
+South Dakota,Sioux Falls,City,Orientation,2.2
+South Dakota,,State,Orientation,4.4
+Tennessee,Chattanooga,City,Orientation,0.4
+Tennessee,Clarksville,City,Orientation,1.8
+Tennessee,Franklin,City,Orientation,0.0
+Tennessee,Jackson,City,Orientation,0.8
+Tennessee,Johnson City,City,Orientation,0.3
+Tennessee,Knoxville,City,Orientation,1.0
+Tennessee,Memphis,City,Orientation,11.3
+Tennessee,Murfreesboro,City,Orientation,0.4
+Tennessee,Nashville,City,Orientation,2.4
+Tennessee,,State,Orientation,35.5
+Texas,Abilene,City,Orientation,0.0
+Texas,Allen,City,Orientation,0.0
+Texas,Amarillo,City,Orientation,0.0
+Texas,Arlington,City,Orientation,0.7
+Texas,Austin,City,Orientation,3.2
+Texas,Baytown,City,Orientation,0.5
+Texas,Beaumont,City,Orientation,0.6
+Texas,Bryan,City,Orientation,0.0
+Texas,Carrollton,City,Orientation,0.7
+Texas,Cedar Park,City,Orientation,0.3
+Texas,College Station,City,Orientation,0.5
+Texas,Conroe,City,Orientation,0.0
+Texas,Corpus Christi,City,Orientation,1.6
+Texas,Dallas,City,Orientation,7.2
+Texas,Denton,City,Orientation,0.6
+Texas,Edinburg,City,Orientation,0.0
+Texas,El Paso,City,Orientation,1.4
+Texas,Flower Mound,City,Orientation,0.5
+Texas,Fort Worth,City,Orientation,2.5
+Texas,Frisco,City,Orientation,0.2
+Texas,Garland,City,Orientation,0.9
+Texas,Grand Prairie,City,Orientation,0.0
+Texas,Harlingen,City,Orientation,0.0
+Texas,Houston,City,Orientation,6.0
+Texas,Killeen,City,Orientation,0.0
+Texas,League City,City,Orientation,0.0
+Texas,Lewisville,City,Orientation,0.7
+Texas,Longview,City,Orientation,0.5
+Texas,Lubbock,City,Orientation,0.0
+Texas,Mcallen,City,Orientation,1.0
+Texas,Mckinney,City,Orientation,1.1
+Texas,Midland,City,Orientation,1.3
+Texas,Missouri City,City,Orientation,0.0
+Texas,New Braunfels,City,Orientation,0.0
+Texas,North Richland Hills,City,Orientation,0.3
+Texas,Odessa,City,Orientation,0.8
+Texas,Pasadena,City,Orientation,0.5
+Texas,Pearland,City,Orientation,0.6
+Texas,Plano,City,Orientation,0.1
+Texas,Richardson,City,Orientation,0.0
+Texas,Round Rock,City,Orientation,0.1
+Texas,San Angelo,City,Orientation,0.8
+Texas,San Antonio,City,Orientation,3.9
+Texas,Sugar Land,City,Orientation,0.0
+Texas,Temple,City,Orientation,0.3
+Texas,Tyler,City,Orientation,0.9
+Texas,Victoria,City,Orientation,0.0
+Texas,Waco,City,Orientation,0.0
+Texas,Wichita Falls,City,Orientation,0.3
+Texas,,State,Orientation,40.9
+Utah,Layton,City,Orientation,0.4
+Utah,Ogden,City,Orientation,0.5
+Utah,Orem,City,Orientation,0.0
+Utah,Provo,City,Orientation,0.3
+Utah,Salt Lake City,City,Orientation,0.5
+Utah,Sandy,City,Orientation,0.2
+Utah,South Jordan,City,Orientation,0.0
+Utah,St. George,City,Orientation,0.2
+Utah,West Jordan,City,Orientation,0.0
+Utah,,State,Orientation,8.8
+Vermont,,State,Orientation,4.8
+Virginia,Alexandria,City,Orientation,0.6
+Virginia,Chesapeake,City,Orientation,0.8
+Virginia,Hampton,City,Orientation,0.3
+Virginia,Lynchburg,City,Orientation,0.7
+Virginia,Newport News,City,Orientation,1.3
+Virginia,Norfolk,City,Orientation,2.6
+Virginia,Portsmouth,City,Orientation,0.3
+Virginia,Richmond,City,Orientation,1.4
+Virginia,Roanoke,City,Orientation,0.8
+Virginia,Suffolk,City,Orientation,0.3
+Virginia,Virginia Beach,City,Orientation,1.9
+Virginia,,State,Orientation,24.9
+Washington,Auburn,City,Orientation,0.3
+Washington,Bellevue,City,Orientation,0.7
+Washington,Bellingham,City,Orientation,1.1
+Washington,Everett,City,Orientation,0.8
+Washington,Federal Way,City,Orientation,0.8
+Washington,Kennewick,City,Orientation,0.8
+Washington,Kent,City,Orientation,1.6
+Washington,Kirkland,City,Orientation,0.3
+Washington,Marysville,City,Orientation,0.0
+Washington,Pasco,City,Orientation,0.0
+Washington,Renton,City,Orientation,0.3
+Washington,Seattle,City,Orientation,17.8
+Washington,Spokane,City,Orientation,3.2
+Washington,Spokane Valley,City,Orientation,0.9
+Washington,Tacoma,City,Orientation,2.9
+Washington,Vancouver,City,Orientation,0.8
+Washington,Yakima,City,Orientation,0.6
+Washington,,State,Orientation,48.7
+West Virginia,,State,Orientation,5.5
+Wisconsin,Appleton,City,Orientation,0.6
+Wisconsin,Eau Claire,City,Orientation,0.0
+Wisconsin,Green Bay,City,Orientation,0.3
+Wisconsin,Kenosha,City,Orientation,0.0
+Wisconsin,Madison,City,Orientation,1.8
+Wisconsin,Milwaukee,City,Orientation,3.9
+Wisconsin,Waukesha,City,Orientation,0.0
+Wisconsin,,State,Orientation,12.8
+Wyoming,,State,Orientation,0.9
+Alabama,Birmingham,City,Disability,0.0
+Alabama,Hoover,City,Disability,0.0
+Alabama,Mobile,City,Disability,0.0
+Alabama,Montgomery,City,Disability,0.0
+Alabama,Tuscaloosa,City,Disability,0.0
+Alabama,,State,Disability,0.2
+Alaska,Anchorage,City,Disability,0.2
+Alaska,,State,Disability,0.2
+Alaska, ,State,Disability,0.0
+Arizona,Avondale,City,Disability,0.0
+Arizona,Chandler,City,Disability,0.0
+Arizona,Flagstaff,City,Disability,0.0
+Arizona,Gilbert,City,Disability,0.0
+Arizona,Glendale,City,Disability,0.0
+Arizona,Goodyear,City,Disability,0.0
+Arizona,Mesa,City,Disability,0.0
+Arizona,Peoria,City,Disability,0.0
+Arizona,Phoenix,City,Disability,1.3
+Arizona,Scottsdale,City,Disability,0.0
+Arizona,Surprise,City,Disability,0.0
+Arizona,Tempe,City,Disability,0.0
+Arizona,Tucson,City,Disability,0.1
+Arizona,Yuma,City,Disability,0.0
+Arizona,,State,Disability,2.0
+Arizona, ,State,Disability,1.0
+Arkansas,Fayetteville,City,Disability,0.0
+Arkansas,Fort Smith,City,Disability,0.0
+Arkansas,Jonesboro,City,Disability,0.0
+Arkansas,Little Rock,City,Disability,0.0
+Arkansas,North Little Rock,City,Disability,0.0
+Arkansas,Springdale,City,Disability,0.3
+Arkansas,,State,Disability,0.4
+California,Alameda,City,Disability,0.1
+California,Alhambra,City,Disability,0.0
+California,Anaheim,City,Disability,0.1
+California,Antioch,City,Disability,0.1
+California,Apple Valley,City,Disability,0.0
+California,Bakersfield,City,Disability,0.0
+California,Baldwin Park,City,Disability,0.0
+California,Bellflower,City,Disability,0.0
+California,Berkeley,City,Disability,0.0
+California,Buena Park,City,Disability,0.0
+California,Burbank,City,Disability,0.2
+California,Camarillo,City,Disability,0.0
+California,Carlsbad,City,Disability,0.0
+California,Carson,City,Disability,0.0
+California,Chico,City,Disability,0.0
+California,Chino,City,Disability,0.0
+California,Chino Hills,City,Disability,0.0
+California,Chula Vista,City,Disability,0.0
+California,Citrus Heights,City,Disability,0.0
+California,Clovis,City,Disability,0.0
+California,Compton,City,Disability,0.0
+California,Concord,City,Disability,0.0
+California,Corona,City,Disability,0.0
+California,Costa Mesa,City,Disability,0.0
+California,Daly City,City,Disability,0.0
+California,Davis,City,Disability,0.0
+California,Downey,City,Disability,0.0
+California,El Cajon,City,Disability,0.0
+California,El Monte,City,Disability,0.0
+California,Elk Grove,City,Disability,0.0
+California,Escondido,City,Disability,0.0
+California,Fairfield,City,Disability,0.0
+California,Folsom,City,Disability,0.0
+California,Fontana,City,Disability,0.0
+California,Fremont,City,Disability,0.0
+California,Fresno,City,Disability,0.0
+California,Fullerton,City,Disability,0.0
+California,Garden Grove,City,Disability,0.0
+California,Glendale,City,Disability,0.0
+California,Hawthorne,City,Disability,0.0
+California,Hayward,City,Disability,0.0
+California,Hemet,City,Disability,0.0
+California,Hesperia,City,Disability,0.0
+California,Huntington Beach,City,Disability,0.0
+California,Indio,City,Disability,0.0
+California,Inglewood,City,Disability,0.0
+California,Irvine,City,Disability,0.0
+California,Jurupa Valley,City,Disability,0.0
+California,Laguna Niguel,City,Disability,0.0
+California,Lake Elsinore,City,Disability,0.0
+California,Lake Forest,City,Disability,0.0
+California,Lakewood,City,Disability,0.0
+California,Lancaster,City,Disability,0.1
+California,Livermore,City,Disability,0.0
+California,Lodi,City,Disability,0.0
+California,Long Beach,City,Disability,0.0
+California,Los Angeles,City,Disability,0.4
+California,Lynwood,City,Disability,0.0
+California,Manteca,City,Disability,0.0
+California,Menifee,City,Disability,0.0
+California,Merced,City,Disability,0.0
+California,Milpitas,City,Disability,0.0
+California,Mission Viejo,City,Disability,0.0
+California,Modesto,City,Disability,0.1
+California,Moreno Valley,City,Disability,0.0
+California,Mountain View,City,Disability,0.0
+California,Murrieta,City,Disability,0.0
+California,Napa,City,Disability,0.0
+California,Newport Beach,City,Disability,0.0
+California,Norwalk,City,Disability,0.0
+California,Oakland,City,Disability,0.0
+California,Oceanside,City,Disability,0.0
+California,Ontario,City,Disability,0.1
+California,Orange,City,Disability,0.0
+California,Oxnard,City,Disability,0.1
+California,Palmdale,City,Disability,0.1
+California,Palo Alto,City,Disability,0.0
+California,Pasadena,City,Disability,0.0
+California,Perris,City,Disability,0.0
+California,Pittsburg,City,Disability,0.0
+California,Pleasanton,City,Disability,0.0
+California,Pomona,City,Disability,0.0
+California,Rancho Cordova,City,Disability,0.0
+California,Rancho Cucamonga,City,Disability,0.0
+California,Redding,City,Disability,0.1
+California,Redlands,City,Disability,0.0
+California,Redondo Beach,City,Disability,0.0
+California,Redwood City,City,Disability,0.0
+California,Rialto,City,Disability,0.0
+California,Richmond,City,Disability,0.0
+California,Riverside,City,Disability,0.1
+California,Roseville,City,Disability,0.0
+California,Sacramento,City,Disability,0.1
+California,Salinas,City,Disability,0.1
+California,San Bernardino,City,Disability,0.0
+California,San Clemente,City,Disability,0.0
+California,San Diego,City,Disability,0.1
+California,San Francisco,City,Disability,0.1
+California,San Jose,City,Disability,0.1
+California,San Leandro,City,Disability,0.2
+California,San Marcos,City,Disability,0.0
+California,San Mateo,City,Disability,0.0
+California,San Ramon,City,Disability,0.0
+California,Santa Ana,City,Disability,0.0
+California,Santa Barbara,City,Disability,0.0
+California,Santa Clara,City,Disability,0.0
+California,Santa Clarita,City,Disability,0.1
+California,Santa Cruz,City,Disability,0.0
+California,Santa Maria,City,Disability,0.0
+California,Santa Monica,City,Disability,0.0
+California,Santa Rosa,City,Disability,0.0
+California,Simi Valley,City,Disability,0.0
+California,South Gate,City,Disability,0.0
+California,South San Francisco,City,Disability,0.0
+California,Stockton,City,Disability,0.1
+California,Sunnyvale,City,Disability,0.0
+California,Temecula,City,Disability,0.0
+California,Thousand Oaks,City,Disability,0.0
+California,Torrance,City,Disability,0.0
+California,Tracy,City,Disability,0.0
+California,Turlock,City,Disability,0.0
+California,Tustin,City,Disability,0.0
+California,Union City,City,Disability,0.0
+California,Upland,City,Disability,0.0
+California,Vacaville,City,Disability,0.0
+California,Vallejo,City,Disability,0.0
+California,Victorville,City,Disability,0.0
+California,Visalia,City,Disability,0.0
+California,Vista,City,Disability,0.0
+California,Walnut Creek,City,Disability,0.0
+California,West Covina,City,Disability,0.0
+California,Westminster,City,Disability,0.1
+California,Whittier,City,Disability,0.0
+California,Yorba Linda,City,Disability,0.0
+California,Yuba City,City,Disability,0.0
+California,,State,Disability,3.7
+California, ,State,Disability,2.0
+Colorado,Arvada,City,Disability,0.0
+Colorado,Aurora,City,Disability,0.0
+Colorado,Boulder,City,Disability,0.1
+Colorado,Broomfield,City,Disability,0.0
+Colorado,Centennial,City,Disability,0.1
+Colorado,Colorado Springs,City,Disability,0.0
+Colorado,Denver,City,Disability,0.3
+Colorado,Fort Collins,City,Disability,0.0
+Colorado,Greeley,City,Disability,0.0
+Colorado,Lakewood,City,Disability,0.0
+Colorado,Longmont,City,Disability,0.0
+Colorado,Loveland,City,Disability,0.0
+Colorado,Pueblo,City,Disability,0.2
+Colorado,Thornton,City,Disability,0.0
+Colorado,Westminster,City,Disability,0.3
+Colorado,,State,Disability,1.6
+Connecticut,Bridgeport,City,Disability,0.0
+Connecticut,Danbury,City,Disability,0.1
+Connecticut,Hartford,City,Disability,0.0
+Connecticut,New Britain,City,Disability,0.0
+Connecticut,New Haven,City,Disability,0.0
+Connecticut,Norwalk,City,Disability,0.0
+Connecticut,Stamford,City,Disability,0.3
+Connecticut,Waterbury,City,Disability,0.0
+Connecticut,,State,Disability,1.3
+Delaware,Wilmington,City,Disability,0.0
+Delaware,,State,Disability,0.1
+District Of Columbia,Washington,City,Disability,0.4
+District Of Columbia,,State,Disability,0.5
+Florida,Boca Raton,City,Disability,0.0
+Florida,Boynton Beach,City,Disability,0.0
+Florida,Cape Coral,City,Disability,0.0
+Florida,Clearwater,City,Disability,0.0
+Florida,Coral Springs,City,Disability,0.0
+Florida,Davie,City,Disability,0.0
+Florida,Deerfield Beach,City,Disability,0.0
+Florida,Delray Beach,City,Disability,0.0
+Florida,Fort Lauderdale,City,Disability,0.0
+Florida,Fort Myers,City,Disability,0.0
+Florida,Gainesville,City,Disability,0.1
+Florida,Hialeah,City,Disability,0.0
+Florida,Hollywood,City,Disability,0.0
+Florida,Homestead,City,Disability,0.0
+Florida,Jacksonville,City,Disability,0.0
+Florida,Kissimmee,City,Disability,0.0
+Florida,Lakeland,City,Disability,0.0
+Florida,Largo,City,Disability,0.0
+Florida,Melbourne,City,Disability,0.0
+Florida,Miami Beach,City,Disability,0.1
+Florida,Miami Gardens,City,Disability,0.0
+Florida,Miramar,City,Disability,0.0
+Florida,Orlando,City,Disability,0.0
+Florida,Palm Bay,City,Disability,0.1
+Florida,Pembroke Pines,City,Disability,0.0
+Florida,Plantation,City,Disability,0.0
+Florida,Pompano Beach,City,Disability,0.0
+Florida,Port St. Lucie,City,Disability,0.0
+Florida,St. Petersburg,City,Disability,0.0
+Florida,Sunrise,City,Disability,0.0
+Florida,Tallahassee,City,Disability,0.0
+Florida,Tamarac,City,Disability,0.0
+Florida,Tampa,City,Disability,0.0
+Florida,West Palm Beach,City,Disability,0.0
+Florida,Weston,City,Disability,0.0
+Florida,,State,Disability,0.4
+Georgia,Atlanta,City,Disability,0.2
+Georgia,Columbus,City,Disability,0.0
+Georgia,Warner Robins,City,Disability,0.0
+Georgia,,State,Disability,0.3
+Idaho,Meridian,City,Disability,0.0
+Idaho,Nampa,City,Disability,0.0
+Idaho,,State,Disability,0.3
+Illinois,Arlington Heights,City,Disability,0.0
+Illinois,Aurora,City,Disability,0.0
+Illinois,Bloomington,City,Disability,0.0
+Illinois,Bolingbrook,City,Disability,0.0
+Illinois,Champaign,City,Disability,0.0
+Illinois,Chicago,City,Disability,0.1
+Illinois,Decatur,City,Disability,0.0
+Illinois,Elgin,City,Disability,0.0
+Illinois,Evanston,City,Disability,0.0
+Illinois,Joliet,City,Disability,0.0
+Illinois,Naperville,City,Disability,0.0
+Illinois,Palatine,City,Disability,0.0
+Illinois,Peoria,City,Disability,0.0
+Illinois,Rockford,City,Disability,0.1
+Illinois,Schaumburg,City,Disability,0.0
+Illinois,Skokie,City,Disability,0.0
+Illinois,Springfield,City,Disability,0.0
+Illinois,,State,Disability,0.5
+Indiana,Bloomington,City,Disability,0.1
+Indiana,Evansville,City,Disability,0.0
+Indiana,Fishers,City,Disability,0.0
+Indiana,Fort Wayne,City,Disability,0.0
+Indiana,Hammond,City,Disability,0.0
+Indiana,Indianapolis,City,Disability,0.0
+Indiana,Lafayette,City,Disability,0.0
+Indiana,Muncie,City,Disability,0.0
+Indiana,South Bend,City,Disability,0.0
+Indiana,,State,Disability,0.4
+Iowa,Ames,City,Disability,0.0
+Iowa,Cedar Rapids,City,Disability,0.0
+Iowa,Davenport,City,Disability,0.0
+Iowa,Des Moines,City,Disability,0.0
+Iowa,Iowa City,City,Disability,0.0
+Iowa,Sioux City,City,Disability,0.0
+Iowa,Waterloo,City,Disability,0.0
+Iowa,,State,Disability,0.3
+Kansas,Kansas City,City,Disability,0.0
+Kansas,Lawrence,City,Disability,0.2
+Kansas,Overland Park,City,Disability,0.0
+Kansas,Shawnee,City,Disability,0.0
+Kansas,Topeka,City,Disability,0.0
+Kansas,Wichita,City,Disability,0.0
+Kansas,,State,Disability,1.7
+Kentucky,Bowling Green,City,Disability,1.0
+Kentucky,Lexington,City,Disability,0.8
+Kentucky,,State,Disability,3.4
+Louisiana,Baton Rouge,City,Disability,0.0
+Louisiana,Kenner,City,Disability,0.0
+Louisiana,New Orleans,City,Disability,0.2
+Louisiana,Shreveport,City,Disability,0.0
+Louisiana,,State,Disability,0.3
+Maine,Portland,City,Disability,0.1
+Maine,,State,Disability,0.2
+Maryland,Baltimore,City,Disability,0.0
+Maryland,Frederick,City,Disability,0.0
+Maryland,,State,Disability,0.0
+Massachusetts,Boston,City,Disability,0.0
+Massachusetts,Brockton,City,Disability,0.1
+Massachusetts,Brookline,City,Disability,0.0
+Massachusetts,Cambridge,City,Disability,0.3
+Massachusetts,Fall River,City,Disability,0.0
+Massachusetts,Framingham,City,Disability,0.0
+Massachusetts,Lawrence,City,Disability,0.0
+Massachusetts,Lowell,City,Disability,0.0
+Massachusetts,Lynn,City,Disability,0.8
+Massachusetts,New Bedford,City,Disability,0.0
+Massachusetts,Newton,City,Disability,0.1
+Massachusetts,Quincy,City,Disability,0.3
+Massachusetts,Somerville,City,Disability,0.1
+Massachusetts,Springfield,City,Disability,0.0
+Massachusetts,Worcester,City,Disability,0.0
+Massachusetts,,State,Disability,4.3
+Michigan,Ann Arbor,City,Disability,0.1
+Michigan,Dearborn,City,Disability,0.0
+Michigan,Detroit,City,Disability,0.3
+Michigan,Farmington Hills,City,Disability,0.0
+Michigan,Flint,City,Disability,0.3
+Michigan,Grand Rapids,City,Disability,0.1
+Michigan,Kalamazoo,City,Disability,0.5
+Michigan,Lansing,City,Disability,0.1
+Michigan,Livonia,City,Disability,0.0
+Michigan,Pontiac,City,Disability,0.0
+Michigan,Rochester Hills,City,Disability,0.0
+Michigan,Southfield,City,Disability,0.0
+Michigan,Sterling Heights,City,Disability,0.2
+Michigan,Troy,City,Disability,0.0
+Michigan,Warren,City,Disability,0.4
+Michigan,Westland,City,Disability,0.0
+Michigan,Wyoming,City,Disability,0.0
+Michigan,,State,Disability,5.3
+Minnesota,Bloomington,City,Disability,0.0
+Minnesota,Brooklyn Park,City,Disability,0.0
+Minnesota,Duluth,City,Disability,0.0
+Minnesota,Eagan,City,Disability,0.0
+Minnesota,Maple Grove,City,Disability,0.0
+Minnesota,Minneapolis,City,Disability,0.5
+Minnesota,Plymouth,City,Disability,0.0
+Minnesota,Rochester,City,Disability,0.0
+Minnesota,St. Cloud,City,Disability,0.0
+Minnesota,St. Paul,City,Disability,0.0
+Minnesota,Woodbury,City,Disability,0.0
+Minnesota,,State,Disability,0.8
+Mississippi,Gulfport,City,Disability,0.0
+Mississippi,,State,Disability,0.0
+Missouri,Columbia,City,Disability,0.0
+Missouri,Independence,City,Disability,0.0
+Missouri,Kansas City,City,Disability,0.2
+Missouri,Lee'S Summit,City,Disability,0.0
+Missouri,O'Fallon,City,Disability,0.0
+Missouri,Springfield,City,Disability,0.1
+Missouri,St. Charles,City,Disability,0.4
+Missouri,St. Joseph,City,Disability,0.0
+Missouri,St. Louis,City,Disability,0.0
+Missouri,,State,Disability,0.7
+Montana,Billings,City,Disability,0.0
+Montana,Missoula,City,Disability,0.0
+Montana,,State,Disability,1.0
+Nebraska,Lincoln,City,Disability,0.2
+Nebraska,Omaha,City,Disability,0.0
+Nebraska,,State,Disability,0.3
+Nevada,Henderson,City,Disability,0.0
+Nevada,North Las Vegas,City,Disability,0.0
+Nevada,Reno,City,Disability,0.0
+Nevada,Sparks,City,Disability,0.0
+Nevada,,State,Disability,0.1
+New Hampshire,Manchester,City,Disability,0.0
+New Hampshire,Nashua,City,Disability,0.0
+New Hampshire,,State,Disability,0.3
+New Jersey,Bayonne,City,Disability,0.0
+New Jersey,Camden,City,Disability,0.0
+New Jersey,Clifton,City,Disability,0.0
+New Jersey,East Orange,City,Disability,0.0
+New Jersey,Elizabeth,City,Disability,0.0
+New Jersey,Jersey City,City,Disability,0.2
+New Jersey,Newark,City,Disability,0.0
+New Jersey,Passaic,City,Disability,0.1
+New Jersey,Paterson,City,Disability,0.0
+New Jersey,Trenton,City,Disability,0.0
+New Jersey,Union City,City,Disability,0.1
+New Jersey,,State,Disability,3.5
+New Mexico,Albuquerque,City,Disability,0.0
+New Mexico,,State,Disability,0.2
+New York,Albany,City,Disability,0.0
+New York,Buffalo,City,Disability,0.0
+New York,Mount Vernon,City,Disability,0.0
+New York,New Rochelle,City,Disability,0.0
+New York,New York,City,Disability,0.4
+New York,Rochester,City,Disability,0.0
+New York,Schenectady,City,Disability,0.0
+New York,Syracuse,City,Disability,0.0
+New York,Yonkers,City,Disability,0.1
+New York,,State,Disability,1.2
+North Carolina,Asheville,City,Disability,0.0
+North Carolina,Cary,City,Disability,0.0
+North Carolina,Concord,City,Disability,0.0
+North Carolina,Durham,City,Disability,0.0
+North Carolina,Fayetteville,City,Disability,0.2
+North Carolina,Gastonia,City,Disability,0.0
+North Carolina,Greensboro,City,Disability,0.0
+North Carolina,Greenville,City,Disability,0.0
+North Carolina,High Point,City,Disability,0.0
+North Carolina,Jacksonville,City,Disability,0.0
+North Carolina,Raleigh,City,Disability,0.1
+North Carolina,Wilmington,City,Disability,0.0
+North Carolina,Winston-Salem,City,Disability,0.0
+North Carolina,,State,Disability,0.8
+North Dakota,Bismarck,City,Disability,0.0
+North Dakota,Fargo,City,Disability,0.1
+North Dakota,,State,Disability,0.4
+Ohio,Akron,City,Disability,0.4
+Ohio,Canton,City,Disability,0.0
+Ohio,Cincinnati,City,Disability,0.2
+Ohio,Cleveland,City,Disability,0.1
+Ohio,Columbus,City,Disability,2.0
+Ohio,Dayton,City,Disability,0.0
+Ohio,Lorain,City,Disability,0.1
+Ohio,Parma,City,Disability,0.0
+Ohio,Toledo,City,Disability,0.0
+Ohio,Youngstown,City,Disability,0.0
+Ohio,,State,Disability,17.8
+Oklahoma,Broken Arrow,City,Disability,0.0
+Oklahoma,Edmond,City,Disability,0.1
+Oklahoma,Lawton,City,Disability,0.0
+Oklahoma,Norman,City,Disability,0.0
+Oklahoma,Oklahoma City,City,Disability,0.0
+Oklahoma,Tulsa,City,Disability,0.0
+Oklahoma,,State,Disability,0.6
+Oregon,Beaverton,City,Disability,0.1
+Oregon,Bend,City,Disability,0.3
+Oregon,Eugene,City,Disability,0.4
+Oregon,Gresham,City,Disability,0.5
+Oregon,Hillsboro,City,Disability,0.0
+Oregon,Medford,City,Disability,0.0
+Oregon,Portland,City,Disability,0.5
+Oregon,Salem,City,Disability,0.0
+Oregon,,State,Disability,1.9
+Pennsylvania,Allentown,City,Disability,0.0
+Pennsylvania,Bethlehem,City,Disability,0.0
+Pennsylvania,Erie,City,Disability,0.0
+Pennsylvania,Philadelphia,City,Disability,0.0
+Pennsylvania,Pittsburgh,City,Disability,0.0
+Pennsylvania,Reading,City,Disability,0.0
+Pennsylvania,Scranton,City,Disability,0.0
+Pennsylvania,,State,Disability,0.1
+Rhode Island,Cranston,City,Disability,0.0
+Rhode Island,Pawtucket,City,Disability,0.0
+Rhode Island,Providence,City,Disability,0.1
+Rhode Island,Warwick,City,Disability,0.0
+Rhode Island,,State,Disability,0.3
+South Carolina,Charleston,City,Disability,0.0
+South Carolina,Columbia,City,Disability,0.0
+South Carolina,Greenville,City,Disability,0.0
+South Carolina,Mount Pleasant,City,Disability,0.0
+South Carolina,North Charleston,City,Disability,0.0
+South Carolina,Rock Hill,City,Disability,0.2
+South Carolina,,State,Disability,3.0
+South Dakota,Rapid City,City,Disability,0.1
+South Dakota,Sioux Falls,City,Disability,0.0
+South Dakota,,State,Disability,0.6
+Tennessee,Chattanooga,City,Disability,0.6
+Tennessee,Clarksville,City,Disability,0.2
+Tennessee,Franklin,City,Disability,0.0
+Tennessee,Jackson,City,Disability,0.0
+Tennessee,Johnson City,City,Disability,0.3
+Tennessee,Knoxville,City,Disability,0.2
+Tennessee,Memphis,City,Disability,1.0
+Tennessee,Murfreesboro,City,Disability,0.1
+Tennessee,Nashville,City,Disability,0.0
+Tennessee,,State,Disability,6.1
+Texas,Abilene,City,Disability,0.0
+Texas,Allen,City,Disability,0.0
+Texas,Amarillo,City,Disability,0.0
+Texas,Arlington,City,Disability,0.0
+Texas,Austin,City,Disability,0.0
+Texas,Baytown,City,Disability,0.0
+Texas,Beaumont,City,Disability,0.0
+Texas,Bryan,City,Disability,0.0
+Texas,Carrollton,City,Disability,0.0
+Texas,Cedar Park,City,Disability,0.0
+Texas,College Station,City,Disability,0.0
+Texas,Conroe,City,Disability,0.0
+Texas,Corpus Christi,City,Disability,0.0
+Texas,Dallas,City,Disability,0.0
+Texas,Denton,City,Disability,0.1
+Texas,Edinburg,City,Disability,0.0
+Texas,El Paso,City,Disability,0.0
+Texas,Flower Mound,City,Disability,0.0
+Texas,Fort Worth,City,Disability,0.1
+Texas,Frisco,City,Disability,0.0
+Texas,Garland,City,Disability,0.1
+Texas,Grand Prairie,City,Disability,0.0
+Texas,Harlingen,City,Disability,0.0
+Texas,Houston,City,Disability,0.0
+Texas,Killeen,City,Disability,0.0
+Texas,League City,City,Disability,0.0
+Texas,Lewisville,City,Disability,0.0
+Texas,Longview,City,Disability,0.1
+Texas,Lubbock,City,Disability,0.0
+Texas,Mcallen,City,Disability,0.0
+Texas,Mckinney,City,Disability,0.0
+Texas,Midland,City,Disability,0.0
+Texas,Missouri City,City,Disability,0.0
+Texas,New Braunfels,City,Disability,0.0
+Texas,North Richland Hills,City,Disability,0.0
+Texas,Odessa,City,Disability,0.2
+Texas,Pasadena,City,Disability,0.0
+Texas,Pearland,City,Disability,0.0
+Texas,Plano,City,Disability,0.0
+Texas,Richardson,City,Disability,0.0
+Texas,Round Rock,City,Disability,0.0
+Texas,San Angelo,City,Disability,0.0
+Texas,San Antonio,City,Disability,0.0
+Texas,Sugar Land,City,Disability,0.0
+Texas,Temple,City,Disability,0.0
+Texas,Tyler,City,Disability,0.1
+Texas,Victoria,City,Disability,0.0
+Texas,Waco,City,Disability,0.0
+Texas,Wichita Falls,City,Disability,0.0
+Texas,,State,Disability,1.2
+Utah,Layton,City,Disability,0.0
+Utah,Ogden,City,Disability,0.0
+Utah,Orem,City,Disability,0.0
+Utah,Provo,City,Disability,0.0
+Utah,Salt Lake City,City,Disability,0.0
+Utah,Sandy,City,Disability,0.0
+Utah,South Jordan,City,Disability,0.0
+Utah,St. George,City,Disability,0.0
+Utah,West Jordan,City,Disability,0.0
+Utah,,State,Disability,0.7
+Vermont,,State,Disability,0.9
+Virginia,Alexandria,City,Disability,0.0
+Virginia,Chesapeake,City,Disability,0.2
+Virginia,Hampton,City,Disability,0.0
+Virginia,Lynchburg,City,Disability,0.0
+Virginia,Newport News,City,Disability,0.0
+Virginia,Norfolk,City,Disability,0.2
+Virginia,Portsmouth,City,Disability,0.0
+Virginia,Richmond,City,Disability,0.1
+Virginia,Roanoke,City,Disability,0.0
+Virginia,Suffolk,City,Disability,0.3
+Virginia,Virginia Beach,City,Disability,0.2
+Virginia,,State,Disability,5.7
+Washington,Auburn,City,Disability,0.0
+Washington,Bellevue,City,Disability,0.1
+Washington,Bellingham,City,Disability,0.0
+Washington,Everett,City,Disability,0.1
+Washington,Federal Way,City,Disability,0.0
+Washington,Kennewick,City,Disability,0.0
+Washington,Kent,City,Disability,0.0
+Washington,Kirkland,City,Disability,0.0
+Washington,Marysville,City,Disability,0.0
+Washington,Pasco,City,Disability,0.3
+Washington,Renton,City,Disability,0.0
+Washington,Seattle,City,Disability,0.5
+Washington,Spokane,City,Disability,0.1
+Washington,Spokane Valley,City,Disability,0.0
+Washington,Tacoma,City,Disability,0.0
+Washington,Vancouver,City,Disability,0.1
+Washington,Yakima,City,Disability,0.0
+Washington,,State,Disability,2.2
+West Virginia,,State,Disability,1.1
+Wisconsin,Appleton,City,Disability,0.0
+Wisconsin,Eau Claire,City,Disability,0.0
+Wisconsin,Green Bay,City,Disability,0.0
+Wisconsin,Kenosha,City,Disability,0.0
+Wisconsin,Madison,City,Disability,0.3
+Wisconsin,Milwaukee,City,Disability,0.0
+Wisconsin,Waukesha,City,Disability,0.0
+Wisconsin,,State,Disability,1.5
+Wyoming,,State,Disability,0.0

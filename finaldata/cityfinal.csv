@@ -1,0 +1,426 @@
+cities,City,State,ginicor,hscor,articleplugin,Population,Gini,HSGrad,CrimesPerYear,CrimePerCapita,Latitude,Longitude,mostCommon
+"hoover, alabama",Hoover,Alabama,-0.364,0.539,Neither,79690,0.44,0.952,3.45,0.433,33.3761,-86.8065,Race
+"anchorage, alaska",Anchorage,Alaska,0.177,-0.548,Neither,292410,0.417,0.92,6,0.205,61.1508,-149.1091,Race
+"avondale, arizona",Avondale,Arizona,-0.031,0.028,Neither,82125,0.38,0.792,2.5,0.304,33.3858,-112.3236,Race
+"chandler, arizona",Chandler,Arizona,0.621,-0.508,Gini,252108,0.404,0.916,2.63,0.104,33.2828,-111.8517,Race
+"gilbert, arizona",Gilbert,Arizona,0.662,-0.204,Gini,223934,0.37,0.95,3,0.134,33.3103,-111.7463,Race
+"glendale, arizona",Glendale,Arizona,0.536,0.024,Neither,243538,0.445,0.824,8,0.328,33.5797,-112.2246,Race
+"mesa, arizona",Mesa,Arizona,0.382,-0.428,Neither,462594,0.434,0.859,6.33,0.137,33.4016,-111.718,Race
+"scottsdale, arizona",Scottsdale,Arizona,0.578,-0.538,Neither,233386,0.509,0.955,6.1,0.261,33.6872,-111.865,Race
+"tucson, arizona",Tucson,Arizona,0.057,-0.138,Neither,531925,0.455,0.842,10.5,0.197,32.1558,-110.8777,Race
+"yuma, arizona",Yuma,Arizona,-0.802,0.125,Gini,92501,0.433,0.779,4.27,0.462,32.599,-114.5489,Race
+"fayetteville, arkansas",Fayetteville,Arkansas,0,0,Neither,76043,0.493,0.923,1.33,0.175,36.0713,-94.166,Race
+"fort smith, arkansas",Fort Smith,Arkansas,-0.15,0.451,Neither,86521,0.496,0.795,2.5,0.289,35.3494,-94.3695,Race
+"alameda, california",Alameda,California,-0.037,-0.613,HS,74877,0.442,0.901,2.78,0.371,37.767,-122.2673,Race
+"alhambra, california",Alhambra,California,0.524,-0.726,HS,85518,0.454,0.811,1.88,0.219,34.084,-118.1355,Race
+"anaheim, california",Anaheim,California,0.144,-0.115,Neither,341087,0.428,0.745,2.67,0.078,33.839,-117.8572,Race
+"antioch, california",Antioch,California,0.246,0.516,Neither,105649,0.413,0.855,2.82,0.267,37.9789,-121.7958,Race
+"apple valley, california",Apple Valley,California,0,0,Neither,71773,0.466,0.865,1.75,0.244,34.5329,-117.2102,Race
+"bakersfield, california",Bakersfield,California,-0.131,0.415,Neither,348142,0.445,0.795,4.75,0.136,35.3528,-119.0354,Race
+"bellflower, california",Bellflower,California,0.629,0.024,Gini,76575,0.408,0.766,1.63,0.212,33.888,-118.1271,Race
+"berkeley, california",Berkeley,California,0.118,0.296,Neither,112313,0.527,0.957,7.55,0.672,37.8723,-122.276,Race
+"buena park, california",Buena Park,California,0.036,-0.377,Neither,82022,0.405,0.811,1.63,0.198,33.8572,-118.0046,Race
+"burbank, california",Burbank,California,0.149,-0.3,Neither,104641,0.44,0.888,4.67,0.446,34.188,-118.3234,Race
+"camarillo, california",Camarillo,California,0.823,0.112,Gini,66576,0.426,0.918,3.33,0.509,34.223,-119.0325,Race
+"carson, california",Carson,California,0.465,-0.418,Neither,93302,0.385,0.802,2.09,0.224,33.8374,-118.2559,Race
+"chico, california",Chico,California,0.252,-0.606,HS,85042,0.473,0.926,3.55,0.417,39.7568,-121.816,Race
+"chino, california",Chino,California,0.087,-0.421,Neither,82524,0.385,0.774,4.1,0.497,33.9836,-117.6653,Race
+"citrus heights, california",Citrus Heights,California,0.099,0.536,Neither,85791,0.388,0.895,1.5,0.175,38.6948,-121.288,Race
+"concord, california",Concord,California,-0.229,0.13,Neither,125236,0.412,0.865,4.1,0.327,37.9722,-122.0016,Race
+"corona, california",Corona,California,0.399,-0.864,HS,156002,0.394,0.834,3,0.192,33.8623,-117.5642,Race
+"costa mesa, california",Costa Mesa,California,0,0,Neither,111050,0.445,0.858,2.43,0.219,33.6667,-117.9135,Race
+"daly city, california",Daly City,California,-0.552,-0.445,Neither,103171,0.382,0.866,1.78,0.172,37.6863,-122.4684,Race
+"davis, california",Davis,California,0.713,-0.287,Gini,66558,0.531,0.967,6.75,1.037,38.5552,-121.7365,Race
+"el cajon, california",El Cajon,California,-0.312,0.814,HS,97928,0.443,0.808,1.88,0.191,32.8017,-116.9604,Race
+"elk grove, california",Elk Grove,California,0.605,-0.309,Gini,155295,0.389,0.898,2.75,0.177,38.416,-121.3841,Race
+"el monte, california",El Monte,California,0.206,-0.078,Neither,119153,0.422,0.582,5.64,0.473,34.0739,-118.0291,Race
+"escondido, california",Escondido,California,-0.617,-0.479,Gini,144356,0.449,0.748,5,0.346,33.1349,-117.0721,Race
+"fairfield, california",Fairfield,California,-0.245,0.098,Neither,109287,0.418,0.854,2,0.183,38.2593,-122.0319,Race
+"fontana, california",Fontana,California,0,0,Neither,193890,0.391,0.744,1.43,0.074,34.0967,-117.4599,Race
+"fremont, california",Fremont,California,-0.341,-0.27,Neither,217654,0.392,0.92,2,0.092,37.5256,-121.987,Race
+"fresno, california",Fresno,California,-0.396,0.671,HS,498319,0.479,0.757,8.08,0.162,36.7834,-119.7933,Race
+"garden grove, california",Garden Grove,California,0.366,-0.401,Neither,171585,0.421,0.737,4.17,0.243,33.7787,-117.9601,Race
+"hayward, california",Hayward,California,0,0,Neither,153896,0.422,0.815,2.86,0.186,37.6327,-122.0776,Race
+"hesperia, california",Hesperia,California,0.198,-0.177,Neither,90750,0.415,0.77,1.88,0.207,34.3974,-117.3144,Race
+"huntington beach, california",Huntington Beach,California,0.58,0.098,Neither,196868,0.441,0.925,6.42,0.326,33.696,-118.0023,Race
+"indio, california",Indio,California,0,0,Neither,89089,0.446,0.745,1.75,0.196,33.7346,-116.2347,Orientation
+"inglewood, california",Inglewood,California,0,0,Neither,112614,0.43,0.732,1.67,0.148,33.9566,-118.3444,Race
+"irvine, california",Irvine,California,0.278,0.312,Neither,229776,0.445,0.962,3.82,0.166,33.6772,-117.7738,Race
+"lakewood, california",Lakewood,California,-0.217,0.322,Neither,80473,0.362,0.886,3.45,0.429,33.8471,-118.1222,Race
+"lancaster, california",Lancaster,California,0.591,-0.196,Neither,153847,0.455,0.808,8.25,0.536,34.6934,-118.1753,Race
+"livermore, california",Livermore,California,0.159,0.133,Neither,83303,0.399,0.911,3.36,0.404,37.6863,-121.7607,Race
+"long beach, california",Long Beach,California,-0.052,-0.444,Neither,470675,0.473,0.794,11.42,0.243,33.8059,-118.161,Race
+"los angeles, california",Los Angeles,California,-0.082,-0.375,Neither,3900886,0.527,0.754,189.73,0.486,34.114,-118.4068,Race
+"manteca, california",Manteca,California,0,0,Neither,72762,0.391,0.83,2.56,0.36,37.7938,-121.2271,Race
+"merced, california",Merced,California,0,0,Neither,81460,0.483,0.74,1.17,0.143,37.3057,-120.4779,Orientation
+"modesto, california",Modesto,California,0.298,-0.115,Neither,207220,0.448,0.809,6.17,0.298,37.6371,-121.003,Race
+"moreno valley, california",Moreno Valley,California,0.323,-0.289,Neither,197489,0.392,0.749,3.09,0.157,33.9244,-117.2045,Race
+"newport beach, california",Newport Beach,California,-0.309,0.162,Neither,84189,0.543,0.976,3.82,0.454,33.6151,-117.8669,Race
+"norwalk, california",Norwalk,California,0.227,-0.329,Neither,105783,0.374,0.744,3.92,0.37,33.9069,-118.0829,Race
+"oakland, california",Oakland,California,0.059,0.049,Neither,407443,0.51,0.795,13.92,0.342,37.7903,-122.2165,Race
+"oceanside, california",Oceanside,California,0.284,-0.41,Neither,172109,0.423,0.851,8.42,0.489,33.2247,-117.3083,Race
+"ontario, california",Ontario,California,0.278,0.364,Neither,171527,0.38,0.719,2.3,0.134,34.0393,-117.6064,Race
+"orange, california",Orange,California,0.427,-0.63,HS,138754,0.433,0.836,2.73,0.197,33.8038,-117.8219,Race
+"oxnard, california",Oxnard,California,0.331,0.044,Neither,198524,0.41,0.66,4.73,0.238,34.1961,-119.1821,Race
+"palmdale, california",Palmdale,California,0.582,-0.088,Neither,151058,0.423,0.742,7.45,0.493,34.5945,-118.1058,Race
+"palo alto, california",Palo Alto,California,0,0,Neither,66804,0.507,0.975,3.42,0.539,37.3917,-122.1465,Race
+"pasadena, california",Pasadena,California,-0.097,-0.544,Neither,142767,0.504,0.853,6.18,0.433,34.1598,-118.1389,Race
+"pomona, california",Pomona,California,0.673,-0.794,Both,153334,0.41,0.675,4.67,0.304,34.0585,-117.7625,Race
+"rancho cordova, california",Rancho Cordova,California,0,0,Neither,68926,0.422,0.887,1.33,0.193,38.5739,-121.2521,Race
+"redding, california",Redding,California,-0.229,-0.299,Neither,91311,0.458,0.903,10.08,1.104,40.5698,-122.365,Race
+"redlands, california",Redlands,California,-0.499,-0.23,Neither,70825,0.461,0.896,2.6,0.367,34.0512,-117.171,Race
+"redwood city, california",Redwood City,California,0.648,0.335,Gini,78313,0.456,0.863,2.13,0.271,37.5026,-122.2251,Race
+"rialto, california",Rialto,California,0,0,Neither,101735,0.386,0.676,1.43,0.14,34.1128,-117.3885,Race
+"richmond, california",Richmond,California,-0.409,-0.422,Neither,105752,0.443,0.778,3.27,0.309,37.9477,-122.339,Race
+"riverside, california",Riverside,California,-0.034,-0.595,Neither,310580,0.431,0.795,14.92,0.48,33.9382,-117.3949,Race
+"roseville, california",Roseville,California,-0.456,0.531,Neither,123175,0.408,0.936,4.4,0.357,38.7683,-121.3164,Race
+"sacramento, california",Sacramento,California,0.514,-0.641,HS,477134,0.459,0.828,14.25,0.299,38.5666,-121.4683,Orientation
+"salinas, california",Salinas,California,-0.395,0.125,Neither,152502,0.406,0.605,1.78,0.117,36.6881,-121.6316,Orientation
+"san bernardino, california",San Bernardino,California,0.279,-0.206,Neither,208244,0.44,0.683,3.64,0.175,34.1412,-117.2936,Race
+"san diego, california",San Diego,California,0.223,-0.561,Neither,1336608,0.468,0.874,42.25,0.316,32.8312,-117.1225,Race
+"san francisco, california",San Francisco,California,0.335,-0.817,HS,815512,0.512,0.868,44.73,0.548,37.7561,-122.4429,Orientation
+"san jose, california",San Jose,California,0.67,-0.294,Gini,980894,0.441,0.828,25.58,0.261,37.302,-121.8488,Race
+"san marcos, california",San Marcos,California,-0.01,-0.269,Neither,85532,0.446,0.82,2.5,0.292,33.135,-117.1743,Race
+"san mateo, california",San Mateo,California,0.373,0.026,Neither,97858,0.447,0.886,3.17,0.324,37.5522,-122.3122,Race
+"san ramon, california",San Ramon,California,0,0,Neither,69570,0.368,0.968,2.33,0.37,37.7625,-121.9366,Race
+"santa ana, california",Santa Ana,California,-0.344,0.274,Neither,337476,0.404,0.564,4.3,0.127,33.7366,-117.8819,Race
+"santa clara, california",Santa Clara,California,0,0,Neither,115171,0.405,0.914,1,0.087,37.3646,-121.9679,Orientation
+"santa clarita, california",Santa Clarita,California,-0.291,-0.079,Neither,190087,0.396,0.889,7.09,0.373,34.4119,-118.5036,Race
+"santa monica, california",Santa Monica,California,0.156,0.046,Neither,90884,0.534,0.947,3.1,0.341,34.0232,-118.4813,Race
+"santa rosa, california",Santa Rosa,California,0.031,-0.33,Neither,165435,0.437,0.854,2.09,0.126,38.4465,-122.7059,Race
+"south gate, california",South Gate,California,0.301,-0.294,Neither,96458,0.399,0.558,1.55,0.16,33.9448,-118.1926,Race
+"stockton, california",Stockton,California,0.285,-0.346,Neither,298364,0.46,0.748,4,0.134,37.9766,-121.3111,Race
+"sunnyvale, california",Sunnyvale,California,0.7,-0.627,Both,143161,0.42,0.909,1.56,0.109,37.3846,-122.0261,Race
+"thousand oaks, california",Thousand Oaks,California,0.443,-0.131,Neither,127238,0.441,0.935,3.7,0.291,34.1914,-118.8755,Religion
+"torrance, california",Torrance,California,0.386,0.051,Neither,145692,0.427,0.932,3.09,0.212,33.8346,-118.3417,Race
+"turlock, california",Turlock,California,-0.197,-0.037,Neither,70549,0.441,0.814,2.33,0.331,37.5053,-120.8588,Race
+"tustin, california",Tustin,California,0,0,Neither,74027,0.435,0.836,1.83,0.248,33.7309,-117.8106,Race
+"union city, california",Union City,California,-0.299,-0.519,Neither,72457,0.395,0.872,3.1,0.428,37.603,-122.0187,Race
+"vacaville, california",Vacaville,California,0.028,-0.754,HS,94474,0.39,0.864,3.25,0.344,38.3592,-121.9686,Race
+"victorville, california",Victorville,California,0,0,Neither,121432,0.427,0.788,2.86,0.235,34.5277,-117.3537,Race
+"visalia, california",Visalia,California,-0.287,-0.482,Neither,124539,0.443,0.819,2.91,0.234,36.3271,-119.3265,Race
+"vista, california",Vista,California,-0.104,0.031,Neither,94863,0.413,0.769,3.36,0.355,33.1895,-117.2386,Race
+"westminster, california",Westminster,California,-0.028,-0.082,Neither,90827,0.445,0.765,4.44,0.489,33.7523,-117.9938,Race
+"yorba linda, california",Yorba Linda,California,0,0,Neither,66851,0.415,0.952,1,0.15,33.889,-117.7714,Religion
+"arvada, colorado",Arvada,Colorado,0.659,-0.563,Gini,110186,0.4,0.923,2.22,0.202,39.8321,-105.1508,Race
+"aurora, colorado",Aurora,Colorado,0.555,0.46,Neither,335929,0.415,0.847,7.08,0.211,39.7085,-104.7274,Race
+"boulder, colorado",Boulder,Colorado,-0.711,-0.129,Gini,100224,0.536,0.963,3.8,0.379,40.0274,-105.2514,Race
+"broomfield, colorado",Broomfield,Colorado,0,0,Neither,68158,0.42,0.969,1,0.165,39.9541,-105.0526,Race
+"centennial, colorado",Centennial,Colorado,0.199,-0.348,Neither,103752,0.393,0.965,4.58,0.442,39.5927,-104.8674,Race
+"colorado springs, colorado",Colorado Springs,Colorado,0.414,-0.405,Neither,421278,0.442,0.921,11.25,0.267,38.8673,-104.7605,Race
+"denver, colorado",Denver,Colorado,-0.521,-0.313,Neither,632354,0.506,0.849,28.92,0.457,39.7621,-104.8759,Race
+"greeley, colorado",Greeley,Colorado,-0.159,0.044,Neither,95053,0.45,0.826,4.3,0.452,40.415,-104.7697,Race
+"lakewood, colorado",Lakewood,Colorado,0.178,-0.389,Neither,144553,0.43,0.892,2.9,0.201,39.6977,-105.117,Race
+"loveland, colorado",Loveland,Colorado,0.648,-0.578,Gini,71327,0.405,0.938,1.91,0.274,40.4168,-105.0622,Race
+"pueblo, colorado",Pueblo,Colorado,-0.493,-0.481,Neither,108074,0.469,0.844,4.11,0.38,38.2701,-104.613,Race
+"danbury, connecticut",Danbury,Connecticut,0.129,0.465,Neither,82459,0.434,0.828,3.56,0.431,41.4016,-73.471,Race
+"hartford, connecticut",Hartford,Connecticut,0.908,0.221,Gini,124512,0.502,0.713,5,0.402,41.7661,-72.6834,Race
+"new britain, connecticut",New Britain,Connecticut,0.418,-0.457,Neither,72092,0.442,0.792,1.3,0.18,41.6758,-72.7862,Race
+"new haven, connecticut",New Haven,Connecticut,-0.014,-0.173,Neither,128108,0.507,0.834,9.18,0.717,41.3112,-72.9245,Race
+"stamford, connecticut",Stamford,Connecticut,0.088,0.225,Neither,125046,0.516,0.884,5.89,0.471,41.1035,-73.5583,Race
+"waterbury, connecticut",Waterbury,Connecticut,0,0,Neither,109455,0.465,0.784,4.5,0.411,41.5583,-73.0361,Race
+"wilmington, delaware",Wilmington,Delaware,0.517,-0.349,Neither,72423,0.535,0.815,2.5,0.345,39.7349,-75.5286,Race
+"boca raton, florida",Boca Raton,Florida,0,0,Neither,87981,0.534,0.94,1.71,0.195,26.3749,-80.1078,Race
+"clearwater, florida",Clearwater,Florida,0,0,Neither,110753,0.479,0.883,2,0.181,27.9787,-82.7623,Race
+"davie, florida",Davie,Florida,0,0,Neither,95865,0.484,0.904,3,0.313,26.0789,-80.287,Race
+"delray beach, florida",Delray Beach,Florida,0,0,Neither,66725,0.525,0.86,1.5,0.229,26.455,-80.0905,Race
+"fort lauderdale, florida",Fort Lauderdale,Florida,0,0,Neither,179850,0.522,0.841,4.33,0.241,26.1412,-80.1464,Orientation
+"fort myers, florida",Fort Myers,Florida,0,0,Neither,72029,0.499,0.796,1.8,0.25,26.6197,-81.8306,Race
+"gainesville, florida",Gainesville,Florida,-0.088,-0.03,Neither,122085,0.535,0.927,6.08,0.498,29.6814,-82.3454,Race
+"hollywood, florida",Hollywood,Florida,0,0,Neither,147675,0.467,0.856,1,0.068,26.0293,-80.1679,Religion
+"homestead, florida",Homestead,Florida,0,0,Neither,68488,0.465,0.762,2.25,0.354,25.4664,-80.4472,Orientation
+"jacksonville, florida",Jacksonville,Florida,0,0,Neither,827194,0.453,0.87,3.43,0.041,30.3322,-81.6749,Race
+"largo, florida",Largo,Florida,0.05,0.613,HS,77190,0.433,0.877,1.44,0.187,27.9088,-82.7714,Race
+"miami beach, florida",Miami Beach,Florida,0.031,0.49,Neither,89113,0.593,0.859,8.5,0.954,25.8171,-80.1396,Orientation
+"miami gardens, florida",Miami Gardens,Florida,0,0,Neither,110916,0.421,0.786,2.43,0.219,25.9433,-80.2425,Race
+"orlando, florida",Orlando,Florida,-0.356,-0.057,Neither,250536,0.478,0.881,4.11,0.164,28.4801,-81.3448,Race
+"palm bay, florida",Palm Bay,Florida,-0.148,0.613,HS,104094,0.402,0.871,1.92,0.184,27.9861,-80.6628,Race
+"pompano beach, florida",Pompano Beach,Florida,0,0,Neither,104328,0.485,0.802,2.57,0.246,26.2428,-80.1312,Race
+"port st. lucie, florida",Port St. Lucie,Florida,0.66,-0.685,Both,168830,0.408,0.863,1.67,0.099,27.273,-80.3582,Race
+"sunrise, florida",Sunrise,Florida,0,0,Neither,91701,0.422,0.88,1.5,0.164,26.1547,-80.2998,Race
+"tampa, florida",Tampa,Florida,0,0,Neither,351853,0.533,0.848,6.83,0.194,27.9937,-82.4454,Race
+"west palm beach, florida",West Palm Beach,Florida,0,0,Neither,106370,0.499,0.858,2.25,0.212,26.7468,-80.1315,Race
+"atlanta, georgia",Atlanta,Georgia,-0.488,0.189,Neither,486821,0.575,0.877,6.45,0.133,33.7627,-84.4231,Orientation
+"columbus, georgia",Columbus,Georgia,0,0,Neither,195798,0.494,0.867,3.33,0.17,32.51,-84.8771,Race
+"warner robins, georgia",Warner Robins,Georgia,0,0,Neither,71394,0.418,0.9,1,0.14,32.5981,-83.6528,Race
+"nampa, idaho",Nampa,Idaho,-0.293,-0.186,Neither,84804,0.386,0.837,3.92,0.462,43.5833,-116.5641,Race
+"aurora, illinois",Aurora,Illinois,0.568,0.342,Neither,189226,0.428,0.773,4.42,0.233,41.7638,-88.2901,Race
+"bloomington, illinois",Bloomington,Illinois,0.371,-0.563,Neither,75387,0.457,0.941,2.38,0.315,40.4756,-88.9698,Race
+"chicago, illinois",Chicago,Illinois,-0.286,0.471,Neither,2767534,0.52,0.813,32.25,0.117,41.8373,-87.6861,Race
+"decatur, illinois",Decatur,Illinois,-0.183,-0.349,Neither,75728,0.457,0.853,2.63,0.347,39.8555,-88.9337,Race
+"peoria, illinois",Peoria,Illinois,0.508,-0.251,Neither,114626,0.504,0.881,2.8,0.244,40.7518,-89.6153,Race
+"rockford, illinois",Rockford,Illinois,-0.179,-0.288,Neither,152381,0.482,0.809,6.17,0.405,42.2594,-89.0646,Race
+"springfield, illinois",Springfield,Illinois,0.379,-0.394,Neither,116985,0.474,0.903,6.42,0.549,39.7713,-89.6538,Race
+"bloomington, indiana",Bloomington,Indiana,0.277,0.475,Neither,78378,0.568,0.949,14.1,1.799,39.1637,-86.5257,Race
+"fort wayne, indiana",Fort Wayne,Indiana,0.398,-0.433,Neither,253264,0.444,0.872,3.5,0.138,41.0885,-85.1436,Race
+"hammond, indiana",Hammond,Indiana,0,0,Neither,78220,0.42,0.791,1.67,0.213,41.617,-87.4908,Race
+"south bend, indiana",South Bend,Indiana,0,0,Neither,101798,0.463,0.825,4.6,0.452,41.6771,-86.269,Race
+"topeka, kansas",Topeka,Kansas,0,0,Neither,125425,0.432,0.902,1.67,0.133,39.0347,-95.6955,Race
+"wichita, kansas",Wichita,Kansas,0.436,-0.58,Neither,378356,0.458,0.866,18.08,0.478,37.6894,-97.344,Race
+"new orleans, louisiana",New Orleans,Louisiana,0,0,Neither,356420,0.565,0.852,3.83,0.108,30.0687,-89.9288,Orientation
+"shreveport, louisiana",Shreveport,Louisiana,0,0,Neither,195765,0.531,0.866,1,0.051,32.4659,-93.7959,Race
+"portland, maine",Portland,Maine,0,0,Neither,66164,0.471,0.923,6.27,0.965,43.6772,-70.2713,Race
+"baltimore, maryland",Baltimore,Maryland,0.467,-0.682,HS,627199,0.505,0.806,4.42,0.07,39.3051,-76.6144,Race
+"brockton, massachusetts",Brockton,Massachusetts,0.534,-0.08,Neither,94661,0.426,0.813,4.63,0.489,42.0821,-71.0242,Race
+"lowell, massachusetts",Lowell,Massachusetts,-0.234,-0.03,Neither,108524,0.447,0.796,1.67,0.154,42.6389,-71.3217,Orientation
+"new bedford, massachusetts",New Bedford,Massachusetts,0.168,-0.551,Neither,93447,0.466,0.699,2.67,0.285,41.6697,-70.9428,Race
+"dearborn, michigan",Dearborn,Michigan,0.267,-0.151,Neither,92600,0.461,0.811,11.08,1.197,42.3127,-83.213,Race
+"detroit, michigan",Detroit,Michigan,0.233,0.053,Neither,773143,0.496,0.772,22.58,0.292,42.3834,-83.1024,Race
+"flint, michigan",Flint,Michigan,0.342,-0.206,Neither,105493,0.471,0.813,15.3,1.45,43.0235,-83.6921,Race
+"grand rapids, michigan",Grand Rapids,Michigan,0.044,-0.452,Neither,192947,0.45,0.841,10,0.518,42.9615,-85.6557,Race
+"lansing, michigan",Lansing,Michigan,-0.2,-0.139,Neither,114330,0.434,0.871,6.09,0.533,42.7142,-84.5598,Race
+"southfield, michigan",Southfield,Michigan,-0.096,0.308,Neither,73764,0.435,0.922,5.18,0.702,42.4765,-83.2605,Race
+"troy, michigan",Troy,Michigan,0.37,0.097,Neither,81867,0.421,0.941,4.17,0.509,42.5817,-83.1458,Race
+"warren, michigan",Warren,Michigan,0.531,-0.275,Neither,134272,0.409,0.841,11.18,0.833,42.4934,-83.027,Race
+"wyoming, michigan",Wyoming,Michigan,0.109,0.417,Neither,72633,0.382,0.84,3.2,0.441,42.8909,-85.7067,Race
+"minneapolis, minnesota",Minneapolis,Minnesota,0.114,-0.271,Neither,394723,0.505,0.887,37.64,0.953,44.9635,-93.2679,Race
+"plymouth, minnesota",Plymouth,Minnesota,-0.313,-0.201,Neither,73591,0.451,0.965,4.09,0.556,45.0225,-93.4617,Race
+"st. cloud, minnesota",St. Cloud,Minnesota,0.052,0.057,Neither,66796,0.456,0.916,6.1,0.913,45.5579,-94.1632,Race
+"st. paul, minnesota",St. Paul,Minnesota,-0.482,0.132,Neither,289039,0.478,0.864,15.25,0.528,44.9537,-93.09,Race
+"gulfport, mississippi",Gulfport,Mississippi,0,0,Neither,70301,0.468,0.844,5.17,0.735,30.4271,-89.0703,Race
+"columbia, missouri",Columbia,Missouri,0.096,-0.206,Neither,110835,0.498,0.947,3.22,0.291,38.9475,-92.3263,Race
+"independence, missouri",Independence,Missouri,0.71,-0.582,Gini,116726,0.424,0.867,6.18,0.53,39.0871,-94.3503,Race
+"kansas city, missouri",Kansas City,Missouri,-0.262,0.277,Neither,469382,0.475,0.877,40.73,0.868,39.1239,-94.5541,Race
+"lee's summit, missouri",Lee'S Summit,Missouri,0.017,-0.568,Neither,89694,0.395,0.956,3.18,0.355,44.9537,-93.09,Race
+"st. louis, missouri",St. Louis,Missouri,0.407,-0.132,Neither,331649,0.499,0.829,9.25,0.279,38.627,-90.1994,Race
+"lincoln, nebraska",Lincoln,Nebraska,-0.182,-0.097,Neither,263911,0.442,0.931,28.6,1.084,40.8102,-96.6808,Race
+"omaha, nebraska",Omaha,Nebraska,0.009,-0.549,Neither,437970,0.471,0.878,6.67,0.152,41.2634,-96.0453,Race
+"henderson, nevada",Henderson,Nevada,0.31,-0.033,Neither,275429,0.445,0.927,4.38,0.159,36.0145,-115.0362,Race
+"reno, nevada",Reno,Nevada,-0.236,-0.076,Neither,229503,0.465,0.858,2.9,0.126,39.5487,-119.8486,Race
+"east orange, new jersey",East Orange,New Jersey,0,0,Neither,65308,0.444,0.828,1.2,0.184,40.7651,-74.2118,Religion
+"elizabeth, new jersey",Elizabeth,New Jersey,0,0,Neither,126093,0.421,0.742,1.8,0.143,40.6655,-74.1918,Race
+"jersey city, new jersey",Jersey City,New Jersey,0.362,-0.653,HS,251974,0.499,0.852,8,0.317,40.7161,-74.0683,Race
+"trenton, new jersey",Trenton,New Jersey,0.536,-0.783,HS,83823,0.472,0.702,1.63,0.194,40.2237,-74.764,Race
+"union city, new jersey",Union City,New Jersey,-0.033,-0.087,Neither,66132,0.441,0.676,2.33,0.353,40.7675,-74.0323,Religion
+"albuquerque, new mexico",Albuquerque,New Mexico,-0.389,0.308,Neither,542657,0.461,0.878,12.73,0.235,35.1055,-106.6476,Race
+"albany, new york",Albany,New York,0.197,-0.58,Neither,96891,0.481,0.888,4.5,0.464,42.6664,-73.7987,Race
+"buffalo, new york",Buffalo,New York,0.035,-0.538,Neither,261791,0.505,0.828,18.6,0.71,42.9016,-78.8487,Race
+"new york, new york",New York,New York,0.061,0.397,Neither,8381054,0.543,0.802,300.83,0.359,40.6943,-73.9249,Religion
+"rochester, new york",Rochester,New York,0.448,-0.753,HS,208799,0.489,0.793,6.17,0.295,43.1681,-77.6162,Race
+"yonkers, new york",Yonkers,New York,-0.142,0.099,Neither,199865,0.473,0.821,5.73,0.287,40.9466,-73.8674,Religion
+"asheville, north carolina",Asheville,North Carolina,0.185,0.166,Neither,82991,0.476,0.91,6.09,0.734,35.5703,-82.5536,Race
+"durham, north carolina",Durham,North Carolina,-0.219,-0.163,Neither,237675,0.476,0.863,5.7,0.24,35.9801,-78.9045,Race
+"fayetteville, north carolina",Fayetteville,North Carolina,0.298,0.53,Neither,197191,0.44,0.907,5.44,0.276,35.0847,-78.9777,Race
+"greensboro, north carolina",Greensboro,North Carolina,0.183,-0.264,Neither,272158,0.496,0.884,5.33,0.196,36.096,-79.8275,Race
+"raleigh, north carolina",Raleigh,North Carolina,-0.45,0.696,HS,418751,0.467,0.908,12.89,0.308,35.8323,-78.6441,Race
+"wilmington, north carolina",Wilmington,North Carolina,0,0,Neither,114414,0.522,0.913,5.67,0.495,34.21,-77.886,Race
+"bismarck, north dakota",Bismarck,North Dakota,0,0,Neither,70572,0.434,0.928,4.4,0.664,46.8127,-100.7694,Race
+"fargo, north dakota",Fargo,North Dakota,-0.283,-0.687,HS,104326,0.476,0.947,5,0.479,46.8654,-96.829,Race
+"akron, ohio",Akron,Ohio,-0.349,-0.215,Neither,202088,0.472,0.856,9.5,0.47,41.0802,-81.5219,Race
+"cincinnati, ohio",Cincinnati,Ohio,-0.257,0.835,HS,310336,0.541,0.848,19.75,0.636,39.1412,-84.506,Race
+"cleveland, ohio",Cleveland,Ohio,0.41,-0.06,Neither,409133,0.496,0.768,9.08,0.222,41.4766,-81.6805,Race
+"columbus, ohio",Columbus,Ohio,0.181,0.101,Neither,787309,0.446,0.878,72.2,0.917,39.9859,-82.9852,Race
+"dayton, ohio",Dayton,Ohio,-0.05,0.248,Neither,146947,0.479,0.818,5,0.34,39.7798,-84.1999,Race
+"lorain, ohio",Lorain,Ohio,0.199,-0.488,Neither,65980,0.452,0.806,5.22,0.791,41.4409,-82.184,Race
+"parma, ohio",Parma,Ohio,0.254,0.578,Neither,79359,0.378,0.89,1.55,0.195,41.3842,-81.7286,Race
+"toledo, ohio",Toledo,Ohio,0,0,Neither,278877,0.463,0.854,19,0.681,41.6639,-83.582,Race
+"lawton, oklahoma",Lawton,Oklahoma,0,0,Neither,92950,0.434,0.89,1.5,0.161,34.6171,-98.4204,Race
+"norman, oklahoma",Norman,Oklahoma,-0.63,-0.058,Gini,113551,0.48,0.93,3.45,0.304,35.2335,-97.3471,Race
+"beaverton, oregon",Beaverton,Oregon,-0.502,0.383,Neither,93117,0.427,0.906,6.3,0.677,45.4779,-122.8168,Race
+"eugene, oregon",Eugene,Oregon,0,0,Neither,157784,0.502,0.933,29.14,1.847,44.0562,-123.1172,Race
+"gresham, oregon",Gresham,Oregon,0,0,Neither,111979,0.413,0.884,4,0.357,45.5023,-122.4414,Race
+"hillsboro, oregon",Hillsboro,Oregon,0,0,Neither,107433,0.351,0.916,4,0.372,45.5289,-122.9373,Religion
+"portland, oregon",Portland,Oregon,0.426,-0.5,Neither,584733,0.479,0.902,28.7,0.491,45.5372,-122.65,Race
+"salem, oregon",Salem,Oregon,0.166,-0.078,Neither,158662,0.434,0.86,7.25,0.457,44.9231,-123.0245,Race
+"bethlehem, pennsylvania",Bethlehem,Pennsylvania,0,0,Neither,75336,0.501,0.871,1,0.133,40.6266,-75.3679,Race
+"philadelphia, pennsylvania",Philadelphia,Pennsylvania,-0.173,-0.138,Neither,1528624,0.508,0.818,17.83,0.117,40.0076,-75.134,Race
+"pittsburgh, pennsylvania",Pittsburgh,Pennsylvania,-0.244,0.288,Neither,310227,0.52,0.907,10.5,0.338,40.4396,-79.9763,Race
+"providence, rhode island",Providence,Rhode Island,0.173,0.057,Neither,176352,0.542,0.778,9.45,0.536,41.8229,-71.4186,Race
+"charleston, south carolina",Charleston,South Carolina,0,0,Neither,127056,0.502,0.938,1.86,0.146,32.8137,-79.9643,Race
+"north charleston, south carolina",North Charleston,South Carolina,0,0,Neither,100341,0.449,0.811,1.17,0.116,32.9086,-80.0705,Orientation
+"rapid city, south dakota",Rapid City,South Dakota,0.279,-0.161,Neither,70217,0.453,0.913,6.08,0.882,44.0709,-103.22,Race
+"sioux falls, south dakota",Sioux Falls,South Dakota,0.06,-0.518,Neither,159662,0.439,0.906,15,0.939,43.5382,-96.7315,Race
+"chattanooga, tennessee",Chattanooga,Tennessee,0.153,0.063,Neither,170614,0.5,0.843,6.75,0.396,35.0657,-85.2488,Race
+"clarksville, tennessee",Clarksville,Tennessee,0.033,0.437,Neither,134696,0.408,0.914,6.67,0.495,36.5696,-87.3428,Race
+"jackson, tennessee",Jackson,Tennessee,0,0,Neither,66493,0.512,0.877,2.67,0.408,35.6535,-88.8351,Race
+"knoxville, tennessee",Knoxville,Tennessee,0.028,-0.01,Neither,184206,0.499,0.877,7.18,0.39,35.969,-83.9498,Race
+"memphis, tennessee",Memphis,Tennessee,-0.137,-0.571,Neither,662760,0.509,0.826,30.75,0.464,35.1047,-89.9773,Race
+"murfreesboro, tennessee",Murfreesboro,Tennessee,0,0,Neither,109029,0.435,0.912,1.71,0.157,35.851,-86.4093,Race
+"abilene, texas",Abilene,Texas,0,0,Neither,119960,0.455,0.841,2,0.167,32.4543,-99.7384,Race
+"arlington, texas",Arlington,Texas,0,0,Neither,382459,0.423,0.839,4.67,0.122,32.6998,-97.1251,Race
+"austin, texas",Austin,Texas,0.418,-0.093,Neither,834833,0.483,0.867,10.09,0.121,30.3038,-97.7545,Race
+"beaumont, texas",Beaumont,Texas,0.459,-0.239,Neither,115556,0.496,0.847,4,0.346,30.0849,-94.1451,Race
+"dallas, texas",Dallas,Texas,0.034,-0.605,HS,1279316,0.538,0.735,16.09,0.126,32.7938,-96.7659,Orientation
+"denton, texas",Denton,Texas,0.338,0.226,Neither,122995,0.465,0.887,2.09,0.17,33.2165,-97.1411,Race
+"el paso, texas",El Paso,Texas,-0.329,-0.364,Neither,651980,0.47,0.774,2.82,0.043,31.8478,-106.431,Orientation
+"fort worth, texas",Fort Worth,Texas,0.197,0.15,Neither,763265,0.457,0.796,13.25,0.174,32.7813,-97.3466,Race
+"houston, texas",Houston,Texas,0.021,-0.544,Neither,2229888,0.525,0.758,16.64,0.075,29.7871,-95.3936,Race
+"league city, texas",League City,Texas,0,0,Neither,99859,0.368,0.949,1.67,0.167,29.4873,-95.109,Race
+"lubbock, texas",Lubbock,Texas,0,0,Neither,249081,0.493,0.869,1.5,0.06,33.5665,-101.8867,Race
+"mckinney, texas",Mckinney,Texas,0.349,-0.024,Neither,150571,0.413,0.914,4.89,0.325,33.1989,-96.6678,Race
+"odessa, texas",Odessa,Texas,0,0,Neither,115280,0.46,0.792,3.2,0.278,31.8831,-102.3407,Race
+"pearland, texas",Pearland,Texas,0,0,Neither,99331,0.372,0.927,2.86,0.288,29.5585,-95.3201,Race
+"plano, texas",Plano,Texas,-0.149,-0.601,HS,273657,0.441,0.924,3,0.11,33.0502,-96.7487,Race
+"round rock, texas",Round Rock,Texas,0.392,-0.252,Neither,107056,0.381,0.906,2.38,0.222,30.5253,-97.6659,Race
+"san angelo, texas",San Angelo,Texas,0.089,-0.51,Neither,96158,0.453,0.837,2,0.208,31.4424,-100.4503,Race
+"san antonio, texas",San Antonio,Texas,0.195,-0.413,Neither,1399350,0.464,0.807,10.82,0.077,29.4722,-98.5247,Race
+"temple, texas",Temple,Texas,0,0,Neither,71584,0.445,0.89,1.17,0.174,31.1077,-97.3899,Race
+"victoria, texas",Victoria,Texas,0,0,Neither,66559,0.46,0.808,1.13,0.174,28.8284,-96.9848,Race
+"layton, utah",Layton,Utah,0,0,Neither,70356,0.383,0.941,2.57,0.376,41.0773,-111.9618,Religion
+"ogden, utah",Ogden,Utah,0,0,Neither,84488,0.459,0.82,2,0.237,41.2281,-111.9677,Religion
+"salt lake city, utah",Salt Lake City,Utah,-0.412,0.542,Neither,187904,0.502,0.871,2.27,0.121,40.7774,-111.9301,Race
+"west jordan, utah",West Jordan,Utah,0.36,-0.507,Neither,108047,0.335,0.903,1.67,0.154,40.6024,-112.0008,Race
+"alexandria, virginia",Alexandria,Virginia,-0.224,-0.331,Neither,147332,0.453,0.909,3.8,0.258,38.8184,-77.0861,Race
+"chesapeake, virginia",Chesapeake,Virginia,-0.041,0.091,Neither,228447,0.399,0.901,6.92,0.303,36.6778,-76.3024,Race
+"hampton, virginia",Hampton,Virginia,0.504,-0.415,Neither,140666,0.413,0.895,3.18,0.226,37.0551,-76.3629,Race
+"lynchburg, virginia",Lynchburg,Virginia,-0.338,-0.77,HS,74904,0.491,0.879,2.67,0.356,37.4004,-79.1911,Race
+"newport news, virginia",Newport News,Virginia,0.353,-0.42,Neither,182271,0.428,0.895,6.67,0.366,37.1052,-76.5185,Race
+"norfolk, virginia",Norfolk,Virginia,0.197,-0.496,Neither,240679,0.475,0.868,9.92,0.412,36.8945,-76.259,Race
+"portsmouth, virginia",Portsmouth,Virginia,0.697,-0.243,Gini,98415,0.415,0.834,4.36,0.443,36.8468,-76.354,Race
+"richmond, virginia",Richmond,Virginia,0.265,-0.874,HS,209148,0.536,0.832,5.58,0.267,37.5294,-77.4755,Race
+"suffolk, virginia",Suffolk,Virginia,-0.12,-0.708,HS,85002,0.419,0.856,3.11,0.366,36.6953,-76.6398,Race
+"virginia beach, virginia",Virginia Beach,Virginia,0.775,-0.757,Both,444809,0.409,0.927,13.25,0.298,36.7335,-76.0435,Race
+"auburn, washington",Auburn,Washington,0,0,Neither,74959,0.405,0.879,3.8,0.58,47.3039,-122.2108,Race
+"bellingham, washington",Bellingham,Washington,0.378,0.279,Neither,82287,0.469,0.932,6,0.729,48.7534,-122.4683,Race
+"everett, washington",Everett,Washington,-0.132,0.557,Neither,103428,0.43,0.868,3.42,0.33,47.9524,-122.1672,Race
+"federal way, washington",Federal Way,Washington,0.066,0.18,Neither,90076,0.419,0.882,3.83,0.426,47.3091,-122.3358,Race
+"kent, washington",Kent,Washington,0,0,Neither,115797,0.418,0.842,9.57,0.827,47.3887,-122.2128,Race
+"kirkland, washington",Kirkland,Washington,0,0,Neither,87626,0.445,0.967,4,0.511,47.6996,-122.1982,Race
+"marysville, washington",Marysville,Washington,0,0,Neither,67832,0.369,0.905,2.67,0.393,48.0812,-122.1559,Race
+"pasco, washington",Pasco,Washington,0,0,Neither,70107,0.395,0.741,1,0.158,46.2499,-119.1271,Race
+"seattle, washington",Seattle,Washington,0.312,0.727,HS,637197,0.486,0.932,65.17,1.023,47.6217,-122.3238,Race
+"spokane, washington",Spokane,Washington,0.098,0.116,Neither,207114,0.458,0.912,14,0.676,47.6671,-117.433,Race
+"spokane valley, washington",Spokane Valley,Washington,-0.004,0.608,HS,89915,0.407,0.916,5.27,0.586,47.6625,-117.2345,Race
+"tacoma, washington",Tacoma,Washington,0.39,0.189,Neither,202715,0.443,0.869,12.67,0.625,47.2431,-122.4531,Race
+"vancouver, washington",Vancouver,Washington,0.47,-0.349,Neither,167173,0.427,0.886,9.58,0.573,45.6352,-122.5972,Race
+"yakima, washington",Yakima,Washington,-0.084,0.144,Neither,89501,0.455,0.737,4.17,0.466,46.5926,-120.5492,Race
+"appleton, wisconsin",Appleton,Wisconsin,-0.175,0.06,Neither,72387,0.44,0.913,3,0.414,44.2775,-88.3896,Race
+"eau claire, wisconsin",Eau Claire,Wisconsin,0,0,Neither,68687,0.441,0.935,1,0.146,44.8202,-91.4948,Race
+"madison, wisconsin",Madison,Wisconsin,-0.462,0.357,Neither,239043,0.46,0.947,9.08,0.38,43.0809,-89.3921,Race
+"milwaukee, wisconsin",Milwaukee,Wisconsin,0.771,-0.898,Both,596702,0.459,0.816,17.75,0.297,43.064,-87.9669,Race
+"birmingham, alabama",Birmingham,Alabama,0,0,Neither,212420,0.499,0.859,7,0.33,33.5276,-86.7986,Race
+"phoenix, arizona",Phoenix,Arizona,-0.774,0.656,Both,1537887,0.473,0.791,125.36,0.815,33.5722,-112.0891,Race
+"tempe, arizona",Tempe,Arizona,0.466,-0.754,HS,171254,0.467,0.908,4.7,0.274,33.3881,-111.9318,Race
+"little rock, arkansas",Little Rock,Arkansas,0,0,Neither,191697,0.514,0.895,0.5,0.026,34.7255,-92.3584,Race
+"chula vista, california",Chula Vista,California,0.124,-0.072,Neither,241399,0.413,0.816,4.55,0.188,32.6281,-117.0144,Race
+"clovis, california",Clovis,California,0.228,0.014,Neither,97039,0.43,0.891,3.11,0.321,36.8283,-119.6851,Race
+"compton, california",Compton,California,0.728,-0.282,Gini,96699,0.409,0.612,2.5,0.259,33.893,-118.2275,Race
+"downey, california",Downey,California,0,0,Neither,110942,0.412,0.777,2.33,0.21,33.9379,-118.1312,Race
+"folsom, california",Folsom,California,0,0,Neither,71988,0.392,0.911,2,0.278,38.6751,-121.1476,Race
+"fullerton, california",Fullerton,California,0.518,0.064,Neither,137061,0.458,0.866,2.2,0.161,33.8841,-117.9279,Race
+"glendale, california",Glendale,California,0.187,-0.077,Neither,198171,0.491,0.853,2.91,0.147,34.1818,-118.2468,Race
+"hawthorne, california",Hawthorne,California,0,0,Neither,86150,0.434,0.75,2.29,0.265,33.9147,-118.3476,Race
+"jurupa valley, california",Jurupa Valley,California,0,0,Neither,99704,0.408,0.696,1,0.1,33.9972,-117.4855,Race
+"napa, california",Napa,California,0,0,Neither,77993,0.428,0.793,1.5,0.192,38.2982,-122.3011,Race
+"perris, california",Perris,California,0,0,Neither,68024,0.4,0.654,2,0.329,33.7897,-117.2233,Race
+"vallejo, california",Vallejo,California,0,0,Neither,117125,0.431,0.855,3.71,0.317,38.1134,-122.2359,Race
+"fort collins, colorado",Fort Collins,Colorado,0.129,-0.55,Neither,144794,0.467,0.954,5,0.345,40.5487,-105.0656,Religion
+"longmont, colorado",Longmont,Colorado,0,0,Neither,87224,0.429,0.876,3.43,0.393,40.1691,-105.0995,Race
+"bridgeport, connecticut",Bridgeport,Connecticut,-0.201,-0.065,Neither,142686,0.467,0.751,6,0.421,41.1909,-73.1958,Race
+"norwalk, connecticut",Norwalk,Connecticut,0.224,0.523,Neither,86023,0.486,0.879,3.91,0.454,41.1144,-73.4215,Race
+"cape coral, florida",Cape Coral,Florida,0,0,Neither,161785,0.402,0.89,2,0.124,26.644,-81.9961,Race
+"meridian, idaho",Meridian,Idaho,0,0,Neither,85692,0.411,0.955,1.5,0.175,43.6182,-116.398,Orientation
+"champaign, illinois",Champaign,Illinois,0,0,Neither,80761,0.528,0.95,1.86,0.23,40.1148,-88.2731,Religion
+"joliet, illinois",Joliet,Illinois,0,0,Neither,148799,0.391,0.844,1.33,0.09,41.5201,-88.1503,Race
+"muncie, indiana",Muncie,Indiana,0,0,Neither,70242,0.479,0.879,3.33,0.475,40.1989,-85.395,Race
+"des moines, iowa",Des Moines,Iowa,-0.057,-0.27,Neither,202092,0.446,0.858,2.78,0.137,41.5725,-93.6104,Race
+"overland park, kansas",Overland Park,Kansas,0,0,Neither,182228,0.438,0.959,3.67,0.201,38.8871,-94.6871,Race
+"baton rouge, louisiana",Baton Rouge,Louisiana,0,0,Neither,228389,0.575,0.879,3,0.131,30.4422,-91.1314,Race
+"lawrence, massachusetts",Lawrence,Massachusetts,0,0,Neither,76045,0.469,0.655,1,0.132,42.7003,-71.1626,Race
+"worcester, massachusetts",Worcester,Massachusetts,0.532,-0.057,Neither,182556,0.48,0.854,4.88,0.267,42.2705,-71.8079,Race
+"kalamazoo, michigan",Kalamazoo,Michigan,0,0,Neither,73892,0.494,0.9,2.83,0.383,42.2749,-85.5882,Race
+"livonia, michigan",Livonia,Michigan,-0.363,-0.175,Neither,94117,0.378,0.932,4.7,0.499,42.3972,-83.3733,Race
+"bloomington, minnesota",Bloomington,Minnesota,0,0,Neither,82766,0.424,0.928,1.75,0.211,44.8306,-93.315,Race
+"eagan, minnesota",Eagan,Minnesota,0,0,Neither,66013,0.416,0.958,2,0.307,44.8168,-93.1638,Race
+"st. joseph, missouri",St. Joseph,Missouri,0,0,Neither,76788,0.449,0.863,1.4,0.182,39.7675,-94.8467,Race
+"billings, montana",Billings,Montana,-0.687,0.193,Gini,106239,0.445,0.914,4.55,0.428,45.7892,-108.5498,Race
+"north las vegas, nevada",North Las Vegas,Nevada,-0.136,0.064,Neither,224285,0.385,0.771,4.4,0.196,36.288,-115.0901,Race
+"newark, new jersey",Newark,New Jersey,-0.03,0.872,HS,279612,0.472,0.715,2.5,0.089,40.7242,-74.1724,Race
+"schenectady, new york",Schenectady,New York,0,0,Neither,64549,0.439,0.84,2.14,0.339,42.8025,-73.9276,Race
+"gastonia, north carolina",Gastonia,North Carolina,-0.076,0.232,Neither,72913,0.479,0.809,2.44,0.335,35.2495,-81.1856,Race
+"greenville, north carolina",Greenville,North Carolina,0,0,Neither,87811,0.543,0.925,3,0.342,35.5958,-77.3764,Race
+"canton, ohio",Canton,Ohio,0,0,Neither,72022,0.445,0.849,1,0.139,40.8082,-81.3678,Race
+"oklahoma city, oklahoma",Oklahoma City,Oklahoma,0.22,-0.59,Neither,595347,0.468,0.846,10,0.168,35.4677,-97.5138,Race
+"tulsa, oklahoma",Tulsa,Oklahoma,0,0,Neither,390560,0.507,0.854,1.8,0.046,36.1284,-95.9037,Race
+"medford, oregon",Medford,Oregon,0.321,-0.494,Neither,74838,0.446,0.875,2.13,0.284,42.3372,-122.8537,Race
+"reading, pennsylvania",Reading,Pennsylvania,-0.078,-0.26,Neither,85203,0.44,0.666,1.6,0.188,40.34,-75.9266,Race
+"scranton, pennsylvania",Scranton,Pennsylvania,0,0,Neither,76056,0.461,0.846,1.67,0.219,41.4043,-75.6649,Race
+"pawtucket, rhode island",Pawtucket,Rhode Island,-0.296,-0.637,HS,71761,0.442,0.78,2.5,0.348,41.8743,-71.3744,Orientation
+"franklin, tennessee",Franklin,Tennessee,0,0,Neither,69028,0.422,0.936,2.11,0.338,35.9215,-86.8522,Race
+"johnson city, tennessee",Johnson City,Tennessee,0,0,Neither,65936,0.528,0.907,3.63,0.573,36.3404,-82.3803,Race
+"grand prairie, texas",Grand Prairie,Texas,0,0,Neither,189086,0.394,0.802,1,0.053,32.6869,-97.0209,Religion
+"longview, texas",Longview,Texas,0.704,0.52,Gini,80011,0.465,0.829,3.91,0.489,32.5192,-94.7622,Race
+"sugar land, texas",Sugar Land,Texas,0,0,Neither,87572,0.471,0.928,1,0.114,29.5956,-95.6283,Race
+"tyler, texas",Tyler,Texas,-0.203,-0.217,Neither,99488,0.514,0.829,2.63,0.264,32.3184,-95.3065,Race
+"wichita falls, texas",Wichita Falls,Texas,0,0,Neither,102768,0.477,0.847,2.57,0.25,33.9072,-98.5293,Race
+"green bay, wisconsin",Green Bay,Wisconsin,0,0,Neither,103673,0.444,0.867,1.33,0.129,44.5151,-87.9895,Race
+"hemet, california",Hemet,California,0.693,-0.885,Both,76493,0.443,0.781,3.88,0.507,33.7352,-116.9946,Race
+"lake forest, california",Lake Forest,California,0,0,Neither,78205,0.389,0.915,1.57,0.201,33.6606,-117.6712,Race
+"redondo beach, california",Redondo Beach,California,-0.687,-0.688,Both,67701,0.422,0.955,4.4,0.65,33.8574,-118.3766,Race
+"santa barbara, california",Santa Barbara,California,-0.073,0.641,HS,87832,0.477,0.851,2.67,0.304,34.4285,-119.7202,Race
+"temecula, california",Temecula,California,0.371,0.022,Neither,100508,0.381,0.904,2.75,0.274,33.4928,-117.1315,Race
+"coral springs, florida",Coral Springs,Florida,0,0,Neither,128937,0.424,0.916,1,0.078,26.2702,-80.2593,Race
+"melbourne, florida",Melbourne,Florida,-0.249,-0.167,Neither,77664,0.446,0.886,4.38,0.563,28.1152,-80.653,Religion
+"pembroke pines, florida",Pembroke Pines,Florida,0,0,Neither,160749,0.435,0.913,1.33,0.083,26.0127,-80.3384,Race
+"tallahassee, florida",Tallahassee,Florida,0,0,Neither,178093,0.516,0.93,1,0.056,30.4549,-84.2527,Race
+"elgin, illinois",Elgin,Illinois,0,0,Neither,107003,0.398,0.768,1.25,0.117,42.0385,-88.3227,Race
+"cedar rapids, iowa",Cedar Rapids,Iowa,0,0,Neither,127302,0.454,0.92,1.4,0.11,41.9667,-91.6781,Race
+"frederick, maryland",Frederick,Maryland,0,0,Neither,67936,0.401,0.903,1.75,0.276,39.4334,-77.4154,Race
+"lynn, massachusetts",Lynn,Massachusetts,-0.679,0.35,Gini,90426,0.458,0.785,5.89,0.651,42.4778,-70.9662,Race
+"springfield, missouri",Springfield,Missouri,0.163,-0.699,HS,158700,0.466,0.886,9.4,0.592,37.1943,-93.2916,Race
+"edmond, oklahoma",Edmond,Oklahoma,0,0,Neither,82282,0.494,0.953,2.71,0.33,35.6689,-97.4159,Religion
+"columbia, south carolina",Columbia,South Carolina,-0.391,-0.038,Neither,130667,0.53,0.885,5.13,0.392,34.0366,-80.9043,Race
+"carrollton, texas",Carrollton,Texas,0,0,Neither,125147,0.399,0.844,2.5,0.2,32.9885,-96.9001,Religion
+"corpus christi, texas",Corpus Christi,Texas,-0.259,-0.492,Neither,301028,0.469,0.808,5.22,0.173,27.7173,-97.3822,Race
+"missouri city, texas",Missouri City,Texas,0,0,Neither,75628,0.382,0.917,1.67,0.22,29.5634,-95.5377,Race
+"sandy, utah",Sandy,Utah,0,0,Neither,93488,0.38,0.942,1.33,0.143,40.565,-111.839,Race
+"roanoke, virginia",Roanoke,Virginia,0.488,-0.344,Neither,95340,0.463,0.82,3,0.315,37.2784,-79.9581,Race
+"flagstaff, arizona",Flagstaff,Arizona,0,0,Neither,64954,0.47,0.927,2.17,0.348,35.1867,-111.6175,Race
+"goodyear, arizona",Goodyear,Arizona,0,0,Neither,72937,0.39,0.908,1.5,0.206,33.2613,-112.3622,Orientation
+"lynwood, california",Lynwood,California,0,0,Neither,70998,0.405,0.547,1.33,0.188,33.924,-118.2017,Religion
+"pittsburg, california",Pittsburg,California,0,0,Neither,65469,0.43,0.804,1,0.154,38.019,-121.897,Race
+"yuba city, california",Yuba City,California,0,0,Neither,65329,0.435,0.808,2.17,0.345,39.1357,-121.6381,Race
+"kissimmee, florida",Kissimmee,Florida,0,0,Neither,66623,0.447,0.797,1.5,0.229,28.3042,-81.4164,Race
+"kansas city, kansas",Kansas City,Kansas,0,0,Neither,149103,0.445,0.783,1,0.067,39.1234,-94.7443,Religion
+"boston, massachusetts",Boston,Massachusetts,0.097,-0.304,Neither,618321,0.532,0.857,148.88,2.408,42.3189,-71.0838,Race
+"fall river, massachusetts",Fall River,Massachusetts,0,0,Neither,89632,0.45,0.709,1.67,0.186,41.7136,-71.1014,Race
+"missoula, montana",Missoula,Montana,-0.098,-0.176,Neither,68401,0.473,0.943,4.33,0.639,46.8687,-114.0089,Race
+"conroe, texas",Conroe,Texas,0,0,Neither,64446,0.449,0.735,1,0.155,30.3174,-95.4705,Race
+"garland, texas",Garland,Texas,-0.405,-0.461,Neither,225549,0.4,0.747,7.38,0.327,32.91,-96.6305,Race
+"harlingen, texas",Harlingen,Texas,0,0,Neither,65748,0.504,0.738,1,0.152,26.1914,-97.6977,Race
+"killeen, texas",Killeen,Texas,0,0,Neither,119715,0.395,0.905,2.25,0.188,31.0758,-97.7286,Race
+"tuscaloosa, alabama",Tuscaloosa,Alabama,0,0,Neither,89749,0.542,0.863,1.5,0.167,33.2349,-87.5268,Race
+"north little rock, arkansas",North Little Rock,Arkansas,0,0,Neither,65398,0.448,0.898,2.17,0.359,34.7813,-92.2378,Race
+"santa maria, california",Santa Maria,California,0,0,Neither,93037,0.424,0.593,1.6,0.172,34.9334,-120.4433,Race
+"thornton, colorado",Thornton,Colorado,0,0,Neither,116998,0.361,0.861,2,0.171,39.9202,-104.9445,Race
+"westminster, colorado",Westminster,Colorado,0,0,Neither,108583,0.396,0.905,1.25,0.115,39.8837,-105.0627,Race
+"st. petersburg, florida",St. Petersburg,Florida,0,0,Neither,247102,0.466,0.875,4.25,0.172,27.7676,-82.6403,Race
+"bend, oregon",Bend,Oregon,0,0,Neither,77118,0.445,0.939,2.86,0.37,44.0562,-121.3087,Race
+"pasadena, texas",Pasadena,Texas,0,0,Neither,150079,0.46,0.702,1.5,0.1,29.6583,-95.1498,Religion
+"provo, utah",Provo,Utah,-0.102,0.466,Neither,117161,0.486,0.935,1.38,0.117,40.2458,-111.6457,Orientation
+"jonesboro, arkansas",Jonesboro,Arkansas,0,0,Neither,67044,0.514,0.866,3.17,0.492,35.8211,-90.6793,Race
+"springdale, arkansas",Springdale,Arkansas,0,0,Neither,71217,0.422,0.716,3,0.421,36.1897,-94.1574,Race
+"lakeland, florida",Lakeland,Florida,0,0,Neither,93717,0.456,0.849,1,0.107,28.0556,-81.9542,Race
+"winston-salem, north carolina",Winston-Salem,North Carolina,0,0,Neither,234687,0.525,0.843,1,0.043,36.1029,-80.261,Race
+"rock hill, south carolina",Rock Hill,South Carolina,0,0,Neither,68571,0.452,0.852,2,0.3,34.9413,-81.026,Race
+"allen, texas",Allen,Texas,0,0,Neither,85506,0.373,0.945,1.17,0.136,33.1087,-96.6735,Race
+"amarillo, texas",Amarillo,Texas,0,0,Neither,196576,0.44,0.827,1,0.051,35.1999,-101.8297,Race
+"kennewick, washington",Kennewick,Washington,0,0,Neither,71140,0.412,0.849,2.86,0.423,46.1979,-119.1732,Race
+"waukesha, wisconsin",Waukesha,Wisconsin,0,0,Neither,69606,0.413,0.922,1,0.144,43.0088,-88.2462,Race
+"montgomery, alabama",Montgomery,Alabama,0,0,Neither,206754,0.474,0.836,1,0.048,32.347,-86.2663,Race
+"surprise, arizona",Surprise,Arizona,0,0,Neither,110161,0.344,0.901,1,0.091,33.6802,-112.4525,Race
+"whittier, california",Whittier,California,0,0,Neither,83361,0.421,0.832,2.8,0.336,33.9678,-118.0188,Race
+"davenport, iowa",Davenport,Iowa,0,0,Neither,100337,0.449,0.88,3.17,0.316,41.5558,-90.6052,Race
+"sioux city, iowa",Sioux City,Iowa,0,0,Neither,83030,0.449,0.839,1,0.12,42.4959,-96.3901,Race
+"kenner, louisiana",Kenner,Louisiana,0,0,Neither,66058,0.454,0.814,1.33,0.202,30.0109,-90.2549,Religion
+"o'fallon, missouri",O'Fallon,Missouri,0,0,Neither,79635,0.35,0.927,1.25,0.157,38.7853,-90.7178,Race
+"camden, new jersey",Camden,New Jersey,0,0,Neither,78481,0.483,0.636,1.33,0.17,39.9361,-75.1072,Race
+"paterson, new jersey",Paterson,New Jersey,0,0,Neither,146194,0.456,0.724,1,0.068,40.9147,-74.1624,Race
+"cary, north carolina",Cary,North Carolina,0,0,Neither,123373,0.407,0.938,1.25,0.101,35.7815,-78.8162,Race
+"kenosha, wisconsin",Kenosha,Wisconsin,0,0,Neither,98067,0.436,0.877,1,0.102,42.5861,-87.8755,Race
+"peoria, arizona",Peoria,Arizona,0,0,Neither,153314,0.404,0.891,2,0.13,33.7844,-112.2989,Race
+"mobile, alabama",Mobile,Alabama,0,0,Neither,246171,0.514,0.859,1,0.041,30.6782,-88.1161,Race
+"naperville, illinois",Naperville,Illinois,0,0,Neither,144001,0.421,0.954,1.67,0.116,41.7483,-88.1656,Race
+"midland, texas",Midland,Texas,0,0,Neither,104535,0.501,0.805,3.25,0.311,32.0278,-102.1107,Religion
+"orem, utah",Orem,Utah,0,0,Neither,93785,0.418,0.92,1,0.107,40.2988,-111.699,Race
+"hialeah, florida",Hialeah,Florida,0,0,Neither,216056,0.437,0.68,2,0.093,25.8696,-80.3045,Race
+"sparks, nevada",Sparks,Nevada,0,0,Neither,88913,0.388,0.869,1,0.112,39.5727,-119.7131,Race
+"nashua, new hampshire",Nashua,New Hampshire,0,0,Neither,87238,0.397,0.902,3.33,0.382,42.7492,-71.491,Race
+"syracuse, new york",Syracuse,New York,0,0,Neither,138211,0.483,0.812,1,0.072,43.0409,-76.1438,Religion
+"erie, pennsylvania",Erie,Pennsylvania,0,0,Neither,103292,0.444,0.845,1,0.097,42.1167,-80.0731,Race
+"edinburg, texas",Edinburg,Texas,0,0,Neither,71734,0.489,0.761,1,0.139,26.3183,-98.1622,Race
+"pleasanton, california",Pleasanton,California,0,0,Neither,66626,0.371,0.948,1,0.15,37.666,-121.8805,Orientation
+"palatine, illinois",Palatine,Illinois,0,0,Neither,67550,0.418,0.913,2,0.296,42.1181,-88.043,Race
+"evansville, indiana",Evansville,Indiana,0,0,Neither,115836,0.466,0.832,1.5,0.129,37.9882,-87.5339,Race
+"waco, texas",Waco,Texas,0,0,Neither,122514,0.511,0.781,2,0.163,31.5597,-97.1882,Race
+"plantation, florida",Plantation,Florida,0,0,Neither,87439,0.423,0.913,1,0.114,26.126,-80.2617,Religion

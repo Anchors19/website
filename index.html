@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Self Serve Local News</title>
+  <meta charset="utf-8">
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/topojson.v2.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+    
+  <script src='csv2geojson.js'></script>
+  <script src="https://rawgit.com/twitter/d3kit/v3/dist/d3kit.min.js"></script>
+
+
+</head>
+<style>
+
+  h1{
+    text-align: center;
+  }
+  p{
+    font-size: 20px;
+  }
+  #hatecrimebutton{
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    border: 4px solid #9999ff;
+    color: #fff;
+    background: #9999ff;
+    font-size: 18px;
+  }
+
+  #hatecrimebutton:hover{
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    background: transparent;
+    color: #9999ff;
+  }
+
+  #killingbutton{
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    border: 4px solid #ff5050;
+    color: #fff;
+    background: #ff5050;
+    font-size: 18px;
+  }
+
+  #killingbutton:hover{
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    background: transparent;
+    color: #ff5050;
+  }
+
+  #actorbutton{
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    border: 4px solid #9999ff;
+    color: #fff;
+    background: #9999ff;
+    font-size: 18px;
+  }
+
+  #actorbutton:hover{
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    background: transparent;
+    color: #9999ff;
+  }
+
+  a{
+    color: inherit;
+  }
+  a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+      text-decoration: none;
+  }
+
+  a:hover {
+      text-decoration: none;
+  }
+
+  a:active {
+      text-decoration: none;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  .button {
+    background: #e8e8e8;
+    display: inline-block;
+    font-size: 12px;
+/*    position: relative;*/
+  }
+
+
+
+
+
+</style>
+<body>
+  <h1>Website Index</h1>
+  <div class="row">
+    <div class="column"><button id = 'hatecrimebutton'><a href ="HateCrimesIndex.html">Hate Crimes Data</a></button></div>
+    <div class="column"><button id = 'killingbutton'><a href = "PoliceKillingsIndex.html">Police Killings Data</a></button></div>
+    <div class="column"><button id = 'actorbutton'><a href = "Actors.html">International Actors</a></button></div>
+  </div>
+
+</body>
+</html>
+
+
+
+

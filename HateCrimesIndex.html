@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Localized Hate Crimes</title>
+  <meta charset="utf-8">
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/topojson.v2.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+    
+  <script src='csv2geojson.js'></script>
+  <script src="https://rawgit.com/twitter/d3kit/v3/dist/d3kit.min.js"></script>
+
+
+</head>
+<style>
+  .tooltip {
+    position: absolute;
+    width: auto;
+    height: auto;
+    pointer-events: none;
+    font: 11px sans-serif;
+    padding: 1px; 
+    background-color:white;
+  }
+
+  h1 {
+      text-align: center;
+      font-size: 40px;
+  }
+
+  p {
+      font-size: 18px;
+      line-height: 100%;
+      margin-left: 25%;
+      margin-right: 25%;
+  }
+
+  h1{
+    color: white;
+  }
+
+  h3{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+
+  p{
+    color: white;
+    display: block;
+    font-size: 15px;
+    margin-left: 28px;
+    margin-right: 28px;
+  }
+
+  svg{
+    display: block;
+    width: 100%;
+  }
+  
+
+  #basemap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #sidebar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 500px;
+    padding: 0px;
+    background: rgba(0, 0, 0, 0.8);
+    font-family: "calibri";
+    overflow-y: scroll;
+  }
+
+  #threerecsheading{
+    font-family: "calibri";
+    color: white;
+    font-weight: bold;
+    margin-left: 28px;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+
+   #timelineheading{
+   	text-align: center;
+    font-family: "calibri";
+    color: white;
+    font-weight: bold;
+    margin-left: 28px;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+
+  #crimebarheading{
+  	text-align: center;
+    font-family: "calibri";
+    color: white;
+    font-weight: bold;
+    margin-left: 28px;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+
+  #hatebarheading{
+  	text-align: center;
+    font-family: "calibri";
+    color: white;
+    font-weight: bold;
+    margin-left: 28px;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+
+  
+
+  #threerecs{
+    margin-left: 28px;
+    margin-right: 28px;
+    height: 100px;
+  }
+
+  #overtimeline{
+    height: 340px;
+    width: 500px;
+    margin-left: 12px;
+    display: block;
+  }
+
+  h4.capitalize {
+    text-transform: capitalize;
+  }
+
+  .xaxis path,
+  .xaxis line {
+    fill: none;
+    stroke: none;
+    shape-rendering: crispEdges;
+  }
+
+  .yaxis path,
+  .yaxis line {
+    fill: none;
+    stroke: none;
+    shape-rendering: crispEdges;
+  }
+
+  .bar{
+    fill: #3F6ABF;
+  }
+
+  .crimeline {
+  fill: none;
+  stroke: #3F6ABF;
+  stroke-width: 2px;
+  }
+
+  .giniline {
+  fill: none;
+  stroke: #75C3F8;
+  stroke-width: 2px;
+  }
+
+  .hsline {
+  fill: none;
+  stroke: #B4E7FD;
+  stroke-width: 2px;
+  }
+
+  .mapboxgl-popup-close-button {
+    display: none;
+  }
+
+  .mapboxgl-popup-content {
+    font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+    padding: 0;
+    width: 180px;
+  }
+
+  #crimebargraph{
+    height: 320px;
+    width: 500px;
+    margin-left: 12px;
+    display: block;
+  }
+
+  #crimetips{
+    height: 300px;
+    width: 500px;
+    margin-left: 12px;
+    display: block;
+  }
+
+  #articlesegment1{
+    max-height: 1800;
+    width: 500px;
+    margin-left: 12px;
+    display: block;
+  }
+
+  #articlesegment2{
+    max-height: 410px;
+    width: 500px;
+    margin-left: 12px;
+    display: block;
+  }
+
+  #hatebargraph{
+    height: 400px;
+    width: 500px;
+    margin-left: 12px;
+    display: block;
+  }
+
+  .hate{
+    fill: #3F6ABF;
+  }
+
+  #tipbutton{
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    border: 4px solid #adc2eb;
+    color: #fff;
+    background: #adc2eb;
+    font-size: 18px;
+  }
+
+  #tipbutton:hover{
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    background: transparent;
+    color: #c2d1f0;
+  }
+
+
+
+
+</style>
+<body>
+  <h1></h1>
+  <div id='basemap'></div>
+  <div id="sidebar">
+    <h1>Hate Crimes Across the US</h1>
+    <center><h3>Correlations between Hate Crimes, Income Inequality, and High School Graduation Rates</h3></center>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the 10 days after the 2016 election, nearly 900 hate incidents were reported to the Southern Poverty Law Center, averaging out to 90 per day. By comparison, about 36,000 hate crimes were reported to the FBI from 2010 through 2015 — an average of 16 per day.</p>
+      <p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adapted from “Higher Rates Of Hate Crimes Are Tied To Income Inequality,” by Maimuna Majumder for FiveThirtyEight</i></p>
+    <br>
+    <div id="threerecsheading"></div>
+    <div id="threerecs"></div>
+    <div id="basearticle"></div>
+    <div id="tip1"></div>
+    <div id="timelineheading"></div>
+<!--       <center><h3>Crimes per 10k People vs Gini Index and HS Graduation Rates</h3></center> -->
+    <div id="overtimeline"></div>
+    <div id="articlesegment1"></div>
+    <div id="tip2"></div>
+    <div id="crimebarheading"></div>
+<!--       <center><h3>Most Common Crimes per City</h3></center> -->
+    <div id="crimebargraph"></div>
+    <div id="articlesegment2"></div>
+    <div id="hatebarheading"></div>
+<!--       <center><h3>Most Common Hate Groups per State</h3></center> -->
+    <div id="hatebargraph"></div>
+    <center><button id = 'tipbutton' onclick="tipFunction()">TIP SHEET</button></center>
+    <div id="crimetips"></div>
+    
+  </div>
+
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYW5jaG9yczE5IiwiYSI6ImNqbjUzaTRmdDB3MTEza3FvaHM5MGVtZ3MifQ.D5yNXpY1F-P_na1_9c14nw';
+
+    //Chorpleth colors
+    var crimecolors = ['#e5e5ff', '#ccccff', '#b2b2ff', '#9999ff', '#6666ff', '#3232ff', '#0000ff', '#0000cc', '#00007f'],
+            BREAKS = [0,1,2,3,4,5,6,7,8],
+            FILTERUSE;
+
+    // Create Map
+    var basemap = new mapboxgl.Map({
+        container: 'basemap', // container id
+        style: 'mapbox://styles/mapbox/light-v9', // stylesheet location
+        center: [-98, 39.0902], // starting position [lng, lat]
+        zoom: 4 // starting zoom
+    });
+
+    // zoom and rotation
+    basemap.addControl(new mapboxgl.NavigationControl());
+
+    // RECTANGLES
+    var recsvg = d3.select("#threerecs")
+                  .append("svg");
+
+    // LINE GRAPH
+    var linemargin = {top: 10, right: 10, bottom: 40, left: 40},
+        width = 430 - linemargin.left - linemargin.right;
+        height = 300 - linemargin.top - linemargin.bottom;
+
+    var linesvg = d3.select("#overtimeline")
+                  .append("svg")
+                  .attr('width',width + linemargin.left + linemargin.right)
+                  .attr('height',height + linemargin.top + linemargin.bottom)
+                  .append('g')
+                  .attr("transform", "translate(" + linemargin.left + "," + linemargin.top + ")");
+
+    // CRIME BAR GRAPH
+    var barmargin = {top: 10, right: 10, bottom: 80, left: 40},
+        barwidth = 430 - barmargin.left - barmargin.right;
+        barheight = 340 - barmargin.top - barmargin.bottom;
+
+    var barsvg = d3.select("#crimebargraph")
+                  .append("svg")
+                  .attr('width',barwidth + barmargin.left + barmargin.right)
+                  .attr('height',barheight + barmargin.top + barmargin.bottom)
+                  .append('g')
+                  .attr("transform", "translate(" + barmargin.left + "," + barmargin.top + ")");
+
+    //TIP SHEET
+    var tipmargin = {top: 10, right: 10, bottom: 40, left: 10},
+        tipwidth = 430 - tipmargin.left - tipmargin.right;
+        tipheight = 300 - tipmargin.top - tipmargin.bottom;
+
+    var tipsvg = d3.select("#crimetips")
+                  .append("svg")
+                  .attr('width',tipwidth + tipmargin.left + tipmargin.right)
+                  .attr('height',tipheight + tipmargin.top + tipmargin.bottom)
+                  .append('g')
+                  .attr("transform", "translate(" + tipmargin.left + "," + tipmargin.top + ")");
+    function tipFunction() {
+      var x = document.getElementById("crimetips");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      }
+      else {
+        x.style.display = "none";
+      }
+    }
+    
+
+
+    // ARTICLE SEGMENT 1
+    var seg1margin = {top: 10, right: 10, bottom: 40, left: 10},
+        seg1width = 430 - seg1margin.left - seg1margin.right;
+        seg1height = 1800 - seg1margin.top - seg1margin.bottom;
+
+    var seg1svg = d3.select("#articlesegment1")
+                  .append("svg")
+                  .attr('width',seg1width + seg1margin.left + seg1margin.right)
+                  .attr('height',seg1height + seg1margin.top + seg1margin.bottom)
+                  .append('g')
+                  .attr("transform", "translate(" + seg1margin.left + "," + seg1margin.top + ")");
+
+    // ARTICLE SEGMENT 2
+    var seg2margin = {top: 10, right: 10, bottom: 40, left: 10},
+        seg2width = 430 - seg2margin.left - seg2margin.right;
+        seg2height = 410 - seg2margin.top - seg2margin.bottom;
+
+    var seg2svg = d3.select("#articlesegment2")
+                  .append("svg")
+                  .attr('width',seg2width + seg2margin.left + seg2margin.right)
+                  .attr('height',seg2height + seg2margin.top + seg2margin.bottom)
+                  .append('g')
+                  .attr("transform", "translate(" + seg2margin.left + "," + seg2margin.top + ")");
+
+    // HATE BAR GRAPH
+    var hatemargin = {top: 10, right: 10, bottom: 40, left: 45},
+        hatewidth = 430 - hatemargin.left - hatemargin.right;
+        hateheight = 400 - hatemargin.top - hatemargin.bottom;
+
+    var hatesvg = d3.select("#hatebargraph")
+                  .append("svg")
+                  .attr('width',hatewidth + hatemargin.left + hatemargin.right)
+                  .attr('height',hateheight + hatemargin.top + hatemargin.bottom)
+                  .append('g')
+                  .attr("transform", "translate(" + hatemargin.left + "," + hatemargin.top + ")");
+                                
+    // Make choropleth
+    basemap.on('load', makechoro);
+    basemap.on('load',makepointmap);
+
+    /////////////////////////////////////////////////
+    var thousandformat2 = d3.format(",d");
+    var uspopulation = 327703458;
+    var uspop = thousandformat2(Math.round(uspopulation));
+    var usyearcrimes = 19206;
+    var uscrimesperyear = thousandformat2(Math.round(usyearcrimes*100)/100);
+    var performat2 = d3.format(",.2%");
+    var ushspercent = 0.841;
+    var ushsperc = performat2(ushspercent);
+    var usgini = 0.645961366;
+    var usginiround = Math.round(usgini*1000)/1000;
+
+    usnamelabel = "United States"
+    var usname = document.getElementById('threerecsheading');
+    usname.innerHTML = usnamelabel;
+
+    usbasetext = "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An analysis of FBI and Southern Poverty Law Center data revealed one factor that stood out as a predictor of hate crimes and hate incidents in a given state: income inequality. States with more inequality were more likely to have higher rates of hate incidents per capita. This was true both before and after the election, and the connection held even after other relevant variables were controlled for.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Despite limitations, both data sets reveal that hate incidents aren’t uniformly distributed across the United States. In other words, a greater number of hate incidents were reported in some states (per 100,000 people) than in others — both according to the SPLC after the election and the FBI before it.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So why do some states see so many more reported hate incidents than others?<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To try to answer this question, we collected data on key socioeconomic factors for each state, including indicators for education (percent of adults 25 and older with at least a high school degree, as of 2009), diversity (percent nonwhite population and percent noncitizen population, 2015), geographic heterogeneity (percent population in metropolitan areas, 2015), economic health (median household income, 2016 seasonally adjusted unemployment, September 2016, percent poverty among white people. 2015, and income inequality as measured by the Gini index, 2015), and what percent of the population voted for Donald Trump.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We then used multivariate linear regression to figure out which of these variables — if any — were significant determinants of population-adjusted hate incidents across the country. By including a variety of socioeconomic indicators in the model, this type of analysis allowed us to assess how much independent impact each had on hate incidents per capita.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After controlling for these variables, we found that income inequality was the most significant determinant of population-adjusted hate crimes and hate incidents across the United States — for both pre-election and post-election data sets.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Though the magnitude associated with the other determinants varied slightly between the two model outputs, the direction of the correlation was consistent. Furthermore, after conducting further analysis, only two variables remained significant in both model outputs: income inequality and percent population with a high school degree.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Income inequality is a known determinant for neighborhood violence and violence in general, of which hate incidents may be considered a special subset. In an economy that increasingly demands a college degree, high-school-educated individuals aren’t able to earn as much as their college-educated neighbors. This — combined with misplaced blame on targeted minority groups — may provide sufficient motivation for hate incidents against them.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<q>It’s typically not your objective situation that makes you angry and resentful, but rather your situation relative to others you see around you,</q> said Mark Potok, editor-in-chief of the SPLC’s journal, the Intelligence Report. <q>So, where income inequality is very high, so is anger and resentment against those ‘other’ people who you fear are doing better than you.</q><br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Although we controlled for many potential confounders, correlation between income inequality and hate crimes or hate incidents doesn’t necessarily imply causation. Socioeconomic drivers for hate incidents at the community level may differ from the state-level indicators that we identified here. Moreover, it is likely that neither data set is truly representative of hate incidents across the United States, and it’s possible that whether people report or don’t report these incidents is different among states. That could mean that states with law enforcement agencies and residents that are more likely to report hate crimes and hate incidents are overrepresented in the FBI and SPLC data sets, while those that are less likely to report are underrepresented.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nevertheless, the fact that both data sets yielded similar results suggests that the findings are robust, and future work using additional data sources may provide further insight into determinants for both pre-election and post-election hate incidents in the United States.</p>"
+    var usbase = document.getElementById('basearticle');
+    usbase.innerHTML = usbasetext;
+
+    d3.selectAll("rect").remove();
+    d3.selectAll("text").remove();
+
+    var usstatscolors = [
+      {
+      "color": "#2B4071",
+      "width": 100,
+      "height": 70,
+      "x": 0,
+      "y": 10,
+      "label": "Population",
+      "text": uspop
+      },
+      {
+      "color": "#3F6ABF",
+      "width": 100,
+      "height": 70,
+      "x": 100,
+      "y": 10,
+      "label": "Crimes/Year",
+      "text": uscrimesperyear
+      },
+      {
+      "color": "#75C3F8",
+      "width": 100,
+      "height": 70,
+      "x": 200,
+      "y": 10,
+      "label": "Gini Index",
+      "text": usginiround
+      },
+      {
+      "color": "#B4E7FD",
+      "width": 100,
+      "height": 70,
+      "x": 300,
+      "y": 10,
+      "label": "HS Grad Rate",
+      "text": ushsperc
+      }
+    ];
+
+    var usborder = 5;
+    var uswidth = 100;
+    var usheight = 70;
+    var usrectangles = recsvg.selectAll('rect')
+                          .data(usstatscolors)
+                          .enter()
+                          .append('rect')
+                          .attr("x", function (d) { return d.x; })
+                          .attr("y", function (d) { return d.y; })
+                          .attr("height", function (d) { return d.height; })
+                          .attr("width", function (d) { return d.width; })
+                          .style("fill", function(d) { return d.color; })
+                          .style("opacity", 0.85);
+    
+    var ustext = recsvg.selectAll('text')
+      .data(usstatscolors)
+      .enter()
+      .append('text')
+      .attr('font-size',18)
+      .attr('fill','white')
+      .attr('font-weight', 'bold')
+      .attr("x", function (d) { 
+        return (d.x + uswidth/2); 
+      })
+      .attr("text-anchor", "middle")
+      .attr("y", function (d) { return (d.y + uswidth/2-15); })
+      .text(function(d){
+        return d.text;
+      });
+
+    ustext.append('tspan')
+            .attr("x", function (d) { 
+        return (d.x + uswidth/2); 
+      })
+        .attr("text-anchor", "middle")
+        .text(function(d){
+          return d.label;
+        })
+        .attr('font-weight', 'normal')
+        .attr('dy', '1.5em')
+        .attr('font-size',14);
+
+        /////////////////////////////////////////////////
+
+    function makechoro(){
+      basemap.addSource('statecrimes2', {
+                type: 'geojson',
+                data: 'finaldata/StateCrimes.geojson'
+            });
+
+      basemap.addLayer({
+        "id": "scrimes",
+        "type": "fill",
+        "source": "statecrimes2",
+        "paint": {
+        "fill-color": {
+          'property': 'yearcpc',
+          'type': 'exponential',
+          stops: [
+            [BREAKS[0], crimecolors[0]],
+            [BREAKS[1], crimecolors[1]],
+            [BREAKS[2], crimecolors[2]],
+            [BREAKS[3], crimecolors[3]],
+            [BREAKS[4], crimecolors[4]],
+            [BREAKS[5], crimecolors[5]],
+            [BREAKS[6], crimecolors[6]],
+            [BREAKS[7], crimecolors[7]],
+            [BREAKS[8], crimecolors[8]]]
+        },
+        "fill-opacity": 0.7,
+        "fill-outline-color": "#ffffff"
+        }
+      });  
+    }  
+
+    function makepointmap(){
+
+      $(document).ready(function() {
+        $.ajax({
+          type: "GET",
+          url: 'finaldata/cityfinal.csv',
+          dataType: "text",
+          success: function(csvData) {makeGeoJSON(csvData);}
+        });
+      });
+    }
+
+  function makeGeoJSON(csvData) {
+    csv2geojson.csv2geojson(csvData, {
+        latfield: 'Latitude',
+        lonfield: 'Longitude',
+        delimiter: ','
+    }, function(err, data) {
+        var jsonlength = data.features.length;
+        for (i = 0; i < jsonlength; i++) { 
+          data.features[i].properties.ginicor = parseFloat(data.features[i].properties.ginicor);
+          data.features[i].properties.hscor = parseFloat(data.features[i].properties.hscor);
+          data.features[i].properties.Population = parseFloat(data.features[i].properties.Population);
+          data.features[i].properties.Gini = parseFloat(data.features[i].properties.Gini);
+          data.features[i].properties.HSGrad = parseFloat(data.features[i].properties.HSGrad);
+          data.features[i].properties.CrimesPerYear = parseFloat(data.features[i].properties.CrimesPerYear);
+          data.features[i].properties.CrimePerCapita = parseFloat(data.features[i].properties.CrimePerCapita);
+        }
+        basemap.addLayer({
+          'id': 'ccrimes',
+          'type': 'circle',
+          'source': {
+            'type': 'geojson',
+            'data': data
+          },
+          'paint': {
+            'circle-color': 'purple',
+            'circle-radius': {
+              'property': 'CrimePerCapita',
+              'type': 'exponential',
+              'stops': [
+               [{zoom: 1, value: 0.02608}, 1],
+               [{zoom: 1, value: 2.4077}, 4],
+               [{zoom: 2, value: 0.02608}, 1.5],
+               [{zoom: 2, value: 2.4077}, 6],
+               [{zoom: 3, value: 0.02608}, 2],
+               [{zoom: 3, value: 2.4077}, 8],
+               [{zoom: 4, value: 0.02608}, 3],
+               [{zoom: 4, value: 2.4077}, 13],
+               [{zoom: 5, value: 0.02608}, 3],
+               [{zoom: 5, value: 2.4077}, 13],
+               [{zoom: 6, value: 0.02608}, 4],
+               [{zoom: 6, value: 2.4077}, 14],
+               [{zoom: 7, value: 0.02608}, 5],
+               [{zoom: 7, value: 2.4077}, 15],
+               [{zoom: 8, value: 0.02608}, 6],
+               [{zoom: 8, value: 2.4077}, 16],
+               [{zoom: 9, value: 0.02608}, 7],
+               [{zoom: 9, value: 2.4077}, 17],
+               [{zoom: 10, value: 0.02608}, 8],
+               [{zoom: 10, value: 2.4077}, 18],
+               [{zoom: 11, value: 0.02608}, 9],
+               [{zoom: 11, value: 2.4077}, 19],
+               [{zoom: 12, value: 0.02608}, 10],
+               [{zoom: 12, value: 2.4077}, 20],
+               [{zoom: 13, value: 0.02608}, 11],
+               [{zoom: 13, value: 2.4077}, 21],
+               [{zoom: 14, value: 0.02608}, 12],
+               [{zoom: 14, value: 2.4077}, 22],
+               [{zoom: 15, value: 0.02608}, 13],
+               [{zoom: 15, value: 2.4077}, 23]
+              ]
+            },
+            'circle-opacity': 0.8
+          }
+        }); 
+
+        // Create a popup, but don't add it to the map yet.
+        var popup = new mapboxgl.Popup({
+            closeButton: false,
+            closeOnClick: false
+        });
+
+        basemap.on('mouseenter','ccrimes',function(e){
+          var features = basemap.queryRenderedFeatures(e.point, { layers: ['ccrimes'] });
+          // if the features have no info, return nothing
+          if (!features.length) {
+            return;
+          }
+
+          var feature = features[0];
+
+          var state = feature.properties.State;
+          var city = feature.properties.City;
+
+          var locname = city + ", " + state;
+          basemap.getCanvas().style.cursor = 'pointer';
+
+          var coordinates = e.features[0].geometry.coordinates.slice();
+          var description = e.features[0].properties.description;
+
+          while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+          }
+
+          // Populate the popup and set its coordinates
+          // based on the feature found.
+          popup.setLngLat(coordinates)
+              .setHTML('<center><h4 class="capitalize", style="color:black;">' + locname + '</h4></center>')
+              .addTo(basemap);
+        });
+
+        basemap.on('mouseleave', 'ccrimes',function() {
+          basemap.getCanvas().style.cursor = '';
+          popup.remove();
+        });
+
+        basemap.on('click',function(e){
+          var cityfeature = basemap.queryRenderedFeatures(e.point, { layers: ['ccrimes'] });
+          if (cityfeature.length > 0){
+            var feature = cityfeature[0];
+
+            var population = feature.properties.Population;
+            var citycpc = feature.properties.CrimePerCapita;
+            var state = feature.properties.State;
+            var city = feature.properties.City;
+            var gini = feature.properties.Gini;
+            var hspercent = feature.properties.HSGrad;
+            var yearcrimes = feature.properties.CrimesPerYear;
+              var locname = city + ", " + state;
+
+            makesidebarrec(city,state,population, gini, yearcrimes, hspercent);
+            if(document.getElementById('basearticle') != null){
+            	document.getElementById('basearticle').remove();
+            }
+            maketimeline("Cities",city,state);
+            makesegment1("City", city, state);
+            makebargraph("City",city,state);
+            makesegment2(city, state);
+            makehategraph(city,state);
+            maketips('City',city, state);
+            return;
+          }
+
+          var statefeature = basemap.queryRenderedFeatures(e.point, { layers: ['scrimes'] });
+
+          if (!statefeature.length) {
+            return;
+          }
+
+          var State = statefeature[0].properties.name;
+
+          d3.csv('finaldata/statefinal.csv',function(error,data){
+            if (error) throw error;
+
+            var filtereddata = data.filter(function(d){
+                      return (d['State'] == State);
+             });
+
+            var city = "";
+            var state = filtereddata[0].State;
+            var population = filtereddata[0].Population;
+            var gini = filtereddata[0].Gini;
+            var yearcrimes = filtereddata[0].CrimesPerYear;
+            var hspercent = filtereddata[0].HSGrad;
+
+            makesidebarrec(city,state,population, gini, yearcrimes, hspercent);
+            if(document.getElementById('basearticle') != null){
+            	document.getElementById('basearticle').remove();
+            }
+            maketimeline("State",city,state);
+            makesegment1("State", city, state);
+            makebargraph("State",city,state);
+            makesegment2(city, state);
+            makehategraph(city,state);
+            maketips('State',city, state);
+            });
+          });      
+        });
+  }
+
+  function makesidebarrec(city, state, population, gini, yearcrimes, hspercent){
+
+    var thousandformat = d3.format(",d");
+    var citypop = thousandformat(Math.round(population));
+    var crimesperyear = Math.round(yearcrimes*100)/100;
+    var performat = d3.format(",.2%");
+    var hsperc = performat(hspercent);
+    var giniround = Math.round(gini*1000)/1000;
+
+
+    if(city != ""){
+      citynamelabel = city + ", " + state;
+    }else{
+      citynamelabel = state;
+    }
+    
+    var cityname = document.getElementById('threerecsheading');
+    cityname.innerHTML = citynamelabel;
+
+    d3.selectAll("rect").remove();
+    d3.selectAll("text").remove();
+
+
+    var citystatscolors = [
+      {
+      "color": "#2B4071",
+      "width": 100,
+      "height": 70,
+      "x": 0,
+      "y": 10,
+      "label": "Population",
+      "text": citypop
+      },
+      {
+      "color": "#3F6ABF",
+      "width": 100,
+      "height": 70,
+      "x": 100,
+      "y": 10,
+      "label": "Crimes/Year",
+      "text": crimesperyear
+      },
+      {
+      "color": "#75C3F8",
+      "width": 100,
+      "height": 70,
+      "x": 200,
+      "y": 10,
+      "label": "Gini Index",
+      "text": giniround
+      },
+      {
+      "color": "#B4E7FD",
+      "width": 100,
+      "height": 70,
+      "x": 300,
+      "y": 10,
+      "label": "HS Grad Rate",
+      "text": hsperc
+      }
+    ];
+
+    var border = 5;
+    var width = 100;
+    var height = 70;
+    var cityrectangles = recsvg.selectAll('rect')
+                          .data(citystatscolors)
+                          .enter()
+                          .append('rect')
+                          .attr("x", function (d) { return d.x; })
+                          .attr("y", function (d) { return d.y; })
+                          .attr("height", function (d) { return d.height; })
+                          .attr("width", function (d) { return d.width; })
+                          .style("fill", function(d) { return d.color; })
+                          .style("opacity", 0.85);
+    
+    var citytext = recsvg.selectAll('text')
+      .data(citystatscolors)
+      .enter()
+      .append('text')
+      .attr('font-size',18)
+      .attr('fill','white')
+      .attr('font-weight', 'bold')
+      .attr("x", function (d) { 
+        return (d.x + width/2); 
+      })
+      .attr("text-anchor", "middle")
+      .attr("y", function (d) { return (d.y + width/2-15); })
+      .text(function(d){
+        return d.text;
+      });
+
+    citytext.append('tspan')
+            .attr("x", function (d) { 
+        return (d.x + width/2); 
+      })
+        .attr("text-anchor", "middle")
+        .text(function(d){
+          return d.label;
+        })
+        .attr('font-weight', 'normal')
+        .attr('dy', '1.5em')
+        .attr('font-size',14);
+  }  
+
+  function maketimeline(type, city, state){
+    d3.selectAll("path").remove();
+    d3.selectAll("dot").remove();
+    d3.selectAll("circle").remove();
+
+    linenamelabel = "Crimes per 10k People vs Gini Index and HS Graduation Rates"
+    var linename = document.getElementById('timelineheading');
+    linename.innerHTML = linenamelabel;
+
+    // Enter data
+    d3.csv('finaldata/timedata.csv',function(error,data){
+      if (error) throw error;
+
+      
+      data.forEach(function(d){
+        d.Year = +d.Year;
+        d.CrimePerCapita = +d.CrimePerCapita;
+        d.Gini = +d.Gini;
+        d.HSPerc = +d.HSPerc;
+      });
+      //console.log(data);
+
+      var filtereddata = data.filter(function(d){
+        //console.log(d['City']);
+          return (d['City'] == city && d['State'] == state && d['Type'] == type);
+        });
+
+      //console.log(filtereddata);
+
+      var numyears = filtereddata.length-1;
+      
+      var x = d3.scaleLinear()
+              .domain([2006,2017])
+              .range([0, width]);
+  
+
+    var numvals = [];
+    for(i=0; i<=numyears;i++){
+      numvals.push(filtereddata[i].CrimePerCapita)
+      numvals.push(filtereddata[i].HSPerc)
+      numvals.push(filtereddata[i].Gini)
+    }
+    var maxVal = Math.max(...numvals);
+    var y = d3.scaleLinear()
+              .domain([0,maxVal])
+              .range([height, 0]);
+
+    // Crimes line
+    var crimeline = d3.line()
+                      .x(function(d){return x(d.Year);})
+                      .y(function(d){return y(d.CrimePerCapita);});
+
+    // GINI line
+    var giniline = d3.line()
+                     .x(function(d){return x(d.Year);})
+                     .y(function(d){return y(d.Gini);});
+
+    // HS line
+    var hsline = d3.line()
+                   .x(function(d){return x(d.Year);})
+                   .y(function(d){return y(d.HSPerc);});
+
+      // CRIME
+      linesvg.append('path')
+            .attr('class','crimeline')
+            .attr('d',crimeline(filtereddata));
+      linesvg.selectAll('dot')
+            .data(filtereddata).enter()
+            .append('circle')
+            .attr('fill','#3F6ABF')
+            .attr("cx", function(d) { return x(d.Year); })
+            .attr("cy", function(d) { return y(d.CrimePerCapita); })
+            .attr("r",3.5);
+
+      // GINI
+      linesvg.append('path')
+            .attr('class','giniline')
+            .attr('d',giniline(filtereddata));
+      linesvg.selectAll('dot')
+            .data(filtereddata).enter()
+            .append('circle')
+            .attr('fill','#75C3F8')
+            .attr("cx", function(d) { return x(d.Year); })
+            .attr("cy", function(d) { return y(d.Gini); })
+            .attr("r",3.5);
+
+      // HS
+      linesvg.append('path')
+            .attr('class','hsline')
+            .attr('d',hsline(filtereddata));
+      linesvg.selectAll('dot')
+            .data(filtereddata).enter()
+            .append('circle')
+            .attr('fill','#B4E7FD')
+            .attr("cx", function(d) { return x(d.Year); })
+            .attr("cy", function(d) { return y(d.HSPerc); })
+            .attr("r",3.5);
+
+      linesvg.append("text")
+        .attr("transform", "translate("+(width+3)+","+y(filtereddata[0].CrimePerCapita)+")")
+        .attr("dy", ".25em")
+        .attr('font-size',15)
+        .attr("text-anchor", "start")
+        .style("fill", "#3F6ABF")
+        .text("Crimes");
+
+      linesvg.append("text")
+        .attr("transform", "translate("+(width+3)+","+y(filtereddata[0].Gini)+")")
+        .attr("dy", ".25em")
+        .attr('font-size',15)
+        .attr("text-anchor", "start")
+        .style("fill", "#75C3F8")
+        .text("Gini");
+
+      linesvg.append("text")
+        .attr("transform", "translate("+(width+3)+","+y(filtereddata[0].HSPerc)+")")
+        .attr("dy", ".25em")
+        .attr('font-size',15)
+        .attr("text-anchor", "start")
+        .style("fill", "#B4E7FD")
+        .text("HS%");
+
+      linesvg.append('g')
+            .attr('class','xaxis')
+            .attr('transform','translate(0,' + height + ")")
+            .call(d3.axisBottom(x).tickFormat(d3.format("d")))
+            .style('stroke','white');
+
+      linesvg.append('g')
+            .attr('class','yaxis')
+            .call(d3.axisLeft(y))
+            .style('stroke','white');
+
+      // X axis Label
+      linesvg.append("text")             
+              .attr("transform",
+            "translate(" + (width/2) + " ," + 
+                           (height + linemargin.top + 30) + ")")
+              .style("text-anchor", "middle")
+              .style('fill','white')
+              .text("Year");
+      
+      // Y axis label
+      linesvg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 0 - linemargin.left-5)
+        .attr("x",0 - (height / 2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .style('fill','white')
+        .text("Rate"); 
+    });
+
+  }
+
+  function makebargraph(type,city, state){
+
+  	barnamelabel = "Most Common Crimes"
+    var barname = document.getElementById('crimebarheading');
+    barname.innerHTML = barnamelabel;
+
+    var x = d3.scaleBand()
+                .range([0,barwidth])
+                .padding(0.1);
+    var y = d3.scaleLinear()
+                .range([barheight,0]);
+
+    d3.csv('finaldata/crimetypes.csv',function(error,data){
+      if (error) throw error;
+      
+      data.forEach(function(d){
+        d.NumCrimes = +d.NumCrimes;
+      });
+
+
+      var filtereddata = data.filter(function(d){
+          return (d['City'] == city && d['State'] == state && d['Type'] == type);
+        });
+
+      x.domain(data.map(function(d){
+                  return d.CrimeType;
+                }));
+
+      y.domain([0, d3.max(filtereddata,function(d){
+                return Math.max(d.NumCrimes);
+              })]);
+      //sconsole.log(y.domain());
+
+      barsvg.selectAll('.bar')
+            .data(filtereddata).enter()
+            .append('rect')
+            .attr('class','bar')
+            .attr('x',function(d){
+              return x(d.CrimeType);
+            })
+            .attr('width',x.bandwidth())
+            .attr('y',function(d){
+              return y(d.NumCrimes);})
+            .attr('height',function(d){
+              return barheight - y(d.NumCrimes);
+            });
+
+      barsvg.append('g')
+            .attr('class','xaxis')
+            .style('stroke','white')
+            .attr('transform','translate(0,'+barheight+")")
+            .call(d3.axisBottom(x));
+
+      barsvg.append('g')
+            .attr('class','yaxis')
+            .style('stroke','white')
+            .call(d3.axisLeft(y));
+
+      // X axis Label
+      barsvg.append("text")             
+              .attr("transform",
+            "translate(" + (barwidth/2) + " ," + 
+                           (barheight + barmargin.top + 25) + ")")
+              .style("text-anchor", "middle")
+              .style('fill','white')
+              .text("Crime Against");
+      
+      // Y axis label
+      barsvg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 0 - barmargin.left-1)
+        .attr("x",0 - (barheight / 2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .style('fill','white')
+        .text("# Crimes"); 
+
+    });
+  }
+
+  function maketips(type,city, state){
+    var x = document.getElementById("crimetips");
+    x.style.display = "none";
+
+    if(type == 'City'){
+      d3.csv('finaldata/cityfinal.csv',function(error,data){
+      if (error) throw error;
+      
+      var filtereddata = data.filter(function(d){
+          return (d['City'] == city && d['State'] == state);
+      });
+      //console.log(filtereddata[0].articleplugin);
+
+      if(filtereddata[0].articleplugin == 'Neither'){
+        var tiphtml = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There were no significant relationships between hate crimes in <b><font color='steelblue'>" + city + ", " + state + "</b></font> and income inequality or high school graduation rates.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It would be helpful to identify and research other potential factors that could be influencing hate crime rates: <br><br>" + "<ul style='list-style-type:circle'><li>" + "Crimes per 10,000 people: <b><font color='steelblue'>" + filtereddata[0].CrimePerCapita + "</b></font></li><li>" + "Average number of crimes per year: <b><font color='steelblue'>" + filtereddata[0].CrimesPerYear + "</b></font></li><li>" + "Gini Index: <b><font color='steelblue'>" + filtereddata[0].Gini + "</b></font></li><li>" + "High School Graduation Rate: <b><font color='steelblue'>" + performat2(filtereddata[0].HSGrad) + "</b></font></li><li>Correlation between hate crimes and inequality: <b><font color='steelblue'>" + Math.abs(filtereddata[0].ginicor) + "</b></font></li><li>" + "Correlation between hate crimes and high school graduation rate: <b><font color='steelblue'>" + filtereddata[0].hscor + "</b></font></li></ul>";
+      }
+      else if(filtereddata[0].articleplugin == 'Both'){
+        var tiphtml = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There is a relationship between hate crimes in <b><font color='steelblue'>" + city + ", " + state + "</b></font> with both income inequality and high school graduation rates.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It would be helpful to look further into how these factors are influencing hate crime rates: <br><br><ul style='list-style-type:circle'><li>" + "Crimes per 10,000 people: <b><font color='steelblue'>" + filtereddata[0].CrimePerCapita + "</b></font></li><li>" + "Average number of crimes per year: <b><font color='steelblue'>" + filtereddata[0].CrimesPerYear + "</b></font></li><li>" + "Gini Index: <b><font color='steelblue'>" + filtereddata[0].Gini + "</b></font></li><li>" + "High School Graduation Rate: <b><font color='steelblue'>" + performat2(filtereddata[0].HSGrad) + "</b></font></li><li>sCorrelation between hate crimes and inequality: <b><font color='steelblue'>" + Math.abs(filtereddata[0].ginicor) + "</b></font></li><li>" + "Correlation between hate crimes and high school graduation rate: <b><font color='steelblue'>" + filtereddata[0].hscor + "</b></font></li></ul>";
+      }
+      else if(filtereddata[0].articleplugin == 'HS'){
+        var tiphtml = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There is a relationship between hate crimes in <b><font color='steelblue'>" + city + ", " + state + "</b></font> and high school graduation rates.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It would be helpful to look further into why high school graduation rates are related to hate crime rates and how this information can be used to llower the amount of hate crimes there: <br><br><ul style='list-style-type:circle'><li>" + "Crimes per 10,000 people: <b><font color='steelblue'>" + filtereddata[0].CrimePerCapita + "</b></font></li><li>" + "Average number of crimes per year: <b><font color='steelblue'>" + filtereddata[0].CrimesPerYear + "</b></font></li><li>" + "Gini Index: <b><font color='steelblue'>" + filtereddata[0].Gini + "</b></font></li><li>" + "High School Graduation Rate: <b><font color='steelblue'>" + performat2(filtereddata[0].HSGrad) + "</b></font></li><li>Correlation between hate crimes and inequality: <b><font color='steelblue'>" + Math.abs(filtereddata[0].ginicor) + "</b></font></li><li>" + "Correlation between hate crimes and high school graduation rate: <b><font color='steelblue'>" + filtereddata[0].hscor + "</b></font></li></ul>";
+      }
+      else if(filtereddata[0].articleplugin == 'Gini'){
+        var tiphtml = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There is a relationship between hate crimes in <b><font color='steelblue'>" + city + ", " + state + "</b></font> and income inequality.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It would be helpful to look further into why income inequality is related to hate crime rates and how this information can be used to lower the amount of hate crimes there: <br><br><ul style='list-style-type:circle'><li>" + "Crimes per 10,000 people: <b><font color='steelblue'>" + filtereddata[0].CrimePerCapita + "</b></font></li><li>" + "Average number of crimes per year: <b><font color='steelblue'>" + filtereddata[0].CrimesPerYear + "</b></font></li><li>" + "Gini Index: <b><font color='steelblue'>" + filtereddata[0].Gini + "</b></font></li><li>" + "High School Graduation Rate: <b><font color='steelblue'>" + performat2(filtereddata[0].HSGrad) + "</b></font></li><li>Correlation between hate crimes and inequality: <b><font color='steelblue'>" + Math.abs(filtereddata[0].ginicor) + "</b></font></li><li>" + "Correlation between hate crimes and high school graduation rate: <b><font color='steelblue'>" + filtereddata[0].hscor + "</b></font></li></ul>";
+      }
+
+      tipsvg.selectAll("foreignObject").remove();
+      tipsvg.append("foreignObject")
+        .attr('class','temp1')
+        .attr("width", 460)
+        .attr("height", 100)
+        .append("xhtml:body")
+        .style("font", "14px 'Helvetica Neue'")
+        .style('color','white')
+        .html(tiphtml);
+      });
+    }
+    else if(type == 'State'){
+      d3.csv('finaldata/statefinal.csv',function(error,data){
+      if (error) throw error;
+      
+      var filtereddata = data.filter(function(d){
+          return (d['State'] == state);
+        });
+      //console.log(filtereddata);
+
+      if(filtereddata[0].articleplugin == 'Neither'){
+        var tiphtml = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There were no significant relationships between hate crimes in <b><font color='steelblue'>" + state + "</b></font> and income inequality or high school graduation rates.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It would be helpful to identify and research other potential factors that could be influencing hate crime rates: <br><br><ul style='list-style-type:circle'><li>" + "Crimes per 10,000 people: <b><font color='steelblue'>" + filtereddata[0].CrimePerCapita + "</b></font></li><li>" + "Average number of crimes per year: <b><font color='steelblue'>" + filtereddata[0].CrimesPerYear + "</b></font></li><li>" + "Gini Index: <b><font color='steelblue'>" + filtereddata[0].Gini + "</b></font></li><li>" + "High School Graduation Rate: <b><font color='steelblue'>" + performat2(filtereddata[0].HSGrad) + "</b></font></li><li>Correlation between hate crimes and inequality: <b><font color='steelblue'>" + Math.abs(filtereddata[0].ginicor) + "</b></font></li><li>" + "Correlation between hate crimes and high school graduation rate: <b><font color='steelblue'>" + filtereddata[0].hscor + "</b></font></li></ul>";
+      }
+      else if(filtereddata[0].articleplugin == 'Both'){
+        var tiphtml = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There is a relationship between hate crimes in <b><font color='steelblue'>" + state + "</b></font> with both income inequality and high school graduation rates.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It would be helpful to look further into how these factors are influencing hate crime rates: <br><br><ul style='list-style-type:circle'><li>" + "Crimes per 10,000 people: <b><font color='steelblue'>" + filtereddata[0].CrimePerCapita + "</b></font></li><li>" + "Average number of crimes per year: <b><font color='steelblue'>" + filtereddata[0].CrimesPerYear + "</b></font></li><li>" + "Gini Index: <b><font color='steelblue'>" + filtereddata[0].Gini + "</b></font></li><li>" + "High School Graduation Rate: <b><font color='steelblue'>" + performat2(filtereddata[0].HSGrad) + "</b></font></li><li>Correlation between hate crimes and inequality: <b><font color='steelblue'>" + Math.abs(filtereddata[0].ginicor) + "</b></font></li><li>" + "Correlation between hate crimes and high school graduation rate: <b><font color='steelblue'>" + filtereddata[0].hscor + "</b></font></li></ul>";
+      }
+      else if(filtereddata[0].articleplugin == 'HS'){
+        var tiphtml = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There is a relationship between hate crimes in <b><font color='steelblue'>" + state + "</b></font> and high school graduation rates.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It would be helpful to look further into why high school graduation rates are related to hate crime rates and how this information can be used to llower the amount of hate crimes there: <br><br><ul style='list-style-type:circle'><li>" + "Crimes per 10,000 people: <b><font color='steelblue'>" + filtereddata[0].CrimePerCapita + "</b></font></li><li>" + "Average number of crimes per year: <b><font color='steelblue'>" + filtereddata[0].CrimesPerYear + "</b></font></li><li>" + "Gini Index: <b><font color='steelblue'>" + filtereddata[0].Gini + "</b></font></li><li>" + "High School Graduation Rate: <b><font color='steelblue'>" + performat2(filtereddata[0].HSGrad) + "</b></font></li><li>Correlation between hate crimes and inequality: <b><font color='steelblue'>" + Math.abs(filtereddata[0].ginicor) + "</b></font></li><li>" + "Correlation between hate crimes and high school graduation rate: <b><font color='steelblue'>" + filtereddata[0].hscor + "</b></font></li></ul>";
+      }
+      else if(filtereddata[0].articleplugin == 'Gini'){
+        var tiphtml = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There is a relationship between hate crimes in <b><font color='steelblue'>" + state + "</b></font> and income inequality.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It would be helpful to look further into why income inequality is related to hate crime rates and how this information can be used to lower the amount of hate crimes there: <br><br><ul style='list-style-type:circle'><li>" + "Crimes per 10,000 people: <b><font color='steelblue'>" + filtereddata[0].CrimePerCapita + "</b></font></li><li>" + "Average number of crimes per year: <b><font color='steelblue'>" + filtereddata[0].CrimesPerYear + "</b></font></li><li>" + "Gini Index: <b><font color='steelblue'>" + filtereddata[0].Gini + "</b></font></li><li>" + "High School Graduation Rate: <b><font color='steelblue'>" + performat2(filtereddata[0].HSGrad) + "</b></font></li><li>Correlation between hate crimes and inequality: <b><font color='steelblue'>" + Math.abs(filtereddata[0].ginicor) + "</b></font></li><li>" + "Correlation between hate crimes and high school graduation rate: <b><font color='steelblue'>" + filtereddata[0].hscor + "</b></font></li></ul>";
+      }
+      
+      tipsvg.selectAll("foreignObject").remove();
+      tipsvg.append("foreignObject")
+        .attr('class','temp1')
+        .attr("width", 460)
+        .attr("height", 100)
+        .append("xhtml:body")
+        .style("font", "14px 'Helvetica Neue'")
+        .style('color','white')
+        .html(tiphtml);
+      });
+    }
+
+  }
+
+  function makesegment1(type, city, state){
+    if(type == 'City'){
+      //console.log('CITY');
+      d3.csv('finaldata/cityfinal.csv',function(error,data){
+        if (error) throw error;
+
+        var filtereddata = data.filter(function(d){
+            return (d['City'] == city && d['State'] == state);
+        });
+
+        var CrimePerCapita = filtereddata[0].CrimePerCapita;
+        var CrimesPerYear = filtereddata[0].CrimesPerYear;
+        var Gini = filtereddata[0].Gini;
+        var HSGrad = filtereddata[0].HSGrad;
+        var Population = filtereddata[0].Population;
+        var articleplugin = filtereddata[0].articleplugin;
+        var ginicor = Math.abs(filtereddata[0].ginicor);
+        var hscor = filtereddata[0].hscor;
+        var mostcommon = filtereddata[0].mostCommon;
+
+
+        if(articleplugin == 'Neither'){
+          var seg1html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But in <b><font color='steelblue'>" + city + ", " + state + "</b></font>, this crisis is more than just a statistic. <br><br>" + "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT RECENT HATE CRIME IN " + city + " &gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Would there have been any way to predict this tragedy? To identify where resources were most needed within the U.S. and target support there? <br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; An analysis of FBI and Southern Poverty Law Center data revealed one factor that stood out as a predictor of hate crimes and hate incidents in a given state: income inequality. States with more inequality were more likely to have higher rates of hate incidents per capita. This was true both before and after the election, and the connection held even after other relevant variables were controlled for.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But this doesn’t seem to hold true in <b><font color='steelblue'>" + city + ", " + state + "</b></font>, which — with a correlation of " + ginicor + " between income inequality and hate crimes — does not fit larger trends.<br><br>" + "<font color='#bb99ff'><center><b>&lt; STATEMENT BY CITY OFFICIAL ON HATE CRIMES &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This makes sense, given that hate incidents aren’t uniformly distributed across the United States. In other words, a greater number of hate incidents were reported in some states (per 10,000 people) than in others — both according to the SPLC after the election and the FBI before it.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; So why do some states see so many more reported hate incidents than others?<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To try to answer this question, we collected data on key socioeconomic factors for each state, including indicators for education (percent of adults 25 and older with at least a high school degree, as of 2009), diversity (percent nonwhite population and percent noncitizen population, 2015), geographic heterogeneity (percent population in metropolitan areas, 2015), economic health (median household income, 2016 seasonally adjusted unemployment, September 2016, percent poverty among white people. 2015, and income inequality as measured by the Gini index, 2015), and what percent of the population voted for Donald Trump.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We then used multivariate linear regression to figure out which of these variables — if any — were significant determinants of population-adjusted hate incidents across the country. By including a variety of socioeconomic indicators in the model, this type of analysis allowed us to assess how much independent impact each had on hate incidents per capita.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After controlling for these variables, we found that income inequality was the most significant determinant of population-adjusted hate crimes and hate incidents across the United States — for both pre-election and post-election data sets.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This wasn't the case in <b><font color='steelblue'>" + city + ", " + state + "</b></font>. Nor was it the case for another factor — percent population with a high school degree — that statistical analysis found had a significant relationship with hate crime rates. <br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Instead, this metric saw a correlation of " + hscor + " between education levels and the prevalence of hate crimes, as measured by rate of high school graduation.<br><br>" + "<font color='#bb99ff'><center><b>&lt; QUOTE FROM CITY BOARD OF EDUCATION MEMBER &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In an economy that increasingly demands a college degree, high-school-educated individuals aren’t able to earn as much as their college-educated neighbors. This — combined with misplaced blame on targeted minority groups — may provide sufficient motivation for hate incidents against them.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In <b><font color='steelblue'>" + city + ", " + state + "</b></font>, things aren’t so simple. Neither education rates nor economic inequality can fully explain the " + CrimePerCapita + " hate crimes per capita that the city has seen.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perhaps more fruitful areas to focus on would be the details of the hate crimes at play. For instance, the most common type of hate crime in <b><font color='steelblue'>" + state + "</b></font> was " + mostcommon + "."
+        }
+        else if(articleplugin == 'Both'){
+          var seg1html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But in <b><font color='steelblue'>" + city + ", " + state + "</b></font>, this crisis is more than just a statistic. <br><br>" + "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT RECENT HATE CRIME IN " + city + " &gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Would there have been any way to predict this tragedy? To identify where resources were most needed within <b><font color='steelblue'>" + state + "</b></font> and target support to <b><font color='steelblue'>" + city + "</b></font>?<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; An analysis of FBI and Southern Poverty Law Center data revealed one factor that stood out as a predictor of hate crimes and hate incidents in a given state: income inequality. States with more inequality were more likely to have higher rates of hate incidents per capita. This was true both before and after the election, and the connection held even after other relevant variables were controlled for.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color='steelblue'>" + city + "</b></font> is no exception. With " + CrimePerCapita + " hate crimes per capita and a significant level of wealth disparity (as indicated by a score of " + Gini + " on the Gini Index of economic inequality), local data supports the broader takeaways of this economic analysis.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indeed, the data reveals that hate incidents aren’t uniformly distributed across the United States. In other words, a greater number of hate incidents were reported in some states (per 10,000 people) than in others — both according to the SPLC after the election and the FBI before it." + "<font color='#bb99ff'><center><b>&lt; STATEMENT BY CITY OFFICIAL ON HATE CRIMES &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So why do some states see so many more reported hate incidents than others?<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To try to answer this question, we collected data on key socioeconomic factors for each state, including indicators for education (percent of adults 25 and older with at least a high school degree, as of 2009), diversity (percent nonwhite population and percent noncitizen population, 2015), geographic heterogeneity (percent population in metropolitan areas, 2015), economic health (median household income, 2016 seasonally adjusted unemployment, September 2016, percent poverty among white people. 2015, and income inequality as measured by the Gini index, 2015), and what percent of the population voted for Donald Trump.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We then used multivariate linear regression to figure out which of these variables — if any — were significant determinants of population-adjusted hate incidents across the country. By including a variety of socioeconomic indicators in the model, this type of analysis allowed us to assess how much independent impact each had on hate incidents per capita.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After controlling for these variables, we found that income inequality was the most significant determinant of population-adjusted hate crimes and hate incidents across the United States — for both pre-election and post-election data sets.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Though the magnitude associated with the other determinants varied slightly between the two model outputs, the direction of the correlation was consistent. In <b><font color='steelblue'>" + city + "</b></font>, there was a correlation of " + ginicor + " between the income inequality and the prevalence of hate crimes.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Furthermore, after conducting further analysis, only two variables remained significant in both model outputs: income inequality and percent population with a high school degree. The latter saw a correlation of " + hscor + " with the prevalence of hate crimes.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Income inequality is a known determinant for neighborhood violence and violence in general, of which hate incidents may be considered a special subset. In an economy that increasingly demands a college degree, high-school-educated individuals aren’t able to earn as much as their college-educated neighbors. This — combined with misplaced blame on targeted minority groups — may provide sufficient motivation for hate incidents against them.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<q>It’s typically not your objective situation that makes you angry and resentful, but rather your situation relative to others you see around you,</q> said Mark Potok, editor-in-chief of the SPLC’s journal, the Intelligence Report. <q>So, where income inequality is very high, so is anger and resentment against those ‘other’ people who you fear are doing better than you.</q><br><br>" + "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT EDUCATION FUNDING &gt; </b> or <b>&lt; ANECDOTE ABOUT ECONOMIC INEQUALITY &gt;</b></center></font><br>" + "<font color='#bb99ff'><center><b>&lt; QUOTE FROM SCHOOL BOARD MEMBER OR ADMINISTRATOR &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Although we controlled for many potential confounders, correlation between income inequality and hate crimes or hate incidents doesn’t necessarily imply causation. Socioeconomic drivers for hate incidents at the community level may differ from the state-level indicators that we identified here. Moreover, it is likely that neither data set is truly representative of hate incidents across the United States, and it’s possible that whether people report or don’t report these incidents is different among states. That could mean that states with law enforcement agencies and residents that are more likely to report hate crimes and hate incidents are overrepresented in the FBI and SPLC data sets, while those that are less likely to report are underrepresented.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It could also be helpful to look closer at the details of the hate crimes at play. For instance, the most common type of hate crime in <b><font color='steelblue'>" + state + "</b></font> was " + mostcommon + ". A particular local tension over this identity issue could also be responsible for hate crimes not strictly related to the factors tested for in the statistical analysis.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The fact that both data sets yielded similar results suggests that the findings are robust, and future work using additional data sources may provide further insight into determinants for both pre-election and post-election hate incidents in the United States.<br><br>"
+        }
+        else if(articleplugin == 'Gini'){
+          var seg1html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But in <b><font color='steelblue'>" + city + ", " + state + "</b></font>, this crisis is more than just a statistic. <br><br>" + "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT RECENT HATE CRIME IN " + city + " &gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Would there have been any way to predict this tragedy? To identify where resources were most needed within <b><font color='steelblue'>" + state + "</b></font> and target support to <b><font color='steelblue'>" + city + "</b></font>?<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; An analysis of FBI and Southern Poverty Law Center data revealed one factor that stood out as a predictor of hate crimes and hate incidents in a given state: income inequality. States with more inequality were more likely to have higher rates of hate incidents per capita. This was true both before and after the election, and the connection held even after other relevant variables were controlled for.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color='steelblue'>" + city + "</b></font> is no exception. With " + CrimePerCapita + " hate crimes per capita and a significant level of wealth disparity (as indicated by a score of " + Gini +  " on the Gini Index of economic inequality), local data supports the broader takeaways of this economic analysis.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indeed, the data reveals that hate incidents aren’t uniformly distributed across the United States. In other words, a greater number of hate incidents were reported in some states (per 10,000 people) than in others — both according to the SPLC after the election and the FBI before it." + "<font color='#bb99ff'><center><b>&lt; STATEMENT BY CITY OFFICIAL ON HATE CRIMES &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So why do some states see so many more reported hate incidents than others?<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To try to answer this question, we collected data on key socioeconomic factors for each state, including indicators for education (percent of adults 25 and older with at least a high school degree, as of 2009), diversity (percent nonwhite population and percent noncitizen population, 2015), geographic heterogeneity (percent population in metropolitan areas, 2015), economic health (median household income, 2016 seasonally adjusted unemployment, September 2016, percent poverty among white people. 2015, and income inequality as measured by the Gini index, 2015), and what percent of the population voted for Donald Trump.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We then used multivariate linear regression to figure out which of these variables — if any — were significant determinants of population-adjusted hate incidents across the country. By including a variety of socioeconomic indicators in the model, this type of analysis allowed us to assess how much independent impact each had on hate incidents per capita.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After controlling for these variables, we found that income inequality was the most significant determinant of population-adjusted hate crimes and hate incidents across the United States — for both pre-election and post-election data sets.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Though the magnitude associated with the other determinants varied slightly between the two model outputs, the direction of the correlation was consistent. In <b><font color='steelblue'>" + city + "</b></font>, there was a correlation of " + ginicor + " between the income inequality and the prevalence of hate crimes.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Furthermore, after conducting further analysis, only two variables remained significant in both model outputs: income inequality and percent population with a high school degree. However, in <b><font color='steelblue'>" + city + "</b></font>, there was not a significant correlation between graduation rates and the prevalence of hate crimes. Rather, the rate was only " + hscor + ".<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Income inequality is a known determinant for neighborhood violence and violence in general, of which hate incidents may be considered a special subset. In an economy that increasingly demands a college degree, high-school-educated individuals aren’t able to earn as much as their college-educated neighbors. This — combined with misplaced blame on targeted minority groups — may provide sufficient motivation for hate incidents against them.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<q>It’s typically not your objective situation that makes you angry and resentful, but rather your situation relative to others you see around you,</q> said Mark Potok, editor-in-chief of the SPLC’s journal, the Intelligence Report. <q>So, where income inequality is very high, so is anger and resentment against those ‘other’ people who you fear are doing better than you.</q><br><br>" + "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT ECONOMIC INEQUALITY &gt; </b><br>" + "<b>&lt; QUOTE FROM CITY OFFICIAL ON INEQUALITY &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Although we controlled for many potential confounders, correlation between income inequality and hate crimes or hate incidents doesn’t necessarily imply causation. Socioeconomic drivers for hate incidents at the community level may differ from the state-level indicators that we identified here. Moreover, it is likely that neither data set is truly representative of hate incidents across the United States, and it’s possible that whether people report or don’t report these incidents is different among states. That could mean that states with law enforcement agencies and residents that are more likely to report hate crimes and hate incidents are overrepresented in the FBI and SPLC data sets, while those that are less likely to report are underrepresented.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It could also be helpful to look closer at the details of the hate crimes at play. For instance, the most common type of hate crime in <b><font color='steelblue'>" + state + "</b></font> was " +mostcommon + ". A particular local tension over this identity issue could also be responsible for hate crimes not strictly related to the factors tested for in the statistical analysis.<br><br>" +  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The fact that both data sets yielded similar results suggests that the findings are robust, and future work using additional data sources may provide further insight into determinants for both pre-election and post-election hate incidents in the United States.<br><br>"
+        }
+        else if(articleplugin == 'HS'){
+          var seg1html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But in <b><font color='steelblue'>" + city + ", " + state + "</b></font>, this crisis is more than just a statistic. <br><br>" + "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT RECENT HATE CRIME IN " + city + " &gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Would there have been any way to predict this tragedy? To identify where resources were most needed within <b><font color='steelblue'>" + state + "</b></font> and target support to <b><font color='steelblue'>" + city + "</b></font>?<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; An analysis of FBI and Southern Poverty Law Center data revealed one factor that stood out as a predictor of hate crimes and hate incidents in a given state: income inequality. States with more inequality were more likely to have higher rates of hate incidents per capita. This was true both before and after the election, and the connection held even after other relevant variables were controlled for.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But this doesn’t seem to hold true in <b><font color='steelblue'>" + city + "</b></font>, which — with a correlation of " + ginicor + " between income inequality and hate crimes — does not fit larger trends.<br><br>" + "<font color='#bb99ff'><center><b>&lt; STATEMENT BY CITY OFFICIAL ON HATE CRIMES &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This makes sense, given that hate incidents aren’t uniformly distributed across the United States. In other words, a greater number of hate incidents were reported in some states (per 10,000 people) than in others — both according to the SPLC after the election and the FBI before it.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So why do some states see so many more reported hate incidents than others?<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To try to answer this question, we collected data on key socioeconomic factors for each state, including indicators for education (percent of adults 25 and older with at least a high school degree, as of 2009), diversity (percent nonwhite population and percent noncitizen population, 2015), geographic heterogeneity (percent population in metropolitan areas, 2015), economic health (median household income, 2016 seasonally adjusted unemployment, September 2016, percent poverty among white people. 2015, and income inequality as measured by the Gini index, 2015), and what percent of the population voted for Donald Trump.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We then used multivariate linear regression to figure out which of these variables — if any — were significant determinants of population-adjusted hate incidents across the country. By including a variety of socioeconomic indicators in the model, this type of analysis allowed us to assess how much independent impact each had on hate incidents per capita.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After controlling for these variables, we found that income inequality was the most significant determinant of population-adjusted hate crimes and hate incidents across the United States — for both pre-election and post-election data sets.<br><br>" + "But although that relationship wasn’t evident in <b><font color='steelblue'>" + city + "</b></font>, another factor — percent population with a high school degree — did turn out to be a strong indicator of hate crime rates. As measured by the rate of high school graduation, this metric saw a correlation of " + hscor + " between education levels and the prevalence of hate crimes.<br><br>" + "<font color='#bb99ff'><center><b>&lt; QUOTE FROM CITY BOARD OF EDUCATION MEMBER &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In an economy that increasingly demands a college degree, high-school-educated individuals aren’t able to earn as much as their college-educated neighbors. This — combined with misplaced blame on targeted minority groups — may provide sufficient motivation for hate incidents against them.<br><br>" + "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT EDUCATION FUNDING &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Although we controlled for many potential confounders, correlation between income inequality and hate crimes or hate incidents doesn’t necessarily imply causation. Socioeconomic drivers for hate incidents at the community level may differ from the state-level indicators that we identified here. Moreover, it is likely that neither data set is truly representative of hate incidents across the United States, and it’s possible that whether people report or don’t report these incidents is different among states.<br><br>" + "It could also be helpful to look closer at the details of the hate crimes at play. For instance, the most common type of hate crime in <b><font color='steelblue'>" + state + "</b></font> was " + mostcommon + ". A particular local tension over this identity issue could also be responsible for hate crimes not strictly related to the factors tested for in the statistical analysis.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The fact that both data sets yielded similar results suggests that the findings are robust, and future work using additional data sources may provide further insight into determinants for both pre-election and post-election hate incidents in the United States.<br><br>";
+        }
+        seg1svg.selectAll("foreignObject").remove();
+        seg1svg.append("foreignObject")
+          .attr("width", 460)
+          .append("xhtml:body")
+          .style("font", "14px 'Helvetica Neue'")
+          .style('color','white')
+          .html(seg1html);
+      });
+    }
+    else if(type == 'State'){
+      //console.log('STATE');
+      d3.csv('finaldata/statefinal.csv',function(error,data){
+        if (error) throw error;
+
+        //console.log(data);
+
+        var filtereddata = data.filter(function(d){
+            return (d['State'] == state);
+        });
+
+        var CrimePerCapita = filtereddata[0].CrimePerCapita;
+        var CrimesPerYear = filtereddata[0].CrimesPerYear;
+        var Gini = filtereddata[0].Gini;
+        var HSGrad = filtereddata[0].HSGrad;
+        var Population = filtereddata[0].Population;
+        var articleplugin = filtereddata[0].articleplugin;
+        var ginicor = Math.abs(filtereddata[0].ginicor);
+        var hscor = filtereddata[0].hscor;
+        var mostcommon = filtereddata[0].mostCommon;
+
+        if(articleplugin == 'Neither'){
+          var seg1html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But in <b><font color='steelblue'>" + state + "</b></font>, this crisis is more than just a statistic. <br><br>" + "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT RECENT HATE CRIME IN " + state + " &gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Would there have been any way to predict this tragedy? To identify where resources were most needed within the U.S. and target support there? <br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; An analysis of FBI and Southern Poverty Law Center data revealed one factor that stood out as a predictor of hate crimes and hate incidents in a given state: income inequality. States with more inequality were more likely to have higher rates of hate incidents per capita. This was true both before and after the election, and the connection held even after other relevant variables were controlled for.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But this doesn’t seem to hold true in <b><font color='steelblue'>" + state + "</b></font>, which — with a correlation of " + ginicor + " between income inequality and hate crimes — does not fit larger trends.<br><br>" + "<font color='#bb99ff'><center><b>&lt; STATEMENT BY STATE OFFICIAL ON HATE CRIMES &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This makes sense, given that hate incidents aren’t uniformly distributed across the United States. In other words, a greater number of hate incidents were reported in some states (per 10,000 people) than in others — both according to the SPLC after the election and the FBI before it.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; So why do some states see so many more reported hate incidents than others?<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To try to answer this question, we collected data on key socioeconomic factors for each state, including indicators for education (percent of adults 25 and older with at least a high school degree, as of 2009), diversity (percent nonwhite population and percent noncitizen population, 2015), geographic heterogeneity (percent population in metropolitan areas, 2015), economic health (median household income, 2016 seasonally adjusted unemployment, September 2016, percent poverty among white people. 2015, and income inequality as measured by the Gini index, 2015), and what percent of the population voted for Donald Trump.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We then used multivariate linear regression to figure out which of these variables — if any — were significant determinants of population-adjusted hate incidents across the country. By including a variety of socioeconomic indicators in the model, this type of analysis allowed us to assess how much independent impact each had on hate incidents per capita.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After controlling for these variables, we found that income inequality was the most significant determinant of population-adjusted hate crimes and hate incidents across the United States — for both pre-election and post-election data sets.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This wasn't the case in <b><font color='steelblue'>" + state + "</b></font>. Nor was it the case for another factor — percent population with a high school degree — that statistical analysis found had a significant relationship with hate crime rates. <br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Instead, this metric saw a correlation of " + hscor + " between education levels and the prevalence of hate crimes, as measured by rate of high school graduation.<br><br>" + "<font color='#bb99ff'><center><b>&lt; QUOTE FROM STATE BOARD OF EDUCATION MEMBER &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In an economy that increasingly demands a college degree, high-school-educated individuals aren’t able to earn as much as their college-educated neighbors. This — combined with misplaced blame on targeted minority groups — may provide sufficient motivation for hate incidents against them.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In <b><font color='steelblue'>" + state + "</b></font>, things aren’t so simple. Neither education rates nor economic inequality can fully explain the " + CrimePerCapita + " hate crimes per capita that the city has seen.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perhaps more fruitful areas to focus on would be the details of the hate crimes at play. For instance, the most common type of hate crime in <b><font color='steelblue'>" + state + "</b></font> was " + mostcommon + "."
+        }
+        else if(articleplugin == 'Both'){
+          var seg1html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But in <b><font color='steelblue'>" + state + "</b></font>, this crisis is more than just a statistic. <br><br>" + "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT RECENT HATE CRIME IN " + state + " &gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Would there have been any way to predict this tragedy? To identify where resources were most needed within <b><font color='steelblue'>" + state + "</b></font> and target support there?<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; An analysis of FBI and Southern Poverty Law Center data revealed one factor that stood out as a predictor of hate crimes and hate incidents in a given state: income inequality. States with more inequality were more likely to have higher rates of hate incidents per capita. This was true both before and after the election, and the connection held even after other relevant variables were controlled for.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color='steelblue'>" + state + "</b></font> is no exception. With " + CrimePerCapita + " hate crimes per capita and a significant level of wealth disparity (as indicated by a score of " + Gini + " on the Gini Index of economic inequality), local data supports the broader takeaways of this economic analysis.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indeed, the data reveals that hate incidents aren’t uniformly distributed across the United States. In other words, a greater number of hate incidents were reported in some states (per 10,000 people) than in others — both according to the SPLC after the election and the FBI before it." + "<font color='#bb99ff'><center><b>&lt; STATEMENT BY STATE OFFICIAL ON HATE CRIMES &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So why do some states see so many more reported hate incidents than others?<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To try to answer this question, we collected data on key socioeconomic factors for each state, including indicators for education (percent of adults 25 and older with at least a high school degree, as of 2009), diversity (percent nonwhite population and percent noncitizen population, 2015), geographic heterogeneity (percent population in metropolitan areas, 2015), economic health (median household income, 2016 seasonally adjusted unemployment, September 2016, percent poverty among white people. 2015, and income inequality as measured by the Gini index, 2015), and what percent of the population voted for Donald Trump.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We then used multivariate linear regression to figure out which of these variables — if any — were significant determinants of population-adjusted hate incidents across the country. By including a variety of socioeconomic indicators in the model, this type of analysis allowed us to assess how much independent impact each had on hate incidents per capita.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After controlling for these variables, we found that income inequality was the most significant determinant of population-adjusted hate crimes and hate incidents across the United States — for both pre-election and post-election data sets.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Though the magnitude associated with the other determinants varied slightly between the two model outputs, the direction of the correlation was consistent. In <b><font color='steelblue'>" + state + "</b></font>, there was a correlation of " + ginicor + " between the income inequality and the prevalence of hate crimes.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Furthermore, after conducting further analysis, only two variables remained significant in both model outputs: income inequality and percent population with a high school degree. The latter saw a correlation of " + hscor + " with the prevalence of hate crimes.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Income inequality is a known determinant for neighborhood violence and violence in general, of which hate incidents may be considered a special subset. In an economy that increasingly demands a college degree, high-school-educated individuals aren’t able to earn as much as their college-educated neighbors. This — combined with misplaced blame on targeted minority groups — may provide sufficient motivation for hate incidents against them.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<q>It’s typically not your objective situation that makes you angry and resentful, but rather your situation relative to others you see around you,</q> said Mark Potok, editor-in-chief of the SPLC’s journal, the Intelligence Report. <q>So, where income inequality is very high, so is anger and resentment against those ‘other’ people who you fear are doing better than you.</q><br><br>" + "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT EDUCATION FUNDING &gt; </b> or <b>&lt; ANECDOTE ABOUT ECONOMIC INEQUALITY &gt;</b></center></font><br>" + "<font color='#bb99ff'><center><b>&lt; QUOTE FROM SCHOOL BOARD MEMBER OR ADMINISTRATOR &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Although we controlled for many potential confounders, correlation between income inequality and hate crimes or hate incidents doesn’t necessarily imply causation. Socioeconomic drivers for hate incidents at the community level may differ from the state-level indicators that we identified here. Moreover, it is likely that neither data set is truly representative of hate incidents across the United States, and it’s possible that whether people report or don’t report these incidents is different among states. That could mean that states with law enforcement agencies and residents that are more likely to report hate crimes and hate incidents are overrepresented in the FBI and SPLC data sets, while those that are less likely to report are underrepresented.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It could also be helpful to look closer at the details of the hate crimes at play. For instance, the most common type of hate crime in <b><font color='steelblue'>" + state + "</b></font> was " + mostcommon + ". A particular local tension over this identity issue could also be responsible for hate crimes not strictly related to the factors tested for in the statistical analysis.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The fact that both data sets yielded similar results suggests that the findings are robust, and future work using additional data sources may provide further insight into determinants for both pre-election and post-election hate incidents in the United States.<br><br>"
+        }
+        else if(articleplugin == 'Gini'){
+          var seg1html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But in <b><font color='steelblue'>" + state + "</b></font>, this crisis is more than just a statistic. <br><br>" + "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT RECENT HATE CRIME IN " + state + " &gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Would there have been any way to predict this tragedy? To identify where resources were most needed within <b><font color='steelblue'>" + state + "</b></font> and target support there?<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; An analysis of FBI and Southern Poverty Law Center data revealed one factor that stood out as a predictor of hate crimes and hate incidents in a given state: income inequality. States with more inequality were more likely to have higher rates of hate incidents per capita. This was true both before and after the election, and the connection held even after other relevant variables were controlled for.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color='steelblue'>" + state + "</b></font> is no exception. With " + CrimePerCapita + " hate crimes per capita and a significant level of wealth disparity (as indicated by a score of " + Gini +  " on the Gini Index of economic inequality), local data supports the broader takeaways of this economic analysis.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indeed, the data reveals that hate incidents aren’t uniformly distributed across the United States. In other words, a greater number of hate incidents were reported in some states (per 10,000 people) than in others — both according to the SPLC after the election and the FBI before it." + "<font color='#bb99ff'><center><b>&lt; STATEMENT BY STATE OFFICIAL ON HATE CRIMES &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So why do some states see so many more reported hate incidents than others?<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To try to answer this question, we collected data on key socioeconomic factors for each state, including indicators for education (percent of adults 25 and older with at least a high school degree, as of 2009), diversity (percent nonwhite population and percent noncitizen population, 2015), geographic heterogeneity (percent population in metropolitan areas, 2015), economic health (median household income, 2016 seasonally adjusted unemployment, September 2016, percent poverty among white people. 2015, and income inequality as measured by the Gini index, 2015), and what percent of the population voted for Donald Trump.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We then used multivariate linear regression to figure out which of these variables — if any — were significant determinants of population-adjusted hate incidents across the country. By including a variety of socioeconomic indicators in the model, this type of analysis allowed us to assess how much independent impact each had on hate incidents per capita.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After controlling for these variables, we found that income inequality was the most significant determinant of population-adjusted hate crimes and hate incidents across the United States — for both pre-election and post-election data sets.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Though the magnitude associated with the other determinants varied slightly between the two model outputs, the direction of the correlation was consistent. In <b><font color='steelblue'>" + state + "</b></font>, there was a correlation of " + ginicor + " between the income inequality and the prevalence of hate crimes.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Furthermore, after conducting further analysis, only two variables remained significant in both model outputs: income inequality and percent population with a high school degree. However, in <b><font color='steelblue'>" + state + "</b></font>, there was not a significant correlation between graduation rates and the prevalence of hate crimes. Rather, the rate was only " + hscor + ".<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Income inequality is a known determinant for neighborhood violence and violence in general, of which hate incidents may be considered a special subset. In an economy that increasingly demands a college degree, high-school-educated individuals aren’t able to earn as much as their college-educated neighbors. This — combined with misplaced blame on targeted minority groups — may provide sufficient motivation for hate incidents against them.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<q>It’s typically not your objective situation that makes you angry and resentful, but rather your situation relative to others you see around you,</q> said Mark Potok, editor-in-chief of the SPLC’s journal, the Intelligence Report. <q>So, where income inequality is very high, so is anger and resentment against those ‘other’ people who you fear are doing better than you.</q><br><br>" + "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT ECONOMIC INEQUALITY &gt; <br>" + "&lt; QUOTE FROM STATE OFFICIAL ON INEQUALITY &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Although we controlled for many potential confounders, correlation between income inequality and hate crimes or hate incidents doesn’t necessarily imply causation. Socioeconomic drivers for hate incidents at the community level may differ from the state-level indicators that we identified here. Moreover, it is likely that neither data set is truly representative of hate incidents across the United States, and it’s possible that whether people report or don’t report these incidents is different among states. That could mean that states with law enforcement agencies and residents that are more likely to report hate crimes and hate incidents are overrepresented in the FBI and SPLC data sets, while those that are less likely to report are underrepresented.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It could also be helpful to look closer at the details of the hate crimes at play. For instance, the most common type of hate crime in <b><font color='steelblue'>" + state + "</b></font> was " + mostcommon + ". A particular local tension over this identity issue could also be responsible for hate crimes not strictly related to the factors tested for in the statistical analysis.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The fact that both data sets yielded similar results suggests that the findings are robust, and future work using additional data sources may provide further insight into determinants for both pre-election and post-election hate incidents in the United States.<br><br>";
+        }
+        else if(articleplugin == 'HS'){
+          var seg1html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But in <b><font color='steelblue'>" + state + "</b></font>, this crisis is more than just a statistic. <br><br>" + "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT RECENT HATE CRIME IN " + state + " &gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Would there have been any way to predict this tragedy? To identify where resources were most needed within <b><font color='steelblue'>" + state + "</b></font> and target support there?<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; An analysis of FBI and Southern Poverty Law Center data revealed one factor that stood out as a predictor of hate crimes and hate incidents in a given state: income inequality. States with more inequality were more likely to have higher rates of hate incidents per capita. This was true both before and after the election, and the connection held even after other relevant variables were controlled for.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; But this doesn’t seem to hold true in <b><font color='steelblue'>" + state + "</b></font>, which — with a correlation of " + ginicor + " between income inequality and hate crimes — does not fit larger trends.<br><br>" + "<font color='#bb99ff'><center><b>&lt; STATEMENT BY STATE OFFICIAL ON HATE CRIMES &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This makes sense, given that hate incidents aren’t uniformly distributed across the United States. In other words, a greater number of hate incidents were reported in some states (per 10,000 people) than in others — both according to the SPLC after the election and the FBI before it.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So why do some states see so many more reported hate incidents than others?<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To try to answer this question, we collected data on key socioeconomic factors for each state, including indicators for education (percent of adults 25 and older with at least a high school degree, as of 2009), diversity (percent nonwhite population and percent noncitizen population, 2015), geographic heterogeneity (percent population in metropolitan areas, 2015), economic health (median household income, 2016 seasonally adjusted unemployment, September 2016, percent poverty among white people. 2015, and income inequality as measured by the Gini index, 2015), and what percent of the population voted for Donald Trump.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We then used multivariate linear regression to figure out which of these variables — if any — were significant determinants of population-adjusted hate incidents across the country. By including a variety of socioeconomic indicators in the model, this type of analysis allowed us to assess how much independent impact each had on hate incidents per capita.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After controlling for these variables, we found that income inequality was the most significant determinant of population-adjusted hate crimes and hate incidents across the United States — for both pre-election and post-election data sets.<br><br>" + "But although that relationship wasn’t evident in <b><font color='steelblue'>" + state + "</b></font>, another factor — percent population with a high school degree — did turn out to be a strong indicator of hate crime rates. As measured by the rate of high school graduation, this metric saw a correlation of " + hscor + " between education levels and the prevalence of hate crimes.<br><br>" + "<font color='#bb99ff'><center><b>&lt; QUOTE FROM STATE BOARD OF EDUCATION MEMBER &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In an economy that increasingly demands a college degree, high-school-educated individuals aren’t able to earn as much as their college-educated neighbors. This — combined with misplaced blame on targeted minority groups — may provide sufficient motivation for hate incidents against them.<br><br>" + "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT EDUCATION FUNDING &gt;. </b></center></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Although we controlled for many potential confounders, correlation between income inequality and hate crimes or hate incidents doesn’t necessarily imply causation. Socioeconomic drivers for hate incidents at the community level may differ from the state-level indicators that we identified here. Moreover, it is likely that neither data set is truly representative of hate incidents across the United States, and it’s possible that whether people report or don’t report these incidents is different among states.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It could also be helpful to look closer at the details of the hate crimes at play. For instance, the most common type of hate crime in <b><font color='steelblue'>" + state + "</b></font> was " + mostcommon + ". A particular local tension over this identity issue could also be responsible for hate crimes not strictly related to the factors tested for in the statistical analysis.<br><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The fact that both data sets yielded similar results suggests that the findings are robust, and future work using additional data sources may provide further insight into determinants for both pre-election and post-election hate incidents in the United States.<br><br>";
+        }
+        seg1svg.selectAll("foreignObject").remove();
+        seg1svg.append("foreignObject")
+          .attr("width", 460)
+          .append("xhtml:body")
+          .style("font", "14px 'Helvetica Neue'")
+          .style('color','white')
+          .html(seg1html);
+      });
+    }
+  }
+
+  function makesegment2(city, state){
+    d3.csv('finaldata/statehategroups.csv',function(error,data){
+      if (error) throw error;
+
+      var filtereddata = data.filter(function(d){
+          return (d['State'] == state);
+      });
+
+      //State  numGroups mostCommon  hateGroups
+
+      var numGroups = filtereddata[0].numGroups;
+      var mostCommon = filtereddata[0].mostCommon;
+      var hateGroups = filtereddata[0].hateGroups;
+
+      var seg2html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Another factor to look like could be the presence of organized hate groups. <b><font color='steelblue'>" + state + "</b></font> is home to " + numGroups + " hate groups; with the most common hate group type being " + mostCommon + ". Examples of hate groups in <b><font color='steelblue'>" + state + "</b></font> include <i>" + hateGroups + "</i>, and they may be one — but not the only — explanation for what hate crimes look like in <b><font color='steelblue'>" + state + "</b></font>.<br><br>" + "<font color='#bb99ff'><center><b>&lt; ANECDOTE ABOUT STATE HATE GROUP &gt;. </center></b></font><br>" + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Moreover, although we controlled for many potential confounders, correlation between income inequality and hate crimes or hate incidents doesn’t necessarily imply causation. Socioeconomic drivers for hate incidents at the community level may differ from the state-level indicators that we identified here. Furthermore, it is likely that neither data set is truly representative of hate incidents across the United States, and it’s possible that whether people report or don’t report these incidents is different among states.<br><br>" + "<font color='#bb99ff'><center><b>&lt; QUOTE FROM VICTIM OF HATE CRIME &gt; </b> or " + "<b>&lt; EXCERPT FROM LOCAL LAW ADDRESSING HATE CRIMES &gt;. </center></b></font>";
+
+      //d3.selectAll("foreignObject");
+      seg2svg.selectAll("foreignObject").remove();
+      seg2svg.append("foreignObject")
+          //s.attr('class','temp1')
+          .attr("width", 460)
+          .append("xhtml:body")
+          .style("font", "14px 'Helvetica Neue'")
+          .style('color','white')
+          .html(seg2html);
+    });
+  }
+
+  function makehategraph(city, state){
+  	hatenamelabel = "Most Common Hate Groups"
+    var hatename = document.getElementById('hatebarheading');
+    hatename.innerHTML = hatenamelabel;
+
+    d3.csv('finaldata/hatetypes.csv',function(error,data){
+      if (error) throw error;
+      
+      data.forEach(function(d){
+        d.Count = +d.Count;
+      });
+
+
+      var filtereddata = data.filter(function(d){
+          return (d['State'] == state);
+        });
+      
+      var x = d3.scaleBand()
+                .range([0,hatewidth])
+                .padding(0.1);
+
+      x.domain(data.map(function(d){
+                  return d.HateType;
+                }));
+
+      var hatexaxis = hatesvg.append('g')
+            .attr('class','xaxis')
+            .style('stroke','white')
+            .call(d3.axisBottom(x));
+
+      hatexaxis.selectAll("text")
+            .style("text-anchor", "end")
+            .attr("dx", "-.8em")
+            .attr("dy", ".15em")
+            .attr("transform", function(d) {
+                return "rotate(-65)" 
+                });
+
+      var maxWidth = 0;
+      hatexaxis.selectAll("text").each(function () {
+        var boxWidth = this.getBBox().width;
+        if (boxWidth > maxWidth){
+          maxWidth = boxWidth;
+        } 
+      });
+      tempheight = hateheight - maxWidth;
+
+      hatexaxis.attr("transform", "translate(0," + tempheight + ")");
+
+
+      var y = d3.scaleLinear()
+                .range([tempheight,0]);
+
+      y.domain([0, d3.max(filtereddata,function(d){
+                return Math.max(d.Count);
+              })]);
+
+      hatesvg.append('g')
+            .attr('class','yaxis')
+            .style('stroke','white')
+            .call(d3.axisLeft(y));
+
+      hatesvg.selectAll('.hate')
+            .data(filtereddata).enter()
+            .append('rect')
+            .attr('class','hate')
+            .attr('x',function(d){
+              return x(d.HateType);
+            })
+            .attr('width',x.bandwidth())
+            .attr('y',function(d){
+              return y(d.Count);})
+            .attr('height',function(d){
+              return tempheight - y(d.Count);
+            });
+      
+      // Y axis label
+      hatesvg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 0 - hatemargin.left-1)
+        .attr("x",0 - (hateheight / 2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .style('fill','white')
+        .text("Count"); 
+
+    });
+  }
+
+  </script>
+</body>
+</html>
+
+
+
+

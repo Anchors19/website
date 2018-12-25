@@ -1,0 +1,249 @@
+"State","HateType","Count"
+"Alabama","Black Nationalist",3
+"Alabama","Ku Klux Klan",5
+"Alabama","Neo-Nazi",3
+"Alabama","White Nationalist",2
+"Alaska","General Hate",1
+"Alaska","Neo-Nazi",1
+"Alaska","White Nationalist",1
+"Arizona","Anti-LGBT",4
+"Arizona","Anti-Muslim",3
+"Arizona","Black Nationalist",2
+"Arizona","General Hate",1
+"Arizona","Neo-Nazi",2
+"Arizona","Racist Skinhead",1
+"Arizona","White Nationalist",5
+"Arkansas","Anti-Muslim",1
+"Arkansas","Black Nationalist",1
+"Arkansas","General Hate",1
+"Arkansas","Ku Klux Klan",2
+"Arkansas","Racist Skinhead",1
+"California","Anti-LGBT",6
+"California","Anti-Muslim",7
+"California","Black Nationalist",6
+"California","General Hate",6
+"California","Ku Klux Klan",2
+"California","Neo-Nazi",6
+"California","Racist Skinhead",9
+"California","White Nationalist",8
+"Colorado","Anti-LGBT",5
+"Colorado","Anti-Muslim",3
+"Colorado","Black Nationalist",2
+"Colorado","Ku Klux Klan",1
+"Colorado","Neo-Nazi",2
+"Colorado","Racist Skinhead",1
+"Colorado","White Nationalist",1
+"Connecticut","Anti-Muslim",1
+"Connecticut","Black Nationalist",2
+"Connecticut","General Hate",1
+"Connecticut","Neo-Nazi",2
+"Delaware","Anti-Muslim",1
+"Delaware","Black Nationalist",1
+"District of Columbia","Anti-LGBT",3
+"District of Columbia","Anti-Muslim",8
+"District of Columbia","Black Nationalist",5
+"District of Columbia","General Hate",2
+"District of Columbia","White Nationalist",2
+"Florida","Anti-LGBT",4
+"Florida","Anti-Muslim",7
+"Florida","Black Nationalist",8
+"Florida","General Hate",5
+"Florida","Ku Klux Klan",4
+"Florida","Neo-Nazi",5
+"Florida","Racist Skinhead",4
+"Florida","White Nationalist",4
+"Georgia","Anti-LGBT",1
+"Georgia","Anti-Muslim",1
+"Georgia","Black Nationalist",8
+"Georgia","General Hate",1
+"Georgia","Ku Klux Klan",4
+"Georgia","Neo-Nazi",5
+"Georgia","Racist Skinhead",3
+"Georgia","White Nationalist",5
+"Hawaii","Black Nationalist",1
+"Idaho","Anti-Muslim",3
+"Idaho","General Hate",2
+"Idaho","Ku Klux Klan",1
+"Idaho","Neo-Nazi",1
+"Idaho","Racist Skinhead",2
+"Idaho","White Nationalist",1
+"Illinois","Anti-LGBT",4
+"Illinois","Anti-Muslim",2
+"Illinois","Black Nationalist",8
+"Illinois","General Hate",2
+"Illinois","Ku Klux Klan",1
+"Illinois","Neo-Nazi",6
+"Illinois","White Nationalist",2
+"Indiana","Anti-LGBT",1
+"Indiana","Anti-Muslim",2
+"Indiana","Black Nationalist",2
+"Indiana","General Hate",3
+"Indiana","Ku Klux Klan",3
+"Indiana","Neo-Nazi",5
+"Indiana","Racist Skinhead",5
+"Indiana","White Nationalist",5
+"Iowa","Anti-Muslim",1
+"Iowa","Black Nationalist",1
+"Iowa","Neo-Nazi",1
+"Kansas","Anti-LGBT",1
+"Kansas","Black Nationalist",1
+"Kansas","Neo-Nazi",1
+"Kansas","Racist Skinhead",1
+"Kentucky","Black Nationalist",4
+"Kentucky","Ku Klux Klan",2
+"Kentucky","Neo-Nazi",2
+"Louisiana","Anti-LGBT",1
+"Louisiana","Anti-Muslim",1
+"Louisiana","Black Nationalist",4
+"Louisiana","Neo-Nazi",1
+"Louisiana","Racist Skinhead",1
+"Maine","Ku Klux Klan",1
+"Maine","Racist Skinhead",1
+"Maine","White Nationalist",1
+"Maryland","Anti-Muslim",2
+"Maryland","Black Nationalist",4
+"Maryland","General Hate",2
+"Maryland","Ku Klux Klan",3
+"Maryland","Neo-Nazi",1
+"Maryland","Racist Skinhead",2
+"Maryland","White Nationalist",3
+"Massachusetts","Anti-LGBT",2
+"Massachusetts","Anti-Muslim",1
+"Massachusetts","Black Nationalist",3
+"Massachusetts","General Hate",1
+"Massachusetts","Neo-Nazi",2
+"Michigan","Anti-Muslim",3
+"Michigan","Black Nationalist",5
+"Michigan","General Hate",1
+"Michigan","Ku Klux Klan",1
+"Michigan","Neo-Nazi",6
+"Michigan","Racist Skinhead",1
+"Michigan","White Nationalist",5
+"Minnesota","Anti-Muslim",1
+"Minnesota","Black Nationalist",2
+"Minnesota","General Hate",1
+"Minnesota","Neo-Nazi",1
+"Minnesota","Racist Skinhead",1
+"Minnesota","White Nationalist",2
+"Mississippi","Anti-LGBT",1
+"Mississippi","Black Nationalist",2
+"Mississippi","Ku Klux Klan",7
+"Mississippi","Neo-Nazi",1
+"Missouri","Anti-LGBT",1
+"Missouri","Anti-Muslim",1
+"Missouri","Black Nationalist",4
+"Missouri","General Hate",1
+"Missouri","Ku Klux Klan",1
+"Missouri","Neo-Nazi",3
+"Missouri","Racist Skinhead",1
+"Missouri","White Nationalist",2
+"Montana","Anti-Muslim",2
+"Montana","Neo-Nazi",1
+"Montana","White Nationalist",3
+"Nebraska","Anti-Muslim",1
+"Nebraska","Black Nationalist",2
+"Nebraska","Neo-Nazi",4
+"Nebraska","White Nationalist",1
+"Nevada","Anti-Muslim",1
+"Nevada","Black Nationalist",3
+"Nevada","General Hate",1
+"Nevada","Neo-Nazi",3
+"Nevada","White Nationalist",1
+"New Hampshire","Anti-Muslim",2
+"New Hampshire","Neo-Nazi",2
+"New Hampshire","Racist Skinhead",3
+"New Jersey","Black Nationalist",4
+"New Jersey","Neo-Nazi",2
+"New Jersey","Racist Skinhead",2
+"New Jersey","White Nationalist",2
+"New Mexico","General Hate",1
+"New York","Anti-LGBT",2
+"New York","Anti-Muslim",4
+"New York","Black Nationalist",11
+"New York","General Hate",6
+"New York","Ku Klux Klan",2
+"New York","Neo-Nazi",4
+"New York","Racist Skinhead",3
+"New York","White Nationalist",5
+"North Carolina","Anti-Muslim",4
+"North Carolina","Black Nationalist",6
+"North Carolina","General Hate",1
+"North Carolina","Ku Klux Klan",3
+"North Carolina","Neo-Nazi",3
+"North Carolina","Racist Skinhead",5
+"North Carolina","White Nationalist",1
+"North Dakota","White Nationalist",1
+"Ohio","Anti-LGBT",4
+"Ohio","Anti-Muslim",2
+"Ohio","Black Nationalist",6
+"Ohio","Ku Klux Klan",3
+"Ohio","Neo-Nazi",7
+"Oklahoma","Anti-Muslim",1
+"Oklahoma","Black Nationalist",4
+"Oklahoma","Neo-Nazi",2
+"Oregon","Anti-Muslim",1
+"Oregon","Black Nationalist",3
+"Oregon","General Hate",1
+"Oregon","Ku Klux Klan",1
+"Oregon","Neo-Nazi",3
+"Oregon","Racist Skinhead",4
+"Oregon","White Nationalist",3
+"Pennsylvania","Anti-LGBT",1
+"Pennsylvania","Anti-Muslim",1
+"Pennsylvania","Black Nationalist",4
+"Pennsylvania","General Hate",2
+"Pennsylvania","Ku Klux Klan",4
+"Pennsylvania","Neo-Nazi",4
+"Pennsylvania","Racist Skinhead",5
+"Pennsylvania","White Nationalist",5
+"Rhode Island","Neo-Nazi",2
+"South Carolina","Anti-LGBT",1
+"South Carolina","Black Nationalist",2
+"South Carolina","Ku Klux Klan",1
+"South Carolina","Neo-Nazi",2
+"South Carolina","White Nationalist",3
+"South Dakota","Anti-Muslim",2
+"South Dakota","General Hate",2
+"South Dakota","Ku Klux Klan",1
+"South Dakota","Neo-Nazi",2
+"Tennessee","Anti-Muslim",6
+"Tennessee","Black Nationalist",5
+"Tennessee","Ku Klux Klan",6
+"Tennessee","Neo-Nazi",3
+"Tennessee","Racist Skinhead",3
+"Tennessee","White Nationalist",2
+"Texas","Anti-LGBT",5
+"Texas","Anti-Muslim",6
+"Texas","Black Nationalist",8
+"Texas","General Hate",4
+"Texas","Ku Klux Klan",4
+"Texas","Neo-Nazi",4
+"Texas","Racist Skinhead",1
+"Texas","White Nationalist",4
+"Utah","General Hate",2
+"Utah","Neo-Nazi",1
+"Vermont","Neo-Nazi",1
+"Vermont","White Nationalist",1
+"Virginia","Anti-LGBT",1
+"Virginia","Anti-Muslim",3
+"Virginia","Black Nationalist",3
+"Virginia","General Hate",1
+"Virginia","Ku Klux Klan",3
+"Virginia","Neo-Nazi",3
+"Virginia","Racist Skinhead",4
+"Virginia","White Nationalist",10
+"Washington","Anti-LGBT",1
+"Washington","Anti-Muslim",3
+"Washington","Black Nationalist",5
+"Washington","Ku Klux Klan",2
+"Washington","Neo-Nazi",2
+"Washington","Racist Skinhead",4
+"Washington","White Nationalist",5
+"West Virginia","Ku Klux Klan",1
+"West Virginia","Neo-Nazi",2
+"Wisconsin","Anti-LGBT",1
+"Wisconsin","Anti-Muslim",1
+"Wisconsin","Black Nationalist",3
+"Wisconsin","General Hate",1
+"Wisconsin","Neo-Nazi",4
+"Wyoming","Neo-Nazi",1

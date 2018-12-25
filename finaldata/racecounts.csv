@@ -1,0 +1,1227 @@
+City,State,Value,Count,Type,Region
+Abilene,Texas,White,2,Race,City
+Akron,Ohio,Black,3,Race,City
+Akron,Ohio,White,6,Race,City
+Akron,Ohio,Middle Eastern,1,Race,City
+Akron,Ohio,Unspecified,1,Race,City
+Alameda,California,Black,1,Race,City
+Albany,Georgia,Black,1,Race,City
+Albany,Georgia,Unspecified,1,Race,City
+Albany,New York,Black,1,Race,City
+Albany,New York,White,1,Race,City
+Albuquerque,New Mexico,Black,1,Race,City
+Albuquerque,New Mexico,White,12,Race,City
+Albuquerque,New Mexico,Hispanic,22,Race,City
+Albuquerque,New Mexico,Native American,1,Race,City
+Albuquerque,New Mexico,Unspecified,3,Race,City
+Alexandria,Virginia,White,1,Race,City
+Alexandria,Virginia,Hispanic,1,Race,City
+Alexandria,Virginia,Unspecified,1,Race,City
+Alhambra,California,Hispanic,1,Race,City
+Allen,Texas,Black,1,Race,City
+Allen,Texas,Unspecified,1,Race,City
+Amarillo,Texas,Black,2,Race,City
+Amarillo,Texas,White,3,Race,City
+Amarillo,Texas,Hispanic,3,Race,City
+Amarillo,Texas,Unspecified,2,Race,City
+Anaheim,California,Black,4,Race,City
+Anaheim,California,White,1,Race,City
+Anaheim,California,Hispanic,5,Race,City
+Anaheim,California,Unspecified,4,Race,City
+Anchorage,Alaska,White,4,Race,City
+Anchorage,Alaska,Hispanic,1,Race,City
+Anchorage,Alaska,Native American,3,Race,City
+Anchorage,Alaska,Unspecified,5,Race,City
+Antioch,California,Black,4,Race,City
+Antioch,California,White,2,Race,City
+Antioch,California,Hispanic,3,Race,City
+Apple Valley,California,White,1,Race,City
+Apple Valley,California,Hispanic,1,Race,City
+Appleton,Wisconsin,Black,2,Race,City
+Appleton,Wisconsin,White,1,Race,City
+Arlington,Texas,Black,5,Race,City
+Arlington,Texas,White,2,Race,City
+Arlington,Texas,Hispanic,2,Race,City
+Arlington,Texas,Unspecified,2,Race,City
+Arlington,Virginia,Asian,1,Race,City
+Arlington,Virginia,White,1,Race,City
+Arlington,Virginia,Unspecified,1,Race,City
+Arvada,Colorado,Hispanic,2,Race,City
+Asheville,North Carolina,Black,1,Race,City
+Atlanta,Georgia,Black,21,Race,City
+Atlanta,Georgia,Asian,1,Race,City
+Atlanta,Georgia,White,2,Race,City
+Atlanta,Georgia,Unspecified,5,Race,City
+Auburn,Washington,Black,1,Race,City
+Auburn,Washington,Asian,1,Race,City
+Auburn,Washington,White,1,Race,City
+Auburn,Washington,Native American,1,Race,City
+Auburn,Washington,Unspecified,1,Race,City
+Aurora,Colorado,Black,4,Race,City
+Aurora,Colorado,Asian,1,Race,City
+Aurora,Colorado,White,2,Race,City
+Aurora,Colorado,Unspecified,5,Race,City
+Aurora,Illinois,Hispanic,2,Race,City
+Austin,Texas,Black,4,Race,City
+Austin,Texas,White,15,Race,City
+Austin,Texas,Hispanic,4,Race,City
+Austin,Texas,Middle Eastern,1,Race,City
+Austin,Texas,Unspecified,3,Race,City
+Avondale,Arizona,White,2,Race,City
+Avondale,Arizona,Hispanic,1,Race,City
+Bakersfield,California,Black,2,Race,City
+Bakersfield,California,White,7,Race,City
+Bakersfield,California,Hispanic,12,Race,City
+Bakersfield,California,Unspecified,5,Race,City
+Baltimore,Maryland,Black,18,Race,City
+Baltimore,Maryland,White,1,Race,City
+Baltimore,Maryland,Unspecified,3,Race,City
+Baton Rouge,Louisiana,Black,18,Race,City
+Beaumont,Texas,Black,1,Race,City
+Beaumont,Texas,White,5,Race,City
+Beaverton,Oregon,White,3,Race,City
+Bellflower,California,Hispanic,1,Race,City
+Bellflower,California,Unspecified,1,Race,City
+Bellingham,Washington,Hispanic,1,Race,City
+Bend,Oregon,White,4,Race,City
+Bend,Oregon,Unspecified,1,Race,City
+Berkeley,California,Black,1,Race,City
+Bethlehem,Pennsylvania,Black,1,Race,City
+Bethlehem,Pennsylvania,White,2,Race,City
+Billings,Montana,White,5,Race,City
+Billings,Montana,Native American,2,Race,City
+Billings,Montana,Unspecified,1,Race,City
+Birmingham,Alabama,Black,7,Race,City
+Birmingham,Alabama,White,7,Race,City
+Birmingham,Alabama,Unspecified,2,Race,City
+Bismarck,North Dakota,White,2,Race,City
+Bloomington,Illinois,Unspecified,1,Race,City
+Bloomington,Indiana,White,1,Race,City
+Bloomington,Minnesota,White,4,Race,City
+Boca Raton,Florida,Unspecified,1,Race,City
+Bossier City,Louisiana,White,1,Race,City
+Boston,Massachusetts,Black,4,Race,City
+Boston,Massachusetts,Hispanic,1,Race,City
+Boulder,Colorado,White,3,Race,City
+Brandon,Florida,Unspecified,1,Race,City
+Bridgeport,Connecticut,Black,1,Race,City
+Bridgeport,Connecticut,White,1,Race,City
+Bridgeport,Connecticut,Hispanic,1,Race,City
+Brockton,Massachusetts,White,2,Race,City
+Broomfield,Colorado,White,1,Race,City
+Brownsville,Texas,Hispanic,3,Race,City
+Brownsville,Texas,Unspecified,1,Race,City
+Buena Park,California,Unspecified,1,Race,City
+Buffalo,New York,Black,1,Race,City
+Buffalo,New York,White,2,Race,City
+Buffalo,New York,Hispanic,2,Race,City
+Burbank,California,White,2,Race,City
+Burbank,California,Hispanic,2,Race,City
+Camarillo,California,White,1,Race,City
+Camden,New Jersey,Black,1,Race,City
+Camden,New Jersey,Hispanic,2,Race,City
+Canton,Ohio,White,1,Race,City
+Cape Coral,Florida,Black,1,Race,City
+Cape Coral,Florida,White,3,Race,City
+Carmichael,California,Black,1,Race,City
+Carmichael,California,White,1,Race,City
+Carmichael,California,Unspecified,1,Race,City
+Carrollton,Texas,Black,1,Race,City
+Carson,California,Hispanic,1,Race,City
+Cary,North Carolina,Black,1,Race,City
+Cedar Rapids,Iowa,Black,1,Race,City
+Cedar Rapids,Iowa,White,2,Race,City
+Centennial,Colorado,White,1,Race,City
+Centennial,Colorado,Unspecified,1,Race,City
+Champaign,Illinois,Unspecified,1,Race,City
+Chandler,Arizona,White,2,Race,City
+Chandler,Arizona,Native American,1,Race,City
+Chandler,Arizona,Unspecified,1,Race,City
+Charleston,South Carolina,Black,2,Race,City
+Charleston,South Carolina,White,1,Race,City
+Charleston,South Carolina,Unspecified,1,Race,City
+Charlotte,North Carolina,Black,11,Race,City
+Charlotte,North Carolina,Asian,1,Race,City
+Charlotte,North Carolina,White,4,Race,City
+Charlotte,North Carolina,Hispanic,4,Race,City
+Charlotte,North Carolina,Unspecified,1,Race,City
+Chattanooga,Tennessee,Black,1,Race,City
+Chattanooga,Tennessee,White,2,Race,City
+Chattanooga,Tennessee,Hispanic,1,Race,City
+Chattanooga,Tennessee,Middle Eastern,1,Race,City
+Chattanooga,Tennessee,Unspecified,2,Race,City
+Chesapeake,Virginia,Black,3,Race,City
+Chesapeake,Virginia,White,1,Race,City
+Chicago,Illinois,Black,44,Race,City
+Chicago,Illinois,White,3,Race,City
+Chicago,Illinois,Hispanic,6,Race,City
+Chicago,Illinois,Unspecified,7,Race,City
+Chico,California,Black,1,Race,City
+Chico,California,White,1,Race,City
+Chico,California,Hispanic,1,Race,City
+Chico,California,Unspecified,1,Race,City
+Chino,California,Black,1,Race,City
+Chino,California,White,2,Race,City
+Chula Vista,California,Black,1,Race,City
+Chula Vista,California,White,1,Race,City
+Chula Vista,California,Hispanic,1,Race,City
+Chula Vista,California,Unspecified,1,Race,City
+Cincinnati,Ohio,Black,12,Race,City
+Cincinnati,Ohio,White,3,Race,City
+Cincinnati,Ohio,Hispanic,1,Race,City
+Cincinnati,Ohio,Unspecified,2,Race,City
+Citrus Heights,California,White,3,Race,City
+Citrus Heights,California,Hispanic,1,Race,City
+Clarksville,Tennessee,Black,2,Race,City
+Clarksville,Tennessee,White,1,Race,City
+Clearwater,Florida,White,1,Race,City
+Cleveland,Ohio,Black,9,Race,City
+Cleveland,Ohio,White,4,Race,City
+Cleveland,Ohio,Unspecified,3,Race,City
+Clovis,California,White,1,Race,City
+Colorado Springs,Colorado,Black,4,Race,City
+Colorado Springs,Colorado,White,7,Race,City
+Colorado Springs,Colorado,Hispanic,2,Race,City
+Colorado Springs,Colorado,Unspecified,3,Race,City
+Columbia,Maryland,Black,1,Race,City
+Columbia,Missouri,Black,2,Race,City
+Columbia,Missouri,White,2,Race,City
+Columbia,South Carolina,Black,6,Race,City
+Columbia,South Carolina,White,1,Race,City
+Columbia,South Carolina,Unspecified,1,Race,City
+Columbus,Georgia,Black,3,Race,City
+Columbus,Georgia,White,1,Race,City
+Columbus,Georgia,Hispanic,1,Race,City
+Columbus,Georgia,Unspecified,2,Race,City
+Columbus,Ohio,Black,14,Race,City
+Columbus,Ohio,White,12,Race,City
+Columbus,Ohio,Hispanic,1,Race,City
+Columbus,Ohio,Unspecified,4,Race,City
+Compton,California,Black,2,Race,City
+Compton,California,Hispanic,2,Race,City
+Concord,California,White,2,Race,City
+Conroe,Texas,Black,1,Race,City
+Conroe,Texas,White,5,Race,City
+Conroe,Texas,Hispanic,1,Race,City
+Coral Springs,Florida,Unspecified,1,Race,City
+Corona,California,White,1,Race,City
+Corona,California,Unspecified,1,Race,City
+Corpus Christi,Texas,Black,1,Race,City
+Corpus Christi,Texas,White,3,Race,City
+Corpus Christi,Texas,Hispanic,2,Race,City
+Costa Mesa,California,Unspecified,1,Race,City
+Dallas,Texas,Black,11,Race,City
+Dallas,Texas,Asian,1,Race,City
+Dallas,Texas,White,9,Race,City
+Dallas,Texas,Hispanic,7,Race,City
+Dallas,Texas,Unspecified,2,Race,City
+Daly City,California,Black,1,Race,City
+Daly City,California,Hispanic,1,Race,City
+Danbury,Connecticut,Black,3,Race,City
+Danbury,Connecticut,White,1,Race,City
+Danbury,Connecticut,Unspecified,1,Race,City
+Davenport,Iowa,White,2,Race,City
+Davie,Florida,Unspecified,3,Race,City
+Davis,California,White,1,Race,City
+Davis,California,Unspecified,1,Race,City
+Dayton,Ohio,Black,5,Race,City
+Dayton,Ohio,White,3,Race,City
+Dearborn,Michigan,Black,1,Race,City
+Dearborn,Michigan,Hispanic,1,Race,City
+Decatur,Illinois,White,1,Race,City
+Delray Beach,Florida,White,2,Race,City
+Deltona,Florida,White,5,Race,City
+Deltona,Florida,Hispanic,1,Race,City
+Denton,Texas,White,1,Race,City
+Denton,Texas,Unspecified,1,Race,City
+Denver,Colorado,Black,2,Race,City
+Denver,Colorado,Asian,1,Race,City
+Denver,Colorado,White,5,Race,City
+Denver,Colorado,Hispanic,9,Race,City
+Denver,Colorado,Native American,2,Race,City
+Denver,Colorado,Unspecified,8,Race,City
+Des Moines,Iowa,Black,1,Race,City
+Des Moines,Iowa,Asian,1,Race,City
+Des Moines,Iowa,White,4,Race,City
+Detroit,Michigan,Black,22,Race,City
+Detroit,Michigan,White,2,Race,City
+Detroit,Michigan,Unspecified,11,Race,City
+Dothan,Alabama,Black,1,Race,City
+Downey,California,Hispanic,1,Race,City
+Durham,North Carolina,Black,4,Race,City
+Durham,North Carolina,White,1,Race,City
+Durham,North Carolina,Unspecified,2,Race,City
+Eagan,Minnesota,White,1,Race,City
+East Los Angeles,California,Hispanic,2,Race,City
+East Orange,New Jersey,Black,1,Race,City
+Eau Claire,Wisconsin,White,4,Race,City
+Edinburg,Texas,Hispanic,2,Race,City
+Edmond,Oklahoma,White,2,Race,City
+El Cajon,California,Black,1,Race,City
+El Cajon,California,White,1,Race,City
+El Cajon,California,Unspecified,2,Race,City
+El Monte,California,Asian,1,Race,City
+El Monte,California,Unspecified,1,Race,City
+El Paso,Texas,Black,3,Race,City
+El Paso,Texas,White,2,Race,City
+El Paso,Texas,Hispanic,5,Race,City
+El Paso,Texas,Unspecified,2,Race,City
+Elgin,Illinois,Black,1,Race,City
+Elizabeth,New Jersey,Black,2,Race,City
+Elk Grove,California,Hispanic,3,Race,City
+Enterprise,Nevada,White,1,Race,City
+Erie,Pennsylvania,Black,1,Race,City
+Erie,Pennsylvania,White,1,Race,City
+Escondido,California,White,1,Race,City
+Escondido,California,Unspecified,2,Race,City
+Eugene,Oregon,White,3,Race,City
+Eugene,Oregon,Hispanic,1,Race,City
+Evansville,Indiana,Black,4,Race,City
+Evansville,Indiana,White,4,Race,City
+Everett,Washington,White,1,Race,City
+Everett,Washington,Native American,1,Race,City
+Everett,Washington,Unspecified,1,Race,City
+Fairfield,California,Black,1,Race,City
+Fairfield,California,Hispanic,1,Race,City
+Fall River,Massachusetts,White,1,Race,City
+Fall River,Massachusetts,Hispanic,1,Race,City
+Fargo,North Dakota,White,1,Race,City
+Fargo,North Dakota,Unspecified,1,Race,City
+Fayetteville,Arkansas,Black,2,Race,City
+Fayetteville,Arkansas,White,1,Race,City
+Fayetteville,North Carolina,Black,6,Race,City
+Fayetteville,North Carolina,White,1,Race,City
+Federal Way,Washington,Black,1,Race,City
+Federal Way,Washington,White,1,Race,City
+Federal Way,Washington,Hispanic,1,Race,City
+Federal Way,Washington,Native American,1,Race,City
+Flagstaff,Arizona,White,3,Race,City
+Flagstaff,Arizona,Native American,2,Race,City
+Flint,Michigan,Black,1,Race,City
+Flint,Michigan,White,1,Race,City
+Folsom,California,White,1,Race,City
+Fontana,California,White,2,Race,City
+Fontana,California,Hispanic,3,Race,City
+Fort Collins,Colorado,White,4,Race,City
+Fort Collins,Colorado,Hispanic,1,Race,City
+Fort Collins,Colorado,Native American,1,Race,City
+Fort Collins,Colorado,Unspecified,1,Race,City
+Fort Lauderdale,Florida,Black,5,Race,City
+Fort Myers,Florida,White,1,Race,City
+Fort Myers,Florida,Hispanic,1,Race,City
+Fort Smith,Arkansas,White,1,Race,City
+Fort Smith,Arkansas,Unspecified,1,Race,City
+Fort Wayne,Indiana,Black,2,Race,City
+Fort Wayne,Indiana,White,4,Race,City
+Fort Wayne,Indiana,Hispanic,1,Race,City
+Fort Wayne,Indiana,Unspecified,1,Race,City
+Fort Worth,Texas,Black,2,Race,City
+Fort Worth,Texas,White,6,Race,City
+Fort Worth,Texas,Hispanic,10,Race,City
+Franklin,Tennessee,White,1,Race,City
+Frederick,Maryland,Black,1,Race,City
+Fremont,California,Black,1,Race,City
+Fremont,California,Asian,2,Race,City
+Fremont,California,Hispanic,2,Race,City
+Fremont,California,Unspecified,1,Race,City
+Fresno,California,Black,1,Race,City
+Fresno,California,White,4,Race,City
+Fresno,California,Hispanic,7,Race,City
+Fresno,California,Native American,1,Race,City
+Fresno,California,Unspecified,3,Race,City
+Fullerton,California,White,1,Race,City
+Fullerton,California,Hispanic,1,Race,City
+Gainesville,Florida,Black,1,Race,City
+Gainesville,Florida,White,1,Race,City
+Garden Grove,California,Hispanic,1,Race,City
+Garden Grove,California,Unspecified,1,Race,City
+Garland,Texas,Black,2,Race,City
+Garland,Texas,White,1,Race,City
+Garland,Texas,Hispanic,1,Race,City
+Garland,Texas,Middle Eastern,1,Race,City
+Gary,Indiana,Black,5,Race,City
+Gary,Indiana,Unspecified,1,Race,City
+Gastonia,North Carolina,Black,1,Race,City
+Gastonia,North Carolina,White,5,Race,City
+Gilbert,Arizona,White,2,Race,City
+Gilbert,Arizona,Hispanic,1,Race,City
+Glen Burnie,Maryland,Unspecified,1,Race,City
+Glendale,Arizona,Black,2,Race,City
+Glendale,Arizona,White,5,Race,City
+Glendale,Arizona,Hispanic,3,Race,City
+Glendale,Arizona,Unspecified,1,Race,City
+Glendale,California,White,1,Race,City
+Goodyear,Arizona,Hispanic,1,Race,City
+Grand Prairie,Texas,White,1,Race,City
+Grand Prairie,Texas,Unspecified,2,Race,City
+Grand Rapids,Michigan,Black,2,Race,City
+Greeley,Colorado,Hispanic,5,Race,City
+Greeley,Colorado,Unspecified,1,Race,City
+Green Bay,Wisconsin,White,2,Race,City
+Green Bay,Wisconsin,Hispanic,1,Race,City
+Green Bay,Wisconsin,Native American,1,Race,City
+Greensboro,North Carolina,Black,3,Race,City
+Greensboro,North Carolina,White,3,Race,City
+Greensboro,North Carolina,Unspecified,1,Race,City
+Greenville,North Carolina,Black,3,Race,City
+Greenville,North Carolina,White,1,Race,City
+Gresham,Oregon,White,2,Race,City
+Gulfport,Mississippi,Black,2,Race,City
+Gulfport,Mississippi,White,4,Race,City
+Gulfport,Mississippi,Unspecified,1,Race,City
+Hammond,Indiana,Hispanic,1,Race,City
+Hampton,Virginia,Black,1,Race,City
+Harlingen,Texas,Hispanic,3,Race,City
+Hartford,Connecticut,Unspecified,1,Race,City
+Hawthorne,California,Black,1,Race,City
+Hayward,California,Black,2,Race,City
+Hayward,California,Hispanic,1,Race,City
+Hemet,California,White,1,Race,City
+Hemet,California,Hispanic,3,Race,City
+Hemet,California,Native American,1,Race,City
+Hemet,California,Unspecified,2,Race,City
+Henderson,Nevada,White,1,Race,City
+Henderson,Nevada,Hispanic,1,Race,City
+Henderson,Nevada,Unspecified,2,Race,City
+Hesperia,California,White,2,Race,City
+Hesperia,California,Unspecified,1,Race,City
+Hialeah,Florida,Hispanic,2,Race,City
+Hillsboro,Oregon,White,1,Race,City
+Hillsboro,Oregon,Unspecified,1,Race,City
+Hollywood,Florida,Black,1,Race,City
+Hollywood,Florida,Unspecified,1,Race,City
+Homestead,Florida,Black,4,Race,City
+Homestead,Florida,White,1,Race,City
+Homestead,Florida,Hispanic,1,Race,City
+Hoover,Alabama,White,1,Race,City
+Houston,Texas,Black,39,Race,City
+Houston,Texas,Asian,3,Race,City
+Houston,Texas,White,15,Race,City
+Houston,Texas,Hispanic,15,Race,City
+Houston,Texas,Unspecified,21,Race,City
+Huntington Beach,California,White,2,Race,City
+Huntington Beach,California,Unspecified,1,Race,City
+Huntsville,Alabama,Black,5,Race,City
+Huntsville,Alabama,White,6,Race,City
+Huntsville,Alabama,Unspecified,4,Race,City
+Independence,Missouri,Hispanic,1,Race,City
+Independence,Missouri,Unspecified,1,Race,City
+Indio,California,Hispanic,3,Race,City
+Inglewood,California,Black,2,Race,City
+Inglewood,California,Unspecified,1,Race,City
+Irvine,California,Hispanic,1,Race,City
+Irving,Texas,Black,2,Race,City
+Irving,Texas,White,2,Race,City
+Irving,Texas,Hispanic,2,Race,City
+Jackson,Mississippi,Black,9,Race,City
+Jackson,Mississippi,White,1,Race,City
+Jackson,Tennessee,White,1,Race,City
+Jackson,Tennessee,Unspecified,1,Race,City
+Jacksonville,Florida,Black,14,Race,City
+Jacksonville,Florida,White,9,Race,City
+Jacksonville,Florida,Unspecified,4,Race,City
+Jersey City,New Jersey,Black,1,Race,City
+Johns Creek,Georgia,Black,1,Race,City
+Johnson City,Tennessee,White,2,Race,City
+Johnson City,Tennessee,Unspecified,1,Race,City
+Joliet,Illinois,Black,1,Race,City
+Jonesboro,Arkansas,White,1,Race,City
+Jurupa Valley,California,Hispanic,2,Race,City
+Kalamazoo,Michigan,Black,6,Race,City
+Kalamazoo,Michigan,Hispanic,3,Race,City
+Kansas City,Kansas,Black,1,Race,City
+Kansas City,Kansas,White,4,Race,City
+Kansas City,Kansas,Hispanic,3,Race,City
+Kansas City,Kansas,Unspecified,4,Race,City
+Kansas City,Missouri,Black,16,Race,City
+Kansas City,Missouri,White,9,Race,City
+Kansas City,Missouri,Hispanic,1,Race,City
+Kansas City,Missouri,Unspecified,10,Race,City
+Kenner,Louisiana,Black,1,Race,City
+Kenner,Louisiana,White,1,Race,City
+Kennewick,Washington,Black,1,Race,City
+Kennewick,Washington,White,1,Race,City
+Kennewick,Washington,Unspecified,1,Race,City
+Kenosha,Wisconsin,White,1,Race,City
+Kent,Washington,Black,2,Race,City
+Kent,Washington,White,2,Race,City
+Kent,Washington,Hispanic,1,Race,City
+Killeen,Texas,Black,2,Race,City
+Killeen,Texas,White,1,Race,City
+Killeen,Texas,Unspecified,2,Race,City
+Kirkland,Washington,White,1,Race,City
+Kirkland,Washington,Unspecified,2,Race,City
+Kissimmee,Florida,White,1,Race,City
+Kissimmee,Florida,Unspecified,1,Race,City
+Knoxville,Tennessee,Black,1,Race,City
+Knoxville,Tennessee,White,6,Race,City
+Lafayette,Louisiana,White,1,Race,City
+Lake Charles,Louisiana,Asian,1,Race,City
+Lake Charles,Louisiana,White,1,Race,City
+Lake Forest,California,Unspecified,1,Race,City
+Lakeland,Florida,White,7,Race,City
+Lakewood,California,White,1,Race,City
+Lakewood,Colorado,White,2,Race,City
+Lancaster,California,White,1,Race,City
+Lancaster,California,Hispanic,1,Race,City
+Lancaster,California,Unspecified,1,Race,City
+Lansing,Michigan,Black,1,Race,City
+Lansing,Michigan,White,1,Race,City
+Laredo,Texas,White,2,Race,City
+Laredo,Texas,Hispanic,13,Race,City
+Largo,Florida,Black,2,Race,City
+Largo,Florida,Unspecified,1,Race,City
+Las Cruces,New Mexico,White,3,Race,City
+Las Cruces,New Mexico,Hispanic,7,Race,City
+Las Cruces,New Mexico,Unspecified,3,Race,City
+Las Vegas,Nevada,Black,13,Race,City
+Las Vegas,Nevada,White,17,Race,City
+Las Vegas,Nevada,Hispanic,10,Race,City
+Las Vegas,Nevada,Native American,2,Race,City
+Las Vegas,Nevada,Unspecified,7,Race,City
+Lauderhill,Florida,Black,1,Race,City
+Lawrence,Massachusetts,Hispanic,1,Race,City
+Lawton,Oklahoma,Black,1,Race,City
+Lawton,Oklahoma,Native American,1,Race,City
+Layton,Utah,White,1,Race,City
+League City,Texas,Hispanic,1,Race,City
+League City,Texas,Unspecified,2,Race,City
+Lee's Summit,Missouri,White,1,Race,City
+Lehigh Acres,Florida,Unspecified,1,Race,City
+Lincoln,Nebraska,Black,2,Race,City
+Lincoln,Nebraska,Asian,1,Race,City
+Lincoln,Nebraska,White,2,Race,City
+Lincoln,Nebraska,Unspecified,1,Race,City
+Little Rock,Arkansas,Black,4,Race,City
+Little Rock,Arkansas,White,6,Race,City
+Livermore,California,White,1,Race,City
+Livermore,California,Unspecified,1,Race,City
+Livonia,Michigan,Unspecified,1,Race,City
+Long Beach,California,Black,3,Race,City
+Long Beach,California,Asian,4,Race,City
+Long Beach,California,White,3,Race,City
+Long Beach,California,Hispanic,6,Race,City
+Long Beach,California,Middle Eastern,1,Race,City
+Long Beach,California,Unspecified,2,Race,City
+Longmont,Colorado,White,2,Race,City
+Longview,Texas,White,2,Race,City
+Lorain,Ohio,White,1,Race,City
+Los Angeles,California,Black,16,Race,City
+Los Angeles,California,Asian,1,Race,City
+Los Angeles,California,White,13,Race,City
+Los Angeles,California,Hispanic,39,Race,City
+Los Angeles,California,Unspecified,5,Race,City
+Loveland,Colorado,White,2,Race,City
+Lowell,Massachusetts,Hispanic,1,Race,City
+Lubbock,Texas,Black,1,Race,City
+Lubbock,Texas,Asian,1,Race,City
+Lubbock,Texas,White,1,Race,City
+Lubbock,Texas,Hispanic,1,Race,City
+Lynchburg,Virginia,White,1,Race,City
+Lynn,Massachusetts,Black,1,Race,City
+Lynn,Massachusetts,White,2,Race,City
+Lynn,Massachusetts,Hispanic,1,Race,City
+Lynwood,California,Black,1,Race,City
+Madison,Wisconsin,Black,1,Race,City
+Madison,Wisconsin,White,1,Race,City
+Madison,Wisconsin,Unspecified,1,Race,City
+Manteca,California,White,1,Race,City
+Marysville,Washington,Native American,1,Race,City
+Marysville,Washington,Unspecified,1,Race,City
+McKinney,Texas,White,1,Race,City
+Medford,Oregon,White,3,Race,City
+Melbourne,Florida,White,2,Race,City
+Memphis,Tennessee,Black,11,Race,City
+Memphis,Tennessee,White,2,Race,City
+Memphis,Tennessee,Hispanic,1,Race,City
+Merced,California,Middle Eastern,1,Race,City
+Meridian,Idaho,White,2,Race,City
+Mesa,Arizona,White,9,Race,City
+Mesa,Arizona,Hispanic,6,Race,City
+Mesa,Arizona,Native American,1,Race,City
+Mesa,Arizona,Unspecified,3,Race,City
+Mesquite,Texas,Hispanic,1,Race,City
+Metairie,Louisiana,Black,3,Race,City
+Metairie,Louisiana,Hispanic,1,Race,City
+Miami,Florida,Black,12,Race,City
+Miami,Florida,White,3,Race,City
+Miami,Florida,Hispanic,10,Race,City
+Miami,Florida,Unspecified,4,Race,City
+Miami Beach,Florida,Black,1,Race,City
+Miami Beach,Florida,White,2,Race,City
+Miami Beach,Florida,Unspecified,1,Race,City
+Miami Gardens,Florida,Black,3,Race,City
+Midland,Texas,White,1,Race,City
+Midland,Texas,Hispanic,2,Race,City
+Midland,Texas,Native American,1,Race,City
+Midland,Texas,Unspecified,1,Race,City
+Milwaukee,Wisconsin,Black,13,Race,City
+Milwaukee,Wisconsin,White,2,Race,City
+Milwaukee,Wisconsin,Hispanic,1,Race,City
+Milwaukee,Wisconsin,Unspecified,4,Race,City
+Minneapolis,Minnesota,Black,2,Race,City
+Minneapolis,Minnesota,White,4,Race,City
+Minneapolis,Minnesota,Hispanic,1,Race,City
+Minneapolis,Minnesota,Native American,1,Race,City
+Minneapolis,Minnesota,Unspecified,1,Race,City
+Mission,Texas,White,1,Race,City
+Mission,Texas,Hispanic,2,Race,City
+Missoula,Montana,Unspecified,1,Race,City
+Missouri City,Texas,Black,2,Race,City
+Missouri City,Texas,Hispanic,1,Race,City
+Mobile,Alabama,Black,5,Race,City
+Mobile,Alabama,White,1,Race,City
+Modesto,California,Black,1,Race,City
+Modesto,California,White,5,Race,City
+Modesto,California,Hispanic,2,Race,City
+Modesto,California,Unspecified,2,Race,City
+Montgomery,Alabama,Black,2,Race,City
+Montgomery,Alabama,White,1,Race,City
+Montgomery,Alabama,Unspecified,1,Race,City
+Moreno Valley,California,Black,2,Race,City
+Moreno Valley,California,Unspecified,1,Race,City
+Muncie,Indiana,White,3,Race,City
+Murfreesboro,Tennessee,Black,1,Race,City
+Murfreesboro,Tennessee,Unspecified,1,Race,City
+Nampa,Idaho,White,1,Race,City
+Nampa,Idaho,Hispanic,1,Race,City
+Nampa,Idaho,Unspecified,1,Race,City
+Napa,California,Black,1,Race,City
+Napa,California,White,2,Race,City
+Napa,California,Hispanic,1,Race,City
+Naperville,Illinois,White,1,Race,City
+Nashua,New Hampshire,Unspecified,1,Race,City
+New Bedford,Massachusetts,White,1,Race,City
+New Britain,Connecticut,Black,1,Race,City
+New Haven,Connecticut,Black,2,Race,City
+New Haven,Connecticut,Unspecified,1,Race,City
+New Orleans,Louisiana,Black,11,Race,City
+New Orleans,Louisiana,White,1,Race,City
+New Orleans,Louisiana,Unspecified,1,Race,City
+New York,New York,Black,4,Race,City
+New York,New York,White,1,Race,City
+New York,New York,Hispanic,1,Race,City
+New York,New York,Unspecified,1,Race,City
+Newark,New Jersey,Black,14,Race,City
+Newport Beach,California,White,1,Race,City
+Newport News,Virginia,Black,2,Race,City
+Newport News,Virginia,Unspecified,1,Race,City
+Norfolk,Virginia,Black,4,Race,City
+Norfolk,Virginia,White,4,Race,City
+Norman,Oklahoma,White,3,Race,City
+North Charleston,South Carolina,Black,3,Race,City
+North Charleston,South Carolina,White,1,Race,City
+North Charleston,South Carolina,Hispanic,2,Race,City
+North Charleston,South Carolina,Unspecified,1,Race,City
+North Las Vegas,Nevada,Black,1,Race,City
+North Las Vegas,Nevada,Hispanic,2,Race,City
+North Las Vegas,Nevada,Unspecified,1,Race,City
+North Little Rock,Arkansas,Black,2,Race,City
+North Little Rock,Arkansas,Unspecified,1,Race,City
+Norwalk,California,Hispanic,2,Race,City
+Norwalk,Connecticut,Black,1,Race,City
+Norwalk,Connecticut,Unspecified,1,Race,City
+O'Fallon,Missouri,White,1,Race,City
+O'Fallon,Missouri,Unspecified,1,Race,City
+Oakland,California,Black,10,Race,City
+Oakland,California,White,2,Race,City
+Oceanside,California,White,1,Race,City
+Oceanside,California,Hispanic,1,Race,City
+Oceanside,California,Unspecified,1,Race,City
+Odessa,Texas,White,3,Race,City
+Odessa,Texas,Hispanic,2,Race,City
+Ogden,Utah,White,3,Race,City
+Ogden,Utah,Hispanic,1,Race,City
+Oklahoma City,Oklahoma,Black,16,Race,City
+Oklahoma City,Oklahoma,White,7,Race,City
+Oklahoma City,Oklahoma,Hispanic,4,Race,City
+Oklahoma City,Oklahoma,Native American,4,Race,City
+Oklahoma City,Oklahoma,Unspecified,3,Race,City
+Olathe,Kansas,White,2,Race,City
+Olathe,Kansas,Hispanic,1,Race,City
+Omaha,Nebraska,Black,4,Race,City
+Omaha,Nebraska,White,9,Race,City
+Omaha,Nebraska,Native American,2,Race,City
+Omaha,Nebraska,Unspecified,4,Race,City
+Ontario,California,White,1,Race,City
+Ontario,California,Hispanic,3,Race,City
+Ontario,California,Unspecified,2,Race,City
+Orange,California,Hispanic,1,Race,City
+Orange,California,Unspecified,3,Race,City
+Orem,Utah,White,2,Race,City
+Orlando,Florida,Black,8,Race,City
+Orlando,Florida,White,6,Race,City
+Orlando,Florida,Hispanic,6,Race,City
+Orlando,Florida,Middle Eastern,1,Race,City
+Orlando,Florida,Unspecified,1,Race,City
+Oshkosh,Wisconsin,Black,1,Race,City
+Overland Park,Kansas,Black,1,Race,City
+Overland Park,Kansas,White,1,Race,City
+Overland Park,Kansas,Hispanic,1,Race,City
+Overland Park,Kansas,Unspecified,1,Race,City
+Oxnard,California,Black,1,Race,City
+Palm Bay,Florida,Black,2,Race,City
+Palm Bay,Florida,White,2,Race,City
+Palm Bay,Florida,Unspecified,1,Race,City
+Palmdale,California,Black,3,Race,City
+Palmdale,California,Hispanic,1,Race,City
+Palo Alto,California,White,1,Race,City
+Parma,Ohio,Black,2,Race,City
+Pasadena,California,Black,1,Race,City
+Pasadena,Texas,White,1,Race,City
+Pasadena,Texas,Hispanic,1,Race,City
+Pasco,Washington,Hispanic,1,Race,City
+Paterson,New Jersey,Black,1,Race,City
+Paterson,New Jersey,Hispanic,1,Race,City
+Paterson,New Jersey,Unspecified,1,Race,City
+Pawtucket,Rhode Island,Black,2,Race,City
+Pearland,Texas,White,1,Race,City
+Pearland,Texas,Unspecified,2,Race,City
+Pembroke Pines,Florida,Hispanic,1,Race,City
+Peoria,Arizona,White,2,Race,City
+Peoria,Illinois,Black,2,Race,City
+Peoria,Illinois,Unspecified,1,Race,City
+Perris,California,Hispanic,1,Race,City
+Perris,California,Unspecified,1,Race,City
+Pharr,Texas,Hispanic,1,Race,City
+Philadelphia,Pennsylvania,Black,16,Race,City
+Philadelphia,Pennsylvania,White,3,Race,City
+Philadelphia,Pennsylvania,Hispanic,1,Race,City
+Philadelphia,Pennsylvania,Unspecified,7,Race,City
+Phoenix,Arizona,Black,8,Race,City
+Phoenix,Arizona,White,22,Race,City
+Phoenix,Arizona,Hispanic,21,Race,City
+Phoenix,Arizona,Native American,4,Race,City
+Phoenix,Arizona,Unspecified,13,Race,City
+Pittsburg,California,Black,1,Race,City
+Pittsburg,California,White,1,Race,City
+Pittsburg,California,Hispanic,1,Race,City
+Pittsburg,California,Unspecified,1,Race,City
+Pittsburgh,Pennsylvania,Black,3,Race,City
+Pittsburgh,Pennsylvania,White,1,Race,City
+Pittsburgh,Pennsylvania,Unspecified,2,Race,City
+Plano,Texas,White,3,Race,City
+Plano,Texas,Hispanic,1,Race,City
+Plantation,Florida,Hispanic,1,Race,City
+Pleasanton,California,White,2,Race,City
+Pleasanton,California,Unspecified,1,Race,City
+Plymouth,Minnesota,White,1,Race,City
+Pomona,California,Black,2,Race,City
+Pomona,California,Hispanic,3,Race,City
+Pompano Beach,Florida,Black,3,Race,City
+Pompano Beach,Florida,Unspecified,3,Race,City
+Port St. Lucie,Florida,Black,1,Race,City
+Port St. Lucie,Florida,White,3,Race,City
+Portland,Maine,Black,1,Race,City
+Portland,Oregon,Black,4,Race,City
+Portland,Oregon,White,6,Race,City
+Portland,Oregon,Hispanic,1,Race,City
+Portland,Oregon,Unspecified,1,Race,City
+Portsmouth,Virginia,Black,3,Race,City
+Portsmouth,Virginia,Unspecified,1,Race,City
+Providence,Rhode Island,Black,1,Race,City
+Providence,Rhode Island,White,2,Race,City
+Provo,Utah,White,1,Race,City
+Pueblo,Colorado,White,1,Race,City
+Pueblo,Colorado,Hispanic,7,Race,City
+Pueblo,Colorado,Native American,1,Race,City
+Pueblo,Colorado,Unspecified,1,Race,City
+Racine,Wisconsin,Black,1,Race,City
+Raleigh,North Carolina,Black,6,Race,City
+Raleigh,North Carolina,White,1,Race,City
+Rancho Cordova,California,Black,1,Race,City
+Rapid City,South Dakota,White,4,Race,City
+Rapid City,South Dakota,Native American,2,Race,City
+Reading,Pennsylvania,Black,1,Race,City
+Reading,Pennsylvania,White,1,Race,City
+Reading,Pennsylvania,Hispanic,1,Race,City
+Redding,California,Asian,1,Race,City
+Redding,California,White,4,Race,City
+Redding,California,Unspecified,1,Race,City
+Redlands,California,White,2,Race,City
+Redlands,California,Middle Eastern,2,Race,City
+Redlands,California,Unspecified,1,Race,City
+Redondo Beach,California,Unspecified,1,Race,City
+Redwood City,California,White,1,Race,City
+Redwood City,California,Hispanic,1,Race,City
+Redwood City,California,Unspecified,1,Race,City
+Reno,Nevada,Black,2,Race,City
+Reno,Nevada,White,3,Race,City
+Reno,Nevada,Hispanic,5,Race,City
+Reno,Nevada,Unspecified,1,Race,City
+Rialto,California,Hispanic,3,Race,City
+Richmond,California,Asian,1,Race,City
+Richmond,California,Hispanic,2,Race,City
+Richmond,California,Unspecified,1,Race,City
+Richmond,Virginia,Black,9,Race,City
+Richmond,Virginia,White,4,Race,City
+Richmond,Virginia,Hispanic,1,Race,City
+Richmond,Virginia,Unspecified,2,Race,City
+Rio Rancho,New Mexico,Unspecified,1,Race,City
+Riverside,California,Black,1,Race,City
+Riverside,California,Hispanic,3,Race,City
+Riverside,California,Unspecified,2,Race,City
+Riverview,Florida,White,1,Race,City
+Riverview,Florida,Hispanic,2,Race,City
+Roanoke,Virginia,Black,1,Race,City
+Roanoke,Virginia,White,1,Race,City
+Roanoke,Virginia,Unspecified,1,Race,City
+Rochester,New York,Black,2,Race,City
+Rochester,New York,White,3,Race,City
+Rock Hill,South Carolina,White,1,Race,City
+Rock Hill,South Carolina,Unspecified,1,Race,City
+Rockford,Illinois,Black,2,Race,City
+Rockford,Illinois,White,2,Race,City
+Roseville,California,Black,1,Race,City
+Roseville,California,White,1,Race,City
+Roseville,California,Unspecified,1,Race,City
+Roswell,Georgia,Black,1,Race,City
+Round Rock,Texas,White,2,Race,City
+Sacramento,California,Black,8,Race,City
+Sacramento,California,White,3,Race,City
+Sacramento,California,Hispanic,3,Race,City
+Salem,Oregon,White,3,Race,City
+Salem,Oregon,Unspecified,1,Race,City
+Salinas,California,Hispanic,1,Race,City
+Salt Lake City,Utah,Black,2,Race,City
+Salt Lake City,Utah,White,6,Race,City
+Salt Lake City,Utah,Hispanic,2,Race,City
+Salt Lake City,Utah,Native American,1,Race,City
+Salt Lake City,Utah,Unspecified,1,Race,City
+San Angelo,Texas,White,1,Race,City
+San Angelo,Texas,Hispanic,1,Race,City
+San Antonio,Texas,Black,7,Race,City
+San Antonio,Texas,White,12,Race,City
+San Antonio,Texas,Hispanic,29,Race,City
+San Antonio,Texas,Unspecified,10,Race,City
+San Bernardino,California,Black,1,Race,City
+San Bernardino,California,White,4,Race,City
+San Bernardino,California,Hispanic,4,Race,City
+San Bernardino,California,Unspecified,1,Race,City
+San Diego,California,Black,4,Race,City
+San Diego,California,Asian,3,Race,City
+San Diego,California,White,6,Race,City
+San Diego,California,Hispanic,4,Race,City
+San Diego,California,Unspecified,1,Race,City
+San Francisco,California,Black,5,Race,City
+San Francisco,California,Asian,1,Race,City
+San Francisco,California,White,8,Race,City
+San Francisco,California,Hispanic,6,Race,City
+San Francisco,California,Middle Eastern,1,Race,City
+San Francisco,California,Unspecified,3,Race,City
+San Jose,California,Black,1,Race,City
+San Jose,California,Asian,2,Race,City
+San Jose,California,White,4,Race,City
+San Jose,California,Hispanic,7,Race,City
+San Jose,California,Unspecified,2,Race,City
+San Marcos,California,White,1,Race,City
+San Marcos,California,Hispanic,1,Race,City
+San Mateo,California,Hispanic,1,Race,City
+San Ramon,California,Unspecified,1,Race,City
+San Tan Valley,Arizona,White,1,Race,City
+Sandy,Utah,White,1,Race,City
+Santa Ana,California,Black,1,Race,City
+Santa Ana,California,Hispanic,7,Race,City
+Santa Ana,California,Unspecified,6,Race,City
+Santa Barbara,California,Hispanic,1,Race,City
+Santa Clara,California,Black,1,Race,City
+Santa Clara,California,Hispanic,1,Race,City
+Santa Clarita,California,Hispanic,1,Race,City
+Santa Fe,New Mexico,White,1,Race,City
+Santa Fe,New Mexico,Hispanic,3,Race,City
+Santa Fe,New Mexico,Unspecified,1,Race,City
+Santa Maria,California,White,1,Race,City
+Santa Maria,California,Hispanic,3,Race,City
+Santa Monica,California,Hispanic,1,Race,City
+Santa Rosa,California,Hispanic,2,Race,City
+Santa Rosa,California,Unspecified,1,Race,City
+Savannah,Georgia,Black,7,Race,City
+Savannah,Georgia,White,2,Race,City
+Savannah,Georgia,Unspecified,1,Race,City
+Schenectady,New York,Black,1,Race,City
+Schenectady,New York,White,2,Race,City
+Scottsdale,Arizona,Black,2,Race,City
+Scottsdale,Arizona,White,4,Race,City
+Scottsdale,Arizona,Hispanic,1,Race,City
+Scottsdale,Arizona,Unspecified,2,Race,City
+Scranton,Pennsylvania,White,1,Race,City
+Scranton,Pennsylvania,Unspecified,1,Race,City
+Seattle,Washington,Black,4,Race,City
+Seattle,Washington,Asian,1,Race,City
+Seattle,Washington,White,4,Race,City
+Seattle,Washington,Unspecified,2,Race,City
+Shreveport,Louisiana,Black,6,Race,City
+Shreveport,Louisiana,White,2,Race,City
+Shreveport,Louisiana,Unspecified,2,Race,City
+Silver Spring,Maryland,Black,2,Race,City
+Silver Spring,Maryland,Hispanic,1,Race,City
+Silver Spring,Maryland,Unspecified,1,Race,City
+Sioux City,Iowa,Black,1,Race,City
+Sioux City,Iowa,White,1,Race,City
+Sioux Falls,South Dakota,White,2,Race,City
+South Bend,Indiana,Black,2,Race,City
+South Bend,Indiana,Hispanic,2,Race,City
+South Bend,Indiana,Unspecified,1,Race,City
+South Gate,California,Hispanic,5,Race,City
+South Gate,California,Unspecified,2,Race,City
+Southfield,Michigan,Black,1,Race,City
+Southfield,Michigan,Unspecified,1,Race,City
+Sparks,Nevada,Asian,1,Race,City
+Sparks,Nevada,White,1,Race,City
+Sparks,Nevada,Hispanic,2,Race,City
+Sparks,Nevada,Native American,1,Race,City
+Sparks,Nevada,Unspecified,1,Race,City
+Spokane,Washington,Black,1,Race,City
+Spokane,Washington,White,6,Race,City
+Spokane,Washington,Native American,2,Race,City
+Spokane,Washington,Unspecified,1,Race,City
+Spokane Valley,Washington,Black,1,Race,City
+Spokane Valley,Washington,Unspecified,1,Race,City
+Spring Hill,Florida,White,1,Race,City
+Spring Hill,Florida,Hispanic,1,Race,City
+Spring Hill,Florida,Unspecified,1,Race,City
+Springdale,Arkansas,White,1,Race,City
+Springdale,Arkansas,Unspecified,1,Race,City
+Springfield,Illinois,White,1,Race,City
+Springfield,Missouri,Black,1,Race,City
+Springfield,Missouri,White,9,Race,City
+Springfield,Missouri,Hispanic,1,Race,City
+Springfield,Missouri,Unspecified,3,Race,City
+St. Cloud,Minnesota,White,1,Race,City
+St. Joseph,Missouri,White,3,Race,City
+St. Joseph,Missouri,Unspecified,1,Race,City
+St. Louis,Missouri,Black,24,Race,City
+St. Louis,Missouri,White,10,Race,City
+St. Louis,Missouri,Hispanic,1,Race,City
+St. Louis,Missouri,Unspecified,7,Race,City
+St. Paul,Minnesota,Black,3,Race,City
+St. Paul,Minnesota,Asian,1,Race,City
+St. Paul,Minnesota,White,6,Race,City
+St. Paul,Minnesota,Native American,1,Race,City
+St. Petersburg,Florida,Black,4,Race,City
+St. Petersburg,Florida,White,5,Race,City
+Stamford,Connecticut,White,1,Race,City
+Stockton,California,Black,5,Race,City
+Stockton,California,Asian,2,Race,City
+Stockton,California,White,2,Race,City
+Stockton,California,Hispanic,5,Race,City
+Stockton,California,Unspecified,2,Race,City
+Suffolk,Virginia,White,2,Race,City
+Sugar Land,Texas,Unspecified,1,Race,City
+Sunnyvale,California,Black,1,Race,City
+Sunnyvale,California,White,1,Race,City
+Sunnyvale,California,Hispanic,2,Race,City
+Sunnyvale,California,Unspecified,3,Race,City
+Sunrise,Florida,White,2,Race,City
+Surprise,Arizona,White,1,Race,City
+Surprise,Arizona,Hispanic,1,Race,City
+Surprise,Arizona,Unspecified,1,Race,City
+Syracuse,New York,Black,3,Race,City
+Syracuse,New York,White,4,Race,City
+Tacoma,Washington,Black,1,Race,City
+Tacoma,Washington,White,6,Race,City
+Tacoma,Washington,Hispanic,1,Race,City
+Tacoma,Washington,Native American,1,Race,City
+Tacoma,Washington,Unspecified,2,Race,City
+Tallahassee,Florida,Black,4,Race,City
+Tallahassee,Florida,White,2,Race,City
+Tallahassee,Florida,Unspecified,1,Race,City
+Tampa,Florida,Black,5,Race,City
+Tampa,Florida,Asian,1,Race,City
+Tampa,Florida,White,4,Race,City
+Tampa,Florida,Hispanic,1,Race,City
+Tampa,Florida,Unspecified,1,Race,City
+Temecula,California,Black,1,Race,City
+Temecula,California,White,1,Race,City
+Temecula,California,Unspecified,1,Race,City
+Tempe,Arizona,Black,2,Race,City
+Tempe,Arizona,White,3,Race,City
+Tempe,Arizona,Hispanic,2,Race,City
+Tempe,Arizona,Unspecified,2,Race,City
+Temple,Texas,White,2,Race,City
+Temple,Texas,Hispanic,1,Race,City
+Temple,Texas,Unspecified,1,Race,City
+Thornton,Colorado,White,1,Race,City
+Thornton,Colorado,Hispanic,1,Race,City
+Thousand Oaks,California,Unspecified,1,Race,City
+Toledo,Ohio,Black,3,Race,City
+Toledo,Ohio,White,4,Race,City
+Toms River,New Jersey,White,1,Race,City
+Toms River,New Jersey,Hispanic,1,Race,City
+Topeka,Kansas,Black,3,Race,City
+Topeka,Kansas,White,5,Race,City
+Topeka,Kansas,Hispanic,1,Race,City
+Topeka,Kansas,Unspecified,2,Race,City
+Torrance,California,Hispanic,3,Race,City
+Torrance,California,Unspecified,1,Race,City
+Trenton,New Jersey,Black,4,Race,City
+Troy,Michigan,Asian,1,Race,City
+Troy,Michigan,Unspecified,1,Race,City
+Tucson,Arizona,Black,3,Race,City
+Tucson,Arizona,White,11,Race,City
+Tucson,Arizona,Hispanic,13,Race,City
+Tucson,Arizona,Unspecified,5,Race,City
+Tulsa,Oklahoma,Black,9,Race,City
+Tulsa,Oklahoma,Asian,1,Race,City
+Tulsa,Oklahoma,White,15,Race,City
+Tulsa,Oklahoma,Hispanic,1,Race,City
+Tulsa,Oklahoma,Native American,1,Race,City
+Tulsa,Oklahoma,Unspecified,2,Race,City
+Turlock,California,Hispanic,1,Race,City
+Tuscaloosa,Alabama,Black,2,Race,City
+Tuscaloosa,Alabama,White,1,Race,City
+Tustin,California,Hispanic,1,Race,City
+Tyler,Texas,White,1,Race,City
+Tyler,Texas,Unspecified,1,Race,City
+Union City,California,White,1,Race,City
+Union City,New Jersey,Unspecified,1,Race,City
+Vacaville,California,Hispanic,1,Race,City
+Vallejo,California,Black,1,Race,City
+Vallejo,California,White,1,Race,City
+Vallejo,California,Hispanic,1,Race,City
+Vancouver,Washington,White,2,Race,City
+Vancouver,Washington,Unspecified,2,Race,City
+Victoria,Texas,White,2,Race,City
+Victoria,Texas,Hispanic,1,Race,City
+Victorville,California,Black,1,Race,City
+Victorville,California,White,1,Race,City
+Virginia Beach,Virginia,Black,2,Race,City
+Virginia Beach,Virginia,White,1,Race,City
+Virginia Beach,Virginia,Unspecified,1,Race,City
+Visalia,California,White,3,Race,City
+Visalia,California,Hispanic,1,Race,City
+Visalia,California,Unspecified,1,Race,City
+Vista,California,Asian,1,Race,City
+Vista,California,Hispanic,1,Race,City
+Waco,Texas,Black,1,Race,City
+Waco,Texas,White,11,Race,City
+Waco,Texas,Hispanic,2,Race,City
+Waldorf,Maryland,Black,1,Race,City
+Waldorf,Maryland,Unspecified,1,Race,City
+Warner Robins,Georgia,White,1,Race,City
+Warren,Michigan,Black,1,Race,City
+Waterbury,Connecticut,White,1,Race,City
+Waterbury,Connecticut,Unspecified,1,Race,City
+Waukesha,Wisconsin,White,1,Race,City
+West Jordan,Utah,White,2,Race,City
+West Jordan,Utah,Unspecified,1,Race,City
+West Palm Beach,Florida,White,1,Race,City
+West Palm Beach,Florida,Hispanic,1,Race,City
+West Valley City,Utah,Black,1,Race,City
+Westminster,California,Unspecified,1,Race,City
+Westminster,Colorado,White,8,Race,City
+Westminster,Colorado,Hispanic,1,Race,City
+Westminster,Colorado,Unspecified,3,Race,City
+Whittier,California,Hispanic,4,Race,City
+Wichita,Kansas,White,8,Race,City
+Wichita,Kansas,Hispanic,3,Race,City
+Wichita,Kansas,Unspecified,1,Race,City
+Wichita Falls,Texas,Hispanic,2,Race,City
+Wilmington,Delaware,Black,3,Race,City
+Wilmington,Delaware,White,2,Race,City
+Wilmington,Delaware,Unspecified,1,Race,City
+Wilmington,North Carolina,White,1,Race,City
+Winston-Salem,North Carolina,Black,2,Race,City
+Winston-Salem,North Carolina,White,1,Race,City
+Winston-Salem,North Carolina,Unspecified,1,Race,City
+Worcester,Massachusetts,Hispanic,1,Race,City
+Wyoming,Michigan,Black,2,Race,City
+Wyoming,Michigan,White,2,Race,City
+Yakima,Washington,Hispanic,1,Race,City
+Yakima,Washington,Unspecified,2,Race,City
+Yonkers,New York,Black,1,Race,City
+Yonkers,New York,White,1,Race,City
+Yorba Linda,California,White,1,Race,City
+Yuba City,California,Asian,1,Race,City
+Yuma,Arizona,White,2,Race,City
+Yuma,Arizona,Hispanic,1,Race,City
+,Alabama,Black,22,Race,State
+,Alabama,White,17,Race,State
+,Alabama,Unspecified,7,Race,State
+,Alaska,White,4,Race,State
+,Alaska,Hispanic,1,Race,State
+,Alaska,Native American,3,Race,State
+,Alaska,Unspecified,5,Race,State
+,Arizona,Black,17,Race,State
+,Arizona,White,69,Race,State
+,Arizona,Hispanic,51,Race,State
+,Arizona,Native American,8,Race,State
+,Arizona,Unspecified,28,Race,State
+,Arkansas,Black,8,Race,State
+,Arkansas,White,10,Race,State
+,Arkansas,Unspecified,3,Race,State
+,California,Black,103,Race,State
+,California,Asian,20,Race,State
+,California,White,125,Race,State
+,California,Hispanic,202,Race,State
+,California,Middle Eastern,5,Race,State
+,California,Native American,2,Race,State
+,California,Unspecified,89,Race,State
+,Colorado,Black,10,Race,State
+,Colorado,Asian,2,Race,State
+,Colorado,White,39,Race,State
+,Colorado,Hispanic,28,Race,State
+,Colorado,Native American,4,Race,State
+,Colorado,Unspecified,23,Race,State
+,Connecticut,Black,8,Race,State
+,Connecticut,White,4,Race,State
+,Connecticut,Hispanic,1,Race,State
+,Connecticut,Unspecified,5,Race,State
+,Delaware,Black,3,Race,State
+,Delaware,White,2,Race,State
+,Delaware,Unspecified,1,Race,State
+,Florida,Black,72,Race,State
+,Florida,Asian,1,Race,State
+,Florida,White,65,Race,State
+,Florida,Hispanic,28,Race,State
+,Florida,Middle Eastern,1,Race,State
+,Florida,Unspecified,27,Race,State
+,Georgia,Black,34,Race,State
+,Georgia,Asian,1,Race,State
+,Georgia,White,6,Race,State
+,Georgia,Hispanic,1,Race,State
+,Georgia,Unspecified,9,Race,State
+,Idaho,White,3,Race,State
+,Idaho,Hispanic,1,Race,State
+,Idaho,Unspecified,1,Race,State
+,Illinois,Black,50,Race,State
+,Illinois,White,8,Race,State
+,Illinois,Hispanic,8,Race,State
+,Illinois,Unspecified,10,Race,State
+,Indiana,Black,13,Race,State
+,Indiana,White,12,Race,State
+,Indiana,Hispanic,4,Race,State
+,Indiana,Unspecified,3,Race,State
+,Iowa,Black,3,Race,State
+,Iowa,Asian,1,Race,State
+,Iowa,White,9,Race,State
+,Kansas,Black,5,Race,State
+,Kansas,White,20,Race,State
+,Kansas,Hispanic,9,Race,State
+,Kansas,Unspecified,8,Race,State
+,Louisiana,Black,39,Race,State
+,Louisiana,Asian,1,Race,State
+,Louisiana,White,7,Race,State
+,Louisiana,Hispanic,1,Race,State
+,Louisiana,Unspecified,3,Race,State
+,Maine,Black,1,Race,State
+,Maryland,Black,23,Race,State
+,Maryland,White,1,Race,State
+,Maryland,Hispanic,1,Race,State
+,Maryland,Unspecified,6,Race,State
+,Massachusetts,Black,5,Race,State
+,Massachusetts,White,6,Race,State
+,Massachusetts,Hispanic,6,Race,State
+,Michigan,Black,37,Race,State
+,Michigan,Asian,1,Race,State
+,Michigan,White,6,Race,State
+,Michigan,Hispanic,4,Race,State
+,Michigan,Unspecified,14,Race,State
+,Minnesota,Black,5,Race,State
+,Minnesota,Asian,1,Race,State
+,Minnesota,White,17,Race,State
+,Minnesota,Hispanic,1,Race,State
+,Minnesota,Native American,2,Race,State
+,Minnesota,Unspecified,1,Race,State
+,Mississippi,Black,11,Race,State
+,Mississippi,White,5,Race,State
+,Mississippi,Unspecified,1,Race,State
+,Missouri,Black,43,Race,State
+,Missouri,White,35,Race,State
+,Missouri,Hispanic,4,Race,State
+,Missouri,Unspecified,23,Race,State
+,Montana,White,5,Race,State
+,Montana,Native American,2,Race,State
+,Montana,Unspecified,2,Race,State
+,Nebraska,Black,6,Race,State
+,Nebraska,Asian,1,Race,State
+,Nebraska,White,11,Race,State
+,Nebraska,Native American,2,Race,State
+,Nebraska,Unspecified,5,Race,State
+,Nevada,Black,16,Race,State
+,Nevada,Asian,1,Race,State
+,Nevada,White,23,Race,State
+,Nevada,Hispanic,20,Race,State
+,Nevada,Native American,3,Race,State
+,Nevada,Unspecified,12,Race,State
+,New Hampshire,Unspecified,1,Race,State
+,New Jersey,Black,24,Race,State
+,New Jersey,White,1,Race,State
+,New Jersey,Hispanic,4,Race,State
+,New Jersey,Unspecified,2,Race,State
+,New Mexico,Black,1,Race,State
+,New Mexico,White,16,Race,State
+,New Mexico,Hispanic,32,Race,State
+,New Mexico,Native American,1,Race,State
+,New Mexico,Unspecified,8,Race,State
+,New York,Black,13,Race,State
+,New York,White,14,Race,State
+,New York,Hispanic,3,Race,State
+,New York,Unspecified,1,Race,State
+,North Carolina,Black,38,Race,State
+,North Carolina,Asian,1,Race,State
+,North Carolina,White,18,Race,State
+,North Carolina,Hispanic,4,Race,State
+,North Carolina,Unspecified,5,Race,State
+,North Dakota,White,3,Race,State
+,North Dakota,Unspecified,1,Race,State
+,Ohio,Black,48,Race,State
+,Ohio,White,34,Race,State
+,Ohio,Hispanic,2,Race,State
+,Ohio,Middle Eastern,1,Race,State
+,Ohio,Unspecified,10,Race,State
+,Oklahoma,Black,26,Race,State
+,Oklahoma,Asian,1,Race,State
+,Oklahoma,White,27,Race,State
+,Oklahoma,Hispanic,5,Race,State
+,Oklahoma,Native American,6,Race,State
+,Oklahoma,Unspecified,5,Race,State
+,Oregon,Black,4,Race,State
+,Oregon,White,25,Race,State
+,Oregon,Hispanic,2,Race,State
+,Oregon,Unspecified,4,Race,State
+,Pennsylvania,Black,22,Race,State
+,Pennsylvania,White,9,Race,State
+,Pennsylvania,Hispanic,2,Race,State
+,Pennsylvania,Unspecified,10,Race,State
+,Rhode Island,Black,3,Race,State
+,Rhode Island,White,2,Race,State
+,South Carolina,Black,11,Race,State
+,South Carolina,White,4,Race,State
+,South Carolina,Hispanic,2,Race,State
+,South Carolina,Unspecified,4,Race,State
+,South Dakota,White,6,Race,State
+,South Dakota,Native American,2,Race,State
+,Tennessee,Black,16,Race,State
+,Tennessee,White,15,Race,State
+,Tennessee,Hispanic,2,Race,State
+,Tennessee,Middle Eastern,1,Race,State
+,Tennessee,Unspecified,5,Race,State
+,Texas,Black,88,Race,State
+,Texas,Asian,5,Race,State
+,Texas,White,120,Race,State
+,Texas,Hispanic,122,Race,State
+,Texas,Middle Eastern,2,Race,State
+,Texas,Native American,1,Race,State
+,Texas,Unspecified,57,Race,State
+,Utah,Black,3,Race,State
+,Utah,White,16,Race,State
+,Utah,Hispanic,3,Race,State
+,Utah,Native American,1,Race,State
+,Utah,Unspecified,2,Race,State
+,Virginia,Black,25,Race,State
+,Virginia,Asian,1,Race,State
+,Virginia,White,16,Race,State
+,Virginia,Hispanic,2,Race,State
+,Virginia,Unspecified,8,Race,State
+,Washington,Black,12,Race,State
+,Washington,Asian,2,Race,State
+,Washington,White,25,Race,State
+,Washington,Hispanic,6,Race,State
+,Washington,Native American,7,Race,State
+,Washington,Unspecified,16,Race,State
+,Wisconsin,Black,18,Race,State
+,Wisconsin,White,12,Race,State
+,Wisconsin,Hispanic,2,Race,State
+,Wisconsin,Native American,1,Race,State
+,Wisconsin,Unspecified,5,Race,State
